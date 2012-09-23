@@ -1,6 +1,7 @@
 Multichar_Symbols
 
 %<n%>
+%<adj%>
 
 %<attr%>
 
@@ -68,6 +69,9 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
+LEXICON A4 
+
+%<adj%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -81,3 +85,19 @@ LEXICON Nouns
 хол:хол N1 ; ! "lake"
 ном:ном N1 ; ! "book"
 хады:хады N1 ; ! "pine"
+тев:тев N1 ; ! "camel"
+ашка:ашка N1 ; ! "money"
+шай:шай N1 ; ! "tea"
+ачам:ачам N1 ; ! "father"
+чурук:чурук N1 ; ! "story"
+акым:акым N1 ; ! "older brother"
+авам:авам N1 ; ! "mother"
+бажың:бажың N1 ; ! "home"
+кыш:кыш N1 ; ! "winter"
+даг:даг N1 ; ! "mountain"
+
+LEXICON Adjectives 
+
+
+бар:бар A4 ; ! "existing"
+чок:чок A4 ; ! "not existing"
