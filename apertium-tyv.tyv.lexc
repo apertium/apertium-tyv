@@ -8,6 +8,7 @@ Multichar_Symbols
 %<attr%>
 
 %<top%>                   ! Toponym
+%<al%>                    ! Other
 
 %<pl%>
 
@@ -41,7 +42,10 @@ Multichar_Symbols
 
 LEXICON Root
 
+Conjunctions ;
 Nouns ; 
+ProperNouns ;  
+Adjectives ; 
 
 LEXICON CASE-ETC
 
@@ -79,6 +83,11 @@ LEXICON N1
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASE-ETC ; 
+
+LEXICON NP-AL
+
+%<np%>%<al%>: CASE-ETC ; 
+
 
 LEXICON A4 
 
@@ -119,6 +128,9 @@ LEXICON ProperNouns
 
 Кызыл:Кызыл NP-TOP ; ! "Kyzyl"
 Москва:Москва NP-TOP ; ! "Moscow"
+Россия:Россия NP-TOP ; ! "Russia"
+
+Википедия:Википедия NP-AL ; ! "Wikipedia"
 
 LEXICON Adjectives 
 
