@@ -1,0 +1,83 @@
+Multichar_Symbols
+
+%<n%>
+
+%<attr%>
+
+%<pl%>
+
+%<nom%>
+%<gen%>
+%<acc%>
+%<dat%>
+%<loc%>
+%<abl%>
+%<all%>
+
+%<px1sg%>
+%<px2sg%>
+%<px3sp%>
+%<px1pl%>
+%<px2pl%>
+
+
+%{D%}	! д т
+%{N%}   ! н д т
+%{G%}   ! г к
+%{J%}   ! ж ч 
+%{L%}   ! л н д т
+%{I%}   ! ы у и ү
+%{A%}   ! а е
+
+%> 
+
+LEXICON Root
+
+Nouns ; 
+
+LEXICON CASE-ETC
+
+%<nom%>: # ;
+%<gen%>:%>%{N%}%{I%}ң # ;
+%<acc%>:%>%{N%}%{I%} # ;
+%<dat%>:%>%{G%}%{A%} # ;
+%<loc%>:%>%{D%}%{A%} # ;
+%<abl%>:%>%{D%}%{A%}н # ;
+%<all%>:%>%{J%}е # ;
+
+LEXICON POSS-REAL
+
+%<px1sg%>:%>%{i%}м CASE-ETC ; 
+%<px2sg%>:%>%{i%}ң CASE-ETC ; 
+%<px3sp%>:%>%{z%}%{I%} CASE-ETC ; 
+%<px1pl%>:%>%{I%}в%{I%}с CASE-ETC ; 
+%<px2pl%>:%>%{I%}ң%{A%}р CASE-ETC ; 
+
+LEXICON N-INFL-COMMON
+
+POSS-REAL ;
+CASE-ETC ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON N1 
+
+%<n%>%<attr%>: # ;
+%<n%>: SUBST ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                          L E X I C O N                                  !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Nouns 
+
+бүрү:бүрү N1 ; ! "leaf"
+ат:ат N1 ; ! "horse"
+идик:идик N1 ; ! "boot"
+хол:хол N1 ; ! "lake"
+ном:ном N1 ; ! "book"
+хады:хады N1 ; ! "pine"

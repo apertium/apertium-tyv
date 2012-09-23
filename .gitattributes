@@ -1,1 +1,2 @@
 * text=auto !eol
+/apertium-tyv.tyv.lexc -text
