@@ -1,9 +1,13 @@
 Multichar_Symbols
 
-%<n%>
-%<adj%>
+%<n%>                     ! Noun
+%<adj%>                   ! Adjective 
+%<cnjcoo%>                ! Co-ordinating conjunction
+%<np%>                    ! Proper noun
 
 %<attr%>
+
+%<top%>                   ! Toponym
 
 %<pl%>
 
@@ -69,13 +73,25 @@ LEXICON N1
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
+LEXICON NP-TOP
+
+%<np%>%<top%>: CASE ; 
+
 LEXICON A4 
 
 %<adj%>: # ;
 
+LEXICON CC 
+
+%<cnjcoo%>: # ;
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions
+
+база:база CC ; ! "and"
 
 LEXICON Nouns 
 
@@ -95,6 +111,11 @@ LEXICON Nouns
 бажың:бажың N1 ; ! "home"
 кыш:кыш N1 ; ! "winter"
 даг:даг N1 ; ! "mountain"
+
+LEXICON ProperNouns 
+
+Кызыл:Кызыл NP-TOP ; ! "Kyzyl"
+Москва:Москва NP-TOP ; ! "Moscow"
 
 LEXICON Adjectives 
 
