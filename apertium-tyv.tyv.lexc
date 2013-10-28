@@ -56,6 +56,7 @@ Nouns ;
 ProperNouns ;  
 Adjectives ; 
 Verbs ; 
+Punctuation ; 
 
 LEXICON CASE-ETC
 
@@ -252,3 +253,41 @@ LEXICON Verbs
 
 бол:бол V-IV ; ! "be"
 кел:кел V-IV ; ! "come"
+
+
+LEXICON Punctuation
+
+%.%<sent%>:%. # ;
+%.%.%<sent%>:%.%. # ;
+%.%.%.%<sent%>:%.%.%. # ;
+…%<sent%>:… # ; 
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+%–%<guio%>:%– # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ;
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
+
+
+! Temporary numeral lexicon
+<[%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9]+>  DIGITLEX ; ! Use/Circ
+
+LEXICON DIGITLEX
+
+%<num%>: # ; 
+% й%.%<num%>:% й%. # ;  ! "год"
+
