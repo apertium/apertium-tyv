@@ -4,7 +4,7 @@ Alphabet
    А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
    а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я
 
-   %{I%}:ы %{I%}:и
+   %{I%}:ы %{I%}:и %{I%}:у
 
    %{A%}:а %{A%}:е
 
@@ -28,6 +28,9 @@ Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ 
 Liquid     = Л 
              л ; 
 
+VoicelessCns = к п с т ц ш 
+               К П С Т Ц Ш ; 
+
 
 Rules
 
@@ -40,4 +43,10 @@ Rules
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
 
+"Forward voicing assimilation"
+Cx:Cy <=> :VoicelessCns/[ %>: | т:0 | д:0 | с:0 | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
+!          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
+          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%} )
+                Cy in (   п      т      т      т   )
+                matched;
 
