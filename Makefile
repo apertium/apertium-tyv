@@ -5,3 +5,7 @@ all:
 	hfst-invert tyv-gen.hfst -o tyv-mor.hfst
 	hfst-fst2fst -O -i tyv-gen.hfst -o tyv.autogen.hfst
 	hfst-fst2fst -O -i tyv-mor.hfst -o tyv.automorf.hfst
+	hfst-fst2txt tyv.autogen.hfst -o tyv.autogen.att
+	hfst-fst2txt tyv.automorf.hfst -o tyv.automorf.att
+	lt-comp lr tyv.autogen.att tyv.autogen.bin
+	lt-comp lr tyv.automorf.att tyv.automorf.bin

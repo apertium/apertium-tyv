@@ -4,6 +4,8 @@ Multichar_Symbols
 %<adj%>                   ! Adjective 
 %<cnjcoo%>                ! Co-ordinating conjunction
 %<np%>                    ! Proper noun
+%<post%>                  ! Postposition
+
 
 %<attr%>
 
@@ -36,6 +38,7 @@ Multichar_Symbols
 %{A%}   ! а е
 
 %{z%}   ! - з
+%{n%}   ! - н
 %{i%}   ! - ы у и ү
 
 %> 
@@ -43,6 +46,8 @@ Multichar_Symbols
 LEXICON Root
 
 Conjunctions ;
+Postpositions ;
+Numerals ;
 Nouns ; 
 ProperNouns ;  
 Adjectives ; 
@@ -61,7 +66,7 @@ LEXICON POSS-REAL
 
 %<px1sg%>:%>%{i%}м CASE-ETC ; 
 %<px2sg%>:%>%{i%}ң CASE-ETC ; 
-%<px3sp%>:%>%{z%}%{I%} CASE-ETC ; 
+%<px3sp%>:%>%{z%}%{I%}%{n%} CASE-ETC ; 
 %<px1pl%>:%>%{I%}в%{I%}с CASE-ETC ; 
 %<px2pl%>:%>%{I%}ң%{A%}р CASE-ETC ; 
 
@@ -88,6 +93,19 @@ LEXICON NP-AL
 
 %<np%>%<al%>: CASE-ETC ; 
 
+LEXICON NUM-COMMON
+
+%<num%>: # ;
+%<num%>%<subst%>: SUBST ;
+
+LEXICON NUM
+
+NUM-COMMON ;
+! ORD
+
+LEXICON A1
+
+%<adj%>: # ;
 
 LEXICON A4 
 
@@ -97,16 +115,42 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
+LEXICON POST 
+
+%<post%>: # ; 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions
+
+биле:биле POST ; ! "with"
+ужун:ужун POST ; ! "for"
 
 LEXICON Conjunctions
 
 база:база CC ; ! "and"
 
+LEXICON Numerals
+
+бир:бир NUM ; ! "one"
+ийи:ийи NUM ; ! ""
+үш:үш NUM ; ! "three"
+дорт:дорт NUM ; ! ""
+беш:беш NUM ; ! ""
+алды:алды NUM ; ! ""
+чеди:чеди NUM ; ! ""
+сес:сес NUM ; ! ""
+тос:тос NUM ; ! ""
+он:он NUM ; ! "ten"
+
 LEXICON Nouns 
 
+ара:ара N1 ; ! ""
+ишт:ишт N1 ; ! ""
+
+чагаа:чагаа N1 ; ! "letter"
 бүрү:бүрү N1 ; ! "leaf"
 ат:ат N1 ; ! "horse"
 идик:идик N1 ; ! "boot"
@@ -116,13 +160,23 @@ LEXICON Nouns
 тев:тев N1 ; ! "camel"
 ашка:ашка N1 ; ! "money"
 шай:шай N1 ; ! "tea"
-ачам:ачам N1 ; ! "father"
+ача:ача N1 ; ! "father"
 чурук:чурук N1 ; ! "story"
 акым:акым N1 ; ! "older brother"
-авам:авам N1 ; ! "mother"
 бажың:бажың N1 ; ! "home"
+чер:чер N1 ; ! "land"
 кыш:кыш N1 ; ! "winter"
 даг:даг N1 ; ! "mountain"
+еш:еш N1 ; ! "friend"
+тоол:тоол N1 ; ! "story"
+кижи:кижи N1 ; ! "people"
+ава:ава N1 ; ! "mother"
+
+!өг:өг N1 ; ! "yurt"
+
+директор:директор N1 ; ! ""
+институт:институт N1 ; ! ""
+кино:кино N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -137,3 +191,5 @@ LEXICON Adjectives
 
 бар:бар A4 ; ! "existing"
 чок:чок A4 ; ! "not existing"
+
+херек:херек A1 ; ! "necessary"
