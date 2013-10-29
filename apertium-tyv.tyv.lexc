@@ -9,6 +9,7 @@ Multichar_Symbols
 %<cnjcoo%>                ! Co-ordinating conjunction
 %<np%>                    ! Proper noun
 %<post%>                  ! Postposition
+%<v%>
 
 
 %<attr%>
@@ -32,6 +33,18 @@ Multichar_Symbols
 %<px1pl%>
 %<px2pl%>
 
+%<iv%>
+%<iv%>
+
+%<p1%>
+%<p2%>
+%<p3%>
+
+%<sg%>
+%<pl%>
+
+%<prc_cond%>
+
 
 %{D%}	! д т
 %{N%}   ! н д т
@@ -40,12 +53,15 @@ Multichar_Symbols
 %{L%}   ! л н д т
 %{I%}   ! ы у и ү
 %{A%}   ! а е
+%{B%}   ! б в
 
 %{z%}   ! - з
 %{n%}   ! - н
 %{i%}   ! - ы у и ү
 
 %> 
+%-
+%  
 
 LEXICON Root
 
@@ -101,11 +117,11 @@ LEXICON NP-AL
 
 LEXICON V-PERS-S1
 
-%<p1%>%<sg%>:%>мен # ; 
-%<p2%>%<sg%>:%>сен # ; 
+%<p1%>%<sg%>:%>% мен # ; 
+%<p2%>%<sg%>:%>% сен # ; 
 %<p3%>%<sg%>:%> # ; 
-%<p1%>%<pl%>:%>бис # ; 
-%<p2%>%<pl%>:%>силер # ; 
+%<p1%>%<pl%>:%>% бис # ; 
+%<p2%>%<pl%>:%>% силер # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}р # ; 
 
 LEXICON V-PERS-S2
@@ -117,13 +133,32 @@ LEXICON V-PERS-S2
 %<p2%>%<pl%>:%>%{I%}ң%{A%}р # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}р # ; 
 
+LEXICON V-PERS-COND
+
+%<p1%>%<sg%>:%{I%}%>мз%{A%} # ; 
+%<p2%>%<sg%>:%{I%}%>ңз%{A%} # ; 
+%<p3%>%<sg%>:%{A%}%> # ; 
+%<p1%>%<pl%>:%{I%}%>в%{I%}сс%{A%} # ; 
+%<p2%>%<pl%>:%{I%}%>ң%{A%}рз%{A%} # ; 
+%<p3%>%<pl%>:%{A%}%>%{L%}%{A%}р # ; 
+
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
+%<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
+
+LEXICON V-NONFINITE-REGULAR_NEGATIVE
+
+! Participles
+%<prc_cond%>:%>з V-PERS-COND ;
 
 LEXICON V-COMMON
 
 V-FINITE-REGULAR_NEGATIVE ;
+%<neg%>:%>%{B%}%{A%} V-FINITE-REGULAR_NEGATIVE ;
+
+V-NONFINITE-REGULAR_NEGATIVE ;
+%<neg%>:%>%{B%}%{A%} V-NONFINITE-REGULAR_NEGATIVE ;
 
 LEXICON V-IV
 
@@ -151,6 +186,11 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
+LEXICON CS
+
+%<cnjsub%>: # ;
+
+
 LEXICON POST 
 
 %<post%>: # ; 
@@ -167,6 +207,9 @@ LEXICON Postpositions
 LEXICON Conjunctions
 
 база:база CC ; ! "and"
+болгаш:болгаш CC ; ! "and"
+
+бир% эвес:бир% эвес CS ; ! "if"
 
 LEXICON Numerals
 
@@ -204,7 +247,7 @@ LEXICON Nouns
 
 чагаа:чагаа N1 ; ! "letter"
 бүрү:бүрү N1 ; ! "leaf"
-ат:ат N1 ; ! "horse"
+хүн:хүн N1 ; ! "sun"
 идик:идик N1 ; ! "boot"
 хол:хол N1 ; ! "lake"
 ном:ном N1 ; ! "book"
@@ -214,7 +257,6 @@ LEXICON Nouns
 шай:шай N1 ; ! "tea"
 ача:ача N1 ; ! "father"
 чурук:чурук N1 ; ! "story"
-акым:акым N1 ; ! "older brother"
 бажың:бажың N1 ; ! "home"
 чер:чер N1 ; ! "land"
 кыш:кыш N1 ; ! "winter"
@@ -224,20 +266,43 @@ LEXICON Nouns
 кижи:кижи N1 ; ! "people"
 ава:ава N1 ; ! "mother"
 ыяш:ыяш N1 ; ! "tree"
+уруг:уруг N1 ; ! "girl"
+ыыт:ыыт N1 ; ! "dog"
+хар:хар N1 ; ! "snow"
+хат:хат N1 ; ! "wind"
+чаш:чаш N1 ; ! "rain"
+час:час N1 ; ! "spring"
+ат:ат N1 ; ! "horse"
+!аат:аат N1 ; ! "horse"
+уру:уру N1 ; ! "daughter"
+булут:булут N1 ; ! "cloud"
 
 !өг:өг N1 ; ! "yurt"
+!акым:акым N1 ; ! "older brother"
 
 лошка:лошка N1 ; ! ""
 стол:стол  N1 ; ! ""
 директор:директор N1 ; ! ""
 институт:институт N1 ; ! ""
 кино:кино N1 ; ! ""
+хлеб:хлеб N1 ; ! ""
+квартира:квартира N1 ; ! ""
+
 
 LEXICON ProperNouns 
 
 Кызыл:Кызыл NP-TOP ; ! "Kyzyl"
 Москва:Москва NP-TOP ; ! "Moscow"
 Россия:Россия NP-TOP ; ! "Russia"
+
+Төвүт:Төвүт NP-TOP ; ! ""
+
+
+Туран:Туран NP-TOP ; ! ""
+Шагаан%-Арыг:Шагаан%-Арыг NP-TOP ; ! ""
+Чадаана:Чадаана NP-TOP ; ! ""
+Ак%-Довурак:Ак%-Довурак NP-TOP ; ! ""
+
 
 Википедия:Википедия NP-AL ; ! "Wikipedia"
 
@@ -253,6 +318,7 @@ LEXICON Verbs
 
 бол:бол V-IV ; ! "be"
 кел:кел V-IV ; ! "come"
+уш:уш V-IV ; ! "fly"
 
 
 LEXICON Punctuation
@@ -289,5 +355,5 @@ LEXICON Punctuation
 LEXICON DIGITLEX
 
 %<num%>: # ; 
-% й%.%<num%>:% й%. # ;  ! "год"
+!% й%.%<num%>:% й%. # ;  ! "год"
 

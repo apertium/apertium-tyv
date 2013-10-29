@@ -4,11 +4,11 @@ Alphabet
    А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
    а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я
 
-   %{I%}:ы %{I%}:и %{I%}:у
+   %{I%}:ы %{I%}:и %{I%}:у %{I%}:ү
 
    %{A%}:а %{A%}:е
 
-   %{D%}:д %{L%}:л %{N%}:н %{G%}:г %{J%}:ч
+   %{D%}:д %{L%}:л %{N%}:н %{G%}:г %{J%}:ч %{B%}:б
 
    %{i%}:0 %{z%}:з %{n%}:н
 
@@ -16,11 +16,14 @@ Alphabet
 
 Sets
 
-BackVow    =  А О Ы У
-              а о ы у ;
+Vow = Я Ю Ё А О Ы У Э Е И Ө Ү
+      я ю ё а о ы у э е и ө ү ;
 
-FrontVow   =  Е И Ө Ү 
-              е и ө ү ; 
+BackVow    =  Я Ю Ё А О Ы У
+              я ю ё а о ы у ;
+
+FrontVow   =  Э Е И Ө Ү 
+              э е и ө ү ; 
 
 Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
               б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ъ ь ; 
@@ -28,25 +31,34 @@ Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ 
 Liquid     = Л 
              л ; 
 
+Nasals      = Н 
+             н ; 
+
 VoicelessCns = к п с т ц ш 
                К П С Т Ц Ш ; 
 
+Abstract    = %{z%} %{n%} ;
 
 Rules
 
 "N Desonorisation"
 %{N%}:д <=> [ :Liquid ] [ %>: ]* _ ;
 
+"D nasal harmony"
+%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
+
 "Deletion of {z} after a consonant"
 %{z%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
+
+"{L} nasal harmony"
+%{L%}:н <=> :Nasals %>: _ ;
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
 
 "Forward voicing assimilation"
-Cx:Cy <=> :VoicelessCns/[ %>: | т:0 | д:0 | с:0 | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
+Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
           where Cx in ( %{M%}  %{D%}  %{L%}  %{N%} )
                 Cy in (   п      т      т      т   )
                 matched;
-
