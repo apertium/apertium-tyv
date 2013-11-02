@@ -27,6 +27,8 @@ Multichar_Symbols
 %<abl%>
 %<all%>
 
+%<dem%>
+
 %<px1sg%>
 %<px2sg%>
 %<px3sp%>
@@ -198,7 +200,11 @@ LEXICON NUM-COMMON
 LEXICON NUM
 
 NUM-COMMON ;
-! ORD
+%<num%>%<ord%>:%>% дугаар # ;             ! FIXME: base form, <det> reading
+%<num%>%<ord%>:%>% дугаар N-INFL-COMMON ;
+%<num%>%<ord%>:%>%{G%}%{I%} # ;             ! Dir/LR
+%<num%>%<ord%>:%>%{G%}%{I%} N-INFL-COMMON ; ! Dir/LR
+
 
 LEXICON PRON-PERS-MEN
 
@@ -221,6 +227,17 @@ LEXICON PRON-PERS-SEN
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:нде # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:нден # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<all%>:нже # ;
+
+LEXICON PRON-DEM-BO
+
+бо%<prn%>%<dem%>%<sg%>%<nom%>:бо # ;
+бо%<prn%>%<dem%>%<sg%>%<gen%>:мооң # ;
+бо%<prn%>%<dem%>%<sg%>%<dat%>:маңаа # ;
+бо%<prn%>%<dem%>%<sg%>%<acc%>:мону # ;
+бо%<prn%>%<dem%>%<sg%>%<loc%>:мында # ;
+бо%<prn%>%<dem%>%<sg%>%<abl%>:моон # ;
+бо%<prn%>%<dem%>%<sg%>%<all%>:боже # ;
+бо%<prn%>%<dem%>%<sg%>:моо POSS-REAL ;
 
 LEXICON A1
 
@@ -263,6 +280,8 @@ LEXICON Pronouns
 
 мен:ме PRON-PERS-MEN ; ! ""
 сен:се PRON-PERS-SEN ; ! "" 
+
+PRON-DEM-BO ; ! ""
 
 LEXICON Numerals
 
