@@ -2,3 +2,4 @@
 /Makefile -text
 /apertium-tyv.tyv.lexc -text
 /apertium-tyv.tyv.twol -text
+texts/udhr.tyv.txt -text svneol=unset#application/octet-stream
