@@ -33,6 +33,8 @@ Multichar_Symbols
 %<px1pl%>
 %<px2pl%>
 
+%<px%>
+
 %<iv%>
 %<iv%>
 
@@ -58,6 +60,7 @@ Multichar_Symbols
 %{z%}   ! - з
 %{n%}   ! - н
 %{i%}   ! - ы у и ү
+%{y%}   ! ы у и ү
 
 %> 
 %-
@@ -75,7 +78,7 @@ Adjectives ;
 Verbs ; 
 Punctuation ; 
 
-LEXICON CASE-ETC
+LEXICON CASES
 
 %<nom%>: # ;
 %<gen%>:%>%{N%}%{I%}ң # ;
@@ -85,23 +88,41 @@ LEXICON CASE-ETC
 %<abl%>:%>%{D%}%{A%}н # ;
 %<all%>:%>%{J%}е # ;
 
+LEXICON CASES-ETC
+
+CASES ;
+GENPOSS-ETC ;
+
 LEXICON POSS-REAL
 
-%<px1sg%>:%>%{i%}м CASE-ETC ; 
-%<px2sg%>:%>%{i%}ң CASE-ETC ; 
-%<px3sp%>:%>%{z%}%{I%}%{n%} CASE-ETC ; 
-%<px1pl%>:%>%{I%}в%{I%}с CASE-ETC ; 
-%<px2pl%>:%>%{I%}ң%{A%}р CASE-ETC ; 
+%<px1sg%>:%>%{i%}м CASES-ETC ; 
+%<px2sg%>:%>%{i%}ң CASES-ETC ; 
+%<px3sp%>:%>%{z%}%{I%}%{n%} CASES-ETC ; 
+%<px1pl%>:%>%{I%}в%{I%}с CASES-ETC ; 
+%<px2pl%>:%>%{I%}ң%{A%}р CASES-ETC ; 
+
+LEXICON GENPOSS-ETC 
+
+%<px%>:%>%{N%}%{I%}%{I%}%{n%} CASES ; 
+%<loc%>:%>%{D%}%{A%}%{G%}%{I%} ATTR-SUBST ; 
 
 LEXICON N-INFL-COMMON
 
 POSS-REAL ;
-CASE-ETC ;
+CASES-ETC ;
 
 LEXICON SUBST
 
 N-INFL-COMMON ;
 %<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON ATTR-SUBST
+
+%<attr%>: # ;
+%<subst%>: CASES ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
+
+
 
 LEXICON N1 
 
@@ -110,15 +131,15 @@ LEXICON N1
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: CASE-ETC ; 
+%<np%>%<top%>: CASES-ETC ; 
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: CASE-ETC ; 
+%<np%>%<ant%>%<m%>: CASES-ETC ; 
 
 LEXICON NP-AL
 
-%<np%>%<al%>: CASE-ETC ; 
+%<np%>%<al%>: CASES-ETC ; 
 
 LEXICON V-PERS-S1
 
@@ -276,6 +297,13 @@ LEXICON Nouns
 орт:орт N1 ; ! ""
 хажы:хажы N1 ; ! ""
 
+ойун:ой%{y%}н N1 ; ! ""
+мойун:мой%{y%}н N1 ; ! ""
+арын:ар%{y%}н N1 ; ! ""
+орун:ор%{y%}н N1 ; ! ""
+келин:кел%{y%}н N1 ; ! ""
+кулун:кул%{y%}н N1 ; ! ""
+эгин:эг%{y%}н N1 ; ! ""
 
 чагаа:чагаа N1 ; ! "letter"
 бүрү:бүрү N1 ; ! "leaf"

@@ -10,7 +10,7 @@ Alphabet
 
    %{D%}:д %{L%}:л %{N%}:н %{G%}:г %{J%}:ч %{B%}:б
 
-   %{i%}:0 %{z%}:з %{n%}:н
+   %{i%}:0 %{z%}:з %{n%}:н %{y%}:ы
 
    %>:0 ; 
 
@@ -62,3 +62,9 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
           where Cx in ( %{M%}  %{D%}  %{L%}  %{N%} )
                 Cy in (   п      т      т      т   )
                 matched;
+
+"Epenthesis in some stems"
+%{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
+
+"Harmony of unepenthesised vowel in some stems"
+%{y%}:и <=> [ :FrontVow :Cns* :Cns ]/[ %>: | :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
