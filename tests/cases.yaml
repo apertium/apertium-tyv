@@ -1,0 +1,17 @@
+Config:
+  hfst:
+      App: hfst-optimised-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+ "Noun иви ":
+    иви<n><nom> : иви
+    иви<n><attr> : иви
+    иви<n><gen> : ивиниң
+    иви<n><dat> : ивиге
+    иви<n><acc> : ивини
+    иви<n><loc> : ивиде
+    иви<n><abl> : ивиден
+    иви<n><all> : ивиже
