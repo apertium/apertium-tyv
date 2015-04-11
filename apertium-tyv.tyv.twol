@@ -11,6 +11,7 @@ Alphabet
    %{D%}:д %{L%}:л %{N%}:н %{G%}:г %{J%}:ч %{B%}:б
 
    %{i%}:0 %{z%}:з %{n%}:н %{y%}:ы
+           %{z%}:0 %{n%}:0 %{y%}:0
 
    %>:0 ; 
 
@@ -55,6 +56,7 @@ Rules
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
+             _ %>: :Cns ; 
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
