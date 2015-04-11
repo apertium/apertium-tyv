@@ -1,5 +1,18 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
 /Makefile -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-tyv.pc.in -text
+/apertium-tyv.post-tyv.dix -text
 /apertium-tyv.tyv.lexc -text
+/apertium-tyv.tyv.rlx -text
 /apertium-tyv.tyv.twol -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
 texts/udhr.tyv.txt -text svneol=unset#application/octet-stream
+/tyv.prob -text svneol=unset#unset
