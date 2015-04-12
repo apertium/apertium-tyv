@@ -13,6 +13,10 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
 tests/cases.yaml -text
 tests/possessives.yaml -text
 texts/udhr.tyv.txt -text svneol=unset#application/octet-stream
