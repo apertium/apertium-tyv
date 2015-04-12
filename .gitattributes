@@ -12,6 +12,7 @@
 /apertium-tyv.tyv.twol -text
 /autogen.sh -text
 /configure.ac -text
+dev/countstems.sh -text
 /modes.xml -text
 speller/editdist.default.txt -text
 speller/index.xml -text
