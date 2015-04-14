@@ -1,6 +1,6 @@
 Config:
   hfst:
-      App: hfst-optimised-lookup
+      App: hfst-lookup
       Gen: ../tyv.autogen.hfst
       Morph: ../tyv.automorf.hfst
 
