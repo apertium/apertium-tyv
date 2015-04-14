@@ -101,8 +101,8 @@ LEXICON POSS-REAL
 %<px1sg%>:%>%{i%}м CASES-ETC ; 
 %<px2sg%>:%>%{i%}ң CASES-ETC ; 
 %<px3sp%>:%>%{z%}%{I%}%{n%} CASES-ETC ; 
-%<px1pl%>:%>%{I%}в%{I%}с CASES-ETC ; 
-%<px2pl%>:%>%{I%}ң%{A%}р CASES-ETC ; 
+%<px1pl%>:%>%{i%}в%{I%}с CASES-ETC ; 
+%<px2pl%>:%>%{i%}ң%{A%}р CASES-ETC ; 
 
 LEXICON GENPOSS-ETC 
 
@@ -470,6 +470,10 @@ LEXICON Nouns
 
 артист:артист N1 ; ! ""
 гимназия:гимназия N1 ; ! ""
+
+хуу:хуу N1 ; ! "часть"
+хуусаа:хуусаа N1 ; ! "срок, время"
+хуурак:хуурак N1 ; ! "ученик"
 
 LEXICON ProperNouns 
 

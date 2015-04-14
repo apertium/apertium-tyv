@@ -70,7 +70,7 @@ Rules
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
-!             _ %>: :Cns ; 
+             _ %>: %{N%}: ; 
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
