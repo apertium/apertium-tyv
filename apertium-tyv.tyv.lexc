@@ -4,12 +4,13 @@
 
 Multichar_Symbols
 
-%<n%>                     ! Noun
+%<n%>                     ! Имя существительное        ! Ч.ве ады
 %<adj%>                   ! Adjective 
-%<cnjcoo%>                ! Co-ordinating conjunction
+%<cnjcoo%>                ! Co-ordinating conjunction  ! Евилел
 %<np%>                    ! Proper noun
 %<post%>                  ! Postposition
-%<v%>
+%<v%>                     ! Глагол                     ! Кылыг с.з.
+%<prn%>                   ! Местомение                 ! Ат орну
 
 
 %<attr%>
@@ -467,6 +468,7 @@ LEXICON Nouns
 президент:президент N1 ; ! ""
 генерал:генерал N1 ; ! ""
 
+артист:артист N1 ; ! ""
 
 LEXICON ProperNouns 
 

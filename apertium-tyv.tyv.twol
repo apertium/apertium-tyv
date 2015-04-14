@@ -59,6 +59,8 @@ Rules
 
 "D nasal harmony"
 %{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
+        except 
+            %{n%}: %>: _ ; 
 
 "Deletion of {z} after a consonant"
 %{z%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
@@ -68,7 +70,7 @@ Rules
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
-             _ %>: :Cns ; 
+!             _ %>: :Cns ; 
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
