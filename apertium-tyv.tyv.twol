@@ -44,8 +44,11 @@ Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ 
 Liquid     = Л 
              л ; 
 
-Nasals      = Н М
-             н м ; 
+Nasals      = Н М Ң
+              н м ң ; 
+
+NNg         = Н Ң
+              н ң ;
 
 VoicelessCns = к п с т ц ш 
                К П С Т Ц Ш ; 
@@ -62,15 +65,25 @@ Rules
         except 
             %{n%}: %>: _ ; 
 
-"Deletion of {z} after a consonant"
-%{z%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
+!"Deletion of {z} after a consonant"
+!%{z%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
 
-"{L} nasal harmony"
+"{z} surfaces after a vowel"
+%{z%}:з <=> :Vow/:0* _ ;
+        except
+            [ :Vow NNg: ]/:0* _ ;
+
+"{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
              _ %>: %{N%}: ; 
+
+"Intervocalic nasal deletion"
+Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+         
+     where Cx in NNg ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
@@ -84,3 +97,18 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 "Harmony of unepenthesised vowel in some stems"
 %{y%}:и <=> [ :FrontVow :Cns* :Cns ]/[ %>: | :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
+
+"{i} harmony after deleted nasal"
+%{i%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
+         where Vx in ( а о ө я )
+               Vy in ( а о ө а )
+         matched ;
+
+"{I} harmony after deleted nasal"
+%{I%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
+         where Vx in ( а о ө я )
+               Vy in ( а о ө а )
+         matched ;
+
+"{I} deletion in px3.acc"
+%{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
