@@ -73,6 +73,7 @@ Rules
         except
             [ :Vow NNg: ]/:0* _ ;
 
+
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
 
@@ -80,9 +81,10 @@ Rules
 %{n%}:0 <=>  _ (:0) .#. ;
              _ %>: %{N%}: ; 
 
+!@ б ү р ү >:0 {z}:з {I}:ү {n}:0
+
 "Intervocalic nasal deletion"
 Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
-         
      where Cx in NNg ;
 
 "Forward voicing assimilation"
