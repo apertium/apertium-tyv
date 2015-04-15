@@ -75,6 +75,14 @@ Rules
 
 !@ с о ң:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а
 
+"Intervocalic voicing at a morpheme boundary"
+Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
+      where Cx in ( п т с ш к )
+            Cy in ( б д з ж г )
+      matched ;
+
+!@ с о о к:г >:0 {z}:0 {I}:у
+
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
 
