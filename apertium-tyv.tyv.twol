@@ -71,10 +71,10 @@ Rules
 "N Desonorisation"
 %{N%}:д <=> [ :Liquid ] [ %>: ]* _ ;
 
-"D nasal harmony"
-%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
-        except 
-            %{n%}: %>: _ ; 
+!"D nasal harmony"
+!%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
+!        except 
+!            %{n%}: %>: _ ; 
 
 !"Deletion of {z} after a consonant"
 !%{z%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
