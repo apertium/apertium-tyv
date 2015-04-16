@@ -158,10 +158,10 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 "{г} devoicing when syllable-final"
 %{г%}:к <=> :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ;
 
-"{г} surfaces as г syllable finally before a some(?) consonants"
+"{г} surfaces as г syllable finally before some(?) consonants"
 %{г%}:г <=> :Vow _ [ :Liquid %>: Vow ]/:0* ;
 
-!@ о {г}:г л >:0 %{i%}:у м
+!@ о {г}:г л >:0 {i}:у м
 
 "{г} turns into preceding vowel when in closed syllable"
 %{г%}:Vy <=> :Vx _ :Cns/:0* .#. ;
