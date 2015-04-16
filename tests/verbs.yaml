@@ -1,0 +1,29 @@
+Config:
+  hfst:
+      App: hfst-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+ "Past -GAн":
+    бижи<v><tv><past><p3><sg> : бижээн
+    кел<v><iv><past><p3><sg> : келген
+    бер<v><tv><past><p3><sg> : берген
+    көр<v><tv><past><p3><sg> : көрген
+    уш<v><iv><past><p3><sg> : ушкан
+
+ "Aorist -Aр/-Iр":
+    бил<v><tv><aor><p3><sg> : билир
+    кел<v><iv><aor><p3><sg> : келир
+    ажылда<v><tv><aor><p3><sg> : ажылдаар
+    чору<v><iv><aor><p3><sg> : чоруур
+    бол<v><iv><aor><p3><sg> : боор
+    бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
+    
+ "Past -DI": 
+    бер<v><tv><ifi><p1><sg> : бердим 
+    көр<v><tv><ifi><p1><sg> : көрдүм
+    уду<v><iv><ifi><p1><sg> : удудум
+    бер<v><tv><ifi><p1><sg> : бердим 
+    уш<v><iv><ifi><p1><sg> : уштум
