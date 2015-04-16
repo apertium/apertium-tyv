@@ -79,10 +79,13 @@ Rules
 !"Deletion of {z} after a consonant"
 !%{z%}:0 <=> [ :Cns (:ь) | й:0 ]/[ %>: | [ :0 - й:0 ] ] _ ;
 
+!!== Lenition ==!!
+
 "{z} surfaces after a vowel"
 %{z%}:з <=> :Vow/:0* _ ;
         except
             [ :Vow NNg: ]/:0* _ ;
+            г:/:0* _ ;
 
 !@ с о ң:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а
 
@@ -137,3 +140,26 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 "{I} deletion in px3.acc"
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
+
+
+
+!!== Misc segmental stuff ==!!
+
+"/рк/ cluster to [рт]"
+к:т <=> :р _ .#. ;
+        :р _ :Cns/:0* ;
+
+"г devoicing when syllable-final"
+г:к <=> :Vow _ [ :VoicelessCns :Vow ]/:0* ;
+
+"г turns into preceding vowel when in closed syllable"
+г:Vy <=> :Vx _ :Cns/:0* .#. ;
+         :Vx _ [ :Cns :Cns ]/:0* ;
+     except
+         :Vow _ [ :VoicelessCns :Vow ]/:0* ; ! was causing conflicts, meh
+     where Vx in ( а о )
+           Vy in ( а о )
+     matched ;
+
+"ъ deletion syllable finally"
+ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
