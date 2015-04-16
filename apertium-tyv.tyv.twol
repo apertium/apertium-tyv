@@ -25,6 +25,10 @@ Alphabet
    %{z%}:з %{n%}:н %{y%}:ы
    %{z%}:0 %{n%}:0 %{y%}:0
 
+   %{и%}:и
+
+   %{☭%}:0
+
    %>:0 ; 
 
 Sets
@@ -53,9 +57,16 @@ NNg         = Н Ң
 VoicelessCns = к п с т ц ш 
                К П С Т Ц Ш ; 
 
+VoicelessCnsRus = б в д ж г ;
+
+
 Abstract    = %{z%} %{n%} ;
 
 Rules
+
+
+"Remove stem epenthetic vowel in nominative"
+%{и%}:0 <=> _ .#. ; 
 
 "N Desonorisation"
 %{N%}:д <=> [ :Liquid ] [ %>: ]* _ ;
@@ -82,6 +93,9 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
       matched ;
 
 !@ с о о к:г >:0 {z}:0 {I}:у
+
+"{L} after vowel"
+%{L%}:л <=> :Vow/:0* %>: _ ;
 
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
