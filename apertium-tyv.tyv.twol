@@ -71,9 +71,6 @@ Rules
 "Remove stem epenthetic vowel in nominative"
 %{и%}:0 <=> _ .#. ; 
 
-"N Desonorisation"
-%{N%}:д <=> :Liquid/:0* _ ;
-
 !"D nasal harmony"
 !%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
 !        except 
@@ -100,11 +97,23 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
 
 !@ с о о к:г >:0 {z}:0 {I}:у
 
+"Intervocalic nasal deletion"
+Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+     where Cx in NNg ;
+
+
+
+!!!== Desonorisation ==!!!
+
 "{L} desonorisation"
 %{L%}:д <=> :Liquid/:0* _ ;
 
 ! {L} desonorisation should *not* happen here:
 !@ д а г >:0 {L}:л {A}:а р
+
+"N Desonorisation"
+%{N%}:д <=> :Liquid/:0* _ ;
+
 
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
@@ -114,10 +123,6 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
              _ %>: %{N%}: ; 
 
 !@ б ү р ү >:0 {z}:з {I}:ү {n}:0
-
-"Intervocalic nasal deletion"
-Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
-     where Cx in NNg ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
@@ -159,7 +164,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 %{г%}:к <=> :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ;
 
 "{г} surfaces as г syllable finally before some(?) consonants"
-%{г%}:г <=> :Vow _ [ :Liquid %>: Vow ]/:0* ;
+%{г%}:г <=> :Vow _ [ :Liquid %>: :Vow ]/:0* ;
 
 !@ о {г}:г л >:0 {i}:у м
 
@@ -167,8 +172,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 %{г%}:Vy <=> :Vx _ :Cns/:0* .#. ;
          :Vx _ [ :Cns %>: :Cns ]/:0* ;
      except
-         :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ; ! was causing conflicts, meh
-         :Vow _ [ :Cns %>: Vow ]/:0* ;
+         !:Vow _ [ :VoicelessCns %>: :Vow ]/:0* ; ! needed to avoid conflicts, meh
+         :Vow _ [ :Cns %>: :Vow ]/:0* ;
      where Vx in ( а о )
            Vy in ( а о )
      matched ;
