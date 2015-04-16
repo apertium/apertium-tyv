@@ -21,5 +21,6 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/cases.yaml -text
 tests/possessives.yaml -text
+tests/run-twol-pairtests.sh -text
 texts/udhr.tyv.txt -text svneol=unset#application/octet-stream
 /tyv.prob -text svneol=unset#unset
