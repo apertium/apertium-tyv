@@ -10,7 +10,7 @@ Alphabet
 
    %{D%}:д 
  
-   %{L%}:л %{L%}:н %{L%}:т %{L%}:д
+   %{L%}:л 
 
    %{N%}:н 
  
@@ -69,7 +69,7 @@ Rules
 %{и%}:0 <=> _ .#. ; 
 
 "N Desonorisation"
-%{N%}:д <=> [ :Liquid ] [ %>: ]* _ ;
+%{N%}:д <=> :Liquid/:0* _ ;
 
 !"D nasal harmony"
 !%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
@@ -97,8 +97,8 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
 
 !@ с о о к:г >:0 {z}:0 {I}:у
 
-"{L} after vowel"
-%{L%}:л <=> :Vow/:0* %>: _ ;
+"{L} desonorisation"
+%{L%}:д <=> :Liquid/:0* _ ;
 
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
@@ -163,3 +163,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
+
+
+
+!@ д а г >:0 {L}:л {A}:а р
