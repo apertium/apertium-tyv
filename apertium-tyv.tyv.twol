@@ -27,6 +27,9 @@ Alphabet
 
    %{и%}:и
 
+   %{к%}:к
+   %{г%}:г
+
    %{☭%}:0
 
    %>:0 ; 
@@ -149,17 +152,23 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 !!== Misc segmental stuff ==!!
 
 "/рк/ cluster to [рт]"
-к:т <=> :р _ .#. ;
+%{к%}:т <=> :р _ .#. ;
         :р _ %>: :Cns/:0* ;
 
-"г devoicing when syllable-final"
-г:к <=> :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ;
+"{г} devoicing when syllable-final"
+%{г%}:к <=> :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ;
 
-"г turns into preceding vowel when in closed syllable"
-г:Vy <=> :Vx _ :Cns/:0* .#. ;
+"{г} surfaces as г syllable finally before a some(?) consonants"
+%{г%}:г <=> :Vow _ [ :Liquid %>: Vow ]/:0* ;
+
+!@ о {г}:г л >:0 %{i%}:у м
+
+"{г} turns into preceding vowel when in closed syllable"
+%{г%}:Vy <=> :Vx _ :Cns/:0* .#. ;
          :Vx _ [ :Cns %>: :Cns ]/:0* ;
      except
          :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ; ! was causing conflicts, meh
+         :Vow _ [ :Cns %>: Vow ]/:0* ;
      where Vx in ( а о )
            Vy in ( а о )
      matched ;
