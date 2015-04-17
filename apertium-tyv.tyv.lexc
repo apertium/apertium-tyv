@@ -82,6 +82,17 @@ Multichar_Symbols
 %<gna_past%>
 %<gna_after%>
 
+! Punctuation
+%<percent%>   ! Percent
+%<sent%>      ! Sentence marker
+%<guio%>      ! Hyphen
+%<cm%>        ! Comma
+%<apos%>      ! Apostrophe
+%<rquot%>     ! Quote marker (right hand side)
+%<lquot%>     ! Quote marker (left hand side)
+%<rpar%>      ! Parenthetical marker (right hand side)
+%<lpar%>      ! Parenthetical marker (left hand side)
+
 
 %{D%}	! д т
 %{N%}   ! н д т
@@ -121,6 +132,7 @@ Adjectives ;
 Adverbs ; 
 Verbs ; 
 Punctuation ; 
+Guesser ;
 
 LEXICON CASES
 
@@ -4639,4 +4651,40 @@ LEXICON DIGITLEX
 
 %<num%>: # ; 
 !% й%.%<num%>:% й%. # ;  ! "год"
+
+LEXICON NP-UNK 
+
+%<np%>%<unk%>: # ;
+
+LEXICON GUESS-QUEUE
+
+<(a | b | c | d | e | f | g | h | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z)+> NP-UNK ;
+
+LEXICON Guesser
+
+A:A GUESS-QUEUE ; 
+B:B GUESS-QUEUE ; 
+C:C GUESS-QUEUE ; 
+D:D GUESS-QUEUE ; 
+E:E GUESS-QUEUE ; 
+F:F GUESS-QUEUE ; 
+G:G GUESS-QUEUE ; 
+H:H GUESS-QUEUE ; 
+J:J GUESS-QUEUE ; 
+K:K GUESS-QUEUE ; 
+L:L GUESS-QUEUE ; 
+M:M GUESS-QUEUE ; 
+N:N GUESS-QUEUE ; 
+O:O GUESS-QUEUE ; 
+P:P GUESS-QUEUE ; 
+Q:Q GUESS-QUEUE ; 
+R:R GUESS-QUEUE ; 
+S:S GUESS-QUEUE ; 
+T:T GUESS-QUEUE ; 
+U:U GUESS-QUEUE ; 
+V:V GUESS-QUEUE ; 
+W:W GUESS-QUEUE ; 
+X:X GUESS-QUEUE ; 
+Y:Y GUESS-QUEUE ; 
+Z:Z GUESS-QUEUE ; 
 
