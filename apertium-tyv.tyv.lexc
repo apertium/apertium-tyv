@@ -13,6 +13,7 @@ Multichar_Symbols
 %<prn%>                   ! Местомение                 ! Ат орну
 %<np%>
 %<adv%>
+%<det%>
 %<qst%>
 
 
@@ -94,6 +95,7 @@ LEXICON Root
 Miscellaneous ; 
 Conjunctions ;
 Postpositions ;
+Determiners ;
 Pronouns ;
 Numerals ;
 Nouns ; 
@@ -409,6 +411,10 @@ LEXICON PRON-REFL
 %<prn%>%<ref%>%<px1pl%>:%>%{i%}в%{I%}с PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}ң%{A%}р PRON-REF-ADV ;
 
+LEXICON DET-QNT
+
+%<det%>%<qnt%>: # ;
+
 LEXICON A1
 
 %<adj%>: # ;
@@ -470,6 +476,9 @@ LEXICON Postpositions
 ажылдыр:ажылдыр POST ; ! ""
 ёзугаар:ёзугаар POST ; ! ""
 
+LEXICON Determiners
+
+бүгү:бүгү DET-QNT ; ! "весь"	
 
 LEXICON Pronouns 
 
@@ -489,13 +498,24 @@ LEXICON Numerals
 бир:бир NUM ; ! "one"
 ийи:ийи NUM ; ! ""
 үш:үш NUM ; ! "three"
-дорт:дорт NUM ; ! ""
+дөрт:дөрт NUM ; ! ""
 беш:беш NUM ; ! ""
 алды:алды NUM ; ! ""
 чеди:чеди NUM ; ! ""
 сес:сес NUM ; ! ""
 тос:тос NUM ; ! ""
 он:он NUM ; ! "ten"
+
+чээрби:чээрби NUM ; ! ""
+үжен:үжен NUM ; ! ""
+дөртен:дөртен  NUM ; ! ""
+бежен:бежен NUM ; ! ""
+алдан:алдан NUM ; ! ""
+чеден:чеден NUM ; ! ""
+сезен:сезен NUM ; ! ""
+тозан:тозан NUM ; ! ""
+
+чүс:чүс  NUM ; ! ""
 
 миллион:миллион NUM ; ! ""
 
