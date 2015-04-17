@@ -2938,6 +2938,7 @@ LEXICON ProperNouns
 Александр:Александр NP-ANT-M ; ! ""
 Владимир:Владимир NP-ANT-M ; ! ""
 Сергей:Сергей NP-ANT-M ; ! ""
+Азамат:Азамат NP-ANT-M ; ! ""
 
 Хамза:Хамза NP-ANT-M ; ! ""
 Лука:Лука NP-ANT-M ; ! ""
@@ -3160,6 +3161,7 @@ LEXICON ProperNouns
 Шамиль:Шамиль NP-ANT-M ; ! ""
 Игорь:Игорь NP-ANT-M ; ! ""
 
+Айгүл:Айгүл NP-ANT-F ; ! ""
 Айгуль:Айгуль NP-ANT-F ; ! ""
 Любовь:Любовь NP-ANT-F ; ! ""
 Маргарита:Маргарита NP-ANT-F ; ! ""
@@ -4422,6 +4424,7 @@ LEXICON Adjectives
 
 LEXICON Adverbs
 
+кайда:кайда ADV-ITG ; ! "где?"
 кажан:кажан ADV-ITG ; ! "когда?"
 
 
