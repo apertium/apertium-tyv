@@ -4,7 +4,7 @@ Alphabet
    А Б В Г Д Е Ё Ж З И Й К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
    а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ъ ы ь э ю я
 
-   %{I%}:ы %{I%}:и %{I%}:у %{I%}:ү
+   %{I%}:ы ! %{I%}:и %{I%}:у %{I%}:ү
 
    %{A%}:а ! %{A%}:е
 
@@ -149,12 +149,11 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 "{i} harmony"
 %{i%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
-             :Vx Cns:*/:0* _ ; 
          except
              [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
-             :Vow/:0* _ ;
+         !    :Vow/:0* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! Check и
-               Vy in ( ү ы и и ү ы у ы у ы у у )
+               Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
 "{i} deletion after vowel"
@@ -171,6 +170,17 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
          where Vx in ( а о ө я )
                Vy in ( а о ө а )
          matched ;
+
+"{I} harmony"
+%{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
+         except
+             [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
+         !    :Vow/:0* _ ;
+             %{n%}:0 %>: %{N%}:н _ .#. ;
+         where Vx in ( ү и е э ө а о ы у я ё ю ) ! Check и
+               Vy in ( ү и и и ү ы у ы у ы у у )
+         matched ;
+
 
 "{I} deletion in px3.acc"
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
