@@ -13,13 +13,17 @@ Multichar_Symbols
 %<prn%>                   ! Местомение                 ! Ат орну
 %<np%>
 %<adv%>
+%<num%>
 %<det%>
+%<cop%>
+%<vaux%>
 %<adj%>
 %<qst%>
 %<cnjadv%>
 
 
 %<attr%>
+%<subst%>
 
 %<top%>                   ! Toponym
 %<al%>                    ! Other
@@ -31,6 +35,7 @@ Multichar_Symbols
 %<mf%>
 
 %<pl%>
+
 
 %<nom%>
 %<gen%>
@@ -44,6 +49,7 @@ Multichar_Symbols
 %<ref%>
 %<itg%>
 %<pers%>
+%<neg%>
 
 %<px1sg%>
 %<px2sg%>
@@ -54,7 +60,7 @@ Multichar_Symbols
 %<px%>
 
 %<iv%>
-%<iv%>
+%<tv%>
 
 %<p1%>
 %<p2%>
@@ -63,10 +69,18 @@ Multichar_Symbols
 %<sg%>
 %<pl%>
 
+%<aor%>
 %<past%>
 %<ifi%>
 
+%<prc_impf%>
+%<prc_perf%>
 %<prc_cond%>
+
+%<gpr_aor%>
+
+%<gna_past%>
+%<gna_after%>
 
 
 %{D%}	! д т
@@ -94,6 +108,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+Copula ;
 Miscellaneous ; 
 Conjunctions ;
 Postpositions ;
@@ -243,6 +258,11 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE-IR
 
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
+
+! Unlike the dative, the past in -GAn has an allomorph with a long vowel
+! and lacking the initial velar sound when used following vowel-final stems; 
+! elsewhere the alternations show a similar distribution to the dative case marker.
+
 %<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 
@@ -251,13 +271,20 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 ! Participles
 %<prc_cond%>:%>з V-PERS-COND ;
 
+%<gna_past%>:%>%{G%}%{A%}ш # ; 
+%<gna_after%>:%>%{G%}%{A%}л%{A%} # ; 
+
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE-AR
 
-%<prc_perf%>:%>%{A%}п # ;
+%<prc_perf%>:%>%{A%}п # ;        ! FIXME: This is wrong
+
+%<gpr_aor%>:%>%{A%}р # ;
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE-IR
 
 %<prc_perf%>:%>%{I%}п # ;
+
+%<gpr_aor%>:%>%{I%}р # ;
 
 LEXICON V-COMMON-AR
 
@@ -307,10 +334,13 @@ LEXICON V-TV-AR
 %<v%>%<tv%>: V-COMMON-AR ;
 %<v%>%<tv%>: V-DER ;
 
-LEXICON Vinfl-AUX
+LEXICON VAUX-AR
 
-%<vaux%>: V-COMMON-AR ; ! these four verbs in other tenses and all other aux. verbs
+%<vaux%>: V-COMMON-AR ; 
 
+LEXICON VAUX-IR
+
+%<vaux%>: V-COMMON ;
 
 LEXICON NUM-COMMON
 
@@ -328,27 +358,30 @@ NUM-COMMON ;
 
 LEXICON PRON-PERS-MEN
 
-%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:н # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:еең # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:е # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:еңее # ; ! Dir/LR
-%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:ни # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:нде # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:нден # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:нже # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ен # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:ээң # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:ээ # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:еңээ # ; ! Dir/LR
+%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:ени # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:енде # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:енден # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:енже # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ендиве # ; ! Dir/LR
 
 LEXICON PRON-PERS-SEN
 
-%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:н # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:еең # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:е # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:еңее # ; ! Dir/LR
-%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:ни # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:нде # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:нден # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:нже # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:ен # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:ээң # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:ээ # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:еңээ # ; ! Dir/LR
+%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:ени # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:енде # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:енден # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:енже # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:ендиве # ; ! Dir/LR
 
-LEXICON PRON-PERS-OL 
+
+LEXICON PRON-COMMON-OL
 
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:ол # ;
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:ооң # ;
@@ -358,6 +391,21 @@ LEXICON PRON-PERS-OL
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ында # ;
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:оон # ;
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<all%>:олже # ;
+ол%<prn%>%<pers%>%<p3%>%<sg%>%<all%>:олдуве # ; ! Dir/LR
+
+LEXICON PRON-DEM-OL
+
+ол%<prn%>%<dem%>%<nom%>:ол # ;
+ол%<prn%>%<dem%>%<gen%>:ооң # ;
+ол%<prn%>%<dem%>%<dat%>:аа # ;
+ол%<prn%>%<dem%>%<dat%>:аңаа # ; ! Dir/LR
+ол%<prn%>%<dem%>%<acc%>:ону # ;
+ол%<prn%>%<dem%>%<loc%>:ында # ;
+ол%<prn%>%<dem%>%<abl%>:оон # ;
+ол%<prn%>%<dem%>%<all%>:олже # ;
+ол%<prn%>%<dem%>%<all%>:олдуве # ; ! Dir/LR
+
+ол%<prn%>%<dem%>%<pl%>:олар CASES ;
 
 LEXICON PRON-PERS-BIS
 
@@ -369,6 +417,7 @@ LEXICON PRON-PERS-BIS
 %<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:те # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:тен # ;
 %<prn%>%<pers%>%<p1%>%<pl%>%<all%>:че # ;
+%<prn%>%<pers%>%<p1%>%<pl%>%<all%>:тиве # ; ! Dir/LR
 
 LEXICON PRON-PERS-SILER
 
@@ -379,6 +428,7 @@ LEXICON PRON-PERS-SILER
 %<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:де # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:ден # ;
 %<prn%>%<pers%>%<p2%>%<pl%>%<all%>:же # ;
+%<prn%>%<pers%>%<p2%>%<pl%>%<all%>:тиве # ; ! Dir/LR
 
 LEXICON PRON-PERS-OLAR
 
@@ -389,6 +439,7 @@ LEXICON PRON-PERS-OLAR
 %<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:да # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:дан # ;
 %<prn%>%<pers%>%<p3%>%<pl%>%<all%>:же # ;
+%<prn%>%<pers%>%<p3%>%<pl%>%<all%>:дыва # ; ! Dir/LR
 
 LEXICON PRON-DEM-BO
 
@@ -412,6 +463,16 @@ LEXICON PRON-REFL
 %<prn%>%<ref%>%<px3sp%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ; ! FIXME <px3sg>?
 %<prn%>%<ref%>%<px1pl%>:%>%{i%}в%{I%}с PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}ң%{A%}р PRON-REF-ADV ;
+
+LEXICON PRON-ITG
+
+%<prn%>%<itg%>%<nom%>:ү # ;
+%<prn%>%<itg%>%<gen%>:%>%{N%}%{I%}ң # ;
+%<prn%>%<itg%>%<acc%>:%>%{N%}%{I%} # ;
+%<prn%>%<itg%>%<dat%>:%>%{G%}%{A%} # ;
+%<prn%>%<itg%>%<loc%>:%>%{D%}%{A%} # ;
+%<prn%>%<itg%>%<abl%>:%>%{D%}%{A%}н # ;
+%<prn%>%<itg%>%<all%>:%>%{J%}е # ;
 
 LEXICON DET-QNT
 
@@ -457,13 +518,22 @@ LEXICON POST
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON Copula 
+
+э%<cop%>%<neg%>%<aor%>:эвес V-PERS-S1 ; 
+
 LEXICON Miscellaneous
 
 бе%<qst%>:бе # ;
 
+ла%<mod%>:%-ла # ;     ! Dir/LR
+ла%<mod%>:%-ле # ;     ! Dir/LR
+ла%<mod%>:%-%~ла # ;   ! Dir/RL
+
 LEXICON Conjunctions
 
 база:база CC ; ! "and"
+а:а CC ; ! "and"
 болгаш:болгаш CC ; ! "and"
 ынчалза%-даа:ынчалза%-даа CC ; ! "but"
 
@@ -490,17 +560,21 @@ LEXICON Postpositions
 LEXICON Determiners
 
 бүгү:бүгү DET-QNT ; ! "весь"	
+хөй:хөй DET-QNT ; ! "много"  ! FIXME: склонение
 
 LEXICON Pronouns 
 
-мен:ме PRON-PERS-MEN ; ! ""
-сен:се PRON-PERS-SEN ; ! "" 
+мен:м PRON-PERS-MEN ; ! ""
+сен:с PRON-PERS-SEN ; ! "" 
 PRON-PERS-OL ; 
 бис:бис PRON-PERS-BIS ; ! "" 
 силер:силер PRON-PERS-SILER ; ! "" 
 олар:олар PRON-PERS-OLAR ; ! "" 
 
 PRON-DEM-BO ; ! ""
+PRON-DEM-OL ; 
+
+чүү:чү PRON-ITG ; ! "что"
 
 бот:бот PRON-REFL ; ! ""
 
@@ -2420,7 +2494,6 @@ LEXICON Nouns
 чылгычы:чылгычы N1 ; ! "табунщик"
 чылдагаан:чылдагаан N1 ; ! "причина"
 чылдак:чылдак N1 ; ! "причина"
-чылыг:чылыг N1 ; ! "тепло"
 чылыткы:чылыткы N1 ; ! "парник"
 чымыш:чымыш N1 ; ! "хлопоты"
 чыраа:чыраа N1 ; ! "ивняк"
@@ -2747,6 +2820,15 @@ LEXICON Nouns
 информация:информация N1 ; ! ""
 
 сад:сад N1 ; ! ""
+ыт:ыт N1 ; ! ""
+кыс% уруг:кыс% уруг N1 ; ! ""
+оол% уруг:оол% уруг N1 ; ! ""
+тала:тала N1 ; ! ""
+сайт:сайт N1 ; ! ""
+дээр:дээр N1 ; ! "небо"
+программа:программа N1 ; ! ""
+кожуун:кожуун N1 ; ! ""
+район:район N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -3529,10 +3611,13 @@ LEXICON Adjectives
 бар:бар A4 ; ! "existing"
 чок:чок A4 ; ! "not existing"
 
+ужурлуг:ужурлуг A4 ; ! "должен"
+
 херек:херек A1 ; ! "necessary"
 
 
 
+чылыг:чылыг A1 ; ! "тёплый"
 аар:аар A1 ; ! "тяжёлый"
 аваангыр:аваангыр A1 ; ! "ловкий"
 адавастай:адавастай A1 ; ! "безымянный"
@@ -3729,6 +3814,7 @@ LEXICON Adjectives
 эргелиг:эргелиг A1 ; ! "нежный"
 эргелиг:эргелиг A1 ; ! "правомочный"
 эргим:эргим A1 ; ! "дорогой"
+эрги:эрги A1 ; ! "старый"
 эрес:эрес A1 ; ! "храбрый"
 эртемниг:эртемниг A1 ; ! "научный"
 эртенги:эртенги A1 ; ! "утренний"
@@ -4015,6 +4101,8 @@ LEXICON Adjectives
 номчуттунгур:номчуттунгур A4 ; ! "доступный"
 оваарымчалыг:оваарымчалыг A4 ; ! "осторожный"
 овуузуннуг:овуузуннуг A4 ; ! "хитрый"
+автономнуг:автономнуг A4 ; ! ""
+федералдыг:федералдыг A4 ; ! ""
 өглүг:өглүг A4 ; ! "женатый"
 огулуг:огулуг A4 ; ! "конкретный"
 одуг:одуг A4 ; ! "бодрствующий"
@@ -4443,24 +4531,33 @@ LEXICON Adverbs
 
 бөгүн:бөгүн ADV ; ! ""
 дүүн:дүүн ADV ; ! ""
+ам:ам ADV ; ! ""
+
+дыка:дыка ADV ; ! ""
+эң:эң ADV ; ! ""
+чүгле:чүгле ADV ; ! "только, лишь"
+
 үргүлчү:үргүлчү ADV ; ! ""
 кады:кады ADV ; ! ""
+дүрген:дүрген ADV ; ! ""
+бодавыже:бодавыже ADV ; ! ""
 
 эки:эки ADV ; ! "хорошо"
-дыка:дыка ADV ; ! ""
+
 
 LEXICON Verbs
 
-тур:тур Vinfl-AUX ; ! ""
-! тур
-! бол
-! олур
-! чору
-! чыт
-! бар
-! кел
-! ал
-! бер
+ал:ал VAUX-IR ; ! ""             ! аар
+аппар:аппар VAUX-AR ; ! ""  
+бар:бар VAUX-AR ; ! ""           ! баар
+бер:бер VAUX-AR ; ! ""           ! бээр
+чыт:чыт VAUX-AR ; ! ""           ! чыдар
+чору:чору VAUX-IR ; ! ""         ! чоруур
+!эгеле:эгеле VAUX-XR ; ! ""
+каг:каг VAUX-AR ; ! ""           ! каар
+көр:көр VAUX-AR ; ! ""           ! көөр
+олур:олур VAUX-AR ; ! ""         ! оор
+тур:тур VAUX-AR ; ! ""           ! турар
 
 
 чыт:чыт V-IV ; ! "lie"
@@ -4472,17 +4569,29 @@ LEXICON Verbs
 уш:уш V-IV ; ! "fly"
 
 
+тур:тур V-TV-AR ; ! ""
 ал:ал V-TV ; ! "take"
 бер:бер V-TV ; ! "give"
 бижи:бижи V-TV ; ! "писать"
 иш:иш V-TV-AR ; ! "пить"
+дег:дег V-TV-AR ; ! "пить"
+де:де V-TV-AR ; ! "говорить"
+
+ойна:ойна V-IV-AR ; ! "играть"
+ойна:ойна V-TV-AR ; ! "играть"
 
 чылы:чылы V-IV-AR ; ! "get warm"
 
 чурт:чуртт V-IV-AR ; ! "жить"
 
+сөгле:сөгле V-TV ; ! "сказать"
+
+ынакшы:ынакшы V-TV ; ! "любить"
 башкыла:башкила V-TV-AR ; ! ""
-ажылда:ажылда V-TV-AR ; ! "работать"
+ажылд:ажылд V-TV-AR ; ! "работать"
+айыт:ай%{y%}т V-TV ; ! "указывать"
+
+негеттин:негеттин V-IV-AR ; ! "требоваться"
 
 LEXICON Punctuation
 

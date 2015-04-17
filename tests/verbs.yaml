@@ -13,17 +13,31 @@ Tests:
     көр<v><tv><past><p3><sg> : көрген
     уш<v><iv><past><p3><sg> : ушкан
 
- "Aorist -Aр/-Iр":
-    бил<v><tv><aor><p3><sg> : билир
-    кел<v><iv><aor><p3><sg> : келир
-    ажылда<v><tv><aor><p3><sg> : ажылдаар
-    чору<v><iv><aor><p3><sg> : чоруур
-    бол<v><iv><aor><p3><sg> : боор
-    бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
-    
  "Past -DI": 
     бер<v><tv><ifi><p1><sg> : бердим 
     көр<v><tv><ifi><p1><sg> : көрдүм
     уду<v><iv><ifi><p1><sg> : удудум
     бер<v><tv><ifi><p1><sg> : бердим 
     уш<v><iv><ifi><p1><sg> : уштум
+
+ "Aorist -Aр/-Iр [stems in -л and -р]":
+    шүг<v><tv><aor><p3><sg> : шүүг
+    бар<v><iv><aor><p3><sg> : баар
+    бер<v><tv><aor><p3><sg> : бээр
+    көр<v><tv><aor><p3><sg> : көөр
+    ал<v><tv><aor><p3><sg> : алыр
+    кел<v><iv><aor><p3><sg> : келир
+    кел<v><iv><aor><p3><sg> : кээр
+    бол<v><iv><aor><p3><sg> : болур
+    бол<v><iv><aor><p3><sg> : боор
+    бил<v><tv><aor><p3><sg> : билир
+ 
+ "Aorist -Aр/-Iр [other]":
+    ажылда<v><tv><aor><p3><sg> : ажылдаар
+    ойна<v><iv><aor><p3><sg> : ойнаар
+    чору<v><iv><aor><p3><sg> : чоруур
+    кир<v><iv><aor><p3><sg> : кирер
+    кыл<v><iv><aor><p3><sg> : кылыр
+    чел<v><iv><aor><p3><sg> : челер 
+    бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
+    ынакшы<v><tv><aor><p3><sg> : ынакшыыр 
