@@ -460,11 +460,11 @@ LEXICON PRON-REFL
 
 %<prn%>%<ref%>%<px1sg%>:%>%{i%}м PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2sg%>:%>%{i%}ң PRON-REF-ADV ;
-%<prn%>%<ref%>%<px3sp%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ; ! FIXME <px3sg>?
+%<prn%>%<ref%>%<px3sp%>:%>%{z%}%{I%}%{n%} PRON-REF-ADV ; ! FIXME <px3sg>?
 %<prn%>%<ref%>%<px1pl%>:%>%{i%}в%{I%}с PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}ң%{A%}р PRON-REF-ADV ;
 
-LEXICON PRON-ITG
+LEXICON PRON-ITG-TJYY
 
 %<prn%>%<itg%>%<nom%>:ү # ;
 %<prn%>%<itg%>%<gen%>:%>%{N%}%{I%}ң # ;
@@ -473,6 +473,12 @@ LEXICON PRON-ITG
 %<prn%>%<itg%>%<loc%>:%>%{D%}%{A%} # ;
 %<prn%>%<itg%>%<abl%>:%>%{D%}%{A%}н # ;
 %<prn%>%<itg%>%<all%>:%>%{J%}е # ;
+
+%<prn%>%<itg%>: POSS-REAL ; 
+
+LEXICON PRON-ITG
+
+%<prn%>%<itg%>: SUBST ; 
 
 LEXICON DET-QNT
 
@@ -574,7 +580,8 @@ PRON-PERS-OL ;
 PRON-DEM-BO ; ! ""
 PRON-DEM-OL ; 
 
-чүү:чү PRON-ITG ; ! "что"
+чүү:чү PRON-ITG-TJYY ; ! "что"
+кым:кым PRON-ITG ; ! "что"
 
 бот:бот PRON-REFL ; ! ""
 
@@ -2829,6 +2836,7 @@ LEXICON Nouns
 программа:программа N1 ; ! ""
 кожуун:кожуун N1 ; ! ""
 район:район N1 ; ! ""
+автобус:автобус N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -4527,6 +4535,8 @@ LEXICON Adjectives
 LEXICON Adverbs
 
 кайда:кайда ADV-ITG ; ! "где?"
+каяа:каяа ADV-ITG ; ! "куда?"
+кайнаар:кайнаар ADV-ITG ; ! "куда?"
 кажан:кажан ADV-ITG ; ! "когда?"
 
 бөгүн:бөгүн ADV ; ! ""
@@ -4590,6 +4600,7 @@ LEXICON Verbs
 башкыла:башкила V-TV-AR ; ! ""
 ажылд:ажылд V-TV-AR ; ! "работать"
 айыт:ай%{y%}т V-TV ; ! "указывать"
+айтыр:айтыр V-TV-AR ; ! "спрашивать"
 
 негеттин:негеттин V-IV-AR ; ! "требоваться"
 
