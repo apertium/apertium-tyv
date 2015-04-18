@@ -183,6 +183,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 "{I} harmony"
 %{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
+             .#. (RealCns:) :Vx RealCns: %>: _ ; ! Monosyllabic stems with cns deletion
          except
              [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
          !    :Vow/:0* _ ;
@@ -191,6 +192,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
+!@ ч у г:0 >:0 %{I}:у р
 
 "{I} deletion in px3.acc"
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
@@ -221,6 +223,10 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
+
+"г deletion in aorist"
+г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
+
 
 !@ ч а ъ:0 с:з >:0 {i}:ы м
 !@ ч а ъ:0 с:з >:0 {i}:ы м >:0 {G}:г {A}:а

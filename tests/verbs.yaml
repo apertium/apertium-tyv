@@ -39,11 +39,11 @@ Tests:
  "Aorist -Aр/-Iр [stems in -г]":
     уг<v><tv><aor><p3><sg> : уур
     дег<v><tv><aor><p3><sg> : дээр
-    чаг<v><tv><aor><p3><sg> : чаар
+    чаг<v><iv><aor><p3><sg> : чаар
     шүг<v><tv><aor><p3><sg> : шүүр
     чуг<v><tv><aor><p3><sg> : чуур
     каг<v><iv><aor><p3><sg> : каар
-    даг<v><iv><aor><p3><sg> : даар
+    даг<v><tv><aor><p3><sg> : даар
 
  "Aorist -Aр/-Iр [stems with epenthetic vowel]":
     ужул<v><tv><aor><p3><sg> : уштур
