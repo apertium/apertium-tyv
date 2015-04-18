@@ -31,13 +31,27 @@ Tests:
     бол<v><iv><aor><p3><sg> : болур
     бол<v><iv><aor><p3><sg> : боор
     бил<v><tv><aor><p3><sg> : билир
- 
- "Aorist -Aр/-Iр [other]":
+
+ "Aorist -Aр/-Iр [stems in -й]":
+    чай<v><tv><aor><p3><sg> : чаяр
+    өй<v><tv><aor><p3><sg> : өер
+
+ "Aorist -Aр/-Iр [stems in -г]":
+    уг<v><tv><aor><p3><sg> : уур
+
+ "Aorist -Aр/-Iр [stems with epenthetic vowel]":
+    ужул<v><tv><aor><p3><sg> : уштур
+    чедиш<v><tv><aor><p3><sg> : четчир
+
+ "Aorist -Aр/-Iр [vowel stems]":
     ажылда<v><tv><aor><p3><sg> : ажылдаар
     ойна<v><iv><aor><p3><sg> : ойнаар
     чору<v><iv><aor><p3><sg> : чоруур
+    бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
+    ынакшы<v><tv><aor><p3><sg> : ынакшыыр 
+ 
+ "Aorist -Aр/-Iр [other]":
     кир<v><iv><aor><p3><sg> : кирер
     кыл<v><iv><aor><p3><sg> : кылыр
     чел<v><iv><aor><p3><sg> : челер 
-    бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
-    ынакшы<v><tv><aor><p3><sg> : ынакшыыр 
+

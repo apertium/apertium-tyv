@@ -103,6 +103,8 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
 
 !@ с о о к:г >:0 {z}:0 {I}:у
 
+
+
 "Intervocalic nasal deletion"
 Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
      where Cx in NNg ;
@@ -132,10 +134,13 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
+                              VoicelessCnsRus %{☭%}: %>: _ ; 
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
           where Cx in ( %{M%}  %{D%}  %{L%}  %{N%} )
                 Cy in (   п      т      т      т   )
                 matched;
+
+!@ с а д {☭}:0 >:0 {D}:т {A}:а
 
 "Epenthesis in some stems"
 %{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
