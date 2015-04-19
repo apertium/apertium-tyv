@@ -478,3 +478,32 @@ Tests:
     оол<n><pl><px2pl><abl> : оолдарыңардан
     оол<n><pl><px2pl><all> : оолдарыңарже
 
+  "Miscellaneous":
+    тавак<n><px1sg><nom> : таваам
+    тавак<n><px2sg><nom> : тавааң
+    тавак<n><px3sp><nom> : таваа
+
+    балык<n><px1sg><nom> : балыым
+    балык<n><px2sg><nom> : балыың
+    балык<n><px3sp><nom> : балыы
+
+    билиг<n><px1sg><nom> : билиим
+    билиг<n><px2sg><nom> : билииң
+    билиг<n><px3sp><nom> : билии
+
+    уруг<n><px1sg><nom> : уруум
+    уруг<n><px2sg><nom> : урууң
+    уруг<n><px3sp><nom> : уруу
+
+    белек<n><px1sg><nom> : белээм
+    белек<n><px2sg><nom> : белээң
+    белек<n><px3sp><nom> : белээ
+
+    өг<n><px1sg><nom> : өөм
+    өг<n><px2sg><nom> : өөң
+    өг<n><px3sp><nom> : өө
+
+    өк<n><px1sg><nom> : өгүм
+    өк<n><px2sg><nom> : өгүң
+    өк<n><px3sp><nom> : өгүң
+
