@@ -14,7 +14,9 @@ Alphabet
 
    %{N%}:н 
  
-   %{G%}:г %{G%}:к
+   %{G%}:г ! %{G%}:к
+
+   %{g%}:г
  
    %{J%}:ж %{J%}:ч
 
@@ -60,13 +62,15 @@ Liquid     = Л
 Nasals      = Н М Ң
               н м ң ; 
 
-NNg         = Н Ң
-              н ң ;
+!NNg         = Н Ң
+!              н ң ;
+NNg         = Ң ң ;
 
 VoicelessCns = к п с т ц ш 
                К П С Т Ц Ш ; 
 
-VoicelessCnsRus = б в д ж г ;
+VoicelessCnsRus = Б В Д Ж Г
+                  б в д ж г ;
 
 
 Abstract    = %{z%} %{n%} ;
@@ -106,9 +110,11 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
 
 
 "Intervocalic nasal deletion"
-Cx:0 <=> .#. :Vow/:0* _ [ %>: :Vow ]/:0* ;
+Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
      where Cx in NNg ;
 
+"Intervocalic {G} deletion"
+%{g%}:0 <=> :Vow/:0* _ ;
 
 
 !!!== Desonorisation ==!!!
@@ -133,28 +139,29 @@ Cx:0 <=> .#. :Vow/:0* _ [ %>: :Vow ]/:0* ;
 !@ б ү р ү >:0 {z}:з {I}:ү {n}:0
 
 "Forward voicing assimilation"
-Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
+Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
                               VoicelessCnsRus %{☭%}: %>: _ ; 
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
-          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%} )
-                Cy in (   п      т      т      т   )
+          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} )
+                Cy in (   п      т      т      т      к   )
                 matched;
 
 !@ с а д {☭}:0 >:0 {D}:т {A}:а
 
+"{g} voicing assimilation"
+%{g%}:к <=> :VoicelessCns/:0* _ ;
+
+
 "Epenthesis in some stems"
 %{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
+
+
+!!!== Vowel harmony ==!!!
 
 "Harmony of unepenthesised vowel in some stems"
 %{y%}:Vy <=> [ :Vx :Cns* :Cns ]/[ %>: | :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! Check и
                Vy in ( ү и и и ү ы у ы у ы у у )
-         matched ;
-
-"{i} harmony after deleted nasal"
-%{i%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
-         where Vx in ( а о ө я )
-               Vy in ( а о ө а )
          matched ;
 
 "{i} harmony"
@@ -171,9 +178,15 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
         except
             [ :Vow NNg:0 ]/[ :0 - NNg: ]* _ ;
 
-"Vowel harmony for {A}"
+"Normal front vowel harmony for {A}"
 %{A%}:е <=> :FrontVow [ :Cns* :RealCns ]/[:0* | ь ] _ ;
             Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
+        except
+            [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+
+"Vowel harmony for {A} after deleted {g}"
+%{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+
 
 "{I} harmony after deleted nasal"
 %{I%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
@@ -196,8 +209,28 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
 
 !@ х ү н >:0 {z}:0 {I}:ү {n}:0
 
+
+!!== Vowel harmony in context of other processes ==!!
+
+"{i} harmony after deleted nasal"
+%{i%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
+         where Vx in ( а о ө я )
+               Vy in ( а о ө а )
+         matched ;
+
+"(verb)stem vowel-final assimliation before {g} deletion"
+Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
+      where Vx in ( и е у )
+            Vy in ( э э а )
+      matched ;
+
+!@ б и ж и:э >:0 {g}:0 {A}:э н
+
+!!== Morphological stuff ==!!
+
 "{I} deletion in px3.acc"
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
+
 
 !!== Misc segmental stuff ==!!
 

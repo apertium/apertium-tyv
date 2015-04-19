@@ -103,6 +103,7 @@ Multichar_Symbols
 %{I%}   ! ы у и ү
 %{A%}   ! а е
 %{B%}   ! б в
+%{g%}   ! г к 0
 
 %{z%}   ! - з
 %{n%}   ! - н
@@ -276,7 +277,7 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 ! and lacking the initial velar sound when used following vowel-final stems; 
 ! elsewhere the alternations show a similar distribution to the dative case marker.
 
-%<past%>:%>%{G%}%{A%}н V-PERS-S1 ;
+%<past%>:%>%{g%}%{A%}н V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 
 LEXICON V-NONFINITE-REGULAR_NEGATIVE

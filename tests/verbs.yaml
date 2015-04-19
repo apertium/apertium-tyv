@@ -7,11 +7,15 @@ Config:
 Tests:
 
  "Past -GAн":
-    бижи<v><tv><past><p3><sg> : бижээн
     кел<v><iv><past><p3><sg> : келген
     бер<v><tv><past><p3><sg> : берген
     көр<v><tv><past><p3><sg> : көрген
     уш<v><iv><past><p3><sg> : ушкан
+
+ "[twol] Past in -GAн after vowels":
+    бижи<v><tv><past><p3><sg> : бижээн
+    уду<v><iv><past><p3><sg> : удаан
+    неге<v><tv><past><p3><sg> : негээн
 
  "Past -DI": 
     бер<v><tv><ifi><p1><sg> : бердим 
