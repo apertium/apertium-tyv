@@ -15,7 +15,7 @@ Tests:
  "[twol] Past in -GAн after vowels":
     бижи<v><tv><past><p3><sg> : бижээн
     уду<v><iv><past><p3><sg> : удаан
-    неге<v><tv><past><p3><sg> : негээн
+    неге<v><TD><past><p3><sg> : негээн
 
  "Past -DI": 
     бер<v><tv><ifi><p1><sg> : бердим 
