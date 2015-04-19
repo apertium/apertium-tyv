@@ -106,7 +106,7 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
 
 
 "Intervocalic nasal deletion"
-Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+Cx:0 <=> .#. :Vow/:0* _ [ %>: :Vow ]/:0* ;
      where Cx in NNg ;
 
 
@@ -193,6 +193,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ] _ ;
          matched ;
 
 !@ ч у г:0 >:0 %{I}:у р
+
+!@ х ү н >:0 {z}:0 {I}:ү {n}:0
 
 "{I} deletion in px3.acc"
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
