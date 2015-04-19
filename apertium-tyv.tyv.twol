@@ -62,9 +62,8 @@ Liquid     = Л
 Nasals      = Н М Ң
               н м ң ; 
 
-!NNg         = Н Ң
-!              н ң ;
-NNg         = Ң ң ;
+Velars         = Ң Г К 
+                ң г к ;
 
 VoicelessCns = к п с т ц ш 
                К П С Т Ц Ш ; 
@@ -94,24 +93,41 @@ Rules
 "{z} surfaces after a vowel"
 %{z%}:з <=> :Vow/:0* _ ;
         except
-            [ :Vow NNg: ]/:0* _ ;
+            [ :Vow Velars: ]/:0* _ ;
             г:/:0* _ ;
 
 !@ с о ң:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а
 
 "Intervocalic voicing at a morpheme boundary"
 Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
-      where Cx in ( п т с ш к )
-            Cy in ( б д з ж г )
+      where Cx in ( п т с ш )
+            Cy in ( в д з ж )
       matched ;
+
+!@ к а с:з >:0 {z}:0 {I}:ы
+
+
+"Intervocalic voicing of к at morpheme boundary in monosyllabic stems"
+к:г <=> .#. [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
 
 !@ с о о к:г >:0 {z}:0 {I}:у
 
 
 
-"Intervocalic nasal deletion"
+"Intervocalic voiced velar deletion"
 Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
-     where Cx in NNg ;
+     where Cx in ( г ң ) ;
+
+"Intervocalic voiceless velar deletion"
+к:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+     except
+         .#. [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
+
+
+!@ ө к:г >:0 {i}:ү м
+!@ ө г:0 >:0 {i}:ө м
+!@ б е л е:э к:0 >:0 {i}:э м
+!@ б и л и:и к:0 >:0 {i}:и м
 
 "Intervocalic {G} deletion"
 %{g%}:0 <=> :Vow/:0* _ ;
@@ -160,23 +176,23 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "Harmony of unepenthesised vowel in some stems"
 %{y%}:Vy <=> [ :Vx :Cns* :Cns ]/[ %>: | :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
-         where Vx in ( ү и е э ө а о ы у я ё ю ) ! Check и
+         where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
 "{i} harmony"
 %{i%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
          except
-             [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
+             [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
          !    :Vow/:0* _ ;
-         where Vx in ( ү и е э ө а о ы у я ё ю ) ! Check и
+         where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
 "{i} deletion after vowel"
 %{i%}:0 <=> :Vow/:0* _ ;
         except
-            [ :Vow NNg:0 ]/[ :0 - NNg: ]* _ ;
+            [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
 
 "Normal front vowel harmony for {A}"
 %{A%}:е <=> :FrontVow [ :Cns* :RealCns ]/[:0* | ь ] _ ;
@@ -184,24 +200,14 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
         except
             [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
 
-"Vowel harmony for {A} after deleted {g}"
-%{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
-
-
-"{I} harmony after deleted nasal"
-%{I%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
-         where Vx in ( а о ө я )
-               Vy in ( а о ө а )
-         matched ;
-
 "{I} harmony"
 %{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
              .#. (RealCns:) :Vx RealCns: %>: _ ; ! Monosyllabic stems with cns deletion
          except
-             [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
+             [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
          !    :Vow/:0* _ ;
              %{n%}:0 %>: %{N%}:н _ .#. ;
-         where Vx in ( ү и е э ө а о ы у я ё ю ) ! Check и
+         where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
@@ -212,10 +218,16 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 !!== Vowel harmony in context of other processes ==!!
 
-"{i} harmony after deleted nasal"
-%{i%}:Vy <=> [ :Vx NNg:0 ]/[ :0 - NNg: ]* _ ;
-         where Vx in ( а о ө я )
-               Vy in ( а о ө а )
+"{I} harmony after deleted velar"
+%{I%}:Vy <=> [ Vx: Velars:0 ]/[ :0 - Velars: ]* _ ;
+         where Vx in ( и ү е ө а о ы у я )
+               Vy in ( и ү э ө а о ы у а )
+         matched ;
+
+"{i} harmony after deleted velar"
+%{i%}:Vy <=> [ Vx: Velars:0 ]/[ :0 - Velars: ]* _ ;
+         where Vx in ( и ү е ө а о ы у я )
+               Vy in ( и ү э ө а о ы у а )
          matched ;
 
 "(verb)stem vowel-final assimliation before {g} deletion"
@@ -223,6 +235,22 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
       where Vx in ( и е у )
             Vy in ( э э а )
       matched ;
+
+!!FIXME: might be able to combine with above rule?
+!! wait for rules to grow some
+!"(verb)stem vowel-final assimliation before velar deletion"
+!Vx:Vy <=> _ Velars:0 %>: [ %{I%}: | %{i%}: ]/:0* ;
+!      where Vx in ( и е а у )
+!            Vy in ( и э а у )
+!      matched ;
+
+"Fix е to э when it becomes first part of long vowel, e.g. in velar deletion"
+е:э <=> _ %{i%}:э/:0 ;
+        _ %{I%}:э/:0 ;
+
+"Vowel harmony for {A} after deleted {g}"
+%{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+
 
 !@ б и ж и:э >:0 {g}:0 {A}:э н
 
@@ -259,8 +287,8 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
 
-"г deletion in aorist"
-г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
+!"г deletion in aorist"
+!г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
 
 
 !@ ч а ъ:0 с:з >:0 {i}:ы м
