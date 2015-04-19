@@ -49,6 +49,9 @@ BackVow    =  Я Ю Ё А О Ы У
 FrontVow   =  Э Е И Ө Ү 
               э е и ө ү ; 
 
+RealVow = А О Ы У Э Е И Ө Ү
+          а о ы у э е и ө ү ;
+
 Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
               б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ъ ь ; 
 
@@ -203,13 +206,30 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "{I} harmony"
 %{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
              .#. (RealCns:) :Vx RealCns: %>: _ ; ! Monosyllabic stems with cns deletion
+         !!    :Vx/:0* _ ;
          except
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
          !    :Vow/:0* _ ;
              %{n%}:0 %>: %{N%}:н _ .#. ;
+         !!    [ :Vow :Vow ]/:0* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
+
+"{I} harmony immediately after short vowels"
+%{I%}:Vy <=> :Vx/:0* _ ;
+         except
+             [ :Vow :RealVow ]/:0* _ ;
+             [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
+         where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
+               Vy in ( ү и э э ү а у ы у а у у )
+         matched ;
+
+"{I} deletion after long vowels"
+%{I%}:0 <=> [ :Vow :RealVow ]/:0* _ ;
+        except
+            [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
+
 
 !@ ч у г:0 >:0 %{I}:у р
 

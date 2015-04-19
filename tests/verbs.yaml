@@ -24,17 +24,28 @@ Tests:
     бер<v><tv><ifi><p1><sg> : бердим 
     уш<v><iv><ifi><p1><sg> : уштум
 
- "Aorist -Aр/-Iр [stems in -л and -р]":
+ "Aorist -Iр [stems in -р, р deletion]":
     бар<v><iv><aor><p3><sg> : баар
     бер<v><tv><aor><p3><sg> : бээр
     көр<v><tv><aor><p3><sg> : көөр
-    ал<v><tv><aor><p3><sg> : алыр
+
+ "Aorist -Aр [stems in -р, no р deletion]":
+    кир<v><iv><aor><p3><sg> : кирер
+
+ "Aorist -Iр/-Aр [stems in -л, л variable deletion]":
     кел<v><iv><aor><p3><sg> : келир
     кел<v><iv><aor><p3><sg> : кээр
     бол<v><iv><aor><p3><sg> : болур
     бол<v><iv><aor><p3><sg> : боор
-    бил<v><tv><aor><p3><sg> : билир
+
+ "Aorist -Iр/-Aр [stems in -л, л deletion]":
     эккел<v><tv><aor><p3><sg> : эккээр
+
+ "Aorist -Iр/-Aр [stems in -л, no л deletion]":
+    ал<v><tv><aor><p3><sg> : алыр
+    бил<v><tv><aor><p3><sg> : билир
+    кыл<v><tv><aor><p3><sg> : кылыр
+    чел<v><iv><aor><p3><sg> : челер 
 
  "Aorist -Aр/-Iр [stems in -й]":
     чай<v><tv><aor><p3><sg> : чаяр
@@ -63,17 +74,13 @@ Tests:
     шаш<v><iv><aor><p3><sg> : шанчар
 
  "Aorist -Aр/-Iр [vowel stems]":
-    ажылда<v><tv><aor><p3><sg> : ажылдаар
+    ажылда<v><iv><aor><p3><sg> : ажылдаар
     ойна<v><iv><aor><p3><sg> : ойнаар
-    чору<v><iv><aor><p3><sg> : чоруур
+    чору<vaux><aor><p3><sg> : чоруур
     бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
     иште<v><tv><aor><p3><sg> : иштээр
     ынакшы<v><tv><aor><p3><sg> : ынакшыыр 
     ижээ<v><tv><aor><p3><sg> : ижээр
-    хою<v><tv><aor><p3><sg> : хоюур
- 
- "Aorist -Aр/-Iр [other]":
-    кир<v><iv><aor><p3><sg> : кирер
-    кыл<v><iv><aor><p3><sg> : кылыр
-    чел<v><iv><aor><p3><sg> : челер 
+    хою<v><iv><aor><p3><sg> : хоюур
+    уду<v><iv><aor><p3><sg> : удуур
 
