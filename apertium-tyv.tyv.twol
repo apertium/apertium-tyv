@@ -265,8 +265,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "(verb)stem vowel-final assimliation before {g} deletion"
 Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
-      where Vx in ( и е у )
-            Vy in ( э э а )
+      where Vx in ( и е у ү ) ! а э  FIXME: are there other vowels a verb can dend with, besides those that don't change?
+            Vy in ( э э а э ) ! а э
       matched ;
 
 !!FIXME: might be able to combine with above rule?
