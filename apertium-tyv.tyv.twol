@@ -8,6 +8,8 @@ Alphabet
 
    %{A%}:а ! %{A%}:е
 
+   %{E%}:а %{A%}:е
+
    %{D%}:д 
  
    %{L%}:л 
@@ -20,7 +22,7 @@ Alphabet
  
    %{J%}:ж %{J%}:ч
 
-   %{B%}:б
+   %{B%}:б ! %{B%}:п %{B%}:м %{B%}:в
 
    %{i%}:0 ! %{i%}:ы %{i%}:и %{i%}:у %{i%}:ү
 
@@ -161,11 +163,18 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
                               VoicelessCnsRus %{☭%}: %>: _ ; 
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
-          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} )
-                Cy in (   п      т      т      т      к   )
+          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} %{B%} )
+                Cy in (   п      т      т      т      к     п  )
                 matched;
 
 !@ с а д {☭}:0 >:0 {D}:т {A}:а
+
+"{B} nasal assimilation"
+%{B%}:м <=> :Nasals %>: _ ;
+
+"{B} after vowel "
+%{B%}:в <=> :Vow %>: _ ;
+
 
 "{g} voicing assimilation"
 %{g%}:к <=> :VoicelessCns/:0* _ ;
@@ -234,6 +243,10 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 !@ ч у г:0 >:0 %{I}:у р
 
 !@ х ү н >:0 {z}:0 {I}:ү {n}:0
+
+
+"Turn {E} into й after a vowel"
+%{E%}:й <=> [ :Vow ]/[ %>: | :0 ] _ ;
 
 
 !!== Vowel harmony in context of other processes ==!!
@@ -310,6 +323,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !"г deletion in aorist"
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
 
+!"т deletion in -ст consonant cluster"
+!т:0 <=> .#. [ :Vow | :Cns ]* с _ %>: %{L%}: %{A%}: ; 
+
+!@ а р т и с т:0 >:0 {L}:т {A}:е р
 
 !@ ч а ъ:0 с:з >:0 {i}:ы м
 !@ ч а ъ:0 с:з >:0 {i}:ы м >:0 {G}:г {A}:а
@@ -324,3 +341,4 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ х ө й л е ң >:0 {D}:д {A}:е н
 !@ х ө й л е ң >:0 {N}:н {I}:и ң
 
+!@ а й т ы р ы г:0 >:0 {z}:0 {I}:ы {n}:0
