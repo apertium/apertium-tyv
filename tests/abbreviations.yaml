@@ -1,0 +1,15 @@
+Config:
+  hfst:
+      App: hfst-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+ "Noun ТР":
+    ТР<np><top><nom> : ТР
+    ТР<np><top><attr> : ТР
+    ТР<np><top><gen> : ТР-ниң
+    ТР<np><top><dat> : ТР-ге
+    ТР<np><top><loc> : ТР-де
+    ТР<np><top><abl> : ТР-ден

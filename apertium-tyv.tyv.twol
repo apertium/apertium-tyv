@@ -29,7 +29,7 @@ Alphabet
    %{z%}:з %{n%}:н %{y%}:ы
    %{z%}:0 %{n%}:0 %{y%}:0
 
-   %{и%}:и
+   %{и%}:и %{и%}:у %{и%}:ы 
 
    %{к%}:к
    %{г%}:г
@@ -73,8 +73,8 @@ Velars         = Ң Г К
 VoicelessCns = к п с т ц ш 
                К П С Т Ц Ш ; 
 
-VoicelessCnsRus = Б В Д Ж Г
-                  б в д ж г ;
+VoicelessCnsRus = З Б В Д Ж Г
+                  з б в д ж г ;
 
 
 Abstract    = %{z%} %{n%} ;
@@ -84,6 +84,18 @@ Rules
 
 "Remove stem epenthetic vowel in nominative"
 %{и%}:0 <=> _ .#. ; 
+
+"Harmony of vowel in some stems"
+%{и%}:Vy <=> [ :Vx :Cns* :Cns ] _ (%{☭%}:) %>: ;
+         where Vx in ( ү и е э ө а о ы у я ё ю )
+               Vy in ( ү и и и ү ы у ы у ы у у )
+         matched ;
+
+!@ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н
+
+!@ п р е з и д е н т {и}:и >:0 {z}:з {I}:и {n}:0
+
+!@ ф о н д {и}:у {☭}:0 >:0 {z}:з {I}:у {n}:0
 
 !"D nasal harmony"
 !%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
@@ -141,13 +153,15 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 !!!== Desonorisation ==!!!
 
 "{L} desonorisation"
-%{L%}:д <=> :Liquid/:0* _ ;
+%{L%}:д <=> :Liquid/[ ь | :0]* _ ;
+
+!@ м е д а л ь >:0 {L}:д {A}:а р
 
 ! {L} desonorisation should *not* happen here:
 !@ д а г >:0 {L}:л {A}:а р
 
 "N Desonorisation"
-%{N%}:д <=> :Liquid/:0* _ ;
+%{N%}:д <=> :Liquid/[ ь | :0]* _ ;
 
 
 "{L} nasal assimilation"
@@ -319,6 +333,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
+
+"ь to и before px3sp"
+ь:0 <=> _ %>: %{z%}:  ; 
+
+!@ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е 
 
 !"г deletion in aorist"
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 

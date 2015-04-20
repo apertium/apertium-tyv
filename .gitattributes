@@ -19,6 +19,7 @@ speller/editdist.default.txt -text
 speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
+tests/abbreviations.yaml -text
 tests/cases.yaml -text
 tests/possessives.yaml -text
 tests/run-twol-pairtests.sh -text

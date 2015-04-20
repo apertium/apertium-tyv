@@ -9,10 +9,13 @@ LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
 LIST Gpr/Aor = gpr_aor ; 
+LIST Gpr/Past = gpr_past ; 
 
 LIST Aor = aor ; 
 
+SET Gpr = Gpr/Aor OR Gpr/Past ; 
+
 SECTION
 
-REMOVE Gpr/Aor IF (1 EOS) ; 
+REMOVE Gpr IF (1 EOS) ; 
    ## Ол сеңээ бүзүрээр.
