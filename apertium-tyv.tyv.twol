@@ -294,6 +294,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "Fix е to э when it becomes first part of long vowel, e.g. in velar deletion"
 е:э <=> _ %{i%}:э/:0 ;
         _ %{I%}:э/:0 ;
+!        _ %{A%}:э/:0 ;
+
+!@ н е г е:э >:0 {g}:0 {A}:э н
 
 "Vowel harmony for {A} after deleted {g}"
 %{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
