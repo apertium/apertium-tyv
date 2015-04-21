@@ -64,6 +64,7 @@ Multichar_Symbols
 %<px3sp%>
 %<px1pl%>
 %<px2pl%>
+%<px3pl%>
 
 %<px%>
 
@@ -554,6 +555,7 @@ LEXICON PRON-REFL
 %<prn%>%<ref%>%<px3sp%>:%>%{z%}%{I%}%{n%} PRON-REF-ADV ; ! FIXME <px3sg>?
 %<prn%>%<ref%>%<px1pl%>:%>%{i%}в%{I%}с PRON-REF-ADV ;
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}ң%{A%}р PRON-REF-ADV ;
+%<prn%>%<ref%>%<px3pl%>:%>т%{A%}р%>%{z%}%{I%}%{n%} PRON-REF-ADV ;
 
 LEXICON PRON-ITG-TJYY
 
