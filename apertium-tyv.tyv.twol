@@ -121,6 +121,7 @@ Rules
 
 "Intervocalic voicing at a morpheme boundary"
 Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
+!except??          :VoicelessCns/:0* _ ;
       where Cx in ( п т с ш )
             Cy in ( в д з ж )
       matched ;
@@ -179,13 +180,21 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
-                              VoicelessCnsRus %{☭%}: %>: _ ; 
+                               VoicelessCnsRus %{☭%}: %>: _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
           where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} %{B%} )
-                Cy in (   п      т      т      т      к     п  )
+                Cy in (   п      т      т      т      к     п   )
                 matched;
 
 !@ с а д {☭}:0 >:0 {D}:т {A}:а
+
+"Forward voicing assimilation of normal stuff"
+Cx:Cy <=> :VoicelessCns/:0* _ ;
+          where Cx in ( л н )
+                Cy in ( т т )
+                matched;
+
+
 
 "{B} nasal assimilation"
 %{B%}:м <=> :Nasals %>: _ ;
