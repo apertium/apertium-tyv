@@ -26,11 +26,13 @@ Alphabet
 
    %{i%}:0 ! %{i%}:ы %{i%}:и %{i%}:у %{i%}:ү
 
-!   %{z%}:з
-           %{n%}:н %{y%}:ы
+!   %{z%}:з        %{y%}:ы
+           %{n%}:н 
    %{z%}:0 %{n%}:0 %{y%}:0
 
    %{и%}:и %{и%}:у %{и%}:ы 
+
+	%{y%}:0
 
    %{к%}:к
    %{г%}:г
@@ -172,6 +174,10 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals %>: _ ;
 
+"л to н assimilation when no epenthetic vowel"
+л:н <=> _ %{y%}:0 н ;
+
+
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
              _ %>: %{N%}: ; 
@@ -194,8 +200,6 @@ Cx:Cy <=> :VoicelessCns/:0* _ ;
                 Cy in ( т т )
                 matched;
 
-
-
 "{B} nasal assimilation"
 %{B%}:м <=> :Nasals %>: _ ;
 
@@ -207,13 +211,9 @@ Cx:Cy <=> :VoicelessCns/:0* _ ;
 %{g%}:к <=> :VoicelessCns/:0* _ ;
 
 
-"Epenthesis in some stems"
-%{y%}:0 <=> _ [ :Cns :Vow ]/[ :0 | %>: ] ;
-
-
 !!!== Vowel harmony ==!!!
 
-"Harmony of unepenthesised vowel in some stems"
+"Harmony of epenthesised vowel in some stems"
 %{y%}:Vy <=> [ :Vx :Cns* :Cns ]/[ %>: | :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
