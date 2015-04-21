@@ -26,13 +26,15 @@ Alphabet
 
    %{i%}:0 ! %{i%}:ы %{i%}:и %{i%}:у %{i%}:ү
 
-   %{z%}:з %{n%}:н %{y%}:ы
+!   %{z%}:з
+           %{n%}:н %{y%}:ы
    %{z%}:0 %{n%}:0 %{y%}:0
 
    %{и%}:и %{и%}:у %{и%}:ы 
 
    %{к%}:к
    %{г%}:г
+   %{н%}:0
 
    %{☭%}:0
 
@@ -77,7 +79,9 @@ VoicelessCnsRus = З Б В Д Ж Г
                   з б в д ж г ;
 
 
-Abstract    = %{z%} %{n%} ;
+!Abstract    = %{z%} %{n%} ;
+!FIXME: what's this for?
+!FIXME: Usually Abstract is for archiphonemes that never surface, but trigger phonology, such as 1%{и%}%{р%}
 
 Rules
 
@@ -345,6 +349,16 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
      where Vx in ( а о )
            Vy in ( а о )
      matched ;
+
+"{н} surfaces as н when syllable-finally"
+%{н%}:н <=> :Vow _ [ :Cns :Vow ]/:0* ;
+
+!"{н} deletion when part of coda cluster"
+!%{н%}:0 <=> :Vow _ [ :Cns :Cns ]/:0* ;
+!            :Vow _ :Cns/:0* .#. ;
+
+"ш to ч after {н} when it surfaces"
+ш:ч <=> %{н%}:н _ ;
 
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
