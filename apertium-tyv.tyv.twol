@@ -222,9 +222,15 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "Normal front vowel harmony for {A}"
 %{A%}:е <=> :FrontVow [ :Cns* :RealCns ]/[:0* | ь ] _ ;
-            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
+!            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
+            [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
             [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+
+"yotted {A} harmony"
+%{A%}:я <=> [ BackVow: й: ]/:0* _ ;
+         except
+             Vow: [ %>: %{G%}:0 ]/:0* _ ; 
 
 "{I} harmony"
 %{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
@@ -235,6 +241,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          !    :Vow/:0* _ ;
              %{n%}:0 %>: %{N%}:н _ .#. ;
          !!    [ :Vow :Vow ]/:0* _ ;
+             [ :Vx р:0 ]/[ :0 - р: ]* _ ;
+             [ :Vx й:0 ]/[ :0 - й: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
@@ -245,7 +253,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ :Vow :RealVow ]/:0* _ ;
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
-               Vy in ( ү и э э ү а у ы у а у у )
+               Vy in ( ү и э э ө а у ы у а у у )
          matched ;
 
 "{I} deletion after long vowels"
@@ -301,8 +309,12 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "Vowel harmony for {A} after deleted {g}"
 %{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
 
-
 !@ б и ж и:э >:0 {g}:0 {A}:э н
+
+!"{A} stays а" ! FIXME
+!%{A%}:а <=> :BackVow/[ :0 - й: ]* _ ;
+
+
 
 !!== Morphological stuff ==!!
 
@@ -341,6 +353,17 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 ь:0 <=> _ %>: %{z%}:  ; 
 
 !@ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е 
+
+"р deletion in aorist"
+р:0 <=> _ [ %>: %{I%}: ]/:0* р ;
+
+!@ б а р:0 >:0 {I}:а р
+
+"й deletion before yot vowels"
+й:0 <=> _ %{A%}:/:0* ;
+
+!@ ч а й:0 >: {A}:я р
+
 
 !"г deletion in aorist"
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
