@@ -50,7 +50,7 @@ Tests:
 
  "Aorist -Aр/-Iр [stems in -й]":
     чай<v><tv><aor><p3><sg> : чаяр
-    өй<v><tv><aor><p3><sg> : өер
+    өй<v><TD><aor><p3><sg> : өер
     мөгей<v><iv><aor><p3><sg> : мөгеер
 
  "Aorist -Aр/-Iр [stems in -г]":
