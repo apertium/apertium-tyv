@@ -447,6 +447,10 @@ NUM-COMMON ;
 %<num%>%<ord%>:%>%{G%}%{I%} # ;             ! Dir/LR
 %<num%>%<ord%>:%>%{G%}%{I%} N-INFL-COMMON ; ! Dir/LR
 
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ;
+
 
 LEXICON PRON-PERS-MEN
 
@@ -684,8 +688,8 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
-%-биле:%-биле POST ; ! "with"
-%-биле:биле POST ; ! "with" ! Dir/LR
+биле:%-биле POST ; ! "with" ! Dir/LR
+биле:биле POST ; ! "with" 
 ужун:ужун POST ; ! "for"
 башка:башка POST ; ! ""
 кежилдир:кежилдир POST ; ! ""
@@ -777,6 +781,34 @@ LEXICON Numerals
 
 миллион:миллион NUM ; ! ""
 миллиард:миллиард NUM ; ! ""
+
+C:C NUM-ROMAN ; ! ""
+D:D NUM-ROMAN ; ! ""
+DC:DC NUM-ROMAN ; ! ""
+I:I NUM-ROMAN ; ! ""
+II:II NUM-ROMAN ; ! ""
+III:III NUM-ROMAN ; ! ""
+IV:IV NUM-ROMAN ; ! ""
+V:V NUM-ROMAN ; ! ""
+VI:VI NUM-ROMAN ; ! ""
+VII:VII NUM-ROMAN ; ! ""
+VIII:VIII NUM-ROMAN ; ! ""
+IX:IX NUM-ROMAN ; ! ""
+L:L NUM-ROMAN ; ! ""
+M:M NUM-ROMAN ; ! ""
+X:X NUM-ROMAN ; ! ""
+XI:XI NUM-ROMAN ; ! ""
+XII:XII NUM-ROMAN ; ! ""
+XIII:XIII NUM-ROMAN ; ! ""
+XIV:XIV NUM-ROMAN ; ! ""
+XV:XV NUM-ROMAN ; ! ""
+XVI:XVI NUM-ROMAN ; ! ""
+XVII:XVII NUM-ROMAN ; ! ""
+XVIII:XVIII NUM-ROMAN ; ! ""
+XIX:XIX NUM-ROMAN ; ! ""
+XX:XX NUM-ROMAN ; ! ""
+XXI:XXI NUM-ROMAN ; ! ""
+
 
 LEXICON Nouns 
 
@@ -3017,6 +3049,7 @@ LEXICON Nouns
 район:район N1 ; ! ""
 автобус:автобус N1 ; ! ""
 угбай:угбай N1 ; ! ""
+угба:угба N1 ; ! "старшая сестра"
 хол:хол N1 ; ! "рука"
 чорук:чорук N1 ; ! ""
 витамин:витамин N1 ; ! ""
@@ -3632,6 +3665,10 @@ LEXICON Nouns
 ис:ис N1 ; ! ""
 классчы:классчы N1 ; ! ""
 фронтучу:фронтучу N1 ; ! ""
+лауреат:лауреат N1 ; ! ""
+эргин:эргин N1 ; ! "порог"
+
+нерв:нерв N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -3826,6 +3863,7 @@ LEXICON ProperNouns
 Чадаана:Чадаана NP-TOP ; ! ""
 Ак%-Довурак:Ак%-Довурак NP-TOP ; ! ""
 
+Тензин:Тензин NP-ANT-M ; ! ""
 Антон:Антон NP-ANT-M ; ! ""
 Александр:Александр NP-ANT-M ; ! ""
 Владимир:Владимир NP-ANT-M ; ! ""
@@ -7601,6 +7639,7 @@ LEXICON Adverbs
 чыгыы:чыгыы ADV ; ! "почти"
 дораан:дораан ADV ; ! "сразу"
 чогум:чогум ADV ; ! "именно"
+ыяк:ыяк ADV ; ! "основательно"
 
 үргүлчү:үргүлчү ADV ; ! ""
 кады:кады ADV ; ! ""
@@ -7611,11 +7650,13 @@ LEXICON Adverbs
 шуут:шуут ADV ; ! "прямо"
 бурунгаар:бурунгаар ADV ; ! "вперёд"
 ыңай:ыңай ADV ; ! "дальше, подальше; туда"
+ужу%-бажы:ужу%-бажы ADV ; ! "начало и конец" ! FIXME: px3sp forms
 
 аарак:аарак ADV ; ! "чуть-чуть"
 эмгежок:эмгежок ADV ; ! "очень много"
 
 өскээр:өскээр ADV ; ! "по-другому"
+чөп:чөп ADV ; ! "правильно"
 
 эки:эки ADV ; ! "хорошо"
 
@@ -7643,7 +7684,7 @@ LEXICON Verbs
 бол:бол V-IV ; ! "be" ! FIXME: боор
 бил:бил V-TV ; ! "know"
 кел:кел V-IV ; ! "come"
-уш:уш V-IV ; ! "fly"
+уш:уш V-IV-AR ; ! "летать"
 
 ! FIXME: Both stems valid (?)
 чор:чор V-IV ; ! "идти, ехать"
@@ -7806,6 +7847,7 @@ LEXICON Verbs
 даңзыла:даңзыла V-TV-AR ; ! "регистрировать"
 соңгут:соңгут V-IV-AR ; ! "избираться" ! Mor/Pass
 ажаа:ажаа V-TV-AR ; ! "ухаживать" 
+чаяа:чаяа V-TV-AR ; ! "творить"
 
 !!!!!
 !! The stems below this line need categorising and the
@@ -8019,7 +8061,6 @@ LEXICON Verbs
 өй:өй V-TD-AR ; ! "катать" ! өер
 чама:чама V-TD-AR ; ! "латать" ! чамаар
 оң:оң V-TD-AR ; ! "выцветать" ! оңар
-уш:уш V-TD-AR ; ! "летать" ! ужар
 ужук:ужук V-TD-AR ; ! "улетать" ! ужугар
 сана:сана V-TD-AR ; ! "считать" ! санаар
 казы:казы V-TD ; ! "вычитать" ! казыыр
@@ -8117,7 +8158,6 @@ LEXICON Verbs
 хаар:хаар V-TD-AR ; ! "жарить" ! хаарар
 кылый:кылый V-TD-AR ; ! "парить" ! кылыяр
 чүлү:чүлү V-TD ; ! "брить" ! чүлүүр
-чаяа:чаяа V-TD-AR ; ! "творить" ! чаяар
 опта:опта V-TD-AR ; ! "хитрить" ! оптаар
 буду:буду V-TD ; ! "красить" ! будуур
 
@@ -8201,6 +8241,9 @@ LEXICON Abbreviations
 мм:мм ABBR ; 
 см:см ABBR ; 
 км:км ABBR ; 
+
+мг:мг ABBR ;  
+кг:кг ABBR ;  
 
 LEXICON Punctuation
 
