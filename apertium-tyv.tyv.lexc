@@ -3628,6 +3628,10 @@ LEXICON Nouns
 
 аржаан:аржаан N1 ; ! ""
 российжи:российжи N1 ; ! ""
+комиссариат:комиссариат N1 ; ! ""
+ис:ис N1 ; ! ""
+классчы:классчы N1 ; ! ""
+фронтучу:фронтучу N1 ; ! ""
 
 LEXICON ProperNouns 
 
@@ -6465,6 +6469,7 @@ LEXICON Adjectives
 ужурлуг:ужурлуг A4 ; ! "должен"
 
 херек:херек A1 ; ! "necessary"
+чоор:чоор A4 ; ! "надо, не надо" ! FIXME: categorisation
 
 чадавас:чадавас A4 ; ! "возможно" ! FIXME: categorisation
 магатчок:магатчок A4 ; ! "возможно" ! FIXME: categorisation
@@ -8193,8 +8198,9 @@ LEXICON Abbreviations
 млн%.:млн%. ABBR ; 
 млрд%.:млрд%. ABBR ; 
 
-км:км ABBR ; 
 мм:мм ABBR ; 
+см:см ABBR ; 
+км:км ABBR ; 
 
 LEXICON Punctuation
 
