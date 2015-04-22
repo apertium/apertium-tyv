@@ -194,11 +194,11 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 !@ с а д {☭}:0 >:0 {D}:т {A}:а
 
-"Forward voicing assimilation of normal stuff"
-Cx:Cy <=> :VoicelessCns/:0* _ ;
-          where Cx in ( л н )
-                Cy in ( т т )
-                matched;
+!"Forward voicing assimilation of normal stuff"
+!Cx:Cy <=> :VoicelessCns/:0* _ ;
+!          where Cx in ( л н )
+!                Cy in ( т т )
+!                matched;
 
 "{B} nasal assimilation"
 %{B%}:м <=> :Nasals %>: _ ;
