@@ -8,14 +8,23 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
+LIST Aux = vaux ; 
+
 LIST Gpr/Aor = gpr_aor ; 
 LIST Gpr/Past = gpr_past ; 
+
+LIST Prc/Aor = prc_aor ;
+LIST Prc/Perf = prc_perf ;
 
 LIST Aor = aor ; 
 
 SET Gpr = Gpr/Aor OR Gpr/Past ; 
 
+SET Prc = Prc/Aor OR Prc/Perf ; 
+
 SECTION
 
 REMOVE Gpr IF (1 EOS) ; 
    ## Ол сеңээ бүзүрээр.
+
+SELECT Aux IF (-1C Prc);

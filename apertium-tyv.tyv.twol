@@ -93,9 +93,15 @@ Rules
 
 "Harmony of vowel in some stems"
 %{и%}:Vy <=> [ :Vx :Cns* :Cns ] _ (%{☭%}:) %>: ;
+         except 
+             с к _ (%{☭%}:) %>: ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
+
+"Remove stem epenthetic vowel in nominative"
+%{и%}:и <=> с к _ (%{☭%}:) %>: ; 
+
 
 !@ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н
 
@@ -123,6 +129,7 @@ Rules
 
 "Intervocalic voicing at a morpheme boundary"
 Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
+          р/:0 _ %>: :Vow ;
 !except??          :VoicelessCns/:0* _ ;
       where Cx in ( п т с ш )
             Cy in ( в д з ж )
@@ -130,22 +137,31 @@ Cx:Cy <=> :Vow/:0 _ %>: :Vow/:0 ;
 
 !@ к а с:з >:0 {z}:0 {I}:ы
 
+!@ к и р {y}:0 ш:ж >:0 {i}:и п 
+
+!@ к о н к у р с:з >:0 {z}:0 {I}:у {n}:н >:0 {G}:г {A}:а
+
+!@ ч у р т >:0 {z}:0 {I}:у {n}:0       
 
 "Intervocalic voicing of к at morpheme boundary in monosyllabic stems"
 к:г <=> .#. [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
+                                       :Vow _ %{☭%}: %>: (:0) :Vow ; 
 
-!@ с о о к:г >:0 {z}:0 {I}:у
+!@ с о о к:г >:0 {z}:0 {I}:у {n}:0
 
-
+!@ р ы н о к:г {☭}:0 >:0 {z}:0 {I}:у {n}:0
 
 "Intervocalic voiced velar deletion"
 Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+     except
+         :Vow _ %{☭%}: %>: (:0) :Vow ; 
      where Cx in ( г ң ) ;
 
 "Intervocalic voiceless velar deletion"
 к:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
      except
          .#. [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
+         :Vow _ %{☭%}: %>: (:0) :Vow ; 
 
 
 !@ ө к:г >:0 {i}:ү м
@@ -385,14 +401,14 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "й deletion before yot vowels"
 й:0 <=> _ %{A%}:/:0* ;
 
-!@ ч а й:0 >: {A}:я р
+!@ ч а й:0 >:0 {A}:я р
 
 
 !"г deletion in aorist"
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
 
 !"т deletion in -ст consonant cluster"
-!т:0 <=> .#. [ :Vow | :Cns ]* с _ %>: %{L%}: %{A%}: ; 
+!т:0 <=> .#. [ Vow: | Cns: ]* с _ %>: %{L%}: %{A%}: ; 
 
 !@ а р т и с т:0 >:0 {L}:т {A}:е р
 
@@ -400,7 +416,6 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ ч а ъ:0 с:з >:0 {i}:ы м >:0 {G}:г {A}:а
 
 
-!@ ч у р т >:0 {z}:0 {I}:у {n}:0       
 !@ ч е ч е к >:0 {L}:т {A}:е р >:0 {D}:д {A}:е н
 !@ ө ө к:г >:0 {z}:0 {I}:ү {n}:0 
 !@ ш а к:г >:0 {z}:0 {I}:ы {n}:0 
