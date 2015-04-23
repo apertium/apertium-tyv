@@ -38,8 +38,11 @@ Alphabet
    %{г%}:г
    %{н%}:0
 
+   %{э%}:0
+
    %{☭%}:0
 
+   % 
    %.
 
    %>:0 ; 
@@ -250,11 +253,13 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
 
 "Normal front vowel harmony for {A}"
-%{A%}:е <=> :FrontVow [ :Cns* :RealCns ]/[:0* | ь ] _ ;
+%{A%}:е <=> [ %{э%}: | :FrontVow ] [ :Cns* :RealCns ]/[:0* | ь ] _ ;
 !            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
             [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+
+!@ Т ы в а   А С С Р {э}:0 >:0 {G}:г {A}:е
 
 "yotted {A} harmony"
 %{A%}:я <=> [ BackVow: й: ]/:0* _ ;
@@ -290,6 +295,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
 
+!@ Т ы в а   А С С Р {э}:0 >:0 {N}:н {I}:и ң
 
 !@ ч у г:0 >:0 %{I}:у р
 
