@@ -25,6 +25,9 @@ Tests:
     бер<v><tv><ifi><p1><sg> : бердим 
     уш<v><iv><ifi><p1><sg> : уштум
 
+ "Aorist -Aр [consonant stems]":
+    эрт<v><iv><aor><p3><sg> : эртер
+
  "Aorist -Iр [stems in -р, р deletion]":
     бар<vaux><aor><p3><sg> : баар
     бер<v><tv><aor><p3><sg> : бээр
@@ -95,4 +98,4 @@ Tests:
     бер<v><tv><prc_perf> : берип
     бил<v><tv><prc_perf> : билип
     өскерт<v><tv><prc_perf> : өскертип
-
+    арт<v><iv><prc_pref> : артып

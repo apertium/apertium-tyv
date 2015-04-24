@@ -44,6 +44,7 @@ Alphabet
 
    % 
    %.
+   %-
 
    %>:0 ; 
 
@@ -267,7 +268,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              Vow: [ %>: %{G%}:0 ]/:0* _ ; 
 
 "{I} harmony"
-%{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
+%{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/[ :0 | %- ]* _ ;
              .#. (RealCns:) :Vx RealCns: %>: _ ; ! Monosyllabic stems with cns deletion
          !!    :Vx/:0* _ ;
          except
@@ -431,3 +432,5 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ х ө й л е ң >:0 {N}:н {I}:и ң
 
 !@ а й т ы р ы г:0 >:0 {z}:0 {I}:ы {n}:0
+
+!@ б а р >:0 -:- {D}:д {I}:ы р
