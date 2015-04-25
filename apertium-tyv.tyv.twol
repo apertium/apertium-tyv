@@ -273,7 +273,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          !!    [ :Vow :Vow ]/:0* _ ;
              [ :Vx р:0 ]/[ :0 - р: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
-             [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
+             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
@@ -284,16 +284,18 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ :Vow :RealVow ]/:0* _ ;
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ :Vx %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
-             [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
+             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
                Vy in ( ү и э э ө а у ы у а у у )
          matched ;
 
 "Abstract harmony for {I}"
-%{I%}:Vy <=> [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
+%{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
          where AbstractVow in ( %{э%} )
                         Vy in (   и   )
          matched ;
+!%{I%}:Vy <=> [ Vx:0 Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+!         where          Vx in ( %{э%} )
 
 
 "Harmony of vowel in some stems"
@@ -322,7 +324,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
             [ :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
-            [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
+            [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {N}:н {I}:и ң
 
@@ -338,7 +340,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 %{I%}:Vy <=> [ Vx: Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ Vx: %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
          except
-             [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
+             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
          where Vx in ( и ү е ө а о ы у я )
                Vy in ( и ү э ө а о ы у а )
          matched ;
