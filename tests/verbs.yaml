@@ -27,6 +27,7 @@ Tests:
 
  "Aorist -Aр [consonant stems]":
     эрт<v><iv><aor><p3><sg> : эртер
+    шап<v><tv><aor><p3><sg> : шавар
 
  "Aorist -Iр [stems in -р, р deletion]":
     бар<vaux><aor><p3><sg> : баар
@@ -103,6 +104,7 @@ Tests:
     ойна<v><iv><prc_perf> : ойнап
     бер<v><tv><prc_perf> : берип
     бил<v><tv><prc_perf> : билип
+    шап<v><tv><prc_perf> : шаап
     өскерт<v><tv><prc_perf> : өскертип
     арт<v><tv><prc_perf> : артып
     чи<v><tv><prc_perf> : чип
