@@ -79,6 +79,16 @@ Tests:
     ажын<v><tv><aor><p3><sg> : аштыр
     сөгүл<v><iv><aor><p3><sg> : сөктүр
 
+ "Imperative [stems with epenthetic vowel]":
+    ужул<v><tv><imp><p2><sg> : ушул
+    чедиш<v><tv><imp><p2><sg> : чедиш
+    кириш<v><tv><imp><p2><sg> : кириш
+    куюс<v><tv><imp><p2><sg> : куюс
+    чалын<v><iv><imp><p2><sg> : чалын
+    хайын<v><TD><imp><p2><sg> : хайын
+    ажын<v><tv><imp><p2><sg> : ажын
+    сөгүл<v><iv><imp><p2><sg> : сөгүл
+
  "Aorist -Aр/-Iр [stems with epenthetic consonant]":
     соол<v><tv><aor><p3><sg> : соглур
     шаш<v><tv><aor><p3><sg> : шанчар
