@@ -35,6 +35,8 @@ Tests:
 
  "Aorist -Aр [stems in -р, no р deletion]":
     кир<v><iv><aor><p3><sg> : кирер
+    чору<v><iv><aor><p3><sg> : чоруур
+    чор<v><iv><aor><p3><sg> : чор
 
  "Aorist -Iр/-Aр [stems in -л, л variable deletion]":
     кел<v><iv><aor><p3><sg> : келир
