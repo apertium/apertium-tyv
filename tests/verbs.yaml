@@ -32,11 +32,11 @@ Tests:
     бар<vaux><aor><p3><sg> : баар
     бер<v><tv><aor><p3><sg> : бээр
     көр<v><tv><aor><p3><sg> : көөр
+    чор<v><iv><aor><p3><sg> : чор
 
  "Aorist -Aр [stems in -р, no р deletion]":
     кир<v><iv><aor><p3><sg> : кирер
     чору<v><iv><aor><p3><sg> : чоруур
-    чор<v><iv><aor><p3><sg> : чор
 
  "Aorist -Iр/-Aр [stems in -л, л variable deletion]":
     кел<v><iv><aor><p3><sg> : келир
@@ -105,4 +105,4 @@ Tests:
     бил<v><tv><prc_perf> : билип
     өскерт<v><tv><prc_perf> : өскертип
     арт<v><tv><prc_perf> : артып
-    чи<v><tv><prc_pref> : чип
+    чи<v><tv><prc_perf> : чип
