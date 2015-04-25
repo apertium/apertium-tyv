@@ -78,6 +78,7 @@ Tests:
     хайын<v><TD><aor><p3><sg> : хайныр
     ажын<v><tv><aor><p3><sg> : аштыр
     сөгүл<v><iv><aor><p3><sg> : сөктүр
+    айыт<v><tv><aor><p3><sg> : айтыр
 
  "Imperative [stems with epenthetic vowel]":
     ужул<v><tv><imp><p2><sg> : ужул
@@ -88,6 +89,7 @@ Tests:
     хайын<v><TD><imp><p2><sg> : хайын
     ажын<v><tv><imp><p2><sg> : ажын
     сөгүл<v><iv><imp><p2><sg> : сөгүл
+    айыт<v><iv><imp><p2><sg> : айыт
 
  "Aorist -Aр/-Iр [stems with epenthetic consonant]":
     соол<v><tv><aor><p3><sg> : соглур
@@ -118,6 +120,7 @@ Tests:
     өскерт<v><tv><prc_perf> : өскертип
     арт<v><tv><prc_perf> : артып
     чи<v><tv><prc_perf> : чип
+    айыт<v><tv><prc_perf> : айтып
 
  "Participle -Е":
     кир<v><iv><prc_impf> : кире
