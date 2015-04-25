@@ -128,6 +128,7 @@ Multichar_Symbols
 %{г%}
 %{н%}
 %{л%}
+%{р%}
 
 %{э%}                    ! Vowel harmony front unrounded
 
@@ -169,7 +170,16 @@ LEXICON CLIT-COP
 
 LEXICON CASES
 
+CASES-NOMONLY ;
+CASES-NONOM ;
+
+LEXICON CASES-NOMONLY
+
 %<nom%>: # ;
+
+
+LEXICON CASES-NONOM
+
 %<gen%>:%>%{N%}%{I%}ң # ;
 %<acc%>:%>%{N%}%{I%} # ;
 %<dat%>:%>%{G%}%{A%} # ;
@@ -177,10 +187,17 @@ LEXICON CASES
 %<abl%>:%>%{D%}%{A%}н # ;
 %<all%>:%>%{J%}е # ;
 
+
 LEXICON CASES-ETC
 
 CASES ;
 GENPOSS-ETC ;
+
+LEXICON CASES-ETC-NONOM
+
+CASES-NONOM ;
+GENPOSS-ETC ;
+
 
 LEXICON POSS-REAL
 
@@ -189,6 +206,15 @@ LEXICON POSS-REAL
 %<px3sp%>:%>%{z%}%{I%}%{n%} CASES-ETC ; 
 %<px1pl%>:%>%{i%}в%{I%}с CASES-ETC ; 
 %<px2pl%>:%>%{i%}ң%{A%}р CASES-ETC ; 
+
+LEXICON POSS-NONOM
+
+%<px1sg%>:%>%{i%}м CASES-ETC-NONOM ; 
+%<px2sg%>:%>%{i%}ң CASES-ETC-NONOM ; 
+%<px3sp%>:%>%{z%}%{I%}%{n%} CASES-ETC-NONOM ; 
+%<px1pl%>:%>%{i%}в%{I%}с CASES-ETC-NONOM ; 
+%<px2pl%>:%>%{i%}ң%{A%}р CASES-ETC-NONOM ; 
+
 
 LEXICON GENPOSS-ETC 
 
@@ -239,7 +265,8 @@ LEXICON NP-TOP-RUS
 
 LEXICON NP-TOP-ABBR
 
-%<np%>%<top%>: NP-COMMON ; 
+%<np%>%<top%>: CASES-NOMONLY ; 
+%<np%>%<top%>:%- CASES-ETC-NONOM ;
 
 LEXICON NP-TOP-SK
 
@@ -6778,7 +6805,7 @@ Xaнды:Xaнды NP-ANT-F ; ! ""
 
 Пенсильвания:Пенсильвания NP-TOP ; ! ""
 
-ТР:ТР NP-TOP-ABBR ; ! ""
+ТР:ТР%{э%}%{р%} NP-TOP-ABBR ; ! ""
 РФ:РФ NP-TOP-ABBR ; ! ""
 АКШ:АКШ NP-TOP-ABBR ; ! ""
 

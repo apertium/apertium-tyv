@@ -39,6 +39,9 @@ Alphabet
    %{н%}:0
    %{л%}:л
 
+   ! Abstract Archiphonemes: always disappear but condition phonology
+   ! mostly for numerals and abbreviations
+   %{р%}:0
    %{э%}:0
 
    %{☭%}:0
@@ -62,6 +65,8 @@ FrontVow   =  Э Е И Ө Ү
 
 RealVow = А О Ы У Э Е И Ө Ү
           а о ы у э е и ө ү ;
+
+AbstractVow = %{э%} ;
 
 Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
               б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ъ ь ; 
@@ -242,7 +247,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          matched ;
 
 "Normal front vowel harmony for {A}"
-%{A%}:е <=> [ %{э%}: | :FrontVow ] [ :Cns* :RealCns ]/[ [ :0 - %{э%}: ] | ь ]* _ ;
+%{A%}:е <=> [ :FrontVow ] [ :Cns* :RealCns ]/[ :0 | ь ]* _ ;
+            [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
 !            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
@@ -254,7 +260,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 %{A%}:я <=> [ BackVow: й: ]/:0* _ ;
          except
              Vow: [ %>: %{G%}:0 ]/:0* _ ; 
-             [ %{э%}: й: ]/[ :0 - %{э%}: ]* _ ;
+             [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
 
 "{I} harmony"
 %{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/[ :0 | %- ]* _ ;
@@ -267,6 +273,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          !!    [ :Vow :Vow ]/:0* _ ;
              [ :Vx р:0 ]/[ :0 - р: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
+             [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
@@ -277,9 +284,17 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ :Vow :RealVow ]/:0* _ ;
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ :Vx %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+             [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
                Vy in ( ү и э э ө а у ы у а у у )
          matched ;
+
+"Abstract harmony for {I}"
+%{I%}:Vy <=> [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
+         where AbstractVow in ( %{э%} )
+                        Vy in (   и   )
+         matched ;
+
 
 "Harmony of vowel in some stems"
 %{и%}:Vy <=> [ :Vx :Cns* :Cns ] _ (%{☭%}:) %>: ;
@@ -307,6 +322,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
             [ :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+            [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {N}:н {I}:и ң
 
@@ -321,6 +337,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "{I} harmony after deleted velar"
 %{I%}:Vy <=> [ Vx: Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ Vx: %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+         except
+             [ AbstractVow:0 Cns* ]/[ :%- | :0 - AbstractVow ]* _ ;
          where Vx in ( и ү е ө а о ы у я )
                Vy in ( и ү э ө а о ы у а )
          matched ;
