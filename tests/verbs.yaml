@@ -106,3 +106,9 @@ Tests:
     өскерт<v><tv><prc_perf> : өскертип
     арт<v><tv><prc_perf> : артып
     чи<v><tv><prc_perf> : чип
+
+ "Participle -Е":
+    кир<v><iv><prc_impf> : кире
+    бижи<v><tv><prc_impf> : бижий
+    ойна<v><tv><prc_impf> : ойнай
+    олур<vaux><prc_impf> : олура
