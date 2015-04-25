@@ -41,12 +41,13 @@ Tests:
     кел<v><iv><aor><p3><sg> : кээр
     бол<v><iv><aor><p3><sg> : болур
     бол<v><iv><aor><p3><sg> : боор
+    ал<v><tv><aor><p3><sg> : алыр
+    ал<v><tv><aor><p3><sg> : аар
 
  "Aorist -Iр/-Aр [stems in -л, л deletion]":
     эккел<v><tv><aor><p3><sg> : эккээр
 
  "Aorist -Iр/-Aр [stems in -л, no л deletion]":
-    ал<v><tv><aor><p3><sg> : алыр
     бил<v><tv><aor><p3><sg> : билир
     кыл<v><tv><aor><p3><sg> : кылыр
     чел<v><iv><aor><p3><sg> : челер 
@@ -100,5 +101,5 @@ Tests:
     бер<v><tv><prc_perf> : берип
     бил<v><tv><prc_perf> : билип
     өскерт<v><tv><prc_perf> : өскертип
-    арт<v><tv><prc_pref> : артып
+    арт<v><tv><prc_perf> : артып
     чи<v><tv><prc_pref> : чип
