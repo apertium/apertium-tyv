@@ -41,8 +41,10 @@ Alphabet
 
    ! Abstract Archiphonemes: always disappear but condition phonology
    ! mostly for numerals and abbreviations
-   %{р%}:0
-   %{э%}:0
+
+   %{р%}:0 %{р%}:р ! Until phonology is done
+
+   %{э%}:0 
    %{ы%}:0
 
    %{☭%}:0
@@ -226,7 +228,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 %{g%}:к <=> :VoicelessCns/:0* _ ;
 
 "{L} nasal assimilation"
-%{L%}:н <=> :Nasals %>: _ ;
+%{L%}:н <=> :Nasals/:0* %>: _ ;
 
 "л to н assimilation when no epenthetic vowel"
 л:н <=> _ %{y%}:0/[ :0 - %{y%}:0 ]* :Nasals ;
