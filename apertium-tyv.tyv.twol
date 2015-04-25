@@ -319,9 +319,10 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "{i} deletion after vowel"
 %{i%}:0 <=> :Vow/:0* _ ;
+            .#. а: %{л%}:0 %>: _ п: .#. ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
-            [ :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+            [ \.#. :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
 
 "{I} deletion after long vowels"
 %{I%}:0 <=> [ :Vow :RealVow ]/:0* _ ;
@@ -352,6 +353,9 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "{i} harmony after deleted velar"
 %{i%}:Vy <=> [ Vx: Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ Vx: %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+         except
+             .#. а: %{л%}:0 %>: _ п: .#. ; !@ а л:0 >:0 {i}:0 п
+
          where Vx in ( и ү е ө а о ы у я )
                Vy in ( и ү э ө а о ы у а )
          matched ;
