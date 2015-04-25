@@ -89,6 +89,7 @@ Tests:
     ижээ<v><tv><aor><p3><sg> : ижээр
     хою<v><iv><aor><p3><sg> : хоюур
     уду<v><iv><aor><p3><sg> : удуур
+    чи<v><tv><aor><p3><sg> : чиир
 
  "Participle -Iп":
     ал<v><tv><prc_perf> : ап
@@ -100,3 +101,4 @@ Tests:
     бил<v><tv><prc_perf> : билип
     өскерт<v><tv><prc_perf> : өскертип
     арт<v><tv><prc_pref> : артып
+    чи<v><tv><prc_pref> : чип
