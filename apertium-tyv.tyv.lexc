@@ -127,6 +127,7 @@ Multichar_Symbols
 %{к%}
 %{г%}
 %{н%}
+%{л%}
 
 %{э%}                    ! Vowel harmony front unrounded
 
@@ -7982,6 +7983,7 @@ LEXICON Adverbs
 LEXICON Verbs
 
 ал:ал VAUX-IR ; ! ""             ! аар
+ал:а%{л%} VAUX-IR ; ! ""         ! аар ! FIXME: make LR if having this secondary is right
 аппар:аппар VAUX-AR ; ! ""  
 бар:бар VAUX-IR ; ! ""           ! баар
 бер:бер VAUX-IR ; ! ""           ! бээр
@@ -7990,16 +7992,18 @@ LEXICON Verbs
 эгеле:эгеле VAUX-IR ; ! ""
 каг:каг VAUX-AR ; ! ""           ! каар
 көр:көр VAUX-AR ; ! ""           ! көөр
-олур:олур VAUX-AR ; ! ""         ! оор
+олур:олур VAUX-AR ; ! ""         ! оор ! FIXME: CHECK
 тур:тур VAUX-AR ; ! ""           ! турар
 
 
 чыт:чыт V-IV ; ! "lie"
 чыт:чыт V-IV-AR ; ! "lie"
 
-бол:бол V-IV ; ! "be" ! FIXME: боор
+бол:бол V-IV ; ! "be"
+бол:бо%{л%} V-IV ; ! "be" ! FIXME: make LR if having this secondary is right
 бил:бил V-TV ; ! "know"
 кел:кел V-IV ; ! "come"
+кел:ке%{л%} V-IV ; ! "come" ! FIXME: make LR if having this secondary is right
 уш:уш V-IV-AR ; ! "летать"
 
 ! FIXME: Both stems valid (?)
@@ -8010,6 +8014,7 @@ LEXICON Verbs
 
 тур:тур V-IV-AR ; ! ""
 ал:ал V-TV ; ! "take"
+ал:а%{л%} V-TV ; ! "take" ! FIXME: make LR if having this secondary is right
 бер:бер V-TV ; ! "give"
 бижи:бижи V-TV ; ! "писать"
 иш:иш V-TV-AR ; ! "пить"
@@ -8248,7 +8253,7 @@ LEXICON Verbs
 бериш:бер%{y%}ш V-TD ; ! "трогать" ! бержир
 дег:дег V-TV ; ! "трогать" ! дээр
 чаг:чаг V-IV ; ! "мазать" ! чаар
-чедиш:чедиш V-TV ; ! "хватать" ! четчир
+чедиш:чет%{y%}ш V-TV ; ! "хватать" ! четчир
 ой:ой V-IV-AR ; ! "обходить" ! ояр
 соол:со%{г%}л V-TV ; ! "высыхать" ! соглур
 хою:хою V-IV ; ! "густеть" ! хоюур

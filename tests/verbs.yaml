@@ -70,7 +70,7 @@ Tests:
     чедиш<v><tv><aor><p3><sg> : четчир
     куюс<v><tv><aor><p3><sg> : куйзур
     чалын<v><iv><aor><p3><sg> : чанныр
-    хайын<v><tv><aor><p3><sg> : хайныр
+    хайын<v><TD><aor><p3><sg> : хайныр
     ажын<v><tv><aor><p3><sg> : аштыр
     сөгүл<v><iv><aor><p3><sg> : сөктүр
 
@@ -98,4 +98,4 @@ Tests:
     бер<v><tv><prc_perf> : берип
     бил<v><tv><prc_perf> : билип
     өскерт<v><tv><prc_perf> : өскертип
-    арт<v><iv><prc_pref> : артып
+    арт<v><tv><prc_pref> : артып
