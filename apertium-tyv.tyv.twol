@@ -307,8 +307,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          matched ;
 
 ! what {E} ??
-!"Turn {E} into й after a vowel"
-!%{E%}:й <=> [ :Vow ]/[ %>: | :0 ] _ ;
+"Turn {E} into й after a vowel"
+%{E%}:й <=> [ :Vow ]/[ %>: | :0 ] _ ;
 
 
 !!== Vowel-harmony-related deletion ==!!
