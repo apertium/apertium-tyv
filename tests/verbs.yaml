@@ -68,6 +68,7 @@ Tests:
     чуг<v><tv><aor><p3><sg> : чуур
     каг<v><iv><aor><p3><sg> : каар
     даг<v><tv><aor><p3><sg> : даар
+    эг<v><iv><aor><p3><sg> : ээр
 
  "Aorist -Aр/-Iр [stems with epenthetic vowel]":
     ужул<v><tv><aor><p3><sg> : уштур
@@ -121,6 +122,8 @@ Tests:
     арт<v><tv><prc_perf> : артып
     чи<v><tv><prc_perf> : чип
     айыт<v><tv><prc_perf> : айтып
+    эккел<v><tv><prc_perf> : эккеп
+    эг<v><iv><prc_perf> : ээп
 
  "Participle -Е":
     кир<v><iv><prc_impf> : кире

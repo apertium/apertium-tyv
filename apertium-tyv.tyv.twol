@@ -87,8 +87,8 @@ Nasals      = Н М Ң
 Velars         = Ң Г К 
                 ң г к ;
 
-VoicelessCns = к п с т ц ш 
-               К П С Т Ц Ш ; 
+VoicelessCns = к п с т ц ш ф 
+               К П С Т Ц Ш Ф ; 
 
 VoicelessCnsRus = З Б В Д Ж Г
                   з б в д ж г ;
@@ -398,8 +398,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          except
              .#. :а %{л%}:0 %>: _ :п .#. ; !@ а л:0 >:0 {i}:0 п
              :Vow/[ :0 - [ Velars: | %{л%}: | п: ] ]* _ ;
-         where Vx in ( и ү е ө а о ы у я )
-               Vy in ( и ү э ө а о ы у а )
+         where Vx in ( и ү э е ө а о ы у я )
+               Vy in ( и ү э э ө а о ы у а )
          matched ;
 
 "(verb)stem vowel-final assimliation before {g} deletion"
@@ -535,3 +535,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ а й т ы р ы г:0 >:0 {z}:0 {I}:ы {n}:0
 
 !@ б а р >:0 -:- {D}:д {I}:ы р
+
+!@ у г:0 >:0 {i}:у п
+
+!@ э г:0 >:0 {i}:э п
