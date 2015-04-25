@@ -135,7 +135,7 @@ Rules
 "Intervocalic coronal voicing at a morpheme boundary"
 Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
           :Vow/:0* _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
-          [ :Vow р: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р
+          [ :Vow [ р: | й: ] %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р or й
 !!          р/:0 _ %>: :Vow ;
 !      except
 !          :р/:0* _ ;
@@ -249,9 +249,16 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "Harmony of epenthesised vowel in some stems"
 %{y%}:Vy <=> [ :Vx :Cns* :Cns ]/[ %>: | :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
+         except
+             [ [ :о | :у ] й: ]/:0* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
+
+"Harmony of yotted %{y%}"
+%{y%}:ю <=> [ [ :о | :у ] й: ]/:0* _ ;
+        except
+            _ [ :Cns :Vow ]/:0 ;
 
 "{i} harmony"
 %{i%}:Vy <=> :Vx [ :Cns* :RealCns ]/:0* _ ;
@@ -283,6 +290,9 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          except
              Vow: [ %>: %{G%}:0 ]/:0* _ ; 
              [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
+
+!"yotted {I} harmony"
+!%{I%}:ю <=> [ [ у: | о: ] й: ]/:0* _ ;
 
 "{I} harmony"
 %{I%}:Vy <=> :Vx [ :Cns* :RealCns ]/[ :0 | %- ]* _ ;
@@ -482,8 +492,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "й deletion before yot vowels"
 й:0 <=> _ %{A%}:/:0* ;
+        _ %{y%}:ю/:0* ;
 
 !@ ч а й:0 >:0 {A}:я р
+!@ к у й {y}:ю c
 
 
 "{л} deletion in certain forms"
