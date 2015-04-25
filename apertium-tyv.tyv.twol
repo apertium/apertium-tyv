@@ -387,6 +387,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "{I} deletion in px3.acc"
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
+        except
+            [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
