@@ -323,6 +323,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
             [ \.#. :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+            [ .#. [ :Vow - а: ] %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
 
 "{I} deletion after long vowels"
 %{I%}:0 <=> [ :Vow :RealVow ]/:0* _ ;
