@@ -104,15 +104,20 @@ Rules
 "Remove stem epenthetic vowel in nominative"
 %{и%}:0 <=> _ .#. ; 
 
-"Remove stem epenthetic vowel in nominative"
+! what does this do?
+"Remove stem epenthetic vowel in nominative 2"
 %{и%}:и <=> с к _ (%{☭%}:) %>: ; 
 
+!@ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}
 
 !@ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н
 
 !@ п р е з и д е н т {и}:и >:0 {z}:з {I}:и {n}:0
 
 !@ ф о н д {и}:у {☭}:0 >:0 {z}:з {I}:у {n}:0
+
+"some clusters reduce before {и}:и"
+с:0 <=> к: _ %{и%}:и ;
 
 !"D nasal harmony"
 !%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
@@ -325,6 +330,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ :Vx %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
              [ :Vx п:0 ]/[ :0 - п: ]* _ ;
+             [ :Vx с:0 ]/[ :0 - с: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
              .#. :ч :о %{р%}:0/:0 _ р: ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
