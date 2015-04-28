@@ -398,6 +398,7 @@ LEXICON V-FINITE-IRREGULAR_NEGATIVE-IR
 LEXICON V-FINITE-REGULAR_NEGATIVE
 
 %<past%>:%>%{g%}%{A%}н V-PERS-S1 ;
+%<past%>%<evid%>:%>%{g%}%{A%}н%>%{D%}%{I%}р V-PERS-S1 ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<unac%>:%>%{g%}%{A%}л%{A%}к V-PERS-S2 ;
 
@@ -8901,6 +8902,7 @@ LEXICON Adverbs
 ыяк:ыяк ADV ; ! "основательно"
 мынча:мынча ADV ; ! "столько" ! FIXME: categorisation
 шоолуг:шоолуг ADV ; ! "не очень"
+шыгырт:шыгырт ADV ; ! ""
 
 чааскаан:чааскаан ADV ; ! "один"
 
@@ -8969,6 +8971,7 @@ LEXICON Verbs
 чыт:чыт V-IV-AR ; ! "lie"
 
 бол:бол V-IV ; ! "be"
+бар:бар V-IV ; ! "go"
 бол:бо%{л%} V-IV ; ! "be" ! FIXME: make LR if having this secondary is right
 бил:бил V-TV ; ! "know"
 кел:кел V-IV ; ! "come"
