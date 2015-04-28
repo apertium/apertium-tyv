@@ -18,6 +18,8 @@ Alphabet
  
    %{G%}:г ! %{G%}:к
 
+   %{Z%}:з %{Z%}:с
+
    %{g%}:г
  
    %{J%}:ж %{J%}:ч
@@ -168,13 +170,17 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
         [ :Vow р: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
 
 "Intervocalic voicing of к at morpheme boundary in monosyllabic stems"
-к:г <=> .#. [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
+к:г <=> [ .#. | %- ] [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
                                        :Vow _ %{☭%}: %>: (:0) :Vow ; 
         :Vow/:0* _ %{y%}:Vow/[ :0 - %>: ]* ; ! also do before realised epenthetic vowel stem internally
 
 !@ с о о к:г >:0 {z}:0 {I}:у {n}:0
 
 !@ р ы н о к:г {☭}:0 >:0 {z}:0 {I}:у {n}:0
+
+!@ я з ы - с ө ө к:г >:0 {z}:0 {I}:ү {n}:0
+
+!@ с ө ө к:г >:0 {z}:0 {I}:ү {n}:0
 
 "Intervocalic voicing of п at a morpheme boundary"
 п:в <=> :Vow/:0* _ %>: :Vow/:0* ;
@@ -194,7 +200,7 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 "Intervocalic voiceless velar deletion"
 к:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
      except
-         .#. [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
+         [ .#. | %- ] [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
          :Vow _ [ %{☭%}: :Vow ]/:0* ; 
 
 
@@ -230,8 +236,8 @@ Cx:т <=> [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
                                VoicelessCnsRus %{☭%}: %>: _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
-          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} %{B%} )
-                Cy in (   п      т      т      т      к     п   )
+          where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} %{B%} %{Z%})
+                Cy in (   п      т      т      т      к     п     с  )
                 matched;
 
 !@ с а д {☭}:0 >:0 {D}:т {A}:а
@@ -532,7 +538,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
 
 !"т deletion in -ст consonant cluster"
-!т:0 <=> .#. [ Vow: | Cns: ]* с _ %>: %{L%}: %{A%}: ; 
+!т:0 <=> .#. [ Vow: | Cns: ]* с _ %>: :Cns ;
 
 !@ а р т и с т:0 >:0 {L}:т {A}:е р
 
@@ -555,3 +561,4 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ у г:0 >:0 {i}:у п
 
 !@ э г:0 >:0 {i}:э п
+
