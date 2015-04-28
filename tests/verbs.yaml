@@ -12,6 +12,9 @@ Tests:
     көр<v><tv><past><p3><sg> : көрген
     уш<v><iv><past><p3><sg> : ушкан
 
+ "Negative past -BA-GAn":
+    көр<v><tv><neg><past><p3><sg> : көрбээн
+
  "[twol] Past in -GAн after vowels":
     бижи<v><tv><past><p3><sg> : бижээн
     уду<v><iv><past><p3><sg> : удаан
@@ -27,7 +30,11 @@ Tests:
 
  "Aorist -Aр [consonant stems]":
     эрт<v><iv><aor><p3><sg> : эртер
+    корт<v><tv><aor><p3><sg> : коргар
     шап<v><tv><aor><p3><sg> : шавар
+    тулуш<v><iv><aor><p3><sg> : тулчур
+    болуш<v><iv><aor><p3><sg> : болчур
+    сезин<v><iv><aor><p3><sg> : сестир
 
  "Aorist -Iр [stems in -р, р deletion]":
     бар<vaux><aor><p3><sg> : баар
@@ -96,6 +103,7 @@ Tests:
     соол<v><tv><aor><p3><sg> : соглур
     шаш<v><tv><aor><p3><sg> : шанчар
     сагын<v><tv><aor><p3><sg> : сактыр
+    чыыл<v><iv><aor><p3><sg> : чыглыр
 
  "Aorist -Aр/-Iр [vowel stems]":
     ажылда<v><tv><aor><p3><sg> : ажылдаар

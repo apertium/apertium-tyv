@@ -295,6 +295,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
             [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+                                                   _ %>: %{g%}: ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {G}:г {A}:е
 
@@ -433,8 +434,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "Vowel harmony for {A} after deleted {g}"
 %{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+                                                   _ %>: %{g%}: ; 
 
 !@ б и ж и:э >:0 {g}:0 {A}:э н
+
+!@ к ө р >:0 {B}:б {A}:э >:0 {g}:0 {A}:э н 
 
 !"{A} stays а" ! FIXME
 !%{A%}:а <=> :BackVow/[ :0 - й: ]* _ ;
@@ -491,6 +495,8 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 ш:ч <=> %{н%}:н _ ;                            ! -after {н} when it surfaces
         [ :т %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;   ! after т when no epenthesis
 
+!@ т у л {y}:0 ш:ч >:0 {i}:у р
+
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
 
@@ -520,7 +526,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "stem-final п deletes in {i}п forms"
 п:0 <=> :Vow _ %>: %{i%}: п: ;
 
-!@ ш а п:0 >: {i}:а п 
+!@ ш а п:0 >:0 {i}:а п 
 
 !"г deletion in aorist"
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
