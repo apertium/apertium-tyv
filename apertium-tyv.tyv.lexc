@@ -406,6 +406,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<gpr_past%>:%>%{g%}%{A%}н # ; 
 
+%<ger_past%>:%>%{g%}%{A%}ш SUBST ; ! FIXME: overgenerate
 %<ger_past%>:%>%{g%}%{A%}н SUBST ; ! FIXME: overgenerate
 %<ger_perf%>:%>%{i%}п%>%{g%}%{A%}н SUBST ; ! FIXME: check
 
