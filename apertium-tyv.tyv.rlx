@@ -9,6 +9,7 @@ LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
 LIST Aux = vaux ; 
+LIST Qst = qst ;
 
 LIST Gpr/Aor = gpr_aor ; 
 LIST Gpr/Past = gpr_past ; 
@@ -17,6 +18,8 @@ LIST Prc/Aor = prc_aor ;
 LIST Prc/Perf = prc_perf ;
 
 LIST Aor = aor ; 
+
+LIST Sent/Qst = ("?") ;
 
 SET Gpr = Gpr/Aor OR Gpr/Past ; 
 
@@ -28,3 +31,9 @@ REMOVE Gpr IF (1 EOS) ;
    ## Ол сеңээ бүзүрээр.
 
 SELECT Aux IF (-1C Prc);
+
+REMOVE Aux IF (NOT -1 Prc) ;
+   ## Ол кижи биске бо номну берген.
+
+SELECT Qst IF (1 Sent/Qst) ;
+   ## Олар ол кино көргени ол бе?
