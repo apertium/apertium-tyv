@@ -28,6 +28,8 @@ Multichar_Symbols
 %<caus%>                  ! Causative
 %<pass%>                  ! Passive
 %<coop%>                  ! Co-operative 
+%<iter%>                  ! Iterative
+%<cess%>                  ! Cessive
 
 %<attr%>                  ! Attributive 
 %<subst%>                 ! Substantive
@@ -238,6 +240,11 @@ LEXICON N-INFL-COMMON
 POSS-REAL ;
 CASES-ETC ;
 
+LEXICON N-INFL-COMMON-NODER
+
+POSS-REAL ;
+CASES ;
+
 LEXICON SUBST
 
 N-INFL-COMMON ;
@@ -245,9 +252,16 @@ N-INFL-COMMON ;
 
 LEXICON ATTR-SUBST
 
+! Goes to possessive suffixes along with cases.
+!
+!   Мен Кызылдагыларын көрдүм. 
+!
+! Check this, maybe only px3sp is possible.
+
+
 %<attr%>: # ;
-%<subst%>: CASES ;
-%<subst%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<subst%>: N-INFL-COMMON-NODER ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NODER ;
 
 
 
@@ -409,6 +423,12 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 %<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;
 %<unac%>:%>%{g%}%{A%}л%{A%}к V-PERS-S2 ;
 
+!! p.43
+%<perf%>:%>%{i%}пт%{A%}р V-PERS-S1 ; 
+%<perf%>:%>%{i%}пт%{A%}р V-PERS-S2 ;  ! Dir/LR 
+
+%<resu%>:%>%{J%}%{I%}к # ; 
+
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<gpr_past%>:%>%{g%}%{A%}н # ; 
@@ -490,6 +510,7 @@ LEXICON V-DER
 
 %<coop%>:%>%{i%}ш V-COMMON ;
 %<cess%>:%>%{B%}%{A%}ст%{A%} V-COMMON ;  ! FIXME: check
+%<iter%>:%>%{G%}%{I%}л%{A%} V-COMMON ; ! FIXME: check
 
 LEXICON V-IV
 
@@ -771,7 +792,7 @@ LEXICON A4
 
 LEXICON ADV-ITG 
 
-%<adv%>%<itg%>: # ;
+%<adv%>%<itg%>: CLIT-COP ;
 
 LEXICON ADV
 
@@ -954,6 +975,8 @@ PRON-DEM-OL ;
 иелдирзи%<prn%>:иелдирзи%{n%} CASES-ETC ; ! "" 
 иелдирзи%<prn%>:ийилдирзи%{n%} CASES-ETC ; ! ""  ! Dir/LR
 
+чамдык%<prn%>:чамдыы N-INFL-COMMON ; 
+
 LEXICON Numerals
 
 чаңгыс:чаңгыс NUM ; ! "один" ! FIXME: Check adj?
@@ -1052,6 +1075,8 @@ LEXICON Nouns
 орту:орту N1 ; ! ""
 сөөл:сөөл N1 ; ! "после"
 хажы:хажы N1 ; ! ""
+
+хараа:хараа N1 ; ! ""
 
 оюн:оюн N1 ; ! ""
 оюн:ой%{y%}н N1 ; ! ""
@@ -4332,6 +4357,14 @@ LEXICON Nouns
 тей:тей N1 ; ! ""
 контейнер:контейнер N1 ; ! ""
 галстук:галстук N1 ; ! ""
+чыскаалчы:чыскаалчы N1 ; ! ""
+амырак:амырак N1 ; ! "милый, милая"
+физминутка:физминутка N1 ; ! ""
+шылгалда:шылгалда N1 ; ! ""
+шык:шык N1 ; ! "поляна"
+оялык:оялык N1 ; ! ""
+оймак:оймак N1 ; ! ""
+аяң:аяң N1 ; ! ""
 
 ЕГЭ:ЕГЭ%{э%} N7 ; ! ""
 КХН:КХН%{э%} N7 ; ! ""
@@ -4367,6 +4400,7 @@ Aнкара:Aнкара NP-TOP ; ! ""
 
 Сукпак:Сукпак NP-TOP ; ! ""
 Шеми:Шеми NP-TOP ; ! ""
+Мөнгүн%-Тайга:Мөнгүн%-Тайга NP-TOP ; ! ""
 
 
 
@@ -8890,6 +8924,9 @@ LEXICON Adjectives
 хүннүг:хүннүг A4 ; ! ""
 галстуктуг:галстуктуг A4 ; ! ""
 диистиг:диистиг A4 ; ! ""
+чайынналчак:чайынналчак A4 ; ! ""
+чайынныг:чайынныг A4 ; ! ""
+шык:шык A4 ; ! ""
 
 LEXICON Adverbs
 
@@ -8905,6 +8942,8 @@ LEXICON Adverbs
 
 кажан:кажан ADV-ITG ; ! "когда?"
 
+каш:каш ADV-ITG ; ! "сколько"
+
 оода:оода ADV ; ! "хоть"
 
 бөгүн:бөгүн ADV ; ! ""
@@ -8917,6 +8956,7 @@ LEXICON Adverbs
 хенертен:хенертен ADV ; ! ""
 бо%-ла:бо%-ла ADV ; ! "часто"
 удавас:удавас ADV ; ! "скоро"
+чамдыкта:чамдыкта ADV ; ! "иногда"
 
 эрте:эрте ADV ; ! "рано"
 
@@ -9413,6 +9453,10 @@ LEXICON Verbs
 эттет:эттет V-TV ; ! ""
 таарзын:таарзын V-IV ; ! ""
 кичээндир:кичээндир V-TV-AR ; ! ""
+чайынна:чайынна V-IV-AR ; ! "блестеть"
+чайыннан:чайыннан V-IV ; ! "отражаться"
+чайыннал:чайыннал V-IV ; ! "отражаться"
+эскер:эскер V-TV-AR ; ! "замечать"
 
 !!!!!
 !! The stems below this line need categorising and the
