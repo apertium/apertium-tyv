@@ -22,6 +22,7 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/abbreviations.yaml -text
 tests/cases.yaml -text
+tests/clitics.yaml -text
 tests/possessives.yaml -text
 tests/run-twol-pairtests.sh -text
 tests/verbs.yaml -text

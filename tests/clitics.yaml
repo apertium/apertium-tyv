@@ -1,0 +1,14 @@
+Config:
+  hfst:
+      App: hfst-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+ "Interrogative / deictic -{i}л":
+   чүве<n><nom>+ыл<qst> : чүвел
+   каш<adv><itg>+ыл<qst> : кажыл
+   тур<v><iv><ger_aor><nom>+ыл<qst> : турарыл
+   чуртта<v><iv><ger_aor><nom>+ыл<qst> : чурттаарыл
+   соок<n><nom>+ыл<qst> : соогул
