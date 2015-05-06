@@ -445,9 +445,9 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<gna_cond%>:%>%{Z%} V-PERS-COND ;
 %<gna_mod%>:%>%{G%}%{I%}% дег # ; 
-%<gna_past%>:%>%{g%}%{A%}ш # ; 
 %<gna_after%>:%>%{g%}%{A%}л%{A%} # ; 
 %<gna_still%>:%>%{B%}%{I%}шаан # ; 
+%<gna_unac%>:%>%{g%}%{A%}л%{A%}кт%{A%} # ;
 
 %<gna_perf%>:%>%{i%}п%>%{g%}%{A%}ш # ;  ! FIXME: check
 
@@ -468,21 +468,31 @@ LEXICON V-NONFINITE-IRREGULAR_NEGATIVE-AR
 
 %<prc_perf%>:%>%{i%}п # ;        ! FIXME: Check
 
+%<gpr_perf%>:%>%{i%}пк%{I%}% дег # ; ! FIXME: Check
+
 %<ger_aor%>:%>%{A%}р SUBST ; ! FIXME: overgenerate
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}с SUBST ;
 
 %<gpr_aor%>:%>%{A%}р # ;
 %<neg%>%<gpr_aor%>:%>%{B%}%{A%}с # ;
 
+%<gna_past%>:%>%{g%}%{A%}ш # ; 
+%<neg%>%<gna_past%>:%>%{B%}%{A%}йн # ; 
+
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE-IR
 
 %<prc_perf%>:%>%{i%}п # ;
+
+%<gpr_perf%>:%>%{i%}пк%{I%}% дег # ; ! FIXME: Check
 
 %<ger_aor%>:%>%{I%}р SUBST ; ! FIXME: overgenerate
 %<neg%>%<ger_aor%>:%>%{B%}%{A%}с SUBST ;
 
 %<gpr_aor%>:%>%{I%}р # ;
 %<neg%>%<gpr_aor%>:%>%{B%}%{A%}с # ;
+
+%<gna_past%>:%>%{g%}%{A%}ш # ; 
+%<neg%>%<gna_past%>:%>%{B%}%{A%}йн # ; 
 
 LEXICON V-COMMON-AR
 
@@ -963,6 +973,7 @@ PRON-DEM-OL ;
 
 чү:чү PRON-ITG-TJYY ; ! "что"
 кым:кым PRON-ITG ; ! "что"
+кандыг:кандыг PRON-ITG ; ! ""	
 
 бот:бот PRON-REFL ; ! ""
 бот%-бот:бот%-бот PRON-REFL ; ! ""
@@ -4373,6 +4384,7 @@ LEXICON Nouns
 оймак:оймак N1 ; ! ""
 аяң:аяң N1 ; ! ""
 моң:моң N1 ; ! ""
+кожуун:кожуун N1 ; ! ""
 
 ЕГЭ:ЕГЭ%{э%} N7 ; ! ""
 КХН:КХН%{э%} N7 ; ! ""
@@ -4409,6 +4421,8 @@ Aнкара:Aнкара NP-TOP ; ! ""
 Сукпак:Сукпак NP-TOP ; ! ""
 Шеми:Шеми NP-TOP ; ! ""
 Мөнгүн%-Тайга:Мөнгүн%-Тайга NP-TOP ; ! ""
+Таңды:Таңды NP-TOP ; ! ""
+Улуг%-Хем:Улуг%-Хем NP-TOP ; ! ""
 
 
 
@@ -4618,6 +4632,7 @@ Aнкара:Aнкара NP-TOP ; ! ""
 Синай:Синай NP-TOP ; ! ""
 Галаад:Галаад NP-TOP-RUS ; ! ""
 
+Козулина:Козулина NP-ANT-F ; ! ""
 Эсфир:Эсфир NP-ANT-F ; ! ""
 Уранмаа:Уранмаа NP-ANT-F ; ! ""
 Гоша:Гоша NP-ANT-F ; ! ""
@@ -8936,6 +8951,9 @@ LEXICON Adjectives
 чайынныг:чайынныг A4 ; ! ""
 шык:шык A4 ; ! ""
 шактыг:шактыг A4 ; ! ""
+оолдуг:оолдуг A4 ; ! ""
+чазалыг:чазалыг A4 ; ! ""
+лыжалыг:лыжалыг A4 ; ! ""
 
 LEXICON Adverbs
 
@@ -9054,6 +9072,8 @@ LEXICON Verbs
 көр:көр VAUX-AR ; ! ""           ! көөр
 олур:олур VAUX-AR ; ! ""         ! оор ! FIXME: CHECK
 тур:тур VAUX-AR ; ! ""           ! турар
+
+шыда:шыда VAUX-AR ; ! "мочь" ! FIXME: check stem
 
 
 чыт:чыт V-IV ; ! "lie"
@@ -9325,6 +9345,7 @@ LEXICON Verbs
 амыдыра:амыдыра V-TV-AR ; ! " жить, существовать"
 сывыр:сывыр V-TV-AR ; ! "гонять, гнать"
 төн:төн V-IV-AR ; ! "кончаться, заканчиваться, завершаться"
+төндүр:төндүр V-TV-AR ; ! "кончать" ! Mor/Caus
 ас:ас V-IV-AR ; ! "заблудиться"
 хемчээ:хемчээ V-TV ; ! "мерить, отмеривать"
 өрттет:өрттет V-TV ; ! "сжигать, жечь"
@@ -9469,6 +9490,9 @@ LEXICON Verbs
 чайыннал:чайыннал V-IV ; ! "отражаться"
 эскер:эскер V-TV-AR ; ! "замечать"
 кезе:кезе V-TV ; ! "делать прорезь" ! кезээр
+амырат:амырат V-TV ; ! "радовать, обрадовать"
+одун:одун V-IV ; ! "просыпаться"
+чоллачыла:чоллачыла V-IV ; ! ""
 
 !!!!!
 !! The stems below this line need categorising and the
