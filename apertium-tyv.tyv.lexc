@@ -174,7 +174,7 @@ LEXICON CLIT-COP
 
 %+э%<cop%>%<aor%>%<evid%>:%>%-%{D%}%{I%}р V-PERS-S1 ; 
 %+э%<cop%>%<aor%>%<evid%>:%>%{D%}%{I%}р V-PERS-S1 ;  ! Dir/LR
-%+ыл%<qst%>:%{i%}л # ; ! FIXME: Check what this is
+%+ыл%<qst%>:%>%{i%}л # ; ! FIXME: Check what this is
 
 # ; 
 
