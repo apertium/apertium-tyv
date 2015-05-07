@@ -15,6 +15,7 @@ Tests:
  "Negative past -BA-GAn":
     көр<v><tv><neg><past><p3><sg> : көрбээн
     бар<v><iv><neg><past><p3><sg> : барбаан 
+    ал<v><tv><neg><past><p3><sg> : албаан
 
  "[twol] Past in -GAн after vowels":
     бижи<v><tv><past><p3><sg> : бижээн
@@ -140,3 +141,6 @@ Tests:
     бижи<v><tv><prc_impf> : бижий
     ойна<v><tv><prc_impf> : ойнай
     олур<vaux><prc_impf> : олура
+
+ "Form in -IптAр":
+   четтик<v><iv><perf><p3><sg> : четтигиптер
