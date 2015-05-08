@@ -100,9 +100,9 @@ Tests:
     ажын<v><tv><imp><p2><sg> : ажын
     сөгүл<v><iv><imp><p2><sg> : сөгүл
     айыт<v><tv><imp><p2><sg> : айыт
-    тулуш<v><iv><img><p2><sg> : тулуш
-    болуш<v><iv><img><p2><sg> : болуш
-    сезин<v><iv><img><p2><sg> : сезин
+    тулуш<v><iv><imp><p2><sg> : тулуш
+    болуш<v><iv><imp><p2><sg> : болуш
+    сезин<v><iv><imp><p2><sg> : сезин
 
  "Aorist -Aр/-Iр [stems with epenthetic consonant]":
     соол<v><tv><aor><p3><sg> : соглур
