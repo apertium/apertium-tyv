@@ -15,6 +15,7 @@ LIST Gpr/Aor = gpr_aor ;
 LIST Gpr/Past = gpr_past ; 
 
 LIST Prc/Aor = prc_aor ;
+LIST Prc/Impf = prc_impf ;
 LIST Prc/Perf = prc_perf ;
 
 LIST Aor = aor ; 
@@ -23,7 +24,7 @@ LIST Sent/Qst = ("?") ;
 
 SET Gpr = Gpr/Aor OR Gpr/Past ; 
 
-SET Prc = Prc/Aor OR Prc/Perf ; 
+SET Prc = Prc/Aor OR Prc/Perf OR Prc/Impf ; 
 
 SECTION
 

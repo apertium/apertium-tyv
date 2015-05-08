@@ -1,0 +1,16 @@
+"<Авазы>"
+	"ава" n px3sp nom @SUBJ→ #0->3
+"<уруун>"
+	"уруг" n px3sp acc @OBJ→ #1->3
+;	"урук" n px3sp acc
+"<чемгербишаан>" 
+	"чемгер" v tv gna_still @ADVL→ #2->3
+"<чугаалажып>"
+;	"чугаала" v tv coop prc_perf
+	"чугаалаш" v tv prc_perf @IMV #3->0
+"<олур>"
+	"олур" vaux aor p3 sg @FAUXV #4->3
+;	"олур" vaux imp p2 sg
+;	"олур" v iv imp p2 sg
+"<.>"
+	"." sent @CLB #5->3

@@ -1,0 +1,39 @@
+"<Чазын>"
+;	"ча" n px3sp acc
+;	"час" n px3sp acc
+;	"чаъс" n px3sp acc
+	"чазын" adv @ADVL→ #1->3
+"<школа>"
+	"школа" n nom @SUBJ→ #2->3
+;	"школа" n attr
+"<тарап>"
+	"тара" v iv prc_perf @X #3->5
+"<турар>"
+	"тур" vaux gpr_aor @X #4->3
+;	"тур" vaux ger_aor nom 
+;	"тур" vaux aor p3 sg 
+;	"тур" v iv gpr_aor 
+;	"тур" v iv ger_aor nom 
+;	"тур" v iv aor p3 sg 
+"<үеде>"
+	"үе" n loc @ADVL→ #5->12
+;	"үеде" v iv imp p2 sg
+"<Агылыг>"
+;	"Агылыг" np top nom
+	"Агылыг" np top attr @→N #6->7
+"<суурнуң>"
+	"суур" n gen @→N #7->10
+"<эң>"
+	"эң" adv @→A #8->9
+"<улуг>"
+	"улуг" adj @→N #9->10
+;	"улуг" adj subst nom
+"<байы>"
+	"бай" adj subst px3sp nom @SPRED→ #10->12
+;	"байы" v iv imp p2 sg
+"<мен>"
+	"мен" prn pers p1 sg nom @SUBJ→ #11->12
+"<болур мен>"
+	"бол" v iv aor p1 sg @FMV #12->0
+"<.>"
+	"." sent @CLB #13->12

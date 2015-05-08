@@ -298,19 +298,23 @@ POSS-REAL ;
 
 LEXICON NP-TOP
 
+%<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>: NP-COMMON ; 
 
 LEXICON NP-TOP-RUS
 
+%<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>:%{☭%} NP-COMMON ; 
 
 LEXICON NP-TOP-ABBR
 
+%<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>: CASES-NOMONLY ; 
 %<np%>%<top%>:%- CASES-ETC-NONOM ;
 
 LEXICON NP-TOP-SK
 
+%<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>:%{и%} NP-COMMON ; 
 
 LEXICON NP-ANT-M
@@ -628,6 +632,10 @@ LEXICON PRON-PERS-OL
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<all%>:олдуве # ; ! Dir/LR
 
 ол%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>%<subst%>:оо%>ң%{I%}%{I%} CASES ;
+
+LEXICON PRON-PERS-OL-KIZI
+
+%<prn%>%<pers%>%<p3%>%<sg%>: CASES ;
 
 LEXICON PRON-DEM-OL
 
@@ -965,6 +973,7 @@ LEXICON Pronouns
 мен:м PRON-PERS-MEN ; ! ""
 сен:с PRON-PERS-SEN ; ! "" 
 PRON-PERS-OL ; 
+ол% кижи:ол% кижи PRON-PERS-OL-KIZI ; 
 бис:бис PRON-PERS-BIS ; ! "" 
 силер:силер PRON-PERS-SILER ; ! "" 
 олар:олар PRON-PERS-OLAR ; ! "" 
@@ -4388,6 +4397,9 @@ LEXICON Nouns
 моң:моң N1 ; ! ""
 кожуун:кожуун N1 ; ! ""
 имир:имир N1 ; ! "сумерки"
+кара%-баарзык:кара%-баарзык N1 ; ! "скворец"
+
+акышкы:акышкы N1 ; ! "брать с братом"
 
 ЕГЭ:ЕГЭ%{э%} N7 ; ! ""
 КХН:КХН%{э%} N7 ; ! ""
@@ -4635,6 +4647,7 @@ Aнкара:Aнкара NP-TOP ; ! ""
 Синай:Синай NP-TOP ; ! ""
 Галаад:Галаад NP-TOP-RUS ; ! ""
 
+Кара%-кыс:Кара%-кыс NP-ANT-F ; ! ""
 Козулина:Козулина NP-ANT-F ; ! ""
 Эсфир:Эсфир NP-ANT-F ; ! ""
 Уранмаа:Уранмаа NP-ANT-F ; ! ""
@@ -8958,6 +8971,7 @@ LEXICON Adjectives
 чазалыг:чазалыг A4 ; ! ""
 лыжалыг:лыжалыг A4 ; ! ""
 шаандакы:шаандакы A4 ; ! ""
+чаъстыг:чаъстыг A4 ; ! ""
 
 LEXICON Adverbs
 
@@ -8975,6 +8989,7 @@ LEXICON Adverbs
 
 каш:каш ADV-ITG ; ! "сколько"
 
+оон:оон АDV ; ! "оттуда"
 оода:оода ADV ; ! "хоть"
 
 ыйнаан:ыйнаан ADV ; ! "может быть"
@@ -8990,6 +9005,8 @@ LEXICON Adverbs
 бо%-ла:бо%-ла ADV ; ! "часто"
 удавас:удавас ADV ; ! "скоро"
 чамдыкта:чамдыкта ADV ; ! "иногда"
+
+чазын:чазын ADV ; ! "весной"
 
 эрте:эрте ADV ; ! "рано"
 
@@ -9506,6 +9523,12 @@ LEXICON Verbs
 аппар:аппар V-TV-AR ; ! "уносить" ! аппаар
 элдепсиндир:элдепсиндир V-TV-AR ; ! ""
 кеде:кеде V-IV ; ! ""
+хорада:хорада V-IV-AR ; ! "сердиться"
+хады:хады V-IV ; ! "дуть" ! хадыыр
+хүлүмзүрү:хүлүмзүрү V-IV ; ! "улыбаться"
+кышкыр:кышкыр V-TV-AR ; ! "кричать"
+сокса:сокса V-IV-AR ; ! "переставать"
+тара:тара V-IV-AR ; ! "расходиться"
 
 !!!!!
 !! The stems below this line need categorising and the
@@ -9834,7 +9857,6 @@ LEXICON Verbs
 сөк:сөк V-TD-AR ; ! "пороть" ! сөгер
 мун:мун V-TD-AR ; ! "сесть" ! мунар
 үр:үр V-TD-AR ; ! "дуть" ! үрер
-хады:хады V-IV ; ! "дуть" ! хадыыр
 өт:өт V-TD-AR ; ! "мокнуть" ! өдер
 үссү:үссү V-TD ; ! "пахнуть" ! үссүүр
 аржай:аржай V-TD-AR ; ! "сохнуть" ! аржаяр

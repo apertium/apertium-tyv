@@ -1,0 +1,23 @@
+"<Номну>"
+	"ном" n acc @OBJ→ #1->2
+"<номчааш>"
+	"номчу" v tv gna_past @ADVL→ #2->7
+;	"номчу" v tv ger_past nom
+"<,>"
+	"," cm @X #3->2
+"<ол кижиниң>"
+	"ол кижи" prn pers p3 sg gen @→N #4->5
+"<чуртталгазын>"
+	"чуртталга" n px3sp acc @→N #5->6
+"<шуптузун>"
+	"шупту" prn qnt px3sp acc @OBJ→ #6->7
+"<билип>"
+	"бил" v tv prc_perf @IMV #7->0
+"<алдым>"
+	"ал" vaux ifi p1 sg @FAUXV #8->7
+;	"ал" v tv ifi p1 sg 
+;	"алд" n px1sg nom 
+;	"алды" n px1sg nom 
+;	"алды" num subst px1sg nom 
+"<.>"
+	"." sent @CLB #9->7

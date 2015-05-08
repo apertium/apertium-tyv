@@ -20,6 +20,7 @@ Tests:
  "[twol] Past in -GAн after vowels":
     бижи<v><tv><past><p3><sg> : бижээн
     уду<v><iv><past><p3><sg> : удаан
+    хады<v><iv><past><p3><sg> : хадаан
     неге<v><tv><past><p3><sg> : негээн
     төрү<v><iv><past><p3><sg> : төрээн
 
@@ -136,7 +137,7 @@ Tests:
     арт<v><tv><prc_perf> : артып
     чи<v><tv><prc_perf> : чип
     айыт<v><tv><prc_perf> : айтып
-    эккел<v><tv><prc_perf> : эккээп
+    эккел<v><tv><prc_perf> : эккеп
     эг<v><iv><prc_perf> : ээп
     одун<v><iv><prc_perf> : оттуп
 
