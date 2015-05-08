@@ -275,12 +275,12 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 %{L%}:н <=> :Nasals/:0* %>: _ ;
 
 "л to н assimilation before Nasals when no epenthetic vowel"
-л:н <=> _ %{y%}:0/[ :0 - %{y%}:0 ]* :Nasals ;
+л:н <=> _ %{y%}:0 :Nasals ;
     except
-        [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;
+        [ :VoicelessCns %{y%}: ]/[ :0 - %{y%}: ]* _ ;
 
 "Devoicing of some cons before unrealised epenthetic vowel"
-Cx:Cy <=> _ %{y%}:0/[ :0 - %{y%}:0 ]* ;
+Cx:Cy <=> _ %{y%}:0/[ :0 - %{y%}: ]* ;
       where Cx in ( д з )
             Cy in ( т с )
       matched ;
@@ -527,8 +527,8 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "ш to ч after certain things"
 ш:ч <=> %{н%}:н _ ;                            ! -after {н} when it surfaces
-        [ :т %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;   ! after т when no epenthesis
-        [ л: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;   ! after л when no epenthesis
+        [ :т %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;    ! after т when no epenthesis
+        [ л: %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;    ! after л when no epenthesis
 
 !@ т у л {y}:0 ш:ч >:0 {i}:у р
 
