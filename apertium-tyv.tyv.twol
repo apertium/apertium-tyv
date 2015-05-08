@@ -279,11 +279,11 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
     except
         [ :VoicelessCns %{y%}: ]/[ :0 - %{y%}: ]* _ ;
 
-"Devoicing of some cons before unrealised epenthetic vowel"
-Cx:Cy <=> _ %{y%}:0/[ :0 - %{y%}: ]* ;
-      where Cx in ( д з )
-            Cy in ( т с )
-      matched ;
+!"Devoicing of some cons before unrealised epenthetic vowel"
+!Cx:Cy <=> _ %{y%}:0/[ :0 - %{y%}: ]* :VoicelessCns ;
+!      where Cx in ( д з )
+!            Cy in ( т с )
+!      matched ;
 
 !!!== Vowel harmony ==!!!
 
