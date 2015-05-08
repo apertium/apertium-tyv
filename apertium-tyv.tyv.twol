@@ -210,7 +210,7 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 !@ б и л и:и к:0 >:0 {i}:и м
 
 "Intervocalic {G} deletion"
-%{g%}:0 <=> :Vow/:0* _ ;
+%{g%}:0 <=> :Vow/:0* _ :Vow/:0* ;
 
 
 !!!== Desonorisation ==!!!
@@ -226,9 +226,23 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 "N Desonorisation"
 %{N%}:д <=> :Liquid/[ ь | :0]* _ ;
 
-"Desonorisation after non-epenthesised vowel"
-Cx:т <=> [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;
-     where Cx in ( л н ) ;
+!"Desonorisation after non-epenthesised vowel"
+!Cx:т <=> [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;
+!     except
+!         [ :Nasals %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;
+!     where Cx in ( л н ) ;
+
+
+"н desonorisation/devoicing after voiceless consonant and epenthesis"
+н:т <=> [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;
+
+!@ о д:т {у}:0 н:т >:0 {i}:у п
+
+"л desonorisation/devoicing after voiceless consonant and epenthesis"
+л:т <=> [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;
+
+
+
 
 !!== Assimilation ==!!
 
@@ -260,9 +274,16 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals/:0* %>: _ ;
 
-"л to н assimilation when no epenthetic vowel"
+"л to н assimilation before Nasals when no epenthetic vowel"
 л:н <=> _ %{y%}:0/[ :0 - %{y%}:0 ]* :Nasals ;
+    except
+        [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;
 
+"Devoicing of some cons before unrealised epenthetic vowel"
+Cx:Cy <=> _ %{y%}:0/[ :0 - %{y%}:0 ]* ;
+      where Cx in ( д з )
+            Cy in ( т с )
+      matched ;
 
 !!!== Vowel harmony ==!!!
 
@@ -301,7 +322,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
             [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
-                                                   _ %>: %{g%}: ;
+            _ [ %{g%}:0 %{A%}: ]/[ :0 - %{g%}: ]* ;
+!                                                   _ %>: %{g%}: ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {G}:г {A}:е
 
@@ -310,6 +332,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          except
              Vow: [ %>: %{G%}:0 ]/:0* _ ; 
              [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
+             ! [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
+             _ [ %{g%}:0 %{A%}: ]/[ :0 - %{g%}: ]* ;
 
 !"yotted {I} harmony"
 !%{I%}:ю <=> [ [ у: | о: ] й: ]/:0* _ ;
@@ -438,9 +462,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 !@ н е г е:э >:0 {g}:0 {A}:э н
 
-"Vowel harmony for {A} after deleted {g}"
+"Vowel harmony for {A} after and before deleted {g}"
 %{A%}:э <=> [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
-                                                   _ %>: %{g%}: ; 
+            [ :FrontVow :Cns* :RealCns ]/:0* _ [ %{g%}:0 %{A%}: ]/[ :0 - %{g%}: ]* ;
+!                                                   _ %>: %{g%}: ; 
 
 !@ б и ж и:э >:0 {g}:0 {A}:э н
 
@@ -472,6 +497,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 %{к%}:т <=> :р _ .#. ;
         :р _ %>: :Cns/:0* ;
 
+"/к/ voicing intervocalically"
+%{к%}:г <=> :р _ %>: :Vow/:0* ;
+
 "{г} devoicing when syllable-final"
 %{г%}:к <=> :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ;
 
@@ -500,6 +528,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "ш to ч after certain things"
 ш:ч <=> %{н%}:н _ ;                            ! -after {н} when it surfaces
         [ :т %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;   ! after т when no epenthesis
+        [ л: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ ;   ! after л when no epenthesis
 
 !@ т у л {y}:0 ш:ч >:0 {i}:у р
 
