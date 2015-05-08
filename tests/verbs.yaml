@@ -34,9 +34,6 @@ Tests:
     эрт<v><iv><aor><p3><sg> : эртер
     корт<v><tv><aor><p3><sg> : коргар
     шап<v><tv><aor><p3><sg> : шавар
-    тулуш<v><iv><aor><p3><sg> : тулчур
-    болуш<v><iv><aor><p3><sg> : болчур
-    сезин<v><iv><aor><p3><sg> : сестир
 
  "Aorist -Iр [stems in -р, р deletion]":
     бар<vaux><aor><p3><sg> : баар
@@ -89,6 +86,9 @@ Tests:
     ажын<v><tv><aor><p3><sg> : аштыр
     сөгүл<v><iv><aor><p3><sg> : сөктүр
     айыт<v><tv><aor><p3><sg> : айтыр
+    тулуш<v><iv><aor><p3><sg> : тулчур
+    болуш<v><iv><aor><p3><sg> : болчур
+    сезин<v><iv><aor><p3><sg> : сестир
 
  "Imperative [stems with epenthetic vowel]":
     ужул<v><tv><imp><p2><sg> : ужул
@@ -100,6 +100,9 @@ Tests:
     ажын<v><tv><imp><p2><sg> : ажын
     сөгүл<v><iv><imp><p2><sg> : сөгүл
     айыт<v><tv><imp><p2><sg> : айыт
+    тулуш<v><iv><img><p2><sg> : тулуш
+    болуш<v><iv><img><p2><sg> : болуш
+    сезин<v><iv><img><p2><sg> : сезин
 
  "Aorist -Aр/-Iр [stems with epenthetic consonant]":
     соол<v><tv><aor><p3><sg> : соглур
