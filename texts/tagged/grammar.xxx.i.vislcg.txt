@@ -1,0 +1,46 @@
+"<Школага>"
+	"школа" n dat @advmod #1->5
+"<эң>"
+	"эң" adv @x #2->4
+"<-не>"
+	"ла" mod @x #3->2
+"<баштай>"
+;	"башта" v tv prc_impf 
+	"баштай" adv @advmod #4->5
+"<келген>"
+;	"кел" v iv ger_past nom 
+;	"кел" v iv past p3 sg
+	"кел" v iv gpr_past @x #5->7
+"<бичии>"
+	"бичии" adj @amod #6->7
+;	"бичии" adj subst nom
+"<кижилер>"
+	"кижи" n pl nom @subj #7->13
+"<«>"
+	"«" lquot @punct #8->9
+"<школачы>"
+	"школачы" n nom @x #9->10
+;	"школачы" n attr
+"<мен>"
+	"мен" prn pers p1 sg nom @parataxis #10->13
+"<»>"
+	"»" rquot @punct #11->10
+"<->"
+	"-" guio @x #12->13
+"<деп>"
+	"де" v tv prc_perf @x #13->16
+"<чоргаарал>"
+	"чоргаарал" n nom @nmod #14->16
+;	"чоргаарал" n attr
+"<-биле>"
+	"биле" post @case #15->14
+"<чугаалажыр>"
+;	"чугаала" v tv coop aor p3 sg
+	"чугаалаш" v tv aor p3 sg @root #16->0
+;	"чугаала" v tv coop ger_aor nom
+;	"чугаалаш" v tv ger_aor nom
+;	"чугаала" v tv coop gpr_aor REMOVE:31
+;	"чугаалаш" v tv gpr_aor REMOVE:31
+"<.>"
+	"." sent @punct #17->16
+

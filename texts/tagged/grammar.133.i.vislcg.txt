@@ -2,23 +2,23 @@
 ;	"кызыл" adj
 ;	"кыс" n nom
 ;		"ыл" qst
-	"Кызыл" np top nom @ADVL→ #1->2
+	"Кызыл" np top nom @arg #1->2
 ;	"Кызыл" np top attr
 ;	"кызыл" adj subst nom
 "<чоруп>"
-	"чору" v iv prc_perf @X #2->6
+	"чору" v iv prc_perf @advcl→ #2->6
 ;	"чор" v iv prc_perf
 ;	"чор" vaux prc_perf
 ;	"чору" vaux prc_perf
 "<оргаш>"
-	"ор" v TD gna_past @ADVL→ #3->2
+	"ор" v TD gna_past @faux #3->2
 ;	"ор" v TD ger_past nom
 "<орукка>"
-	"орук" n dat @ADVL→ #4->6
+	"орук" n dat @nmod #4->6
 "<хойну>"
-	"хой" n acc @OBJ→ #5->6
+	"хой" n acc @obj→ #5->6
 "<көрдүм>"
-	"көр" v tv ifi p1 sg @FMV #6->0
+	"көр" v tv ifi p1 sg @fmv #6->0
 ;	"көр" vaux ifi p1 sg
 "<.>"
-	"." sent @CLB #7->6
+	"." sent @punct #7->6

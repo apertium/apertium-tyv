@@ -1,13 +1,13 @@
 "<Мен>"
-	"мен" prn pers p1 sg nom @SUBJ→ #1->4
+	"мен" prn pers p1 sg nom @subj→ #1->4
 "<аңаа>"
 ;	"ол" prn dem dat
-	"ол" prn pers p3 sg dat @ADVL→ #2->4
+	"ол" prn pers p3 sg dat @arg→ #2->4
 "<ном>"
-	"ном" n nom @OBJ→ #3->4
+	"ном" n nom @obj→ #3->4
 ;	"ном" n attr
 "<бердим>"
-	"бер" v tv ifi p1 sg @FMV #4->0
+	"бер" v tv ifi p1 sg @fmv #4->0
 ;	"бер" vaux ifi p1 sg
 "<.>"
-	"." sent @CLB #5->4
+	"." sent @punct #5->4
