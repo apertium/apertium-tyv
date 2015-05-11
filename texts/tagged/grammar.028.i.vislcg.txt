@@ -1,18 +1,18 @@
 "<Номну>"
-	"ном" n acc @obj→ #1->2
+	"ном" n acc @obj #1->2
 "<номчааш>"
-	"номчу" v tv gna_past @advcl→ #2->7
+	"номчу" v tv gna_past @advcl #2->7
 ;	"номчу" v tv ger_past nom
 "<,>"
 	"," cm @punct #3->2
 "<ол кижиниң>"
-	"ол кижи" prn pers p3 sg gen @→nmod #4->5
+	"ол кижи" prn pers p3 sg gen @nmod #4->5
 "<чуртталгазын>"
-	"чуртталга" n px3sp acc @→nmod #5->6
+	"чуртталга" n px3sp acc @obj #5->6
 "<шуптузун>"
-	"шупту" prn qnt px3sp acc @obj→ #6->7
+	"шупту" prn qnt px3sp acc @appos #6->7
 "<билип>"
-	"бил" v tv prc_perf @imv #7->0
+	"бил" v tv prc_perf @root #7->0
 "<алдым>"
 	"ал" vaux ifi p1 sg @faux #8->7
 ;	"ал" v tv ifi p1 sg 
