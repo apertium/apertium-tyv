@@ -137,12 +137,25 @@ Tests:
     эккел<v><tv><prc_perf> : эккеп
     эг<v><iv><prc_perf> : ээп
     одун<v><iv><prc_perf> : оттуп
+    кывыс<v><tv><prc_perf> : кыпсып
 
  "Participle -Е":
     кир<v><iv><prc_impf> : кире
     бижи<v><tv><prc_impf> : бижий
     ойна<v><tv><prc_impf> : ойнай
     олур<vaux><prc_impf> : олура
+    тай<v><iv><prc_impf> : тая
 
  "Form in -IптAр":
    четтик<v><iv><perf><p3><sg> : четтигиптер
+
+ "Imperative -AAлI":
+   саг<v><tv><imp><p1><du> : саалы
+   ал<v><tv><imp><p1><du> : алыылы
+
+ "Imperative -IңAр":
+   бер<v><tv><imp><p2><pl> : бериңер
+
+  "Unaccomplished -gAлAк": 
+   доос<v><tv><unac><p1><sg> : дооскалаам
+   доос<v><tv><unac><p3><sg> : дооскалак

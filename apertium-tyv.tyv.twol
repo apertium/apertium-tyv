@@ -189,6 +189,8 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
       except
          :Vow _ %>: %{i%}: п: ;
 
+!@ к:к ы:ы п:п {y}:0 с:с >:0 {i}:ы п:п
+
 "Intervocalic voiced velar deletion"
 Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
      except
@@ -386,8 +388,15 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
          matched ;
 
 "Turn {E} into й after a vowel"
-%{E%}:й <=> [ :Vow ]/[ %>: | :0 ] _ ;
+%{E%}:й <=> [ :Vow ]/[ %>: | :0 - й: ] _ ;
 
+"Yotisation of {E} after й"
+%{E%}:я <=> :BackVow й: %>: _ .#. ; 
+
+"й deletion before {E}" 
+й:0 <=> :BackVow _ %>: %{E%}: .#.  ;
+
+!@ т а й:0 >:0 {E}:я
 
 !!== Vowel-harmony-related deletion ==!!
 
@@ -541,9 +550,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е 
 
 "р deletion in aorist"
-р:0 <=> _ [ %>: %{I%}: ]/:0* р ;
+р:0 <=> _ [ %>: %{I%}: р ]  ;
 
 !@ б а р:0 >:0 {I}:а р
+
+!@ б е р >:0 {I}:и ң {A}:е р
 
 "й deletion before yot vowels"
 й:0 <=> _ %{A%}:/:0* ;
