@@ -1,0 +1,12 @@
+"<Мен>"
+	"мен" prn pers p1 sg nom @subj #1->3
+"<Кызылга>"
+	"Кызыл" np top dat @nmod #2->3
+;	"кызыл" adj subst dat
+"<чурттап>"
+	"чуртта" v iv prc_perf @root #3->0
+"<турган мен>"
+	"тур" vaux past p1 sg @faux #4->3
+;	"тур" v iv past p1 sg 
+"<.>"
+	"." sent @punct #5->3

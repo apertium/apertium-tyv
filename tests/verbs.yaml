@@ -47,12 +47,9 @@ Tests:
     чору<v><iv><aor><p3><sg> : чоруур
 
  "Aorist -Iр/-Aр [stems in -л, л variable deletion]":
-    кел<v><iv><aor><p3><sg> : келир
-    кел<v><iv><aor><p3><sg> : кээр
-    бол<v><iv><aor><p3><sg> : болур
-    бол<v><iv><aor><p3><sg> : боор
-    ал<v><tv><aor><p3><sg> : алыр
-    ал<v><tv><aor><p3><sg> : аар
+    кел<v><iv><aor><p3><sg> : [кээр, келир]
+    бол<v><iv><aor><p3><sg> : [боор, болур]
+    ал<v><tv><aor><p3><sg> : [аар, алыр]
 
  "Aorist -Iр/-Aр [stems in -л, л deletion]":
     эккел<v><tv><aor><p3><sg> : эккээр
@@ -116,7 +113,7 @@ Tests:
     ажылда<v><tv><aor><p3><sg> : ажылдаар
     ойна<v><iv><aor><p3><sg> : ойнаар
     чору<vaux><aor><p3><sg> : чоруур
-    бүзүрэ<v><tv><aor><p3><sg> : бүзүрээр
+    бүзүре<v><tv><aor><p3><sg> : бүзүрээр
     иште<v><tv><aor><p3><sg> : иштээр
     ынакшы<v><tv><aor><p3><sg> : ынакшыыр 
     ижээ<v><tv><aor><p3><sg> : ижээр

@@ -1,0 +1,12 @@
+"<Мен>"
+	"мен" prn pers p1 sg nom @subj #1->4
+"<хөй>"
+	"хөй" det qnt @det #2->3
+	"хөй" prn qnt nom 
+"<кижилерни>"
+	"кижи" n pl acc @obj #3->4
+"<көрдүм>"
+	"көр" v tv ifi p1 sg @root #4->0
+;	"көр" vaux ifi p1 sg
+"<.>"
+	"." sent @punct #5->4

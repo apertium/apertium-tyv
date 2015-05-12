@@ -27,6 +27,16 @@ tests/possessives.yaml -text
 tests/run-twol-pairtests.sh -text
 tests/verbs.yaml -text
 texts/grammar.tyv.txt -text
+texts/tagged/grammar.014.i.vislcg.txt -text
+texts/tagged/grammar.014.ii.vislcg.txt -text
+texts/tagged/grammar.015.i.vislcg.txt -text
+texts/tagged/grammar.015.ii.vislcg.txt -text
+texts/tagged/grammar.018.i.vislcg.txt -text
+texts/tagged/grammar.018.v.vislcg.txt -text
+texts/tagged/grammar.019.ii.vislcg.txt -text
+texts/tagged/grammar.019.iii.vislcg.txt -text
+texts/tagged/grammar.019.v.vislcg.txt -text
+texts/tagged/grammar.019.vii.vislcg.txt -text
 texts/tagged/grammar.028.i.vislcg.txt -text
 texts/tagged/grammar.089.i.vislcg.txt -text
 texts/tagged/grammar.089.iv.vislcg.txt -text

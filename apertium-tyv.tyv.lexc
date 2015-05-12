@@ -600,7 +600,7 @@ LEXICON PRON-PERS-MEN
 %<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:ени # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:енде # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:енден # ;
-%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:енже # ;
+%<prn%>%<pers%>%<p1%>%<sg%>%<all%>:енче # ;
 %<prn%>%<pers%>%<p1%>%<sg%>%<all%>:ендиве # ; ! Dir/LR
 
 %<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:ээ%>ң%{I%}%{I%} CASES ;
@@ -614,7 +614,7 @@ LEXICON PRON-PERS-SEN
 %<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:ени # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:енде # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:енден # ;
-%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:енже # ;
+%<prn%>%<pers%>%<p2%>%<sg%>%<all%>:енче # ;
 %<prn%>%<pers%>%<p2%>%<sg%>%<all%>:ендиве # ; ! Dir/LR
 
 %<prn%>%<pers%>%<p2%>%<sg%>%<gen%>%<subst%>:ээ%>ң%{I%}%{I%} CASES ;
@@ -4407,6 +4407,7 @@ LEXICON Nouns
 каътташ:каътташ N1 ; ! ""
 подъезд:подъезд%{и%} N5 ; ! ""
 хелээшкин:хелээшкин N1 ; ! "" ! FIXME: check
+москвачы:москвачы N1 ; ! ""
 
 ЕГЭ:ЕГЭ%{э%} N7 ; ! ""
 КХН:КХН%{э%} N7 ; ! ""
@@ -9108,6 +9109,7 @@ LEXICON Verbs
 тур:тур VAUX-AR ; ! ""           ! турар
 
 шыда:шыда VAUX-AR ; ! "мочь" ! FIXME: check stem
+как:как VAUX-AR ; ! "бить" ! FIXME: check stem
 
 эгеле:эгеле V-TV ; ! ""
 
@@ -9551,6 +9553,10 @@ LEXICON Verbs
 тунелде:тунелде V-IV ; ! "" ! FIXME: check
 билдир:билдир V-TV ; ! ""
 билдирт:билдирт V-TV ; ! ""
+шылырткайн:шылырткайн V-IV ; ! ""
+чел:чел V-IV-AR ; ! "идти рысью"
+тып:тып V-TV ; ! ""
+тывыл:тывы%{л%} V-IV ; ! ""
 
 !!!!!
 !! The stems below this line need categorising and the

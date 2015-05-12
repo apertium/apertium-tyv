@@ -1,0 +1,17 @@
+"<Мен>"
+	"мен" prn pers p1 sg nom @subj #1->4
+"<оон>"
+;	"оң" adj subst px3sp acc
+;	"ол" prn dem abl
+	"ол" prn pers p3 sg abl @nmod #2->4
+"<чагаа>"
+	"чагаа" n nom @obj #3->4
+;	"чагаа" n attr
+"<алдым>"
+;	"алды" num subst px1sg nom
+	"ал" v tv ifi p1 sg @root #4->0
+;	"алд" n px1sg nom
+;	"алды" n px1sg nom
+;	"ал" vaux ifi p1 sg REMOVE:36
+"<.>"
+	"." sent @punct #5->4
