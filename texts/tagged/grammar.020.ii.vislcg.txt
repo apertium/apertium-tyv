@@ -1,0 +1,11 @@
+"<Мен>"
+	"мен" prn pers p1 sg nom @subj #1->4
+"<бо>"
+	"бо" det dem @det #2->3
+;	"бо" prn dem nom
+"<номну>" 
+	"ном" n acc @obj #3->4
+"<номчудум>"
+	"номчу" v tv ifi p1 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
