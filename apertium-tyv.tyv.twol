@@ -89,8 +89,8 @@ Nasals      = Н М Ң
 Velars         = Ң Г К 
                 ң г к ;
 
-VoicelessCns = к п с т ц ш ф 
-               К П С Т Ц Ш Ф ; 
+VoicelessCns = к п с т ц ш ф х 
+               К П С Т Ц Ш Ф Х ; 
 
 VoicelessCnsRus = З Б В Д Ж Г
                   з б в д ж г ;

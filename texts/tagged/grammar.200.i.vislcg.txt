@@ -1,0 +1,19 @@
+"<Имир>"
+	"имир" n nom @subj #1->2
+;	"имир" n attr
+"<дүшкүже>"
+	"дүш" v iv gna_lim @advcl #2->6
+"<,>"
+	"," cm @punct #3->2
+"<катка>"
+	"кат" n dat @nmod #4->6
+"<элик>"
+	"элик" n nom @subj #5->6
+;	"элик" n attr
+"<кедеп>"
+	"кеде" v iv prc_perf @root #6->0
+"<олурдум>"
+	"олур" vaux ifi p1 sg @faux #7->6
+;	"олур" v iv ifi p1 sg 
+"<.>"
+	"." sent @punct #8->6
