@@ -86,7 +86,6 @@ Tests:
     17<num><subst><abl> : 17-ден
     100<num><subst><abl> : 100-тен
     200<num><subst><abl> : 200-тен
-    30<num><subst><abl> : 30-тен
     3<num><subst><abl> : 3-тен
     23<num><subst><abl> : 23-тен
     4<num><subst><abl> : 4-тен
@@ -113,3 +112,8 @@ Tests:
     30<num><subst><nom> : 30-ин
     21<num><subst><nom> : 21-ин
     26<num><subst><px3sp><nom> : 26-зы
+
+  "Ordinals -GI":
+    5<num><ord> : 5-ки
+    3<num><ord> : 3-кү
+    15<num><ord> : 15-ки

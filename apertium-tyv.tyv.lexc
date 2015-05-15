@@ -58,6 +58,7 @@ Multichar_Symbols
 %<abl%>                   ! Исходный падеж
 %<all%>                   ! Направительный падеж
 
+%<ord%>                   ! Ordinal
 %<dem%>                   ! Demonstrative
 %<ref%>                   ! Reflexive
 %<itg%>                   ! Interrogative 
@@ -199,6 +200,13 @@ LEXICON NUM-DIGIT
 %<num%>%<subst%>%<nom%>: # ;
 %<num%>%<subst%>:%- CASES-ETC-NONOM ; ! SUBST-NONOM ;
 %<num%>%<subst%>: CASES-ETC-NONOM ; ! SUBST-NONOM ; ! Dir/LR
+
+%<num%>%<ord%>:%>% дугаар # ; 
+%<num%>%<ord%>%<subst%>%<nom%>:%>% дугаар ; 
+%<num%>%<ord%>%<subst%>:%>% дугаар CASES-ETC-NONOM ; ! SUBST-NONOM ;  
+%<num%>%<ord%>:%-%>%{G%}%{I%} # ; ! Dir/LR
+%<num%>%<ord%>%<subst%>%<nom%>:%-%>%{G%}%{I%} # ; ! Dir/LR
+%<num%>%<ord%>%<subst%>:%-%>%{G%}%{I%} CASES-ETC-NONOM ; ! SUBST-NONOM ;  ! Dir/LR
 
 %<num%>%<percent%>%<subst%>:%%%{а%}%{з%}%- CASES-ETC-NONOM ; ! SUBST-NONOM ;
 %<num%>%<percent%>%<subst%>:%%%{а%}%{з%} CASES-ETC-NONOM ; ! SUBST-NONOM ; ! Dir/LR

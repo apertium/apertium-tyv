@@ -225,6 +225,8 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 
 "{L} desonorisation"
 %{L%}:д <=> :Liquid/[ ь | :0 ]* _ ;
+        except
+               %{с%}: (%-:) %>: _ ;
 
 !@ м е д а л ь >:0 {L}:д {A}:а р
 
@@ -233,6 +235,8 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 
 "N Desonorisation"
 %{N%}:д <=> :Liquid/[ ь | :0]* _ ;
+        except
+               %{с%}: (%-:) %>: _ ;
 
 !"Desonorisation after non-epenthesised vowel"
 !Cx:т <=> [ :VoicelessCns %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;
@@ -257,12 +261,15 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 "Forward voicing assimilation"
 Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
                                VoicelessCnsRus %{☭%}: %>: _ ;
+                               %{с%}: (%-:) %>: _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
           where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} %{B%} %{Z%})
                 Cy in (   п      т      т      т      к     п     с  )
                 matched;
 
 !@ с а д {☭}:0 >:0 {D}:т {A}:а
+
+!@ 5 {э}:0 {с}:0 - {G}:к {I}:и
 
 !"Forward voicing assimilation of normal stuff"
 !Cx:Cy <=> :VoicelessCns/:0* _ ;
@@ -281,6 +288,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "{L} nasal assimilation"
 %{L%}:н <=> :Nasals/:0* %>: _ ;
+        except
+               %{с%}: (%-:) %>: _ ;
 
 "л to н assimilation before Nasals when no epenthetic vowel"
 л:н <=> _ %{y%}:0 :Nasals ;
