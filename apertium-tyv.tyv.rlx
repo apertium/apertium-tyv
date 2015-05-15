@@ -8,6 +8,9 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
+LIST Det = det ;
+LIST Pron = prn ; 
+
 LIST Aux = vaux ; 
 LIST Qst = qst ;
 
@@ -38,3 +41,4 @@ REMOVE Aux IF (NOT -1 Prc) ;
 
 SELECT Qst IF (1 Sent/Qst) ;
    ## Олар ол кино көргени ол бе?
+

@@ -1,0 +1,115 @@
+Config:
+  hfst:
+      App: hfst-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+  "Dative -GA":
+    10<num><subst><dat> : 10-га
+    19<num><subst><dat> : 19-ка
+    2<num><subst><dat> : 2-е
+    3<num><subst><dat> : 3-е
+    4<num><subst><dat> : 4-е
+    1<num><subst><dat> : 1-ге
+    21<num><subst><dat> : 21-ге
+    52<num><subst><dat> : 52-ге
+    62<num><subst><dat> : 62-ге
+    100<num><subst><dat> : 100-ке
+    3<num><subst><dat> : 3-ке
+    23<num><subst><dat> : 23-ке
+    4<num><subst><dat> : 4-ке
+    14<num><subst><dat> : 14-ке
+    2014<num><subst><dat> : 2014-ке
+    18<num><subst><dat> : 18-ке
+
+  "Locative -DA": 
+    10<num><subst><loc> : 10-да
+    6<num><subst><loc> : 6-да
+    16<num><subst><loc> : 16-да
+    26<num><subst><loc> : 26-да
+    27<num><subst><loc> : 27-та
+    9<num><subst><loc> : 9-та
+    19<num><subst><loc> : 19-та
+    29<num><subst><loc> : 29-та
+    20<num><subst><loc> : 20-де
+    30<num><subst><loc> : 30-де
+    1<num><subst><loc> : 1-де
+    11<num><subst><loc> : 11-де
+    21<num><subst><loc> : 21-де
+    31<num><subst><loc> : 31-де
+    2<num><subst><loc> : 2-де
+    12<num><subst><loc> : 12-де
+    22<num><subst><loc> : 22-де
+    4<num><subst><loc> : 4-де
+    5<num><subst><loc> : 5-де
+    25<num><subst><loc> : 25-де
+    7<num><subst><loc> : 7-де
+    17<num><subst><loc> : 17-де
+    27<num><subst><loc> : 27-де
+    3<num><subst><loc> : 3-те
+    13<num><subst><loc> : 13-те
+    23<num><subst><loc> : 23-те
+    4<num><subst><loc> : 4-те
+    14<num><subst><loc> : 14-те
+    24<num><subst><loc> : 24-те
+    5<num><subst><loc> : 5-те
+    15<num><subst><loc> : 15-те
+    25<num><subst><loc> : 25-те
+    8<num><subst><loc> : 8-те
+    18<num><subst><loc> : 18-те
+    28<num><subst><loc> : 28-те
+
+  "Allative -Je":
+    11<num><subst><all> : 11-же
+    21<num><subst><all> : 21-же
+
+  "Accusative -NI":
+    1<num><subst><acc> : 1-ни
+    12<num><subst><acc> : 12-ни
+    8<num><subst><acc> : 8-ти
+
+  "Ablative -DAн": 
+    6<num><subst><abl> : 6-дан
+    16<num><subst><abl> : 16-дан
+    9<num><subst><abl> : 9-тан
+    20<num><subst><abl> : 20-ден
+    30<num><subst><abl> : 30-ден
+    50<num><subst><abl> : 50-ден
+    1<num><subst><abl> : 1-ден
+    21<num><subst><abl> : 21-ден
+    2<num><subst><abl> : 2-ден
+    12<num><subst><abl> : 12-ден
+    4<num><subst><abl> : 4-ден
+    7<num><subst><abl> : 7-ден
+    17<num><subst><abl> : 17-ден
+    100<num><subst><abl> : 100-тен
+    200<num><subst><abl> : 200-тен
+    30<num><subst><abl> : 30-тен
+    3<num><subst><abl> : 3-тен
+    23<num><subst><abl> : 23-тен
+    4<num><subst><abl> : 4-тен
+    14<num><subst><abl> : 14-тен
+    24<num><subst><abl> : 24-тен
+    5<num><subst><abl> : 5-тен
+    28<num><subst><abl> : 28-тен
+
+  "Genitive -NIң":
+    80<num><subst><gen> : 80-ниң
+    1<num><subst><gen> : 1-ниң
+    11<num><subst><gen> : 11-ниң
+    31<num><subst><gen> : 31-ниң
+    17<num><subst><gen> : 17-ниң
+    8<num><subst><gen> : 8-тиң
+    18<num><subst><gen> : 18-тиң
+    4<num><subst><gen> : 4-түң
+    2014<num><subst><gen> : 2014-түң
+    6<num><subst><gen> : 6-ның
+    26<num><subst><gen> : 26-ның
+
+  "Miscellaneous":
+    3<num><subst><nom> : 3-ң
+    30<num><subst><nom> : 30-ин
+    21<num><subst><nom> : 21-ин
+    26<num><subst><px3sp><nom> : 26-зы
