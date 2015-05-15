@@ -218,8 +218,9 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 !@ б и л и:и к:0 >:0 {i}:и м
 
 "Intervocalic {G} deletion"
-%{g%}:0 <=> :Vow/:0* _ :Vow/:0* ;
+%{g%}:0 <=> :Cns :Vow/:0* _ :Vow/:0* ;
 
+!@ д у ж а а >:0 {g}:г {A}:а н
 
 !!!== Desonorisation ==!!!
 
