@@ -596,9 +596,20 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !"т deletion in -ст consonant cluster"
 !т:0 <=> .#. [ Vow: | Cns: ]* с _ %>: :Cns ;
 
+! FIXME: This needs work, also applies to other possessives
+"consonant cluster reduction"
+с:0 <=> Vow _ с: (%{☭%}:) %>: :Vow/:0* ; 
+
+!@ к л а с:з с:0 >:0 {z}:0 {I}:ы {n}:0
+
+!@ б о к с >:0 {z}:0 {I}:у {n}:0
+
+!@ к о н к у р с:0 {☭}:0 >:0 {z}:0 {I}:у {n}:0
+
 !@ а р т и с т:0 >:0 {L}:т {A}:е р
 
 !@ ч а ъ:0 с:з >:0 {i}:ы м
+
 !@ ч а ъ:0 с:з >:0 {i}:ы м >:0 {G}:г {A}:а
 
 
