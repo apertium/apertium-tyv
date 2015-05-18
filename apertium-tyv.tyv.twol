@@ -368,9 +368,15 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ :Vx р:0 ]/[ :0 - р: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+             л ь: %>: [ :Cns | :0 ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
+
+"{I} harmony after мягкий знак"
+%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
+
+!@ а н с а м б л ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е
 
 "{I} harmony immediately after short vowels"
 %{I%}:Vy <=> :Vx/:0* _ ;
@@ -388,6 +394,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "Abstract harmony for {I}"
 %{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+         except
+             л ь: %>: [ :Cns | :0 ]* _ ;
          where AbstractVow in ( %{э%} )
                         Vy in (   и   )
          matched ;
