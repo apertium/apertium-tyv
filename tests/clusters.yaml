@@ -7,7 +7,7 @@ Config:
 Tests:
 
 
- "[twol] бл : no simplification ever(?)":
+ "[twol] мл/бл : no simplification ever(?)":
     рубль<n><nom> : рубль
     рубль<n><attr> : рубль
     рубль<n><gen> : рубльдиң
@@ -17,6 +17,12 @@ Tests:
     рубль<n><pl><nom> : рубльдер
     рубль<n><px3sp><nom> : рубли
     рубль<n><px3sp><acc> : рублин
+    ансамбль<n><pl><nom> : ансамбльдер
+    ансамбль<n><px3sp><gen> : ансамблиниң
+    кремль<n><dat> : кремльге
+    кремль<n><all> : кремльче
+    кремль<n><loc> : кремльде
+    кремль<n><px3sp><nom> : кремли
 
  "[twol] кс : no simplification when syllable-final": 
     комплекс<n><nom> : комплекс
