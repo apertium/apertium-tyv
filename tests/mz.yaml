@@ -54,5 +54,5 @@ Tests:
     ансамбль<n><px3sp><gen> : ансамблиниң
     кремль<n><px3sp><nom> : кремли
 
- "[twol] ь should not delete":
+ "[twol] ь should not delete before when there's no morpheme boundary":
     Афанасьев<np><cog><f><gen> : Афанасьеваның
