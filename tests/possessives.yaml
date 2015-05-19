@@ -508,10 +508,10 @@ Tests:
     класс<n><pl><px3sp><gen> : класстарының 
     класс<n><pl><px3sp><nom> : класстары 
 
-  "Noun артист":
+ "Noun артист":
     артист<n><px3sp><nom> : артизи
 
-  "Miscellaneous":
+ "Miscellaneous":
     тавак<n><px1sg><nom> : таваам
     тавак<n><px2sg><nom> : тавааң
     тавак<n><px3sp><nom> : таваа
