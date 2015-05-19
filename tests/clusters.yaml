@@ -7,6 +7,17 @@ Config:
 Tests:
 
 
+ "[twol] бл : no simplification ever(?)":
+    рубль<n><nom> : рубль
+    рубль<n><attr> : рубль
+    рубль<n><gen> : рубльдиң
+    рубль<n><dat> : рубльге
+    рубль<n><acc> : рубльди
+    рубль<n><abl> : рубльден
+    рубль<n><pl><nom> : рубльдер
+	 рубль<n><px3sp><nom> : рубли
+	 рубль<n><px3sp><acc> : рублин
+
  "[twol] кс : no simplification when syllable-final": 
     комплекс<n><nom> : комплекс
     комплекс<n><attr> : комплекс
@@ -17,15 +28,6 @@ Tests:
  "[twol] ст : no simplification at end of word": 
     область<n><nom> : область
     область<n><attr> : область
-
- "[twol] бл : no simplification when syllable-final":
-    рубль<n><nom> : рубль
-    рубль<n><attr> : рубль
-    рубль<n><gen> : рубльдиң
-    рубль<n><dat> : рубльге
-    рубль<n><acc> : рубльди
-    рубль<n><abl> : рубльден
-    рубль<n><pl><nom> : рубльдер
 
  "[twol] сс : no simplification when syllable-final": 
     класс<n><pl><px3sp><acc> : класстарын 
