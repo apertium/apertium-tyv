@@ -1,0 +1,57 @@
+Config:
+  hfst:
+      App: hfst-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+ "[twol] regular vowel harmony when no cluster":
+    роль<n><nom> : роль
+    роль<n><attr> : роль
+    роль<n><acc> : рольду
+    медаль<n><nom> : медаль
+    медаль<n><attr> : медаль
+    медаль<n><gen> : медальдың
+    медаль<n><dat> : медальга
+    медаль<n><acc> : медальды
+    медаль<n><abl> : медальдан
+    медаль<n><pl><nom> : медальдар
+    кремль<n><dat> : кремльге
+    кремль<n><all> : кремльче
+    кремль<n><loc> : кремльде
+
+ "[twol] front vowel harmony when intervening Cль":
+    рубль<n><nom> : рубль
+    рубль<n><attr> : рубль
+    рубль<n><gen> : рубльдиң
+    рубль<n><dat> : рубльге
+    рубль<n><acc> : рубльди
+    рубль<n><abl> : рубльден
+    рубль<n><pl><nom> : рубльдер
+    ансамбль<n><pl><nom> : ансамбльдер
+
+ "[twol] regular vowel harmony when any other CCь intervenes (also: cluster simplification)":
+    область<n><nom> : область
+    область<n><attr> : область
+    область<n><gen> : областың
+    область<n><dat> : обласка
+    область<n><abl> : областан
+    область<n><all> : обласче
+    область<n><loc> : областа
+    область<n><acc> : областы
+    область<n><pl><nom> : областар
+    область<n><pl><abl> : областардан
+    область<n><px3sp><gen> : облазының
+    область<n><px3sp><loc> : облазында
+    область<n><px3sp><dat> : облазынга
+    область<n><px3sp><all> : облазынче
+    область<n><px3sp><abl> : облазындан
+
+ "[twol] ь deletes before surface vowel":
+    рубль<n><px3sp><nom> : рубли
+    рубль<n><px3sp><acc> : рублин
+    ансамбль<n><px3sp><gen> : ансамблиниң
+    кремль<n><px3sp><nom> : кремли
+
+

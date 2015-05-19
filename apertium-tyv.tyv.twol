@@ -336,6 +336,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "Normal front vowel harmony for {A}"
 %{A%}:е <=> [ :FrontVow :Cns* :RealCns ]/[ :0 | ь ]* _ ;
             [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
+            [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
 !            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
@@ -344,6 +345,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 !                                                   _ %>: %{g%}: ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {G}:г {A}:е
+!@ р у б л ь >:0 {D}:д {A}:е н
 
 "yotted {A} harmony"
 %{A%}:я <=> [ BackVow: й: ]/:0* _ ;
@@ -352,6 +354,10 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
              ! [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
              _ [ %{g%}:0 %{A%}: ]/[ :0 - %{g%}: ]* ;
+
+"yotted {E} harmony"
+%{E%}:я <=> [ :BackVow й: ]/:0* _ ; 
+
 
 !"yotted {I} harmony"
 !%{I%}:ю <=> [ [ у: | о: ] й: ]/:0* _ ;
@@ -368,13 +374,15 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
              [ :Vx р:0 ]/[ :0 - р: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-             л ь: %>: [ :Cns | :0 ]* _ ;
+             [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
+!             л ь: %>: [ :Cns | :0 ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
-"{I} harmony after мягкий знак"
-%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
+"{I} always front when intervening Cль"
+!%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
+%{I%}:и <=> [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
 
 !@ а н с а м б л ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е
 
@@ -395,7 +403,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "Abstract harmony for {I}"
 %{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
          except
-             л ь: %>: [ :Cns | :0 ]* _ ;
+             ! л ь: %>: [ :Cns | :0 ]* _ ;
+             [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
          where AbstractVow in ( %{э%} )
                         Vy in (   и   )
          matched ;
@@ -413,12 +422,6 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 
 "Turn {E} into й after a vowel"
 %{E%}:й <=> [ :Vow ]/[ %>: | :0 - й: ] _ ;
-
-"Yotisation of {E} after й"
-%{E%}:я <=> :BackVow й: %>: _ .#. ; 
-
-"й deletion before {E}" 
-й:0 <=> :BackVow _ %>: %{E%}: .#.  ;
 
 !@ т а й:0 >:0 {E}:я
 
@@ -515,6 +518,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
         except
             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+            [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
 
 
 "Deletion of {n} word final"
@@ -568,8 +572,12 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
 
-"ь to и before px3sp"
-ь:0 <=> _ %>: %{z%}:  ; 
+"ь deletion before a vowel"
+ь:0 <=> _ :Vow/:0* ;
+
+!! FIXME: wat?  The rule is names "ь to и", but does ь:0 ...
+!"ь to и before px3sp" 
+!ь:0 <=> _ %>: %{z%}:  ; 
 
 !@ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е 
 
@@ -583,6 +591,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "й deletion before yot vowels"
 й:0 <=> _ %{A%}:/:0* ;
         _ %{y%}:ю/:0* ;
+        :BackVow/:0* _ %{E%}:/0* ;
 
 !@ ч а й:0 >:0 {A}:я р
 !@ к у й {y}:ю c

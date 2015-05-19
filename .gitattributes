@@ -24,6 +24,7 @@ tests/abbreviations.yaml -text
 tests/cases.yaml -text
 tests/clitics.yaml -text
 tests/clusters.yaml -text
+tests/mz.yaml -text
 tests/numerals.yaml -text
 tests/possessives.yaml -text
 tests/run-twol-pairtests.sh -text
