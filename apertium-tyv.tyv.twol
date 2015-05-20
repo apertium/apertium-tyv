@@ -385,6 +385,8 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 !%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
 %{I%}:и <=> [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
             [ :BackVow :Cns* :Cns л ь:0 ]/:[ :0 - ь: ]* _ ;
+        except
+            %{n%}:0 %>: %{N%}:н _ .#. ;
 
 !@ а н с а м б л ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е
 
@@ -524,9 +526,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 %{I%}:0 <=> %{n%}:0 %>: %{N%}:н _ .#. ;
         except
             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-            [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
-            [ :BackVow :Cns* :Cns л ь:0 ]/:[ :0 - ь: ]* _ ;
+            ! [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
+            ! [ :BackVow :Cns* :Cns л ь:0 ]/:[ :0 - ь: ]* _ ;
 
+!@ р у б л ь:0 >:0 {z}:0 {I}:и {n}:0 >:0 {N}:н {I}:0
 
 "Deletion of {n} word final"
 %{n%}:0 <=>  _ (:0) .#. ;
