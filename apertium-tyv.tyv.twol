@@ -32,7 +32,7 @@ Alphabet
            %{n%}:н 
    %{z%}:0 %{n%}:0 %{y%}:0
 
-   %{и%}:и %{и%}:у %{и%}:ы 
+   %{и%}:0 ! %{и%}:у %{и%}:ы 
 
 	%{y%}:0
 
@@ -109,24 +109,6 @@ VoicelessCnsRus = З Б В Д Ж Г
 Rules
 
 
-"Remove stem epenthetic vowel in nominative"
-%{и%}:0 <=> _ .#. ; 
-
-! what does this do?
-"Remove stem epenthetic vowel in nominative 2"
-%{и%}:и <=> с к _ (%{☭%}:) %>: ; 
-
-!@ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}
-
-!@ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н
-
-!@ п р е з и д е н т {и}:и >:0 {z}:з {I}:и {n}:0
-
-!@ ф о н д {и}:у {☭}:0 >:0 {z}:з {I}:у {n}:0
-
-"some clusters reduce before {и}:и"
-с:0 <=> к: _ %{и%}:и ;
-
 !"D nasal harmony"
 !%{D%}:н <=> :Nasals/[ :0 - Abstract:0 ] _ :Vow :Nasals ;
 !        except 
@@ -153,6 +135,8 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
 !      except
 !          :р/:0* _ ;
 !except??          :VoicelessCns/:0* _ ;
+!          [ к: | р: ] _ %{и%}: ;
+
       where Cx in ( с ш )
             Cy in ( з ж )
       matched ;
@@ -174,6 +158,8 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
 т:д <=> :Vow/:0* _ %>: :Vow/:0* ;
         :Vow/:0* _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
         [ :Vow р: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
+    except
+        с: _ (ь:) %>: ;            ! always 0
 
 "Intervocalic voicing of к at morpheme boundary in monosyllabic stems"
 к:г <=> [ .#. | %- ] [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
@@ -260,7 +246,8 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 !!== Assimilation ==!!
 
 "Forward voicing assimilation"
-Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
+Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why define all the :0s manually?  why not just say :0* ?
+          [ :VoicelessCns %>: ]/[ :0 | %  ]* _ ;
                                VoicelessCnsRus %{☭%}: %>: _ ;
                                %{с%}: (%-:) %>: _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
@@ -393,6 +380,7 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 "{I} harmony immediately after short vowels"
 %{I%}:Vy <=> :Vx/:0* _ ;
          except
+             .#. (RealCns:) :Vx RealCns: %>: _ ; ! Monosyllabic stems with cns deletion
              [ :Vow :RealVow ]/:0* _ ;
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ :Vx %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
@@ -418,13 +406,27 @@ Cx:Cy <=> :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;
 !         where          Vx in ( %{э%} )
 
 
-"Harmony of vowel in some stems"
-%{и%}:Vy <=> [ :Vx :Cns* :Cns ] _ (%{☭%}:) %>: ;
+"Harmony of extra {и} in some stems"
+%{и%}:Vy <=> [ :Vx :Cns* :Cns ]/0* _ %>:/:0* ;
          except 
-             с к _ (%{☭%}:) %>: ;
+             с к _ (%{☭%}:) %>: ;   ! always :и
+             _ .#. ;                ! always :0
+             с: _ %>:0 \%{z%}: ;    ! always :0
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
+
+!@ ф о н д {и}:у {☭}:0 >:0 {z}:з {I}:у {n}:0
+
+"Always realise {и} as {и} after ск"
+%{и%}:и <=> с к _ (%{☭%}:) %>: ; 
+
+!@ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}
+
+!@ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н
+
+!@ п р е з и д е н т {и}:и >:0 {z}:з {I}:и {n}:0
+
 
 "Turn {E} into й after a vowel"
 %{E%}:й <=> [ :Vow ]/[ %>: | :0 - й: ] _ ;
@@ -582,8 +584,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
 
-"ь deletion at the end of a morpheme before a vowel"
+"ь deletion at the end of a morpheme before a vowel, and in clusters"
 ь:0 <=> _ %>: :Vow/:0* ;
+        Cns: Cns: _ %>: ;
 
 !! FIXME: wat?  The rule is names "ь to и", but does ь:0 ...
 !"ь to и before px3sp" 
@@ -620,6 +623,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !"г deletion in aorist"
 !г:0 <=> _ %>: [ %{A%}: | %{I%}: ] р ; 
 
+
+!!== Consonant cluster stuff ==!!
+
 !"т deletion in -ст consonant cluster"
 !т:0 <=> .#. [ Vow: | Cns: ]* с _ %>: :Cns ;
 
@@ -638,6 +644,16 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !@ ч а ъ:0 с:з >:0 {i}:ы м
 
 !@ ч а ъ:0 с:з >:0 {i}:ы м >:0 {G}:г {A}:а
+
+"Delete {и} at end of word and between с and most morphemes"
+%{и%}:0 <=> _ .#. ; 
+            с: _ %>:0 \%{z%}: ;
+
+"some clusters reduce before {и}"
+с:0 <=> [ к: | р: ] _ %{и%}: ;
+
+"ст cluster reduction when following morpheme"
+т:0 <=> с: _ (ь:) %>: ;
 
 
 !@ ч е ч е к >:0 {L}:т {A}:е р >:0 {D}:д {A}:е н
