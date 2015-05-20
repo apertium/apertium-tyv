@@ -55,6 +55,7 @@ Alphabet
    %{э%}:0 
    %{ы%}:0
 
+   %{❗%}:0
    %{☭%}:0
 
    % 
@@ -160,6 +161,9 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
         [ :Vow р: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
     except
         с: _ (ь:) %>: ;            ! always 0
+        _ %{❗%}: ;
+
+!@ б е т {❗}:0 >:0 {z}:0 {I}:и {n}:0
 
 "Intervocalic voicing of к at morpheme boundary in monosyllabic stems"
 к:г <=> [ .#. | %- ] [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
@@ -578,8 +582,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 ш:ч <=> %{н%}:н _ ;                            ! -after {н} when it surfaces
         [ :т %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;    ! after т when no epenthesis
         [ л: %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;    ! after л when no epenthesis
+        [ :н %{y%}:0 ]/[ :0 - %{y%}: ]* _ ;    ! after н when no epenthesis
 
 !@ т у л {y}:0 ш:ч >:0 {i}:у р
+
+!@ ө г л е н {y}:0 ш:ч >:0 {i}:и п
 
 "ъ deletion syllable finally"
 ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;

@@ -1,5 +1,6 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
+OPTIONS += no-inline-sets no-inline-templates ;
 
 SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
@@ -8,11 +9,30 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
+LIST V = v ;
+LIST A = adj ;
+LIST N = n ;
 LIST Det = det ;
+LIST Num = num ;
 LIST Pron = prn ; 
+LIST Post = post ; 
 
 LIST Aux = vaux ; 
 LIST Qst = qst ;
+
+LIST Subst = subst ;
+LIST Attr = attr ; 
+
+LIST Acc = acc ;
+LIST Gen = gen ; 
+LIST Nom = nom ;
+
+LIST Px1Sg = px1sg ;
+LIST Px2Sg = px2sg ;
+LIST Px3Sp = px3sp ;
+LIST Px1Pl = px1pl ;
+LIST Px2Pl = px1pl ;
+LIST Px3Pl = px3pl ;
 
 LIST Gpr/Aor = gpr_aor ; 
 LIST Gpr/Past = gpr_past ; 
@@ -21,13 +41,29 @@ LIST Prc/Aor = prc_aor ;
 LIST Prc/Impf = prc_impf ;
 LIST Prc/Perf = prc_perf ;
 
+LIST Past = past ; 
+
 LIST Aor = aor ; 
 
-LIST Sent/Qst = ("?") ;
+LIST Guio = "-" ;
+LIST Cm = "," ; 
+LIST Sent/Qst = "?" ;
+LIST Sent = "." ".." "..." ;
+LIST Elip = "..." ;
 
 SET Gpr = Gpr/Aor OR Gpr/Past ; 
 
 SET Prc = Prc/Aor OR Prc/Perf OR Prc/Impf ; 
+
+SET Fin = Past | Aor ; 
+
+SET Poss = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl | Px3Pl ; 
+
+SET Nominal = Pron | Subst | N ; 
+
+SET Modifier = A - Subst | Det | Num - Subst | Gpr | Gen ;
+
+SET Punct = Guio | Cm | Sent | Sent/Qst | Elip ;
 
 SECTION
 
@@ -41,4 +77,36 @@ REMOVE Aux IF (NOT -1 Prc) ;
 
 SELECT Qst IF (1 Sent/Qst) ;
    ## Олар ол кино көргени ол бе?
+
+REMOVE Attr IF (1C* Fin BARRIER (*) - Prc) ;
+
+REMOVE Attr IF (1C Post) ;
+
+REMOVE Prc (NOT 1 Prc OR Aux)  ;
+
+REMOVE Attr IF (1C Poss) ;
+
+REMOVE Attr IF (1 EOS) ;
+
+
+SECTION 
+
+LIST @cmpnd = @cmpnd ;
+LIST @amod = @amod ;
+LIST @det = @det ; 
+LIST @obj = @obj ;
+LIST @case = @case ;
+LIST @punct = @punct ;
+
+MAP @cmpnd TARGET Attr ;
+
+MAP @amod TARGET A - Subst IF (1 A OR N) ;
+
+MAP @det TARGET Det ; 
+
+MAP @obj TARGET Acc ;
+
+MAP @case TARGET Post ; 
+
+MAP @punct TARGET Punct ;
 
