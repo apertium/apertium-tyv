@@ -417,13 +417,13 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 
 "Harmony of extra {и} in some stems"
-%{и%}:Vy <=> [ :Vx :Cns* :Cns ]/0* _ %>:/:0* ;
+%{и%}:Vy <=> [ :Vx :Cns* :Cns ]/:0* _ %>:/:0* ;
          except 
              с к _ (%{☭%}:) %>: ;   ! always :и
              _ .#. ;                ! always :0
-             !с: _ %>:0 \%{z%}: ;    ! always :0
+             с: _ %>:0 \%{z%}: ;    ! always :0
              !с: _ %>:0 [ ? - %{z%}: ] ;    ! always :0
-             с: _ %>:0 [ %{N%}: | %{L%}: | %{D%}: | %{G%}: ] ;    ! always :0
+             !с: _ %>:0 [ %{N%}: | %{L%}: | %{D%}: | %{G%}: ] ;    ! always :0
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
@@ -662,8 +662,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "Delete {и} at end of word and between с and most morphemes"
 %{и%}:0 <=> _ .#. ; 
+            с: _ %>:0 \%{z%}: ;    ! always :0
             !с: _ %>:0 [ ? - %{z%}: ] ;
-            с: _ %>:0 [ %{N%}: | %{L%}: | %{D%}: | %{G%}: ] ;    ! always :0
+            !с: _ %>:0 [ %{N%}: | %{L%}: | %{D%}: | %{G%}: ] ;    ! always :0
 
 !"some clusters reduce before {и}"
 "delete с in some clusters"
