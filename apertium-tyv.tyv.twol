@@ -102,6 +102,12 @@ VoicelessCns = к п с т ц ш ф х
 VoicelessCnsRus = З Б В Д Ж Г
                   з б в д ж г ;
 
+HighVow = Ү И У Ы
+          ү и у ы ;
+
+RusHighVow = И У Ы
+             и у ы ;
+
 
 !Abstract    = %{z%} %{n%} ;
 !FIXME: what's this for?
@@ -415,14 +421,16 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
          except 
              с к _ (%{☭%}:) %>: ;   ! always :и
              _ .#. ;                ! always :0
-             с: _ %>:0 \%{z%}: ;    ! always :0
+             !с: _ %>:0 \%{z%}: ;    ! always :0
+             !с: _ %>:0 [ ? - %{z%}: ] ;    ! always :0
+             с: _ %>:0 [ %{N%}: | %{L%}: | %{D%}: | %{G%}: ] ;    ! always :0
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
          matched ;
 
 !@ ф о н д {и}:у {☭}:0 >:0 {z}:з {I}:у {n}:0
 
-"Always realise {и} as {и} after ск"
+"Always realise {и} as и after ск"
 %{и%}:и <=> с к _ (%{☭%}:) %>: ; 
 
 !@ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}
@@ -636,9 +644,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !"т deletion in -ст consonant cluster"
 !т:0 <=> .#. [ Vow: | Cns: ]* с _ %>: :Cns ;
 
-! FIXME: This needs work, also applies to other possessives
-"consonant cluster reduction"
-с:0 <=> Vow _ с: (%{☭%}:) %>: :Vow/:0* ; 
+!! FIXME: This needs work, also applies to other possessives
+!"consonant cluster reduction"
+!с:0 <=> Vow _ с: (%{☭%}:) %>: :Vow/:0* ; 
 
 !@ к л а с:0 с:з >:0 {z}:0 {I}:ы {n}:0
 
@@ -654,10 +662,13 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "Delete {и} at end of word and between с and most morphemes"
 %{и%}:0 <=> _ .#. ; 
-            с: _ %>:0 \%{z%}: ;
+            !с: _ %>:0 [ ? - %{z%}: ] ;
+            с: _ %>:0 [ %{N%}: | %{L%}: | %{D%}: | %{G%}: ] ;    ! always :0
 
-"some clusters reduce before {и}"
-с:0 <=> [ к: | р: ] _ %{и%}: ;
+!"some clusters reduce before {и}"
+"delete с in some clusters"
+с:0 <=> [ к | р ] _ %{и%}:RusHighVow ;      ! delete с in кс, рс
+        _ с: (%{☭%}:) %>: :Vow/:0* ;        ! delete с in сс
 
 "ст cluster reduction when following morpheme"
 т:0 <=> с: _ (ь:) %>: ;
