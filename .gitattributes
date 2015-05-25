@@ -30,6 +30,7 @@ tests/numerals.yaml -text
 tests/possessives.yaml -text
 tests/run-twol-pairtests.sh -text
 tests/verbs.yaml -text
+texts/aj.tyv.txt -text svneol=unset#application/octet-stream
 texts/grammar.tyv.txt -text
 texts/kartofel.tyv.txt -text svneol=unset#application/octet-stream
 texts/makroekonomika.tyv.txt -text svneol=unset#application/octet-stream

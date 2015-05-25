@@ -12,6 +12,7 @@ LIST EOS = (<<<) ;
 LIST V = v ;
 LIST A = adj ;
 LIST N = n ;
+LIST Adv = adv ;
 LIST Det = det ;
 LIST Num = num ;
 LIST Pron = prn ; 
@@ -23,9 +24,15 @@ LIST Qst = qst ;
 LIST Subst = subst ;
 LIST Attr = attr ; 
 
+LIST Coop = coop ;
+
 LIST Acc = acc ;
 LIST Gen = gen ; 
 LIST Nom = nom ;
+LIST Loc = loc ;
+LIST Dat = dat ;
+LIST Abl = abl ;
+LIST All = all ;
 
 LIST Px1Sg = px1sg ;
 LIST Px2Sg = px2sg ;
@@ -42,12 +49,14 @@ LIST Prc/Impf = prc_impf ;
 LIST Prc/Perf = prc_perf ;
 
 LIST Past = past ; 
-
 LIST Aor = aor ; 
+LIST Imper = imp ; 
+
+LIST CC = cnjcoo ;
 
 LIST Guio = "-" ;
 LIST Cm = "," ; 
-LIST Sent/Qst = "?" ;
+LIST Ques = "?" ;
 LIST Sent = "." ".." "..." ;
 LIST Elip = "..." ;
 
@@ -57,13 +66,15 @@ SET Prc = Prc/Aor OR Prc/Perf OR Prc/Impf ;
 
 SET Fin = Past | Aor ; 
 
+SET Local = Loc | Dat | Abl | All ;
+
 SET Poss = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl | Px3Pl ; 
 
 SET Nominal = Pron | Subst | N ; 
 
 SET Modifier = A - Subst | Det | Num - Subst | Gpr | Gen ;
 
-SET Punct = Guio | Cm | Sent | Sent/Qst | Elip ;
+SET Punct = Guio | Cm | Sent | Ques | Elip ;
 
 SECTION
 
@@ -75,7 +86,7 @@ SELECT Aux IF (-1C Prc);
 REMOVE Aux IF (NOT -1 Prc) ;
    ## Ол кижи биске бо номну берген.
 
-SELECT Qst IF (1 Sent/Qst) ;
+SELECT Qst IF (1 Ques) ;
    ## Олар ол кино көргени ол бе?
 
 REMOVE Attr IF (1C* Fin BARRIER (*) - Prc) ;
@@ -88,15 +99,41 @@ REMOVE Attr IF (1C Poss) ;
 
 REMOVE Attr IF (1 EOS) ;
 
+REMOVE Attr IF (1C Det) ;
+
+REMOVE Poss IF (-1 Cm) ;
+   ## Оон аңгыда, кижини ооң хамааржып турары күрүнениң азы девискээрниң политиктиг, хоойлу-дүрүм ...
+
+REMOVE Poss IF (-1 Local) ;
+
+REMOVE Fin IF (0 Fin OR Subst) (1C Local + Poss) ;
+   ## Ол ышкаш үүлгедигниң болган үезинде берип болур турган кеземчеден аар кеземче бээри болдунмас.
+
+REMOVE Imper IF (1 Cm) ;
+   ## Олар бадыланышканынга хамаарыштыр, бадылалдыг турган үезинде база ону күш чок деп санаан үезинде дең эргелерни ажыглаар.
+
+REMOVE Poss IF (-1 BOS) ;
+
+REMOVE SUB:1 Qst IF (1 Punct) (NOT 1 Ques) ;
+   ## 30 чүүл.
+
+SECTION
+
+REMOVE Coop IF (0C Coop OR V - Coop) ;
 
 SECTION 
 
 LIST @cmpnd = @cmpnd ;
 LIST @amod = @amod ;
+LIST @advmod = @advmod ;
 LIST @det = @det ; 
 LIST @obj = @obj ;
 LIST @case = @case ;
 LIST @punct = @punct ;
+LIST @cnp  = @cnp ;
+LIST @cvp  = @cvp ;
+LIST @root = @root ;
+LIST @aux = @aux ;
 
 MAP @cmpnd TARGET Attr ;
 
@@ -110,3 +147,8 @@ MAP @case TARGET Post ;
 
 MAP @punct TARGET Punct ;
 
+MAP @root TARGET Fin IF (NOT 0 Aux) ; 
+
+MAP @advmod TARGET Adv ; 
+
+MAP @aux TARGET Aux + Fin;
