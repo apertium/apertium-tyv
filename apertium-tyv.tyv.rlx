@@ -1,8 +1,13 @@
+
+###############################################################################
+
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 OPTIONS += no-inline-sets no-inline-templates ;
 
 SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
+
+###############################################################################
 
 SETS
 
@@ -60,6 +65,16 @@ LIST Ques = "?" ;
 LIST Sent = "." ".." "..." ;
 LIST Elip = "..." ;
 
+LIST Title/Word = ("<[А-ЯҢӨҮA-Z][а-яңөүa-z]+>"r) ;
+LIST Maj/Word = ("<[А-ЯҢӨҮA-Z]+>"r) ;
+LIST Min/Word = ("<[а-яңөүa-z]+>"r) ;
+
+LIST Title/Dict = ("[А-ЯҢӨҮA-Z][а-яңөүa-z]+"r) ;
+LIST Maj/Dict = ("[А-ЯҢӨҮA-Z]+"r) ;
+LIST Min/Dict = ("[а-яңөүa-z]+"r) ;
+
+###############################################################################
+
 SET Gpr = Gpr/Aor OR Gpr/Past ; 
 
 SET Prc = Prc/Aor OR Prc/Perf OR Prc/Impf ; 
@@ -75,6 +90,8 @@ SET Nominal = Pron | Subst | N ;
 SET Modifier = A - Subst | Det | Num - Subst | Gpr | Gen ;
 
 SET Punct = Guio | Cm | Sent | Ques | Elip ;
+
+###############################################################################
 
 SECTION
 
@@ -101,6 +118,9 @@ REMOVE Attr IF (1 EOS) ;
 
 REMOVE Attr IF (1C Det) ;
 
+REMOVE Attr IF (1 Prc) ; 
+   ## Картофельде соланин деп ногаанзымаар өңнүг, хоранныг бүдүмел бар.
+
 REMOVE Poss IF (-1 Cm) ;
    ## Оон аңгыда, кижини ооң хамааржып турары күрүнениң азы девискээрниң политиктиг, хоойлу-дүрүм ...
 
@@ -117,9 +137,16 @@ REMOVE Poss IF (-1 BOS) ;
 REMOVE SUB:1 Qst IF (1 Punct) (NOT 1 Ques) ;
    ## 30 чүүл.
 
+SELECT Title/Dict IF (NOT -1 BOS) (0 Title/Word) ;
+   ## Абакан биле Кызылдың аразы.
+
+###############################################################################
+
 SECTION
 
 REMOVE Coop IF (0C Coop OR V - Coop) ;
+
+###############################################################################
 
 SECTION 
 
