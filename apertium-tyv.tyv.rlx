@@ -22,6 +22,7 @@ LIST Det = det ;
 LIST Num = num ;
 LIST Pron = prn ; 
 LIST Post = post ; 
+LIST Cop = cop ; 
 
 LIST Aux = vaux ; 
 LIST Qst = qst ;
@@ -139,6 +140,8 @@ REMOVE SUB:1 Qst IF (1 Punct) (NOT 1 Ques) ;
 
 SELECT Title/Dict IF (NOT -1 BOS) (0 Title/Word) ;
    ## Абакан биле Кызылдың аразы.
+
+REMOVE SUB:1 Cop IF (NOT 1 EOS) ;
 
 ###############################################################################
 
