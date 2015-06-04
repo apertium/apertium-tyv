@@ -65,6 +65,7 @@ LIST Cm = "," ;
 LIST Ques = "?" ;
 LIST Sent = "." ".." "..." ;
 LIST Elip = "..." ;
+LIST Excl = "!" ;
 
 LIST Title/Word = ("<[А-ЯҢӨҮA-Z][а-яңөүa-z]+>"r) ;
 LIST Maj/Word = ("<[А-ЯҢӨҮA-Z]+>"r) ;
@@ -90,7 +91,7 @@ SET Nominal = Pron | Subst | N ;
 
 SET Modifier = A - Subst | Det | Num - Subst | Gpr | Gen ;
 
-SET Punct = Guio | Cm | Sent | Ques | Elip ;
+SET Punct = Guio | Cm | Sent | Ques | Elip | Excl ;
 
 ###############################################################################
 
@@ -142,6 +143,14 @@ SELECT Title/Dict IF (NOT -1 BOS) (0 Title/Word) ;
    ## Абакан биле Кызылдың аразы.
 
 REMOVE SUB:1 Cop IF (NOT 1 EOS) ;
+
+REMOVE Imper IF (NOT 1* Excl) ;
+
+SELECT Attr IF (0C Nom OR Attr) (1 Guio LINK 1 N) ;
+   ## 
+
+SELECT SUB:1 Cop IF (1 EOS) (NOT -1* Fin) ;
+   ## Азамат биле Айгуль садта.
 
 ###############################################################################
 

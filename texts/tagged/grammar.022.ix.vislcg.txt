@@ -1,0 +1,15 @@
+"<Ол>"
+;	"ол" det dem
+;	"ол" prn dem nom
+	"ол" prn pers p3 sg nom @subj #1->4
+"<бажың>"
+;	"баш" n px2sg nom
+	"бажың" n nom @obj #2->3
+;	"бажың" n attr
+"<кылырынга>"
+	"кыл" v tv ger_aor px3sp dat
+"<салымныг>"
+	"салымныг" adj @cop #4->4
+		"э" cop aor p3 sg @root #4->0
+"<.>"
+	"." sent @punct #5->4
