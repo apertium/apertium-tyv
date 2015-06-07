@@ -1,7 +1,7 @@
 
 ###############################################################################
 
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 OPTIONS += no-inline-sets no-inline-templates ;
 
@@ -23,6 +23,7 @@ LIST Num = num ;
 LIST Pron = prn ; 
 LIST Post = post ; 
 LIST Cop = cop ; 
+LIST Mod = mod ;
 
 LIST Aux = vaux ; 
 LIST Qst = qst ;
@@ -58,6 +59,10 @@ LIST Past = past ;
 LIST Aor = aor ; 
 LIST Imper = imp ; 
 
+LIST Ant = ant ; 
+LIST Cog = cog ;
+LIST Pat = pat ;
+
 LIST CC = cnjcoo ;
 
 LIST Guio = "-" ;
@@ -66,6 +71,7 @@ LIST Ques = "?" ;
 LIST Sent = "." ".." "..." ;
 LIST Elip = "..." ;
 LIST Excl = "!" ;
+LIST Quot = lquot rquot quot ;
 
 LIST Title/Word = ("<[А-ЯҢӨҮA-Z][а-яңөүa-z]+>"r) ;
 LIST Maj/Word = ("<[А-ЯҢӨҮA-Z]+>"r) ;
@@ -77,9 +83,9 @@ LIST Min/Dict = ("[а-яңөүa-z]+"r) ;
 
 ###############################################################################
 
-SET Gpr = Gpr/Aor OR Gpr/Past ; 
+SET Gpr = Gpr/Aor | Gpr/Past ; 
 
-SET Prc = Prc/Aor OR Prc/Perf OR Prc/Impf ; 
+SET Prc = Prc/Aor | Prc/Perf | Prc/Impf ; 
 
 SET Fin = Past | Aor ; 
 
@@ -91,7 +97,9 @@ SET Nominal = Pron | Subst | N ;
 
 SET Modifier = A - Subst | Det | Num - Subst | Gpr | Gen ;
 
-SET Punct = Guio | Cm | Sent | Ques | Elip | Excl ;
+SET Punct = Guio | Cm | Sent | Ques | Elip | Excl | Quot ;
+
+SET Name = Ant | Cog | Pat ;
 
 ###############################################################################
 
@@ -114,7 +122,7 @@ REMOVE Attr IF (1C Post) ;
 
 REMOVE Prc (NOT 1 Prc OR Aux)  ;
 
-REMOVE Attr IF (1C Poss) ;
+REMOVE Attr IF (1C Poss) (NOT -1 Gen) ;
 
 REMOVE Attr IF (1 EOS) ;
 
@@ -149,8 +157,14 @@ REMOVE Imper IF (NOT 1* Excl) ;
 SELECT Attr IF (0C Nom OR Attr) (1 Guio LINK 1 N) ;
    ## 
 
-SELECT SUB:1 Cop IF (1 EOS) (NOT -1* Fin) ;
+SELECT SUB:1 Cop IF (1 EOS) (NOT 0 Fin) (NOT -1* Fin) ;
    ## Азамат биле Айгуль садта.
+
+REMOVE Num + Subst IF (1C N + Nom) ;
+
+SELECT Attr IF (0C Ant OR Pat) (1C Cog) ;
+
+SELECT Attr IF (0C Ant) (1C Pat OR Cog) ;
 
 ###############################################################################
 
@@ -171,10 +185,15 @@ LIST @case = @case ;
 LIST @punct = @punct ;
 LIST @cnp  = @cnp ;
 LIST @cvp  = @cvp ;
-LIST @root = @root ;
+LIST @main = @main ;
 LIST @aux = @aux ;
+LIST @cop = @cop ;
+LIST @disc = @disc ;
+LIST @nmod = @nmod ;
+LIST @nummod = @nummmod ;
+LIST @name = @name ;
 
-MAP @cmpnd TARGET Attr ;
+MAP @cmpnd TARGET Attr - Name ;
 
 MAP @amod TARGET A - Subst IF (1 A OR N) ;
 
@@ -182,12 +201,34 @@ MAP @det TARGET Det ;
 
 MAP @obj TARGET Acc ;
 
+MAP @nmod TARGET N + Gen - Subst ;
+
+MAP @nmod TARGET N + Local - Subst ;
+
 MAP @case TARGET Post ; 
 
 MAP @punct TARGET Punct ;
 
-MAP @root TARGET Fin IF (NOT 0 Aux) ; 
+MAP @main TARGET Fin IF (NOT 0 Aux) ; 
 
 MAP @advmod TARGET Adv ; 
 
 MAP @aux TARGET Aux + Fin;
+
+MAP @main TARGET Prc IF (1 @aux) ;
+
+MAP @cop TARGET Cop ; 
+
+MAP SUB:1 @cop TARGET Cop ; 
+
+MAP @disc TARGET Mod ; 
+
+MAP @nummod TARGET Num - Subst ;
+
+MAP @name TARGET Name + Attr ;
+
+###############################################################################
+
+SECTION
+
+SELECT @main IF (0 @main) (1 EOS) ;

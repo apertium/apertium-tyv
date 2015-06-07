@@ -1,0 +1,19 @@
+"<Бис>"
+;	"бис" n nom
+;	"бис" n attr
+	"бис" prn pers p1 pl nom @subj #1->7
+"<бүгү>"
+	"бүгү" det qnt @det #2->3
+;	"бүгү" prn qnt nom
+"<чүвени>"
+	"чүве" n acc @obj #3->7
+"<сээң>"
+	"сен" prn pers p2 sg gen @nmod #4->5
+"<чугаалааның>"
+	"чугаала" v tv ger_past px2sg nom @nmod #5->7
+"<ёзугаар>"
+	"ёзугаар" post @case #6->5
+"<кылган бис>"
+	"кыл" v tv past p1 pl @main #7->0
+"<.>"
+	"." sent @punct #8->7

@@ -61,6 +61,10 @@ Alphabet
    % 
    %.
    %-
+   %+
+   %−
+   №
+
 
    %>:0 ; 
 
@@ -78,7 +82,7 @@ FrontVow   =  Э Е И Ө Ү
 RealVow = А О Ы У Э Е И Ө Ү
           а о ы у э е и ө ү ;
 
-AbstractVow = %{э%} ;
+AbstractVow = %{э%} %{а%} ;
 
 Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
               б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ъ ь ; 
@@ -380,6 +384,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 !@ о б л а с т:0 ь:0 >:0 {N}:т {I}:ы ң
 
+!@ К Т Р К {а}:0 - >:0 {N}:н {I}:ы ң
+
 "{I} always front when intervening Cль"
 !%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
 %{I%}:и <=> [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
@@ -567,9 +573,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 %{г%}:к <=> :Vow _ [ :VoicelessCns %>: :Vow ]/:0* ;
 
 "{г} surfaces as г syllable finally before some(?) consonants"
-%{г%}:г <=> :Vow _ [ :Liquid %>: :Vow ]/:0* ;
+%{г%}:г <=> :Vow _ [ [ :Liquid | :ж ] %>: :Vow ]/:0* ;
 
 !@ о {г}:г л >:0 {i}:у м
+
+!@ д ү {г}:г {y}:0 ж >:0 {I}:ү р
 
 "{г} turns into preceding vowel when in closed syllable"
 %{г%}:Vy <=> :Vx _ :Cns/:0* .#. ;
