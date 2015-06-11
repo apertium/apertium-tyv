@@ -511,6 +511,15 @@ Tests:
  "Noun артист":
     артист<n><px3sp><nom> : артизи
 
+ "Noun эът":
+    эът<n><px3sp><nom> : эъди
+    эът<n><px3sp><gen> : эъдиниң
+    эът<n><px3sp><dat> : эъдинге
+    эът<n><px3sp><acc> : эъдин
+    эът<n><px3sp><loc> : эъдинде
+    эът<n><px3sp><abl> : эъдинден
+    эът<n><px3sp><all> : эъдинче
+
  "Miscellaneous":
     тавак<n><px1sg><nom> : таваам
     тавак<n><px2sg><nom> : тавааң
@@ -534,7 +543,6 @@ Tests:
     өк<n><px2sg><nom> : өгүң
     өк<n><px3sp><nom> : өгү
     айтырыг<n><px3sp><nom> : айтырыы
-    эът<n><px3sp><nom> : эъди
     каът<n><px3sp><loc> : каъдында
     аът<n><px3sp><gen> : аъдының
     участок<n><px3sp><dat> : участогунга
