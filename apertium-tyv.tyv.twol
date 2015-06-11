@@ -585,8 +585,8 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
      except
          !:Vow _ [ :VoicelessCns %>: :Vow ]/:0* ; ! needed to avoid conflicts, meh
          :Vow _ [ :Cns %>: :Vow ]/:0* ;
-     where Vx in ( а о э )
-           Vy in ( а о э )
+     where Vx in ( а о э ү )
+           Vy in ( а о э ү )
      matched ;
 
 "{н} surfaces as н when syllable-finally"
