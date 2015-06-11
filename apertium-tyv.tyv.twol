@@ -168,7 +168,7 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
 "Intervocalic т voicing at a morpheme boundary"
 т:д <=> :Vow/:0* _ %>: :Vow/:0* ;
         :Vow/:0* _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
-        [ :Vow р: %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
+        [ :Vow [ р: | л: ] %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
     except
         с: _ (ь:) %>: ;            ! always 0
         _ %{❗%}: ;
