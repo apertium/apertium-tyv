@@ -144,20 +144,20 @@ REMOVE Imper IF (1 Cm) ;
 
 REMOVE Poss IF (-1 BOS) ;
 
-REMOVE SUB:1 Qst IF (1 Punct) (NOT 1 Ques) ;
+REMOVE SUB:* Qst IF (1 Punct) (NOT 1 Ques) ;
    ## 30 чүүл.
 
 SELECT Title/Dict IF (NOT -1 BOS) (0 Title/Word) ;
    ## Абакан биле Кызылдың аразы.
 
-REMOVE SUB:1 Cop IF (NOT 1 EOS) ;
+REMOVE SUB:* Cop IF (NOT 1 EOS) ;
 
 REMOVE Imper IF (NOT 1* Excl) ;
 
 SELECT Attr IF (0C Nom OR Attr) (1 Guio LINK 1 N) ;
    ## 
 
-SELECT SUB:1 Cop IF (1 EOS) (NOT 0 Fin) (NOT -1* Fin) ;
+SELECT SUB:* Cop IF (1 EOS) (NOT 0 Fin) (NOT -1* Fin) ;
    ## Азамат биле Айгуль садта.
 
 REMOVE Num + Subst IF (1C N + Nom) ;
@@ -180,10 +180,12 @@ LIST @cmpnd = @cmpnd ;
 LIST @amod = @amod ;
 LIST @advmod = @advmod ;
 LIST @det = @det ; 
+LIST @acl = @acl ;
 LIST @obj = @obj ;
 LIST @case = @case ;
 LIST @punct = @punct ;
 LIST @cnp  = @cnp ;
+LIST @cc = @cc ;
 LIST @cvp  = @cvp ;
 LIST @main = @main ;
 LIST @aux = @aux ;
@@ -193,13 +195,15 @@ LIST @nmod = @nmod ;
 LIST @nummod = @nummmod ;
 LIST @name = @name ;
 
+MAP @cc TARGET CC ; 
+
 MAP @cmpnd TARGET Attr - Name ;
 
 MAP @amod TARGET A - Subst IF (1 A OR N) ;
 
 MAP @det TARGET Det ; 
 
-MAP @obj TARGET Acc ;
+MAP (@obj @subj) TARGET Acc ;
 
 MAP @nmod TARGET N + Gen - Subst ;
 
@@ -219,13 +223,17 @@ MAP @main TARGET Prc IF (1 @aux) ;
 
 MAP @cop TARGET Cop ; 
 
-MAP SUB:1 @cop TARGET Cop ; 
+MAP SUB:* @cop TARGET Cop ; 
 
 MAP @disc TARGET Mod ; 
 
 MAP @nummod TARGET Num - Subst ;
 
 MAP @name TARGET Name + Attr ;
+
+MAP (@subj @obj @nmod) TARGET N + Nom ;
+
+MAP @acl TARGET Gpr ; 
 
 ###############################################################################
 
