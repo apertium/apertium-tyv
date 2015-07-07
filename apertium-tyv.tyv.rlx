@@ -48,6 +48,9 @@ LIST Px1Pl = px1pl ;
 LIST Px2Pl = px1pl ;
 LIST Px3Pl = px3pl ;
 
+LIST Ger/Aor = ger_aor ; 
+LIST Ger/Past = ger_past ; 
+
 LIST Gpr/Aor = gpr_aor ; 
 LIST Gpr/Past = gpr_past ; 
 
@@ -86,6 +89,8 @@ LIST Min/Dict = ("[а-яңөүa-z]+"r) ;
 SET Gpr = Gpr/Aor | Gpr/Past ; 
 
 SET Prc = Prc/Aor | Prc/Perf | Prc/Impf ; 
+
+SET Ger = Ger/Aor | Ger/Past ; 
 
 SET Fin = Past | Aor | Imper ; 
 
@@ -186,7 +191,6 @@ LIST @case = @case ;
 LIST @punct = @punct ;
 LIST @cnp  = @cnp ;
 LIST @cc = @cc ;
-LIST @cvp  = @cvp ;
 LIST @root = @root ;
 LIST @aux = @aux ;
 LIST @cop = @cop ;
@@ -194,12 +198,14 @@ LIST @disc = @disc ;
 LIST @nmod = @nmod ;
 LIST @nummod = @nummmod ;
 LIST @name = @name ;
+LIST @ccomp = @ccomp ;
+LIST @advcl = @advcl ;
 
 MAP @cc TARGET CC ; 
 
 MAP @cmpnd TARGET Attr - Name ;
 
-MAP @amod TARGET A - Subst IF (1 A OR N) ;
+MAP @amod TARGET A - Subst ;
 
 MAP @det TARGET Det ; 
 
@@ -227,6 +233,8 @@ MAP SUB:* @cop TARGET Cop ;
 
 MAP @disc TARGET Mod ; 
 
+MAP @disc TARGET Qst ; 
+
 MAP @nummod TARGET Num - Subst ;
 
 MAP @name TARGET Name + Attr ;
@@ -237,6 +245,8 @@ MAP @acl TARGET Gpr ;
 
 MAP @aux TARGET Aux ; 
 
+MAP (@advcl @ccomp) TARGET Ger + Dat ;
+
 ###############################################################################
 
 SECTION
@@ -244,3 +254,5 @@ SECTION
 SELECT @root IF (0 @root) (1 EOS) ;
 
 REMOVE @nummod IF (1C Fin) ;
+
+SELECT @amod IF (0 A - Subst) (1 A OR N) ;
