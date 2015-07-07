@@ -87,7 +87,7 @@ SET Gpr = Gpr/Aor | Gpr/Past ;
 
 SET Prc = Prc/Aor | Prc/Perf | Prc/Impf ; 
 
-SET Fin = Past | Aor ; 
+SET Fin = Past | Aor | Imper ; 
 
 SET Local = Loc | Dat | Abl | All ;
 
@@ -106,7 +106,7 @@ SET Name = Ant | Cog | Pat ;
 SECTION
 
 REMOVE Gpr IF (1 EOS) ; 
-   ## Ол сеңээ бүзүрээр.
+ ## Ол сеңээ бүзүрээр.
 
 SELECT Aux IF (-1C Prc);
 
@@ -187,7 +187,7 @@ LIST @punct = @punct ;
 LIST @cnp  = @cnp ;
 LIST @cc = @cc ;
 LIST @cvp  = @cvp ;
-LIST @main = @main ;
+LIST @root = @root ;
 LIST @aux = @aux ;
 LIST @cop = @cop ;
 LIST @disc = @disc ;
@@ -213,13 +213,13 @@ MAP @case TARGET Post ;
 
 MAP @punct TARGET Punct ;
 
-MAP @main TARGET Fin IF (NOT 0 Aux) ; 
+MAP @root TARGET Fin IF (NOT 0 Aux) ; 
 
 MAP @advmod TARGET Adv ; 
 
 MAP @aux TARGET Aux + Fin;
 
-MAP @main TARGET Prc IF (1 @aux) ;
+MAP @root TARGET Prc IF (1 @aux) ;
 
 MAP @cop TARGET Cop ; 
 
@@ -235,8 +235,12 @@ MAP (@subj @obj @nmod) TARGET N + Nom ;
 
 MAP @acl TARGET Gpr ; 
 
+MAP @aux TARGET Aux ; 
+
 ###############################################################################
 
 SECTION
 
-SELECT @main IF (0 @main) (1 EOS) ;
+SELECT @root IF (0 @root) (1 EOS) ;
+
+REMOVE @nummod IF (1C Fin) ;
