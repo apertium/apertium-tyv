@@ -30,7 +30,7 @@ Alphabet
 
 !   %{z%}:з        %{y%}:ы
    %{n%}:н 
-   %{z%}:0 %{y%}:0
+   %{z%}:0 ! %{y%}:0
 
    %{и%}:0 ! %{и%}:у %{и%}:ы 
 
@@ -50,7 +50,7 @@ Alphabet
    %{с%}:0
    %{з%}:0
    %{й%}:0
-   %{н%}:0
+   !%{н%}:0
 
    %{э%}:0 
    %{ы%}:0
@@ -370,7 +370,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
          except
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
          !    :Vow/:0* _ ;
-             %{n%}:н %>: %{N%}:0 _ .#. ;
+             %{n%}: %>: %{N%}: _ .#. ;
          !!    [ :Vow :Vow ]/:0* _ ;
              [ :Vx р:0 ]/[ :0 - р: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
@@ -391,7 +391,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 %{I%}:и <=> [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
         except
-            %{n%}:н %>: %{N%}:0 _ .#. ;
+            %{n%}: %>: %{N%}: _ .#. ;
 
 !@ а н с а м б л ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е
 
@@ -412,7 +412,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
          matched ;
 
 "Abstract harmony for {I}"
-%{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+%{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ]* ]* _ ;
          except
              ! л ь: %>: [ :Cns | :0 ]* _ ;
              [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
@@ -545,20 +545,23 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !!== Morphological stuff ==!!
 
 "{I} deletion in px3.acc"
-%{I%}:0 <=> %{n%}:н %>: %{N%}:0 _ .#. ;
+%{I%}:0 <=> %{n%}: %>: %{N%}: _ .#. ;
         except
-            [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
+            [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ]* ]* _ ;
             ! [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
             ! [ :BackVow :Cns* :Cns л ь:0 ]/:[ :0 - ь: ]* _ ;
 
 !@ р у б л ь:0 >:0 {z}:0 {I}:и {n}:0 >:0 {N}:н {I}:0
 
-"Delete {N} after {n}"
-%{N%}:0 <=> %{n%}: %>: _ ;
+!"Delete {N} after {n}"
+!%{N%}:0 <=> %{n%}: %>: _ ;
+
+"{N} is н after {n}"
+%{N%}:н <=> %{n%}: %>: _ ;
 
 "Deletion of {n} word finally" ! {n} surfaces everywhere but nom, acc, gen
-%{n%}:0 <=> _ (:0) .#. ;
-            ! _ %>: %{N%}:н ; 
+%{n%}:0 <=> _ :0* .#. ;
+            _ %>: %{N%}:н ; 
 
 !@ б ү р ү >:0 {z}:з {I}:ү {n}:0
 
