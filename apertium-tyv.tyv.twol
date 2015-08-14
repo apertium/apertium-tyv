@@ -29,7 +29,7 @@ Alphabet
    %{i%}:0 ! %{i%}:ы %{i%}:и %{i%}:у %{i%}:ү
 
 !   %{z%}:з        %{y%}:ы
-   %{n%}:н 
+   %{n%}:0 
    %{z%}:0 %{y%}:0
 
    %{и%}:0 ! %{и%}:у %{и%}:ы 
@@ -556,8 +556,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "Make sure {N} surfaces as н after {n}"
 %{N%}:н <=> %{n%}: %>: _ ;
 
-"Deletion of {n} word finally and before {N}"
-%{n%}:0 <=> _ (:0) .#. ;
+"Deletion of {n} word finally and before {N} ({n} surfaces everywhere but nom, acc, gen)"
+%{n%}:н <=> _ %>: ;
+        except
+            _ (:0) .#. ;
             _ %>: %{N%}:н ; 
 
 !@ б ү р ү >:0 {z}:з {I}:ү {n}:0
