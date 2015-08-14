@@ -1,12 +1,8 @@
 "<Дамдыдан>"
 	"дамды" n abl @nmod #1->3
 "<далай>"
-	"далай" n nom @subj #2->3
-;	"далай" n attr
-;	"дал" v TD opt p3 sg
+	"далай" n nom @nsubj #2->3
 "<бүдер>"
 	"бүт" v iv aor p3 sg @root #3->0
-;	"бүт" v iv ger_aor nom
-;	"бүт" v iv gpr_aor 
 "<.>"
 	"." sent @4->3

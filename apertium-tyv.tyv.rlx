@@ -17,6 +17,7 @@ LIST EOS = (<<<) ;
 LIST V = v ;
 LIST A = adj ;
 LIST N = n ;
+LIST Prop = np ; 
 LIST Adv = adv ;
 LIST Det = det ;
 LIST Num = num ;
@@ -24,6 +25,7 @@ LIST Pron = prn ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 LIST Mod = mod ;
+LIST Abbr = abbr ;
 
 LIST Aux = vaux ; 
 LIST Qst = qst ;
@@ -84,6 +86,13 @@ LIST Title/Dict = ("[А-ЯҢӨҮA-Z][а-яңөүa-z]+"r) ;
 LIST Maj/Dict = ("[А-ЯҢӨҮA-Z]+"r) ;
 LIST Min/Dict = ("[а-яңөүa-z]+"r) ;
 
+LIST Year = "чыл" "ч." ;
+LIST Month = "ай" ; 
+LIST Months = "январь" "февраль" "март" "апрел" "май" "июнь" "июль" "август" "сентябрь" "октябрь" "ноябрь" "декябр" ; 
+
+LIST Bol = ("бол" v iv) ;
+LIST Bar = ("бар" adj) ;
+
 ###############################################################################
 
 SET Gpr = Gpr/Aor | Gpr/Past ; 
@@ -98,13 +107,15 @@ SET Local = Loc | Dat | Abl | All ;
 
 SET Poss = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl | Px3Pl ; 
 
-SET Nominal = Pron | Subst | N ; 
+SET Nominal = Pron | Subst | N | Prop ; 
 
 SET Modifier = A - Subst | Det | Num - Subst | Gpr | Gen ;
 
 SET Punct = Guio | Cm | Sent | Ques | Elip | Excl | Quot ;
 
 SET Name = Ant | Cog | Pat ;
+
+SET Copula = Cop | Bol ; 
 
 ###############################################################################
 
@@ -171,6 +182,12 @@ SELECT Attr IF (0C Ant OR Pat) (1C Cog) ;
 
 SELECT Attr IF (0C Ant) (1C Pat OR Cog) ;
 
+SELECT Cog IF (-1C Abbr) (0 Cog OR Ant) ;
+
+SELECT Attr IF (0 Months) (1 Month) ;
+
+SELECT Fin IF (0 Aux) (-1C Prc) (1 EOS) ;
+
 ###############################################################################
 
 SECTION
@@ -186,6 +203,7 @@ LIST @amod = @amod ;
 LIST @advmod = @advmod ;
 LIST @det = @det ; 
 LIST @acl = @acl ;
+LIST @acl:relcl = @acl:relcl ;
 LIST @obj = @obj ;
 LIST @case = @case ;
 LIST @punct = @punct ;
@@ -196,38 +214,42 @@ LIST @aux = @aux ;
 LIST @cop = @cop ;
 LIST @disc = @disc ;
 LIST @nmod = @nmod ;
+LIST @nmod:poss = @nmod:poss ;
 LIST @nummod = @nummmod ;
 LIST @name = @name ;
 LIST @ccomp = @ccomp ;
 LIST @advcl = @advcl ;
+LIST @nsubj = @nsubj ;
 
 MAP @cc TARGET CC ; 
 
 MAP @cmpnd TARGET Attr - Name ;
 
-MAP @amod TARGET A - Subst ;
+MAP @amod TARGET A - Subst (NOT 0/* Cop) ;
 
 MAP @det TARGET Det ; 
 
-MAP (@obj @subj) TARGET Acc ;
+MAP (@obj @nsubj) TARGET Acc ;
 
-MAP @nmod TARGET N + Gen - Subst ;
+MAP @nmod:poss TARGET Nominal + Gen - Subst ;
 
-MAP @nmod TARGET N + Local - Subst ;
+MAP @nmod TARGET Nominal + Local - Subst ;
 
 MAP @case TARGET Post ; 
 
 MAP @punct TARGET Punct ;
 
-MAP @root TARGET Fin IF (NOT 0 Aux) ; 
+MAP @root TARGET Fin IF (NOT 0 Aux OR Copula) ; 
+
+MAP @root TARGET Bar IF (1 EOS) (0/* Cop) ;
 
 MAP @advmod TARGET Adv ; 
 
 MAP @aux TARGET Aux + Fin;
 
-MAP @root TARGET Prc IF (1 @aux) ;
+MAP @root TARGET Prc IF (1C Fin + @aux) ;
 
-MAP @cop TARGET Cop ; 
+MAP @cop TARGET Copula ; 
 
 MAP SUB:* @cop TARGET Cop ; 
 
@@ -235,17 +257,21 @@ MAP @disc TARGET Mod ;
 
 MAP @disc TARGET Qst ; 
 
-MAP @nummod TARGET Num - Subst ;
+MAP @nummod TARGET Num - Subst (NOT 1 Year) ;
+
+MAP @amod TARGET Num - Subst (1 Year) ;
 
 MAP @name TARGET Name + Attr ;
 
-MAP (@subj @obj @nmod) TARGET N + Nom ;
+MAP (@nsubj @obj @nmod:poss @nmod) TARGET Nominal + Nom ;
 
-MAP @acl TARGET Gpr ; 
+MAP @acl:relcl TARGET Gpr - Aux ; 
 
 MAP @aux TARGET Aux ; 
 
 MAP (@advcl @ccomp) TARGET Ger + Dat ;
+
+MAP @name TARGET Abbr (1C* Cog BARRIER (*) - Abbr) ;
 
 ###############################################################################
 
@@ -256,3 +282,19 @@ SELECT @root IF (0 @root) (1 EOS) ;
 REMOVE @nummod IF (1C Fin) ;
 
 SELECT @amod IF (0 A - Subst) (1 A OR N) ;
+
+REMOVE @nsubj IF (1C @case) ;
+
+REMOVE @obj IF (1C @case) ;
+
+SELECT @amod IF (0C Num) (1 Year) ;
+
+REMOVE @cmpnd IF (1 Cm) ;
+
+SELECT @nmod:poss IF (1C Poss) ;
+
+REMOVE @nsubj IF (0C Acc) (NOT 1* V - @root) ;
+
+REMOVE Subst IF (0 Bar) (1 EOS) ;
+
+REMOVE @cmpnd IF (1 @root) ;

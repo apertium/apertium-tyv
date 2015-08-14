@@ -70,18 +70,18 @@ Multichar_Symbols
  
 %<px1sg%>                 ! Possessive, 1. singular
 %<px2sg%>                 ! Possessive, 2. singular
-%<px3sp%> 
-%<px1pl%>
-%<px2pl%>
-%<px3pl%>
+%<px3sp%>                 ! Possessive, 3. singular/plural
+%<px1pl%>                 ! Possessive, 1. plural
+%<px2pl%>                 ! Possessive, 2. plural
+%<px3pl%>                 ! Possessive, 3. plural
 
 %<iv%>                    ! Непереходный
 %<tv%>                    ! Переходный
+%<TD%>                    ! Transitivity pending
 
 %<p1%>                    ! 1-ое лицо
 %<p2%>                    ! 2-ое лицо
 %<p3%>                    ! 3-ое лицо
-
 
 %<aor%>                   ! -Iр/-Aр
 %<past%>                  ! -GAн
@@ -111,6 +111,7 @@ Multichar_Symbols
 %<apos%>                  ! Apostrophe
 %<rquot%>                 ! Quote marker (right hand side)
 %<lquot%>                 ! Quote marker (left hand side)
+%<quot%>                  ! Quote marker (ambiguous)
 %<rpar%>                  ! Parenthetical marker (right hand side)
 %<lpar%>                  ! Parenthetical marker (left hand side)
 
@@ -131,26 +132,26 @@ Multichar_Symbols
 %{n%}                     ! - н
 %{i%}                     ! - ы у и ү
 %{y%}                     ! ы у и ү
-%{и%}
-%{к%}
-%{г%}
-%{н%}
-%{л%}
-%{р%}
+%{и%}                     ! 
+%{к%}                     ! 
+%{г%}                     !
+%{н%}                     !
+%{л%}                     !
+%{р%}                     !
 
-%{а%}
-%{с%}
-%{з%}
-%{й%}
-%{н%}
-%{э%}                    ! Vowel harmony front unrounded
-%{ы%}                    ! Vowel harmony back unrounded
+%{а%}                     ! 
+%{с%}                     !
+%{з%}                     !
+%{й%}                     ! 
+%{н%}                     !
+%{э%}                     ! Vowel harmony front unrounded
+%{ы%}                     ! Vowel harmony back unrounded
 
 %{❗%}
-%{☭%}                    ! Marker for loanwords
+%{☭%}                     ! Marker for loanwords
+%>                        ! Morpheme boundary
 
 №
-%>                       ! Morpheme boundary
 %-
 %  
 %+
@@ -306,9 +307,6 @@ LEXICON DIGITLEX
 8:8   LOOP ;
 9:9   LOOP ;
 
-
-
-
 !==============================================================================!
 !          N U M E R A L     L E X I C O N     E N D S     H E R E
 !==============================================================================!
@@ -405,16 +403,14 @@ LEXICON ATTR-SUBST
 !
 ! Check this, maybe only px3sp is possible.
 
-
 %<attr%>: # ;
 %<subst%>: N-INFL-COMMON-NODER ;
 %<subst%>%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NODER ;
 
-
-
 LEXICON N1 
 
-!%<n%>%<LIK%>:%>%{L%}%{I%}г # ;
+!%<n%>%+лыг%<post%>:%>%{L%}%{I%}г # ;
+!%<n%>%+лы%<post%>:%>%{L%}%{I%} # ;
 %<n%>%<attr%>: # ;
 %<n%>: SUBST ;
 
@@ -12521,7 +12517,7 @@ LEXICON Verbs
 дидин:дидин V-IV ; ! "осмелиться" ! диттир
 дээс:дээс V-IV ; ! "касаться" ! дегзир
 дүүш:дү%{г%}%{y%}ж V-IV ; ! "завязываться узлом" ! дүгжүр
-
+даас:да%{г%}з V-TV ; ! "обязывать" ! дагзыр
 
 эжин:эш%{y%}н V-TD ; ! "накидывать" ! эштир
 бизе:бизе V-TD ; ! "точить" ! бизээр
@@ -12642,7 +12638,6 @@ LEXICON Verbs
 чагы:чагы V-TV ; ! "заказывать" ! чагыыр
 өчү:өчү V-TV ; ! "показывать" ! өчүүр
 дис:дис V-TD-AR ; ! "нанизывать" ! дизер
-даас:даас V-TD ; ! "обязывать" ! дагзыр
 дүй:дүй V-TD-AR ; ! "завязывать" ! дүер
 шары:шары V-TD ; ! "завязывать" ! шарыыр
 чеш:чеш V-TV-AR ; ! "развязывать" ! чежер
@@ -13381,6 +13376,9 @@ LEXICON Abbreviations
 
 °C:°C ABBR ; ! ""
 
+UTC:UTC ABBR ; ! ""
+MSK:MSK ABBR ; ! ""
+
 А%.:А%. ABBR-INIT ; ! ""
 Б%.:Б%. ABBR-INIT ; ! ""
 В%.:В%. ABBR-INIT ; ! ""
@@ -13429,7 +13427,7 @@ LEXICON Punctuation
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
-%"%<sent%>:%" # ;
+%"%<quot%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
 %”%<rquot%>:%” # ;

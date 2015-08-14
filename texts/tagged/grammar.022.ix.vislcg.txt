@@ -1,7 +1,7 @@
 "<Ол>"
 ;	"ол" det dem
 ;	"ол" prn dem nom
-	"ол" prn pers p3 sg nom @subj #1->4
+	"ол" prn pers p3 sg nom @nsubj #1->4
 "<бажың>"
 ;	"баш" n px2sg nom
 	"бажың" n nom @obj #2->3

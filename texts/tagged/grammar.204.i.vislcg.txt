@@ -1,7 +1,7 @@
 "<Бис>"
 ;	"бис" n nom
 ;	"бис" n attr
-	"бис" prn pers p1 pl nom @subj #1->7
+	"бис" prn pers p1 pl nom @nsubj #1->7
 "<бүгү>"
 	"бүгү" det qnt @det #2->3
 ;	"бүгү" prn qnt nom

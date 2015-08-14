@@ -4,13 +4,9 @@
 	"мен" prn pers p1 sg dat @nmod #2->4
 "<байыр>"
 	"байыр" n nom @obj #3->4
-;	"байыр" n attr
 "<чедирткен>"
-;	"чедирт" v tv ger_past nom
-;	"чедирт" v tv past p3 sg
-;	"чедирт" v tv gpr_past
 	"чедирт" v tv prc_past @root #4->0
 "<болду>"
-	"бол" v iv ifi p3 sg @faux #5->4
+	"бол" v iv ifi p3 sg @aux #5->4
 "<.>"
 	"." sent @punct #6->4

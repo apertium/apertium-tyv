@@ -19,7 +19,7 @@
 	"кыл" v tv prc_perf @root #8->0
 "<каан>"
 ;	"каг" vaux ger_past nom 
-	"каг" vaux past p3 sg @faux #9->8
+	"каг" vaux past p3 sg @aux #9->8
 ;	"каг" vaux gpr_past 
 ;	"каг" v iv gpr_past 
 ;	"каң" n px3sp acc 

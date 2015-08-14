@@ -1,16 +1,11 @@
 "<Орус>"
 	"орус" adj @amod #1->2
-;	"орус" adj subst nom
 "<дылдан>"
 	"дыл" n abl @nmod #2->6
 "<өске>"
-;	"өс" n dat 
 	"өске" adj @amod #3->5
-;	"өске" post
-;	"өске" adj subst nom
 "<кандыг>"
 	"кандыг" det itg @det #4->5
-;	"кандыг" prn itg nom
 "<дылдар>"
 	"дыл" n pl nom @obj #5->6
 "<билир сен>"

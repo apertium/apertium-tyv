@@ -1,5 +1,5 @@
 "<Авазы>"
-	"ава" n px3sp nom @subj→ #1->3
+	"ава" n px3sp nom @nsubj→ #1->3
 "<уруун>"
 	"уруг" n px3sp acc @obj→ #2->3
 ;	"урук" n px3sp acc
@@ -9,7 +9,7 @@
 ;	"чугаала" v tv coop prc_perf
 	"чугаалаш" v tv prc_perf @imv #4->0
 "<олур>"
-	"олур" vaux aor p3 sg @faux #5->4
+	"олур" vaux aor p3 sg @aux #5->4
 ;	"олур" vaux imp p2 sg
 ;	"олур" v iv imp p2 sg
 "<.>"

@@ -14,7 +14,7 @@
 "<билип>"
 	"бил" v tv prc_perf @root #7->0
 "<алдым>"
-	"ал" vaux ifi p1 sg @faux #8->7
+	"ал" vaux ifi p1 sg @aux #8->7
 ;	"ал" v tv ifi p1 sg 
 ;	"алд" n px1sg nom 
 ;	"алды" n px1sg nom 

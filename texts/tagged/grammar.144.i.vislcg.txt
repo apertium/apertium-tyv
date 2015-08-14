@@ -4,7 +4,7 @@
 ;	"чаъс" n px3sp acc
 	"чазын" adv @advmod→ #1->3
 "<школа>"
-	"школа" n nom @subj→ #2->3
+	"школа" n nom @nsubj→ #2->3
 ;	"школа" n attr
 "<тарап>"
 	"тара" v iv prc_perf @X #3->5
@@ -32,7 +32,7 @@
 	"бай" adj subst px3sp nom @SPRED→ #10->12
 ;	"байы" v iv imp p2 sg
 "<мен>"
-	"мен" prn pers p1 sg nom @subj→ #11->12
+	"мен" prn pers p1 sg nom @nsubj→ #11->12
 "<болур мен>"
 	"бол" v iv aor p1 sg @fmv #12->0
 "<.>"

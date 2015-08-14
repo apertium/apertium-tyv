@@ -3,7 +3,7 @@
 ;	"бо" prn dem nom
 ;	"Бо" np ant m nom
 "<улус>"
-	"улус" n nom @subj #2->4
+	"улус" n nom @nsubj #2->4
 ;	"улус" n attr
 "<мени>"
 	"мен" prn pers p1 sg acc @obj #3->4

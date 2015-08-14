@@ -1,12 +1,10 @@
 "<Башкым>"
-	"башкы" n px1sg nom @subj #1->4
+	"башкы" n px1sg nom @nsubj #1->4
 "<эңмежок>"
 	"эңмежок" det qnt @det #2->3
 "<номнар>"
 	"ном" n pl nom @obj #3->4
 "<номчаан>"
-;	"номчу" v tv ger_past nom
 	"номчу" v tv past p3 sg @root #4->0
-;	"номчу" v tv gpr_past
 "<.>"
 	"." sent @punct #5->4

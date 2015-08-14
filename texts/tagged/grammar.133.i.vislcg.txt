@@ -11,7 +11,7 @@
 ;	"чор" vaux prc_perf
 ;	"чору" vaux prc_perf
 "<оргаш>"
-	"ор" v TD gna_past @faux #3->2
+	"ор" v TD gna_past @aux #3->2
 ;	"ор" v TD ger_past nom
 "<орукка>"
 	"орук" n dat @nmod #4->6

@@ -1,29 +1,20 @@
 "<Мартан-оол>"
-	"Мартан-оол" np ant m nom @subj #1->8
+	"Мартан-оол" np ant m nom @nsubj #1->8
 "<март>"
-;	"март" n nom
 	"март" n attr @cmpnd #2->3
 "<айдан>"
 	"ай" n abl @nmod #3->8
 "<сентябрь>"
-;	"сентябрь" n nom
 	"сентябрь" n attr @cmpnd #4->5
 "<айга>"
 	"ай" n dat @nmod #5->8
 "<чедир>"
 	"чедир" post @case #6->5
-;	"чедир" v tv imp p2 sg
 "<Кызылга>"
 	"Кызыл" np top dat @nmod #7->8
-;	"кызыл" adj subst dat
 "<чурттап>" 
 	"чуртта" v iv prc_perf @root #8->0
 "<турган>"
-;	"тур" vaux ger_past nom 
-	"тур" vaux past p3 sg @faux #9->8
-;	"тур" vaux gpr_past 
-;	"тур" v iv gpr_past 
-;	"тур" v iv ger_past nom 
-;	"тур" v iv past p3 sg 
+	"тур" vaux past p3 sg @aux #9->8
 "<.>"
 	"." sent @punct #10->8

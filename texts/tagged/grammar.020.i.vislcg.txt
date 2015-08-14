@@ -1,5 +1,5 @@
 "<Мен>"
-	"мен" prn pers p1 sg nom @subj #1->3
+	"мен" prn pers p1 sg nom @nsubj #1->3
 "<номну>"
 	"ном" n acc @obj #2->3
 "<номчудум>"

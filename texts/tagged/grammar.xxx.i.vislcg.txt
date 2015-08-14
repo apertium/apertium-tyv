@@ -15,7 +15,7 @@
 	"бичии" adj @amod #6->7
 ;	"бичии" adj subst nom
 "<кижилер>"
-	"кижи" n pl nom @subj #7->13
+	"кижи" n pl nom @nsubj #7->13
 "<«>"
 	"«" lquot @punct #8->10
 "<школачы>"
