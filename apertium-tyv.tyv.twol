@@ -84,6 +84,8 @@ RealVow = А О Ы У Э Е И Ө Ү
 
 AbstractVow = %{э%} %{а%} ;
 
+AbstractCns = %{с%} %{з%} %{й%} ;
+
 Cns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ъ Ь
               б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ъ ь ; 
 
@@ -261,7 +263,7 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why define all the :0s manually?  why not just say :0* ?
-          [ :VoicelessCns %>: ]/[ [ :0 - %{n%}: ] | %  ]* _ ;
+          [ :VoicelessCns %>: ]/[ [ :0 - [ %{n%}: | AbstractCns: ] ] | %  ]* _ ;
                                VoicelessCnsRus %{☭%}: %>: _ ;
                                %{с%}: (%-:) %>: _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
@@ -558,11 +560,12 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !%{N%}:0 <=> %{n%}: %>: _ ;
 
 "{N} is н after {n}"
-%{N%}:н <=> %{n%}:/%>: _ ;
+%{N%}:н <=> %{n%}:/[ :0 - AbstractCns: ]* _ ;
+            :Nasals/[ :0 - AbstractCns: ]* _ ;
 
 "Deletion of {n} word finally" ! {n} surfaces everywhere but nom, acc, gen
 %{n%}:0 <=> _ :0* .#. ;
-            _ %{N%}:н/:0 ; 
+            _ %{N%}:н/[ :0 - AbstractCns: ]* ; 
 
 !@ б ү р ү >:0 {z}:з {I}:ү {n}:0
 
