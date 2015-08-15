@@ -144,7 +144,7 @@ REMOVE Attr IF (1 EOS) ;
 
 REMOVE Attr IF (1C Det) ;
 
-REMOVE Attr IF (1 Prc) ; 
+REMOVE Attr IF (1 Prc OR Cop) ; 
    ## Картофельде соланин деп ногаанзымаар өңнүг, хоранныг бүдүмел бар.
 
 REMOVE Poss IF (-1 Cm) ;
@@ -207,7 +207,7 @@ LIST @acl:relcl = @acl:relcl ;
 LIST @obj = @obj ;
 LIST @case = @case ;
 LIST @punct = @punct ;
-LIST @cnp  = @cnp ;
+LIST @conj = @conj ;
 LIST @cc = @cc ;
 LIST @root = @root ;
 LIST @aux = @aux ;
@@ -298,3 +298,5 @@ REMOVE @nsubj IF (0C Acc) (NOT 1* V - @root) ;
 REMOVE Subst IF (0 Bar) (1 EOS) ;
 
 REMOVE @cmpnd IF (1 @root) ;
+
+REMOVE @nmod:poss IF (1 @case) ;
