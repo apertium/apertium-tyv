@@ -560,8 +560,9 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !%{N%}:0 <=> %{n%}: %>: _ ;
 
 "{N} is н after {n}"
-%{N%}:н <=> %{n%}:/[ :0 - AbstractCns: ]* _ ;
-            :Nasals/[ :0 - AbstractCns: ]* _ ;
+%{N%}:н <=> %{n%}:/[ :0 - [ AbstractCns: | %{n%}: ] ]* _ ;
+            :Nasals/[ :0 - [ AbstractCns: | %{n%}: ] ]* _ ;
+            :Vow/[ :0 - [ AbstractCns: | %{n%}: ] ]* _ ;
 
 "Deletion of {n} word finally" ! {n} surfaces everywhere but nom, acc, gen
 %{n%}:0 <=> _ :0* .#. ;
