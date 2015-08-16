@@ -550,7 +550,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "{I} deletion in px3.acc"
 %{I%}:0 <=> [ %{n%}: %{N%}: ]/[ :0 - [ %{n%}: | %{N%}: ] ]* _ .#. ;
         except
-            [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ]* ]* _ ;
+            [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ] ]* _ ;
             ! [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
             ! [ :BackVow :Cns* :Cns л ь:0 ]/:[ :0 - ь: ]* _ ;
 
@@ -560,9 +560,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !%{N%}:0 <=> %{n%}: %>: _ ;
 
 "{N} is н after {n}"
-%{N%}:н <=> %{n%}:/[ :0 - [ AbstractCns: | %{n%}: ] ]* _ ;
-            :Nasals/[ :0 - [ AbstractCns: | %{n%}: ] ]* _ ;
-            :Vow/[ :0 - [ AbstractCns: | %{n%}: ] ]* _ ;
+%{N%}:н <=> %{n%}:/[ :0 - %{n%}: ]* _ ;
+            :Nasals/[ :0 - %{n%}: ]* _ ;
+            :Vow/[ :0 - %{n%}: ]* _ ;
+        except
+            AbstractCns:/[ :0 - AbstractCns: ]* _ ;
 
 "Deletion of {n} word finally" ! {n} surfaces everywhere but nom, acc, gen
 %{n%}:0 <=> _ :0* .#. ;
