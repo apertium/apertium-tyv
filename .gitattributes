@@ -24,6 +24,7 @@ speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/abbreviations.yaml -text
 tests/cases.yaml -text
+tests/chaa.yaml -text
 tests/clitics.yaml -text
 tests/clusters.yaml -text
 tests/mz.yaml -text

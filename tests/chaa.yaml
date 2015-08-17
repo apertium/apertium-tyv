@@ -1,0 +1,19 @@
+Config:
+  hfst:
+      App: hfst-lookup
+      Gen: ../tyv.autogen.hfst
+      Morph: ../tyv.automorf.hfst
+
+Tests:
+
+ "[twol] stuff with чаа":
+    ча<n><dat> : чага
+    чай<n><dat> : чайга
+    чаң<n><dat> : чаңга
+    чаг<n><dat> : чагга
+    ча<n><px2sg><dat> : чаңга
+    чай<n><px2sg><dat> : чайыңга
+    чаң<n><px3sp><nom> : чаңы
+    чаг<n><px3sp><nom> : чаа
+    чаа<n><nom> : чаа
+    чаа<n><attr> : чаа
