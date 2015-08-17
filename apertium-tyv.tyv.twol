@@ -96,8 +96,8 @@ RealCns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш
 Liquid     = Л 
              л ; 
 
-HighSonCns = Р Й
-             р й ;
+HighSonCns = Р Й Г
+             р й г ;
 
 Nasals      = Н М Ң
               н м ң ; 
