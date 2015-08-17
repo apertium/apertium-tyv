@@ -203,18 +203,19 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
 !@ к:к ы:ы п:п {y}:0 с:с >:0 {i}:ы п:п
 
 "Intervocalic voiced velar deletion"
-Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/[ :0 - %>: ]* ;
      except
-         :Vow _ [ %{☭%}: :Vow ]/:0* ; 
+         :Vow _ [ %{☭%}: :Vow ]/[ :0 - %{☭%}: ]* ; 
      where Cx in ( г ң ) ;
 
 !@ э г:0 {I}:э р
 
 "Intervocalic voiceless velar deletion"
-к:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
+к:0 <=> :Vow/:0* _ [ %>: :Vow ]/[ :0 - %>: ]* ;
      except
          [ .#. | %- ] [ ( :Cns* ) ( :Vow* ) :Vow ]/:0 _ [ %>: :Vow ]/[ :0 - %>: ]* ;
-         :Vow _ [ %{☭%}: :Vow ]/:0* ; 
+         :Vow _ %{☭%}: %>: (:0) :Vow ;
+         !:Vow _ [ %{☭%}: :Vow ]/[ :0 -  %{☭%}: ]* ; 
 
 
 !@ ө к:г >:0 {i}:ү м
@@ -266,8 +267,8 @@ Cx:0 <=> :Vow/:0* _ [ %>: :Vow ]/:0* ;
 
 "Forward voicing assimilation"
 Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why define all the :0s manually?  why not just say :0* ?
-          [ :VoicelessCns %>: ]/[ [ :0 - [ %{n%}: | AbstractCns: ] ] | %  ]* _ ;
-                               VoicelessCnsRus %{☭%}: %>: _ ;
+          [ :VoicelessCns %>: ]/[ [ :0 - [ %{n%}: | AbstractCns: | %>: ] ] | %  ]* _ ;
+                               :VoicelessCnsRus %{☭%}: %>: _ ;
                                %{с%}: (%-:) %>: _ ;
 !          AbstrVoicelessCns:/[ %-: | %>: ] _ ;
           where Cx in ( %{M%}  %{D%}  %{L%}  %{N%}  %{G%} %{B%} %{Z%})
@@ -568,6 +569,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
             [ :Vow | :HighSonCns ]/[ :0 - %{n%}: ]* _ ;
         except
             AbstractCns:/[ :0 - AbstractCns: ]* _ ;
+            :VoicelessCnsRus %{☭%}: %>: _ ;
 
 "Deletion of {n} word finally" ! {n} surfaces everywhere but nom, acc, gen
 %{n%}:0 <=> _ :0* .#. ;
