@@ -18,5 +18,5 @@ Tests:
     чаа<n><nom> : чаа
     чаа<n><attr> : чаа
 
- "[twol] stuff with -г"
+ "[twol] stuff with -г":
     округ<n><dat> : округке
