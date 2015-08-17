@@ -17,3 +17,6 @@ Tests:
     чаг<n><px3sp><nom> : чаа
     чаа<n><nom> : чаа
     чаа<n><attr> : чаа
+
+ "[twol] stuff with -г"
+    округ<n><dat> : округке
