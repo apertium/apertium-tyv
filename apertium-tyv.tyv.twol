@@ -96,6 +96,9 @@ RealCns        =  Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш
 Liquid     = Л 
              л ; 
 
+HighSonCns = Р Й
+             р й ;
+
 Nasals      = Н М Ң
               н м ң ; 
 
@@ -548,7 +551,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 !!== Morphological stuff ==!!
 
 "{I} deletion in px3.acc"
-%{I%}:0 <=> [ %{n%}: %{N%}: ]/[ :0 - [ %{n%}: | %{N%}: ] ]* _ .#. ;
+%{I%}:0 <=> [ %{n%}: %{N%}: ]/[ :0 - [ %{n%}: | %{N%}: | AbstractVow: ] ]* _ .#. ;
         except
             [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ] ]* _ ;
             ! [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
@@ -562,7 +565,7 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "{N} is н after {n}"
 %{N%}:н <=> %{n%}:/[ :0 - %{n%}: ]* _ ;
             :Nasals/[ :0 - %{n%}: ]* _ ;
-            :Vow/[ :0 - %{n%}: ]* _ ;
+            [ :Vow | :HighSonCns ]/[ :0 - %{n%}: ]* _ ;
         except
             AbstractCns:/[ :0 - AbstractCns: ]* _ ;
 
