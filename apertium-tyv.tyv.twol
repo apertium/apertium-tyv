@@ -615,10 +615,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 "й deletion before yot vowels"
 й:0 <=> _ %{A%}:/:0* ;
         _ %{y%}:ю/:0* ;
-        :BackVow/:0* _ %{E%}:/0* ;
+        :BackVow/:0* _ %{E%}:/:0* ;
 
 !@ ч а й:0 >:0 {A}:я р
-!@ к у й {y}:ю c
+!@ к у й:0 {y}:ю c
 
 
 "{л} deletion in certain forms"
