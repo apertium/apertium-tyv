@@ -56,6 +56,8 @@ LIST Ger/Past = ger_past ;
 LIST Gpr/Aor = gpr_aor ; 
 LIST Gpr/Past = gpr_past ; 
 
+LIST Gna/Past = gna_past ;
+
 LIST Prc/Aor = prc_aor ;
 LIST Prc/Impf = prc_impf ;
 LIST Prc/Perf = prc_perf ;
@@ -89,15 +91,19 @@ LIST Min/Dict = ("[а-яңөүa-z]+"r) ;
 LIST Year = "чыл" "ч." ;
 LIST Month = "ай" ; 
 LIST Months = "январь" "февраль" "март" "апрел" "май" "июнь" "июль" "август" "сентябрь" "октябрь" "ноябрь" "декябр" ; 
+LIST Measure = "кг" "мм" ;
 
 LIST Bol = ("бол" v iv) ;
 LIST Bar = ("бар" adj) ;
+LIST Beer = "бээр" ;
 
 ###############################################################################
 
 SET Gpr = Gpr/Aor | Gpr/Past ; 
 
 SET Prc = Prc/Aor | Prc/Perf | Prc/Impf ; 
+
+SET Gna = Gna/Past ;
 
 SET Ger = Ger/Aor | Ger/Past ; 
 
@@ -116,6 +122,8 @@ SET Punct = Guio | Cm | Sent | Ques | Elip | Excl | Quot ;
 SET Name = Ant | Cog | Pat ;
 
 SET Copula = Cop | Bol ; 
+
+SET ABL-POST = Beer ;
 
 ###############################################################################
 
@@ -146,6 +154,8 @@ REMOVE Attr IF (1C Det) ;
 
 REMOVE Attr IF (1 Prc OR Cop) ; 
    ## Картофельде соланин деп ногаанзымаар өңнүг, хоранныг бүдүмел бар.
+
+REMOVE Attr IF (1 Cm) ;
 
 REMOVE Poss IF (-1 Cm) ;
    ## Оон аңгыда, кижини ооң хамааржып турары күрүнениң азы девискээрниң политиктиг, хоойлу-дүрүм ...
@@ -188,6 +198,14 @@ SELECT Attr IF (0 Months) (1 Month) ;
 
 SELECT Fin IF (0 Aux) (-1C Prc) (1 EOS) ;
 
+REMOVE Subst IF (0 Bar) (1 EOS) ;
+
+SELECT CC IF (0 CC OR Gna) (NOT 1 Cm OR V) ;
+
+SELECT Post IF (0C Beer) (-1 Abl) ;
+
+SELECT Abl IF (1 ABL-POST) ;
+
 ###############################################################################
 
 SECTION
@@ -198,6 +216,7 @@ REMOVE Coop IF (0C Coop OR V - Coop) ;
 
 SECTION 
 
+LIST @csubj = @csubj ;
 LIST @cmpnd = @cmpnd ;
 LIST @amod = @amod ;
 LIST @advmod = @advmod ;
@@ -247,15 +266,15 @@ MAP @advmod TARGET Adv ;
 
 MAP @aux TARGET Aux + Fin;
 
-MAP @root TARGET Prc IF (1C Fin + @aux) ;
+MAP @root TARGET Prc IF (1C Fin + @aux) (NOT 0 Aux) ;
 
 MAP @cop TARGET Copula ; 
 
 MAP SUB:* @cop TARGET Cop ; 
 
-MAP @disc TARGET Mod ; 
+MAP @disc TARGET Mod OR Qst ; 
 
-MAP @disc TARGET Qst ; 
+MAP SUB:* @disc TARGET Mod OR Qst ; 
 
 MAP @nummod TARGET Num - Subst (NOT 1 Year) ;
 
@@ -273,6 +292,16 @@ MAP (@advcl @ccomp) TARGET Ger + Dat ;
 
 MAP @name TARGET Abbr (1C* Cog BARRIER (*) - Abbr) ;
 
+MAP @advcl TARGET Ger + Local - Cop ; 
+
+MAP @ccomp TARGET Ger + Acc - Cop ;
+
+MAP @acl TARGET Ger + Gen - Cop ;
+
+MAP (@csubj @acl) TARGET Ger + Nom - Cop ;
+
+
+
 ###############################################################################
 
 SECTION
@@ -287,7 +316,9 @@ REMOVE @nsubj IF (1C @case) ;
 
 REMOVE @obj IF (1C @case) ;
 
-SELECT @amod IF (0C Num) (1 Year) ;
+SELECT @amod IF (0C Num) (1 Year + Local) ;
+
+SELECT @nummod IF (0C Num) (1 Measure) ;
 
 REMOVE @cmpnd IF (1 Cm) ;
 
@@ -295,8 +326,10 @@ SELECT @nmod:poss IF (1C Poss) ;
 
 REMOVE @nsubj IF (0C Acc) (NOT 1* V - @root) ;
 
-REMOVE Subst IF (0 Bar) (1 EOS) ;
-
 REMOVE @cmpnd IF (1 @root) ;
 
 REMOVE @nmod:poss IF (1 @case) ;
+
+REMOVE @nmod:poss IF (NOT 1* Poss) ;
+
+REMOVE @name (1C N) ;
