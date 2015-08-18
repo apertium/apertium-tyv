@@ -261,11 +261,13 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 !@ 5 {э}:0 {с}:0 - {G}:к {I}:и
 
+!@ о к р у г {☭}:0 >:0 {G}:к {A}:а
+
 !!! FIXME:
 !!! a simple version of the "Forward voicing assimilation" rule
 !!! can be switched out, but has same behaviour for e.g. округ{☭}>{G}{A}
 !"SERIOUSLY??"
-!%{G%}:к <=> :VoicelessCnsRus %{☭%}: %>: _ ;
+!%{G%}:к <=> :г %{☭%}: %>: _ ;
 
 "{B} nasal assimilation"
 %{B%}:м <=> :Nasals %>: _ ;
