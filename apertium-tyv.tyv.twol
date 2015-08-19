@@ -39,6 +39,7 @@ Alphabet
    %{к%}:к
    %{г%}:г
    %{н%}:0
+	%{ң%}:ң
    %{л%}:л
 
    ! Abstract Archiphonemes: always disappear but condition phonology
@@ -126,7 +127,7 @@ Rules
 "{z} surfaces after a vowel"
 %{z%}:з <=> :Vow/:0* _ ;
         except
-            [ :Vow Velars: ]/:0* _ ;
+            [ :Vow [ Velars: | %{ң%}: ] ]/:0* _ ;
             г:/:0* _ ;
 
 !@ с о ң:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а
@@ -190,13 +191,22 @@ Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
 
 !@ к:к ы:ы п:п {y}:0 с:с >:0 {i}:ы п:п
 
+!"Intervocalic voiced velar deletion"
+!Cx:0 <=> :Vow/:0* _ %>: :Vow/:0* ;
+!     except
+!         :Vow _ %{☭%}: :Vow/:0* ; 
+!     where Cx in ( г ң ) ;
+!
+
 "Intervocalic voiced velar deletion"
-Cx:0 <=> :Vow/:0* _ %>: :Vow/:0* ;
-     except
-         :Vow _ %{☭%}: :Vow/:0* ; 
-     where Cx in ( г ң ) ;
+г:0 <=> :Vow/:0* _ %>: :Vow/:0* ;
+    except
+        :Vow _ %{☭%}: %>: :Vow/:0* ; 
 
 !@ э г:0 {I}:э р
+
+"Exceptional deletion of ң"
+%{ң%}:0 <=> :Vow/:0* _ %>: :Vow/:0* ;
 
 "Intervocalic voiceless velar deletion"
 к:0 <=> :Vow/:0* _ %>: :Vow/:0* ;
@@ -263,11 +273,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 !@ о к р у г {☭}:0 >:0 {G}:к {A}:а
 
-!!! FIXME:
-!!! a simple version of the "Forward voicing assimilation" rule
-!!! can be switched out, but has same behaviour for e.g. округ{☭}>{G}{A}
-!"SERIOUSLY??"
-!%{G%}:к <=> :г %{☭%}: %>: _ ;
+"{J} devoices after liquids and nasals too"
+%{J%}:ч <=> [ :Liquid | :Nasals ] ( ь ) %>: _ ;
 
 "{B} nasal assimilation"
 %{B%}:м <=> :Nasals %>: _ ;
