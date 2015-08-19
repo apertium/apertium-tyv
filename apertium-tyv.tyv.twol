@@ -607,12 +607,15 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "ь deletion at the end of a morpheme before a vowel, and in clusters"
 ь:0 <=> _ %>: :Vow/:0* ;
+        Cns:0 _ ; ! if softened consonant is also deleted
 !        Cns: Cns: _ %>: ;
 !FIXME: when in clusters?  Only before vowels, right? -JNW
 
 !! FIXME: wat?  The rule is names "ь to и", but does ь:0 ...
 !"ь to и before px3sp" 
 !ь:0 <=> _ %>: %{z%}:  ; 
+
+!@ о б л а с т:0 ь:0 >: {G}:к {A}:а
 
 !@ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е 
 
