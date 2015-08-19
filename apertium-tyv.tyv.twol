@@ -130,10 +130,10 @@ Rules
             [ :Vow [ Velars: | %{ң%}: ] ]/:0* _ ;
             г:/:0* _ ;
 
-!@ с о ң:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а
+!@ с о {ң}:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а
 
 "Intervocalic coronal fricative voicing at a morpheme boundary"
-Cx:Cy <=> :Vow/:0* _ %>: :Vow/:0* ;
+Cx:Cy <=> [ :Vow (:р) ]/:0* _ %>: :Vow/:0* ;
           :Vow/:0* _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
           [ :Vow [ р: | й: ] %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р or й
 !!          р/:0 _ %>: :Vow ;
@@ -329,16 +329,19 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 "Normal front vowel harmony for {A}"
 %{A%}:е <=> [ :FrontVow :Cns* :RealCns ]/[ :0 | ь ]* _ ;
             [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
-            [ :BackVow :Cns* :Cns л ь :Cns* :RealCns ]/:0* _ ;
+            [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
+            [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
 !            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
         except
             [ :FrontVow %{g%}:0 ]/[ :0 - %{g%}: ]* _ ;
             _ [ %{g%}:0 %{A%}: ]/[ :0 - %{g%}: ]* ;
+            [ BackVow: й: ]/:0* _ ;
 !                                                   _ %>: %{g%}: ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {G}:г {A}:е
 !@ р у б л ь >:0 {D}:д {A}:е н
+!@ а н с а м б л ь >:0 {D}:д {A}:е н
 
 "yotted {A} harmony"
 %{A%}:я <=> [ BackVow: й: ]/:0* _ ;
@@ -428,7 +431,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 "Always realise {и} as и after ск"
 %{и%}:и <=> с к _ (%{☭%}:) %>: ; 
 
-!@ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}
+!@ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}:0
 
 !@ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н
 
@@ -604,7 +607,8 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 "ь deletion at the end of a morpheme before a vowel, and in clusters"
 ь:0 <=> _ %>: :Vow/:0* ;
-        Cns: Cns: _ %>: ;
+!        Cns: Cns: _ %>: ;
+!FIXME: when in clusters?  Only before vowels, right? -JNW
 
 !! FIXME: wat?  The rule is names "ь to и", but does ь:0 ...
 !"ь to и before px3sp" 
