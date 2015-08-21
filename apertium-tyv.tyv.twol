@@ -366,7 +366,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ %{n%}: %{N%}: ]/[ :0 - [ %{n%}: | %{N%}: ] ]* _ .#. ;
 
          !!    [ :Vow :Vow ]/:0* _ ;
-             [ :Vx р:0 ]/[ :0 - р: ]* _ ;
+             [ :Vx %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
              [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;  ! always и
@@ -470,7 +470,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
             [ :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
-            [ :Vow %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
+            [ [ [ ?: :Vow ] - [ ч: о: ] ] %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
             [ :BackVow :Cns* ь: ]/[ :0 - ь: ]* _ ;

@@ -11925,13 +11925,16 @@ LEXICON Verbs
 чыт:чыт V-IV ; ! "lie"
 чыт:чыт V-IV-AR ; ! "lie"
 
+!FIXME: Decide which gets generated
 бол:бол V-IV ; ! "be"
-бар:бар V-IV ; ! "go"
 бол:бо%{л%} V-IV ; ! "be" ! FIXME: make LR if having this secondary is right
-бил:бил V-TV ; ! "know"
 кел:кел V-IV ; ! "come"
 кел:ке%{л%} V-IV ; ! "come" ! FIXME: make LR if having this secondary is right
+ал:ал V-TV ; ! "take"
+ал:а%{л%} V-TV ; ! "take" ! FIXME: make LR if having this secondary is right
+
 уш:уш V-IV-AR ; ! "летать"
+бил:бил V-TV ; ! "know"
 
 билин:билин V-IV ; ! "чувствовать"
 билин:мил%{y%}н V-IV ; ! "чувствовать" ! FIXME: check stem
@@ -11940,6 +11943,9 @@ LEXICON Verbs
 
 болу% бер:болу% бер V-IV ; ! "произходить"
 
+көр:кө%{р%} V-TV ; ! "see"
+бер:бе%{р%} V-TV ; ! "give"
+бар:ба%{р%} V-IV ; ! "go"
 ! FIXME: Both stems valid (?)
 чор:чо%{р%} V-IV ; ! "идти, ехать"
 чору:чору V-IV ; ! "идти, ехать" 
@@ -11947,14 +11953,10 @@ LEXICON Verbs
 чорут:чорут V-TV-AR ; ! "посылать" ! Mor/Caus
 
 тур:тур V-IV-AR ; ! ""
-ал:ал V-TV ; ! "take"
-ал:а%{л%} V-TV ; ! "take" ! FIXME: make LR if having this secondary is right
-бер:бе%{р%} V-TV ; ! "give"
 бижи:бижи V-TV ; ! "писать"
 иш:иш V-TV-AR ; ! "пить"
 де:де V-TV ; ! "говорить"
 де:ди V-TV ; ! "говорить" ! Dir/LR
-көр:кө%{р%} V-TV ; ! ""
 
 ойна:ойна V-IV-AR ; ! "играть"
 ойна:ойна V-TV-AR ; ! "играть"
