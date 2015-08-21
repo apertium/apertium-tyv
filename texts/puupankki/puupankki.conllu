@@ -1,0 +1,85 @@
+
+1	Бажыңга	бажың	_	n	dat	2	nmod	_	_
+2	четкелек	чет	_	v	tv|prc_unac	5	advcl	_	_
+3	чорумда	чор	_	vaux	ger_aor|px1sg|loc	2	aux	_	_
+4	чаъс	чаъс	_	n	nom	5	nsubj	_	_
+5	чаап	чаг	_	v	iv|prc_perf	0	root	_	_
+6	келди	кел	_	vaux	ifi|p3|sg	5	aux	_	_
+7	.	.	_	sent	_	5	punct	_	_
+
+1	Ажылдап	ажылда	_	v	tv|prc_perf	3	acl	_	_
+2	турар	тур	_	vaux	gpr_aor	1	aux	_	_
+3	машинага	машина	_	n	dat	4	obj	_	_
+4	дегбе	дег	_	v	tv|neg|imp|p2|sg	0	root	_	_
+5	!	!	_	sent	_	4	punct	_	_
+
+1	Номчуваан мен	номчу	_	v	tv|neg|past|p1|sg	0	root	_	_
+2	.	.	_	sent	_	1	punct	_	_
+
+1	Кижи	кижи	_	n	nom	2	nsubj	_	_
+2	келгеш	кел	_	v	iv|gna_past	5	advcl	_	_
+3	,	,	_	cm	_	2	punct	_	_
+4	мен	мен	_	prn	pers|p1|sg|nom	5	nsubj	_	_
+5	ынаар	ына	_	v	iv|prc_aor	0	root	_	_
+6	барып	бар	_	vaux	prc_perf	5	aux	_	_
+7	албадым	ал	_	vaux	neg|ifi|p1|sg	6	aux	_	_
+8	.	.	_	sent	_	5	punct	_	_
+
+1	Мал	мал	_	n	nom	2	obj	_	_
+2	кадарып	кадар	_	v	tv|prc_perf	4	x	_	_
+3	чорааш	чору	_	vaux	gna_past	2	aux	_	_
+4	удуп	уду	_	v	iv|prc_perf	0	root	_	_
+5	болбас	бол	_	vaux	neg|aor|p3|sg	4	aux	_	_
+6	.	.	_	sent	_	4	punct	_	_
+
+1	Авам	ава	_	n	px1sg|nom	3	nsubj	_	_
+2	бажыңга	бажың	_	n	dat	3	nmod	_	_
+3	турбас	тур	_	v	iv|neg|aor|p3|sg	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Олар	олар	_	prn	pers|p3|pl|nom	5	nsubj	_	_
+2	чоруй	чору	_	v	iv|prc_impf	5	advcl	_	_
+3	барган	бар	_	vaux	past|p3|sg	2	aux	_	_
+4	төлээде	төлээде	_	cnjadv	_	2	mark	_	_
+5	далашпайн	далаш	_	v	iv|neg|prc_past	0	root	_	_
+6	барып	бар	_	v	iv|prc_perf	5	root	_	_
+7	болур	бол	_	vaux	iv|prc_aor	6	aux	_	_
+8	турган	тур	_	vaux	past|p3|sg	7	aux	_	_
+9	.	.	_	sent	_	6	punct	_	_
+
+1	Уранмаа	Уранмаа	_	np	ant|f|nom	6	nsubj	_	_
+2	класс	класс	_	n	nom	3	nmod:poss	_	_
+3	эжинге	эш	_	n	px3sp|dat	6	nmod	_	_
+4	дидим	дидим	_	adj	_	6	advcl	_	_
+5	эвес	э	_	cop	neg|gna_aor	4	cop	_	_
+6	кылаштап	кылашта	_	v	iv|prc_perf	0	root	_	_
+7	чеде	чет	_	vaux	prc_impf	6	aux	_	_
+8	берген	бер	_	vaux	past|p3|sg	7	aux	_	_
+9	.	.	_	sent	_	6	punct	_	_
+
+1	Авам	ава	_	n	px1sg|nom	3	nsubj	_	_
+2	бажыңда	бажың	_	n	loc	3	nmod	_	_
+3-4	чок	_	_	_	_	_	_	_	_
+3	_	чок	_	adj	_	0	root	_	_
+4	_	э	_	cop	aor|p3|sg	3	cop	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+1	Сигеннеп	сигенне	_	v	tv|prc_perf	0	root	_	_
+2	кааптывыс	каг	_	vaux	ppi|p1|pl	1	aux	_	_
+3	.	.	_	sent	_	1	punct	_	_
+
+1	Инек	инек	_	n	nom	2	obj	_	_
+2	саап	саг	_	v	tv|prc_perf	0	root	_	_
+3	тур мен	тур	_	vaux	aor|p1|sg	2	aux	_	_
+4	.	.	_	sent	_	2	punct	_	_
+
+1	Дүрген	дүрген	_	adv	_	2	advmod	_	_
+2	халып	халы	_	v	iv|prc_perf	0	root	_	_
+3	тур мен	тур	_	vaux	aor|p1|sg	2	aux	_	_
+4	.	.	_	sent	_	2	punct	_	_
+
+1	Чаштар	чаш	_	n	pl|nom	2	nsubj	_	_
+2	удуп	уду	_	v	iv|gna_perf	4	advcl	_	_
+3	,	,	_	cm	_	2	punct	_	_
+4	дыштанзыннар	дыштан	_	v	iv|imp|p3|pl	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
