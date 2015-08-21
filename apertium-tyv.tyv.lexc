@@ -11894,14 +11894,14 @@ LEXICON Verbs
 
 ал:ал VAUX-IR ; ! ""             ! аар
 ал:а%{л%} VAUX-IR ; ! ""         ! аар ! FIXME: make LR if having this secondary is right
-бар:бар VAUX-IR ; ! ""           ! баар
-бер:бер VAUX-IR ; ! ""           ! бээр
+бар:ба%{р%} VAUX-IR ; ! ""       ! баар
+бер:бе%{р%} VAUX-IR ; ! ""       ! бээр
 чыт:чыт VAUX-AR ; ! ""           ! чыдар
-чор:чо%{р%} VAUX-IR ; ! ""       ! чор
+чор:чо%{р%} VAUX-IR ; ! ""       ! чор ! FIXME: CHECK
 чору:чору VAUX-IR ; ! ""         ! чоруур
 эгеле:эгеле VAUX-IR ; ! ""
 каг:каг VAUX-AR ; ! ""           ! каар
-көр:көр VAUX-AR ; ! ""           ! көөр
+көр:кө%{р%} VAUX-IR ; ! ""       ! көөр
 олур:олур VAUX-AR ; ! ""         ! оор ! FIXME: CHECK
 тур:тур VAUX-AR ; ! ""           ! турар
 
@@ -11949,12 +11949,12 @@ LEXICON Verbs
 тур:тур V-IV-AR ; ! ""
 ал:ал V-TV ; ! "take"
 ал:а%{л%} V-TV ; ! "take" ! FIXME: make LR if having this secondary is right
-бер:бер V-TV ; ! "give"
+бер:бе%{р%} V-TV ; ! "give"
 бижи:бижи V-TV ; ! "писать"
 иш:иш V-TV-AR ; ! "пить"
 де:де V-TV ; ! "говорить"
 де:ди V-TV ; ! "говорить" ! Dir/LR
-көр:көр V-TV ; ! ""
+көр:кө%{р%} V-TV ; ! ""
 
 ойна:ойна V-IV-AR ; ! "играть"
 ойна:ойна V-TV-AR ; ! "играть"

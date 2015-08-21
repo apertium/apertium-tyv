@@ -45,7 +45,7 @@ Alphabet
    ! Abstract Archiphonemes: always disappear but condition phonology
    ! mostly for numerals and abbreviations
 
-   %{р%}:0 %{р%}:р ! Until phonology is done
+   %{р%}:р ! Until phonology is done
 
    %{а%}:0
    %{с%}:0
@@ -398,10 +398,10 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ :Vow :RealVow ]/:0* _ ;
              [ :Vx Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ :Vx %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+             [ :Vx %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
              [ :Vx п:0 ]/[ :0 - п: ]* _ ;
              [ :Vx с:0 ]/[ :0 - с: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-             .#. :ч :о %{р%}:0/:0 _ р: ;
              [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;   ! always и
              [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
@@ -465,10 +465,12 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 "{I} deletion after long vowels"
 %{I%}:0 <=> [ :Vow :RealVow ]/:0* _ ;
-            .#. :ч :о %{р%}:0/:0 _ р: ;
+            .#. ч: о: %{р%}:0 %>: _ р: ;
+            ! %{р%}:0/:0 _ р: ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;
             [ :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+            [ :Vow %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
             [ :BackVow :Cns* ь: ]/[ :0 - ь: ]* _ ;
@@ -483,13 +485,15 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 !!== Vowel harmony in context of other processes ==!!
 
-"{I} harmony after deleted velar"
+"{I} harmony after deleted velar (or р or л)"
 %{I%}:Vy <=> [ Vx: Velars:0 ]/[ :0 - Velars: ]* _ ;
              [ Vx: %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
+             [ Vx: %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
          except
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
              [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
              [ :BackVow :Cns* ь: ]/[ :0 - ь: ]* _ ;
+             .#. ч: о: %{р%}:0 %>: _ р: ;
          where Vx in ( и ү е э ө а о ы у я )
                Vy in ( и ү э э ө а о ы у а )
          matched ;
@@ -626,12 +630,15 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 !@ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е 
 
+!"р deletion in aorist"
+!р:0 <=> _ [ %>: %{I%}: р ]  ;
+
 "р deletion in aorist"
-р:0 <=> _ [ %>: %{I%}: р ]  ;
+%{р%}:0 <=> _ %>: %{I%}: р: ;
 
-!@ б а р:0 >:0 {I}:а р
+!@ б а {р}:0 >:0 {I}:а р
 
-!@ б е р >:0 {I}:и ң {A}:е р
+!@ б е {р} >:0 {I}:и ң {A}:е р
 
 "й deletion before yot vowels"
 й:0 <=> _ %{A%}:/:0* ;
