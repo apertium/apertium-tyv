@@ -472,6 +472,95 @@
 3	келди	кел	_	v	iv|ifi|p3|sg	0	root	_	_
 4	.	.	_	sent	_	3	punct	_	_
 
+1	Колхозуңар	колхоз	_	n	px2pl|nom	2	nmod:poss	_	_
+2	дугайын	дугай	_	n	px3sp|acc	4	obj	_	_
+3	меңээ	мен	_	prn	pers|p1|sg|dat	4	nmod	_	_
+4	чугаалап	чугаала	_	v	tv|prc_perf	0	root	_	_
+5	бериңер	бер	_	vaux	imp|p2|pl	4	aux	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Орус	орус	_	adj	_	2	amod	_	_
+2	дылдан	дыл	_	n	abl	6	nmod	_	_
+3	өске	өске	_	adj	_	5	amod	_	_
+4	кандыг	кандыг	_	det	itg	5	det	_	_
+5	дылдар	дыл	_	n	pl|nom	6	obj	_	_
+6	билир сен	бил	_	v	tv|aor|p2|sg	0	root	_	_
+7	?	?	_	sent	_	6	punct	_	_
+
+1	Хемни	хем	_	n	acc	4	nmod	_	_
+2	кежилдир	кежилдир	_	post	_	1	case	_	_
+3	көвүрүг	көвүрүг	_	n	nom	4	obj	_	_
+4	тургускан	тургус	_	v	tv|past|p3|pl	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	5	nsubj	_	_
+2	силерниң	силер	_	prn	pers|p2|pl|gen	3	nsubj	_	_
+3	чугаалааныңар	чугаала	_	v	tv|ger_past|px2pl|nom	5	ccomp	_	_
+4	ёзугаар	ёзугаар	_	post	_	3	case	_	_
+5	кылдым	кыл	_	v	tv|ifi|p1|sg	0	root	_	_
+6	.	.	_	sent	_	5	punct	_	_
+
+1	Сен	сен	_	prn	pers|p2|sg|nom	3	nsubj	_	_
+2	сүт	сүт	_	n	nom	3	obj	_	_
+3	иштиң	иш	_	v	tv|ifi|p2|sg	0	root	_	_
+4	бе	бе	_	qst	_	3	disc	_	_
+5	?	?	_	sent	_	3	punct	_	_
+
+1	Бистер	бис	_	prn	pers|p1|pl|nom	3	nsubj	_	_
+2	ам-даа	ам-даа	_	adv	_	3	advmod	_	_
+3	келбедивис	кел	_	v	iv|neg|ifi|p1|pl	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Сен	сен	_	prn	pers|p2|sg|nom	3	nsubj	_	_
+2	кажан	кажан	_	adv	itg	3	advmod	_	_
+3	төрүттүнген сен	төрүттүн	_	v	iv|past|p2|sg	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Дүүн	дүүн	_	adv	_	3	advmod	_	_
+2	эки	эки	_	adv	_	3	advmod	_	_
+3	удудум	уду	_	v	iv|ifi|p1|sg	0	root	_	_
+4	.	.	_	sent	_	333	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
+2	аңаа	ол	_	prn	pers|p3|sg|dat	4	arg	_	_
+3	ном	ном	_	n	nom	4	obj	_	_
+4	бердим	бер	_	v	tv|ifi|p1|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
+2	аңаа	ол	_	prn	pers|p3|sg|dat	4	arg	_	_
+3	ном	ном	_	n	nom	4	obj	_	_
+4	бердим	бер	_	v	tv|ifi|p1|sg	0	root	_	_
+5	.	.	_	sent	_	4	punct	_	_
+6	Аныяк	аныяк	_	adj	_	4	advcl	_	_
+7	тургаш	тур	_	v	iv|gna_past	1	cop	_	_
+8	эки	эки	_	adv	_	4	advmod	_	_
+9	удаан мен	уду	_	v	iv|past|p1|sg	0	root	_	_
+10	.	.	_	sent	_	4	punct	_	_
+
+1	Ажылдаар мен	ажылда	_	v	tv|aor|p1|sg	0	root	_	_
+2	.	.	_	sent	_	1	punct	_	_
+
+1	Он	он	_	num	_	3	nummod	_	_
+2	уруг	уруг	_	n	nom	3	nsubj	_	_
+3	келир	кел	_	v	iv|aor|p3|pl	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Ам	ам	_	adv	_	3	advmod	_	_
+2	техникумда	техникум	_	n	loc	3	nmod	_	_
+3	башкылап	башкыла	_	v	tv|prc_perf	0	root	_	_
+4	тур мен	тур	_	vaux	aor|p1|sg	3	aux	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+1	Сүт	сүт	_	n	nom	2	obj	_	_
+2	ижип	иш	_	v	tv|prc_perf	0	root	_	_
+3	турар мен	тур	_	vaux	aor|p1|sg	2	aux	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	2	nsubj	_	_
+2	ырлаптарым	ырла	_	v	tv|perf|p1|sg	0	root	_	_
+3	.	.	_	sent	_	2	punct	_	_
+
 1	Ажылдап	ажылда	_	v	tv|prc_perf	3	acl	_	_
 2	турар	тур	_	vaux	gpr_aor	1	aux	_	_
 3	машинага	машина	_	n	dat	4	obj	_	_

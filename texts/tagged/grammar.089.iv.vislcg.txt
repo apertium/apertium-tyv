@@ -1,14 +1,11 @@
 "<Аныяк>"
-	"аныяк" adj @spred→ #1->2
-;	"аныяк" adj subst nom
+	"аныяк" adj @advcl #1->4
 "<тургаш>"
-;	"тур" v iv ger_past nom
-	"тур" v iv gna_past @advcl→ #2->4
-;	"тур" vaux gna_past REMOVE:36
-;	"тур" vaux ger_past nom REMOVE:36
+	"тур" v iv gna_past @cop #2->1
 "<эки>"
 	"эки" adv @advmod #3->4
 "<удаан мен>"
-	"уду" v iv past p1 sg @fmv #4->0
+	"уду" v iv past p1 sg @root #4->0
 "<.>"
 	"." sent @punct #5->4
+
