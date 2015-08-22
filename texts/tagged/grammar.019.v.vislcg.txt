@@ -10,3 +10,4 @@
 	"бол" v iv ifi p3 sg @aux #5->4
 "<.>"
 	"." sent @punct #6->4
+

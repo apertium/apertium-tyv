@@ -3,4 +3,5 @@
 "<эккелдим>"
 	"эккел" v tv ifi p1 sg @root #2->0
 "<.>"
-	"." sent @punct 3->2
+	"." sent @punct #3->2
+

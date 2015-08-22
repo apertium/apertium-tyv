@@ -5,4 +5,5 @@
 "<бүдер>"
 	"бүт" v iv aor p3 sg @root #3->0
 "<.>"
-	"." sent @4->3
+	"." sent @punct #4->3
+

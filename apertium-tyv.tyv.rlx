@@ -50,6 +50,9 @@ LIST Px1Pl = px1pl ;
 LIST Px2Pl = px1pl ;
 LIST Px3Pl = px3pl ;
 
+LIST TV = tv ; 
+LIST IV = iv ;
+
 LIST Ger/Aor = ger_aor ; 
 LIST Ger/Past = ger_past ; 
 
@@ -332,4 +335,6 @@ REMOVE @nmod:poss IF (1 @case) ;
 
 REMOVE @nmod:poss IF (NOT 1* Poss) ;
 
-REMOVE @name (1C N) ;
+REMOVE @name IF (1C N) ;
+
+REMOVE @obj IF (NOT 1* TV) ;

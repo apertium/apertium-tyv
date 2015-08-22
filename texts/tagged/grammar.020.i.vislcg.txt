@@ -6,3 +6,4 @@
 	"номчу" v tv ifi p1 sg @root #3->0
 "<.>"
 	"." sent @punct #4->3
+

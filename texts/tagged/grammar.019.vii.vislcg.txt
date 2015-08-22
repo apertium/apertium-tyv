@@ -12,3 +12,4 @@
 	"бил" v tv aor p2 sg @root #6->0
 "<?>"
 	"?" sent @punct #7->6
+

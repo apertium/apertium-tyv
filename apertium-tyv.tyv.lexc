@@ -8,18 +8,18 @@ Multichar_Symbols
 
 %<n%>                     ! Имя существительное        ! Ч.ве ады
 %<adj%>                   ! Имя прилагательное
-%<np%>                    ! Proper noun
-%<post%>                  ! Postposition               ! Едеринчи
+%<np%>                    ! Имя собственное
+%<post%>                  ! Послелог                   ! Едеринчи
 %<v%>                     ! Глагол                     ! Кылыг с.з.
 %<prn%>                   ! Местомение                 ! Ат орну
 %<adv%>                   ! Наречие
 %<num%>                   ! Числительное
 %<ij%>                    ! Междоиметие
 %<det%>                   ! Determiner
-%<cop%>                   ! Связ
-%<vaux%>                  ! Помогательный глагол
-%<qst%>                   ! Question word
-%<abbr%>                  ! Abbreviation
+%<cop%>                   ! Связка
+%<vaux%>                  ! Вспомогательный глагол
+%<qst%>                   ! Вопросительное слово
+%<abbr%>                  ! Аббревиатура 
 %<cnjadv%>                ! Adverbial conjunction
 %<cnjcoo%>                ! Co-ordinating conjunction  ! Евилел
 %<cnjsub%>                ! Subordinating conjunction  !
@@ -99,6 +99,7 @@ Multichar_Symbols
           
 %<gpr_aor%>               ! -Iр/-Aр
 
+%<gna_perf%>              ! -Iп
 %<gna_cond%>              ! -зA
 %<gna_past%>              ! -gAш
 %<gna_after%>             ! -gAлA
@@ -1155,18 +1156,19 @@ LEXICON Miscellaneous
 
 LEXICON Conjunctions
 
-база:база CC ; ! "и"
-а:а CC ; ! "и"
+база:база CC ; ! "и" [и тоже]
+а:а CC ; ! "и" 
 болгаш:болгаш CC ; ! "и"
+биле:биле CC ; ! "и"
 ынчалза%-даа:ынчалза%-даа CC ; ! "но"
 ийикпе:ийикпе CC ; ! "или"
 азы:азы CC ; ! "или"
 или:или CC ; ! "или" ! Use/Sub
-биле:биле CC ; ! "и"
 
-бир% эвес:бир% эвес CS ; ! "если"
+бир% эвес:бир% эвес CA ; ! "если" ! бир эвес келген болзуңза, эки болур ийик
 
-чүге% дээрге:чүге% дээрге CA ; ! "because"
+чүге% дээрге:чүге% дээрге CA ; ! "потому что" 
+
 ынчангаш:ынчангаш CA ; ! ""
 дизе:дизе CA ; ! "чтобы"
 турбуже:турбуже CA ; ! "немостря на то, что"
@@ -1180,7 +1182,6 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 биле:%-биле POST ; ! "with" 
-!биле:биле POST ; ! "with" 
 ужун:ужун POST ; ! "for"
 башка:башка POST ; ! ""
 кежилдир:кежилдир POST ; ! ""
@@ -1299,7 +1300,6 @@ PRON-DEM-OL ;
 
 LEXICON Numerals
 
-чаңгыс:чаңгыс NUM ; ! "один" ! FIXME: Check adj?
 бирээ:бирээ NUM ; ! "один" ! FIXME: derivation ?
 
 бир:бир NUM ; ! "one"
@@ -1323,6 +1323,8 @@ LEXICON Numerals
 тозан:тозан NUM ; ! ""
 
 чүс:чүс  NUM ; ! ""
+
+чүс%-чүс:чүс%-чүс NUM ; ! "сотни" 
 
 түмен:түмен NUM ; ! "десять тысяч"
 
@@ -10089,6 +10091,7 @@ LEXICON Adjectives
 ак:ак A1 ; ! "бельый"
 кызыл:кызыл A1 ; ! "красный"
 
+чаңгыс:чаңгыс A1 ; ! "единственный"
 
 соңгу:соңгу A1 ; ! "северный"
 мурнуу:мурнуу A1 ; ! "южный"
@@ -11726,6 +11729,9 @@ LEXICON Adjectives
 ! A1 pending better classification.
 
 хоранналчак:хоранналчак A1 ; ! ""
+туманналчак:туманналчак A1 ; ! ""
+планеталанчак:планеталанчак A1 ; ! ""
+диффузияланчак:диффузияланчак A1 ; ! ""
 
 ! These should probably not be adjectives :/
 бүгү%-россия:бүгү%-россия A1 ; ! "" 
@@ -11905,7 +11911,8 @@ LEXICON Verbs
 олур:олур VAUX-AR ; ! ""         ! оор ! FIXME: CHECK
 тур:тур VAUX-AR ; ! ""           ! турар
 
-тур%<vaux%>%<aor%>%<p3%>%<sg%>:тур # ; ! FIXME
+тур%<vaux%>%<aor%>:тур V-PERS-S1 ; ! FIXME
+бер%<vaux%>%<aor%>:бээр V-PERS-S2 ; ! FIXME: This should be done in phonology.
 
 шыда:шыда VAUX-AR ; ! "мочь" ! FIXME: check stem
 как:как VAUX-AR ; ! "бить" ! FIXME: check stem
@@ -11914,9 +11921,11 @@ LEXICON Verbs
 бол:бо%{л%} VAUX-IR ; ! "быть"         ! болур
 
 ! FIXME: Check all of these
-аппар:аппар VAUX-AR ; ! ""  
-апар:апар VAUX-AR ; ! ""  
+аппар:аппар VAUX-AR ; ! "" !=алып бар
+
+!апар:апар VAUX-AR ; ! ""  
 !апар:апар V-IV-AR ; ! "становиться"
+
 апа:апа V-IV-AR ; ! "становиться"
 аппар:аппар V-TV-AR ; ! "уносить" ! аппаар
 
@@ -11936,10 +11945,10 @@ LEXICON Verbs
 уш:уш V-IV-AR ; ! "летать"
 бил:бил V-TV ; ! "know"
 
-билин:билин V-IV ; ! "чувствовать"
-билин:мил%{y%}н V-IV ; ! "чувствовать" ! FIXME: check stem
-хып:кып V-IV-AR ; ! "гореть" ! FIXME: check stem
-хып:хып V-IV-AR ; ! "гореть" ! FIXME: check stem
+минин:билин V-IV ; ! "чувствовать"
+минин:мил%{y%}н V-IV ; ! "чувствовать" ! FIXME: check stem
+кып:кып V-IV-AR ; ! "гореть" 
+хып:хып V-IV-AR ; ! "гореть" 
 
 болу% бер:болу% бер V-IV ; ! "произходить"
 
@@ -13550,5 +13559,3 @@ U:U GUESS-QUEUE ;
 V:V GUESS-QUEUE ; 
 W:W GUESS-QUEUE ; 
 X:X GUESS-QUEUE ; 
-Y:Y GUESS-QUEUE ; 
-Z:Z GUESS-QUEUE ; 

@@ -8,3 +8,4 @@
 	"номчу" v tv past p3 sg @root #4->0
 "<.>"
 	"." sent @punct #5->4
+

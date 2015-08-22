@@ -8,3 +8,4 @@
 	"көр" v tv ifi p1 sg @root #4->0
 "<.>"
 	"." sent @punct #5->4
+

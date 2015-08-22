@@ -18,3 +18,4 @@
 	"тур" vaux past p3 sg @aux #9->8
 "<.>"
 	"." sent @punct #10->8
+
