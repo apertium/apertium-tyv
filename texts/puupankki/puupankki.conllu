@@ -234,19 +234,20 @@
 4	_	бар	_	adj	_	0	root	_	_
 5	_	э	_	cop	aor|p3|sg	4	cop	_	_
 6	.	.	_	sent	_	4	punct	_	_
-7	Мен	мен	_	prn	pers|p1|sg|nom	12	nsubj	_	_
-8	бир	бир	_	num	_	3	cmpnd	_	_
-9	муң	муң	_	n	attr	4	cmpnd	_	_
-10	тос	тос	_	num	_	5	cmpnd	_	_
-11	чүс	чүс	_	num	_	6	cmpnd	_	_
-12	дөртен	дөртен	_	num	_	7	amod	_	_
-13	чылда	чыл	_	n	loc	12	nmod	_	_
-14	февральдың	февраль	_	n	gen	9	nmod:poss	_	_
-15	чээрбиде	чээрби	_	num	subst|loc	12	nmod	_	_
-16	Кызыл	Кызыл	_	np	top|attr	11	cmpnd	_	_
-17	хоорайга	хоорай	_	n	dat	12	nmod	_	_
-18	төрүттүнген мен	төрүттүн	_	v	iv|past|p1|sg	0	root	_	_
-19	.	.	_	sent	_	12	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	12	nsubj	_	_
+2	бир	бир	_	num	_	3	cmpnd	_	_
+3	муң	муң	_	n	attr	4	cmpnd	_	_
+4	тос	тос	_	num	_	5	cmpnd	_	_
+5	чүс	чүс	_	num	_	6	cmpnd	_	_
+6	дөртен	дөртен	_	num	_	7	amod	_	_
+7	чылда	чыл	_	n	loc	12	nmod	_	_
+8	февральдың	февраль	_	n	gen	9	nmod:poss	_	_
+9	чээрбиде	чээрби	_	num	subst|loc	12	nmod	_	_
+10	Кызыл	Кызыл	_	np	top|attr	11	cmpnd	_	_
+11	хоорайга	хоорай	_	n	dat	12	nmod	_	_
+12	төрүттүнген мен	төрүттүн	_	v	iv|past|p1|sg	0	root	_	_
+13	.	.	_	sent	_	12	punct	_	_
 
 1	Мен	мен	_	prn	pers|p1|sg|nom	3	nsubj	_	_
 2	Кызылда	Кызыл	_	np	top|loc	3	nmod	_	_
@@ -626,6 +627,52 @@
 4	номчувастай	номчу	_	v	tv|cess|prc_impf	0	root	_	_
 5	бердим	бер	_	vaux	ifi|p1|sg	4	aux	_	_
 6	.	.	_	sent	_	4	punct	_	_
+
+1	Олар	олар	_	prn	pers|p3|pl|nom	3	nsubj	_	_
+2	ону	ол	_	prn	dem|acc	3	obj	_	_
+3	биживестей	бижи	_	v	tv|cess|prc_impf	0	root	_	_
+4	бергеннер	бер	_	vaux	past|p3|pl	3	aux	_	_
+5	.	.	_	sent	_	3	punct	_	_
+
+1	Чааскаан	чааскаан	_	adv	_	2	advmod	_	_
+2	болзумза	бол	_	v	iv|gna_cond|p1|sg	4	advcl	_	_
+3	аас-кежиим	аас-кежик	_	n	px1sg|nom	4	nsubj	_	_
+4-6	кайдал	_	_	_	_	_	_	_	_
+4	_	кайда	_	adv	itg	0	root	_	_
+5	_	ыл	_	qst	_	4	disc	_	_
+6	_	э	_	cop	aor|p3|sg	4	cop	_	_
+7	?	?	_	sent	_	4	punct	_	_
+
+1	Ашкаң	ашка	_	n	px2sg|nom	2	nsubj	_	_
+2	четсе	чет	_	v	tv|gna_cond|p3|sg	5	advcl	_	_
+3	,	,	_	cm	_	2	punct	_	_
+4	чемден	чем	_	n	abl	5	obj	_	_
+5	садып	сат	_	v	tv|prc_perf	0	root	_	_
+6	ал	ал	_	vaux	imp|p2|sg	5	aux	_	_
+7	.	.	_	sent	_	5	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	2	nsubj	_	_
+2	аныяк	аныяк	_	adj	_	6	advcl	_	_
+3	-таа	даа	_	mod	_	2	disc	_	_
+4	болзумза	бол	_	v	iv|gna_cond|p1|sg	2	cop	_	_
+5	ол кижини	ол кижи	_	prn	pers|p3|sg|acc	6	obj	_	_
+6	таныыр мен	таны	_	v	tv|aor|p1|sg	0	root	_	_
+7	.	.	_	sent	_	6	punct	_	_
+
+1	Мөнгүн-Тайгага	Мөнгүн-Тайга	_	np	top|dat	3	nmod	_	_
+2	сарлык	сарлык	_	n	nom	3	obj	_	_
+3	көргендир мен	көр	_	v	tv|past|evid|p1|sg	0	root	_	_
+4	.	.	_	sent	_	3	punct	_	_
+
+1	Сен	сен	_	prn	pers|p2|sg|nom	3	nsubj	_	_
+2	клубче	клуб	_	n	all	3	nmod	_	_
+3	барбааныңда	бар	_	v	iv|neg|ger_past|px2sg|loc	8	advcl	_	_
+4	,	,	_	cm	_	3	punct	_	_
+5	мен	мен	_	prn	pers|p1|sg|nom	8	nsubj	_	_
+6	база	база	_	adv	_	8	advmod	_	_
+7	бажыңга	бажың	_	n	dat	8	nmod	_	_
+8	олурайн	олур	_	v	iv|imp|p1|sg	0	root	_	_
+9	.	.	_	sent	_	8	punct	_	_
 
 1	Ажылдап	ажылда	_	v	tv|prc_perf	3	acl	_	_
 2	турар	тур	_	vaux	gpr_aor	1	aux	_	_
