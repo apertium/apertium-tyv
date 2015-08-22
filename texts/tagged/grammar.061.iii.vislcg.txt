@@ -1,29 +1,22 @@
 "<Даштында>"
-	"дашт" n px3sp loc @nmod #1->8
+	"дашт" n px3sp loc @nmod #1->9
 "<хөй>"
-	"хөй" det qnt @det #2->4
-;	"хөй" prn qnt nom
+	"хөй" det qnt @det #2->3
 "<ыяштарлыг>"
-	"ыяштарлыг" adj @amod #3->4
+	"ыяш" n pl nom @nmod #3->5
+		лыг" post @case #4->3
 "<бажыңда>"
-;	"баш" n px2sg loc
-	"бажың" n loc @nmod #4->8
+	"бажың" n loc @nmod #5->9
 "<бичии>"
-	"бичии" adj @amod #5->7
-;	"бичии" adj subst nom
+	"бичии" adj @amod #6->7
 "<уруглар>"
-	"уруг" n pl attr @cmpnd #6->7
+	"уруг" n pl nom @nmod:poss #7->8
 "<сады>"
-	"сад" n px3sp nom @obj #7->8
+	"сад" n px3sp nom @obj #8->9
 "<кылып>"
-	"кыл" v tv prc_perf @root #8->0
+	"кыл" v tv prc_perf @root #9->0
 "<каан>"
-;	"каг" vaux ger_past nom 
-	"каг" vaux past p3 sg @aux #9->8
-;	"каг" vaux gpr_past 
-;	"каг" v iv gpr_past 
-;	"каң" n px3sp acc 
-;	"каг" v iv ger_past nom 
-;	"каг" v iv past p3 sg 
+	"каг" vaux past p3 pl @aux #10->9
 "<.>"
-	"." sent @punct #10->8
+	"." sent @punct #11->9
+
