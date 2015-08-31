@@ -1,0 +1,370 @@
+Multichar_Symbols 
+
+%<v%>
+
+%<tv%>
+
+%{A%}
+%{B%}
+%{D%}
+%{E%}
+%{g%}
+%{G%}
+%{i%}
+%{I%}
+%{J%}
+%{L%}
+%{n%}
+%{N%}
+%{y%}
+%{z%}
+%{Z%}
+
+LEXICON Root
+
+Verbs ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CLIT-COP
+
+%+э%<cop%>%<aor%>: V-PERS-S1 ;
+%+э%<cop%>%<aor%>%<evid%>:%>%-%{D%}%{I%}р V-PERS-S1 ;
+%+э%<cop%>%<aor%>%<evid%>:%>%{D%}%{I%}р V-PERS-S1 ;  ! Dir/LR
+%+ыл%<qst%>:%>%{i%}л # ; ! FIXME: Check what this is
+
+# ;
+
+LEXICON CLIT-IMPER
+
+%+ам%<pol%>:%>%{A%}м # ;
+
+# ;
+
+LEXICON CASES
+
+CASES-NOMONLY ;
+CASE-NONOM ;
+
+LEXICON CASES-NOMONLY
+
+%<nom%>: CLIT-COP ;
+
+LEXICON CASE-NONOM
+
+%<gen%>:%>%{N%}%{I%}ң # ;
+%<acc%>:%>%{N%}%{I%} # ;
+%<dat%>:%>%{G%}%{A%} # ;
+%<loc%>:%>%{D%}%{A%} CLIT-COP ;
+%<abl%>:%>%{D%}%{A%}н # ;
+%<all%>:%>%{J%}е # ;
+%<all%>:%>%{D%}%{I%}в%{A%} # ; ! Dir/LR
+
+
+LEXICON CASES-ETC
+
+CASES ;
+GENPOSS-ETC ;
+
+LEXICON CASES-ETC-NONOM
+
+CASE-NONOM ;
+GENPOSS-ETC ;
+
+
+
+LEXICON POSS-REAL
+
+%<px1sg%>:%>%{i%}м CASES-ETC ;
+%<px2sg%>:%>%{i%}ң CASES-ETC ;
+%<px3sp%>:%>%{z%}%{I%}%{n%} CASES-ETC ;
+%<px1pl%>:%>%{i%}в%{I%}с CASES-ETC ;
+%<px2pl%>:%>%{i%}ң%{A%}р CASES-ETC ;
+
+LEXICON POSS-NONOM
+
+%<px1sg%>:%>%{i%}м CASES-ETC-NONOM ;
+%<px2sg%>:%>%{i%}ң CASES-ETC-NONOM ;
+%<px3sp%>:%>%{z%}%{I%}%{n%} CASES-ETC-NONOM ;
+%<px1pl%>:%>%{i%}в%{I%}с CASES-ETC-NONOM ;
+%<px2pl%>:%>%{i%}ң%{A%}р CASES-ETC-NONOM ;
+
+LEXICON GENPOSS-ETC
+
+%<gen%>%<subst%>:%>%{N%}%{I%}%{I%}%{n%} CASES ;
+%<gen%>%<subst%>%<pl%>:%>%{L%}%{A%}р%>%{N%}%{I%}%{I%}%{n%} CASES ;
+%<loc%>:%>%{D%}%{A%}%{G%}%{I%} ATTR-SUBST ;
+
+LEXICON N-INFL-COMMON
+
+POSS-REAL ;
+CASES-ETC ;
+
+LEXICON N-INFL-COMMON-NODER
+
+POSS-REAL ;
+CASES ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ;
+%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON ;
+
+LEXICON ATTR-SUBST
+
+! Goes to possessive suffixes along with cases.
+!
+!   Мен Кызылдагыларын көрдүм.
+!
+! Check this, maybe only px3sp is possible.
+
+%<attr%>: # ;
+%<subst%>: N-INFL-COMMON-NODER ;
+%<subst%>%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NODER ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-PERS-S1
+
+%<p1%>%<sg%>:%>% мен # ;
+%<p2%>%<sg%>:%>% сен # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>% бис # ;
+%<p2%>%<pl%>:%>% силер # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR
+
+LEXICON V-PERS-S1-DEG
+
+%<p1%>%<sg%>%+дег%<mod%>:%>% мен # ;
+%<p2%>%<sg%>%+дег%<mod%>:%>% сен # ;
+%<p3%>%<sg%>%+дег%<mod%>: # ;
+%<p1%>%<pl%>%+дег%<mod%>:%>% бис # ;
+%<p2%>%<pl%>%+дег%<mod%>:%>% силер # ;
+%<p3%>%<pl%>%+дег%<mod%>:%>%{L%}%{A%}р # ;
+%<p3%>%<pl%>%+дег%<mod%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR
+
+LEXICON V-PERS-S2
+
+%<p1%>%<sg%>:%>%{i%}м # ;
+%<p2%>%<sg%>:%>%{i%}ң # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{i%}в%{I%}с # ;
+%<p2%>%<pl%>:%>%{i%}ң%{A%}р # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}р # ;
+%<p3%>%<pl%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR
+
+LEXICON V-PERS-COND
+
+%<p1%>%<sg%>:%{I%}%>мз%{A%} # ;
+%<p2%>%<sg%>:%{I%}%>ңз%{A%} # ;
+%<p3%>%<sg%>:%{A%} # ;
+%<p1%>%<pl%>:%{I%}%>в%{I%}сс%{A%} # ;
+%<p2%>%<pl%>:%{I%}%>ң%{A%}рз%{A%} # ;
+%<p3%>%<pl%>:%{A%}%>%{L%}%{A%}р # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-SUF-IP
+
+%<prc_perf%>:%>%{i%}п # ;                   ! Мен Кызылда чурттап тур мен.
+%<gna_perf%>:%>%{i%}п # ;                   ! Чаштар удуп, дыштанзыннар.
+
+LEXICON V-SUF-GAN
+
+%<past%>:%>%{g%}%{A%}н V-PERS-S1 ;          ! Мен келген мен.
+%<gpr_past%>:%>%{g%}%{A%}н # ;              ! Бир тугаар келген кижини көрдүм.
+%<ger_past%>:%>%{g%}%{A%}н SUBST ;          ! 
+
+LEXICON V-SUF-JIK 
+
+%<resu%>:%>%{J%}%{I%}к V-PERS-S1 ;          ! Сен мени дүүн көжүк сен бе?
+
+LEXICON V-SUF-DI 
+
+%<ifi%>:%>%{D%}%{I%} V-PERS-S2 ;            ! Мен келдим.
+
+LEXICON V-SUF-BISHAAN
+
+%<dur%>:%>%{B%}%{I%}шаан V-PERS-S1 ;        ! Сен ол номну номчувушаан сен бе?
+%<gna_still%>:%>%{B%}%{I%}шаан # ;          ! Номчуп турбушаан, чемненип турдум.
+
+LEXICON V-SUF-GASH
+
+! Note: This also takes ablative and genitive
+!   Келгештиң, менче долгавыт.
+!   
+%<gna_past%>:%>%{g%}%{A%}ш # ;              ! Кызыл чоруп оргаш орукка хойну көрдүм.
+
+LEXICON V-SUF-ZA 
+
+%<gna_cond%>:%>%{Z%} V-PERS-COND ;          ! 
+
+LEXICON V-SUF-E
+
+%<prc_impf%>:%>%{E%} # ;                    ! Ол ойнай берди.
+
+LEXICON V-SUF-GAY 
+
+! p. 48: 2.2.1.2.3.3
+%<opt%>:%>%{G%}%{A%}й V-PERS-S1 ;           ! Ам чигей бис.
+
+LEXICON V-SUF-GALA
+
+%<gna_after%>:%>%{g%}%{A%}л%{A%} # ;        ! Ачам заводка ажылдаала 20 чыл ашкан. 
+
+LEXICON V-SUF-DEG
+
+%<past%>:%>%{g%}%{A%}н% дег V-PERS-S1-DEG ; ! Кожа кылштажып чораан дег бис.
+%<gpr_mod%>:%>%{G%}%{I%}% дег # ;           ! Ынчангаш кижи башкының салыпкы дег 
+
+LEXICON V-SUF-GALAK 
+
+%<unac%>:%>%{g%}%{A%}л%{A%}к V-PERS-S2 ;    ! 
+%<gpr_unac%>:%>%{g%}%{A%}л%{A%}к # ;        ! Ажылын дооскалак улус маңаа демделедип алыңар!
+%<prc_unac%>:%>%{g%}%{A%}л%{A%}к # ;        ! Бажыңга четкелек чорумда чаъс чап келди.
+
+LEXICON V-SUF-NEG
+
+%<aor%>:%>с V-PERS-S1 ;                     ! Чемненмес сен бе?
+%<ger_aor%>:%>с SUBST ;                     ! 
+%<gpr_aor%>:%>с # ;                         !
+%<prc_aor%>:%>с # ;         
+%<gna_past%>:%>йн # ;                       ! 
+%<gna_perf%>:%>йн # ;                       ! 
+%<prc_impf%>:%>йн # ;                       ! 
+%<prc_perf%>:%>йн # ;                       ! 
+
+LEXICON V-SUF-IMP 
+
+%<imp%>%<p2%>%<sg%>: CLIT-IMPER ;           !
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;      !
+
+! FIXME: Check these, <opt> in kaz.
+%<imp%>%<p1%>%<sg%>:%>%{A%}йн # ;           ! алыйн
+%<imp%>%<p1%>%<du%>:%>%{A%}%{A%}л%{I%} # ;  ! алыылы
+%<imp%>%<p1%>%<pl%>:%>%{A%}%{A%}л%{I%}ң%{A%}р # ; !
+%<imp%>%<p3%>%<sg%>:%>%{Z%}%{I%}н # ;       ! 
+%<imp%>%<p3%>%<pl%>:%>%{Z%}%{I%}нн%{A%}р # ; !
+
+LEXICON V-SUF-AOR 
+
+%<aor%>: V-PERS-S1 ;                        !
+%<ger_aor%>: SUBST ;                        ! 
+%<gpr_aor%>: # ;                            !
+%<prc_aor%>: # ;                            ! Тывалар ону кежээки азы эртенги 
+                                            !   шолбан деп адаар турган .
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-SUF-GROUP-1                       ! -BA-
+
+V-SUF-DI ; 
+V-SUF-GALAK ;
+V-SUF-GAN ;
+V-SUF-GAY ;
+V-SUF-IMP ;
+V-SUF-IP ;
+V-SUF-JIK ; 
+V-SUF-NEG ;
+V-SUF-ZA ;                             
+
+LEXICON V-SUF-GROUP-2                       ! -iксA-
+
+V-SUF-BISHAAN ;
+V-SUF-DI ; 
+V-SUF-E ;
+V-SUF-GAN ;
+V-SUF-GASH ;
+V-SUF-IP ;
+V-SUF-ZA ;
+
+LEXICON V-SUF-GROUP-3                       ! -iксA-BA-
+
+V-SUF-DI ; 
+V-SUF-GAN ;
+V-SUF-GAY ;
+V-SUF-NEG ;
+V-SUF-ZA ;
+
+LEXICON V-SUF-GROUP-4                       ! -BAстA-
+
+V-SUF-DI ; 
+V-SUF-E ;
+V-SUF-GAN ;
+V-SUF-GASH ;
+V-SUF-GAY ;
+V-SUF-IP ;
+
+LEXICON V-SUF-GROUP-5                       ! -GIлA-
+
+V-SUF-BISHAAN ;
+V-SUF-DI ; 
+V-SUF-E ;
+V-SUF-GAN ;
+V-SUF-GASH ;
+V-SUF-GAY ;
+V-SUF-IP ;
+V-SUF-ZA ;
+
+LEXICON V-SUF-GROUP-6                       ! -iпyт-
+
+V-SUF-DI ; 
+V-SUF-GAN ;
+V-SUF-GASH ;
+V-SUF-GAY ;
+V-SUF-ZA ;
+
+LEXICON V-SUF-GROUP-7                       ! -ø-
+
+V-SUF-BISHAAN ;
+V-SUF-DEG ;
+V-SUF-DI ; 
+V-SUF-E ;
+V-SUF-GALA ;
+V-SUF-GALAK ;
+V-SUF-GAN ;
+V-SUF-GASH ;
+V-SUF-GAY ;
+V-SUF-IMP ;
+V-SUF-IP ;
+V-SUF-JIK ; 
+V-SUF-ZA ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-TV-SUF-COMMON
+
+%<neg%>:%>%{B%}%{A%} V-SUF-GROUP-1 ;
+%<desd%>:%>%{i%}кс%{A%} V-SUF-GROUP-2 ;
+%<desd%>%<neg%>:%>%{i%}кс%{A%}%>%{B%}%{A%} V-SUF-GROUP-3 ;
+%<desd%>%<cess%>:%>%{i%}кс%{A%}%>%{B%}%{A%}ст%{A%} V-SUF-GROUP-4 ;
+%<cess%>:%>%{B%}%{A%}ст%{A%} V-SUF-GROUP-4 ;
+%<iter%>:%>%{G%}%{I%}л%{A%} V-SUF-GROUP-5 ;
+%<iter%>%<perf%>:%>%{G%}%{I%}л%{A%}%>%{i%}п%{y%}т V-SUF-GROUP-6 ;
+%<perf%>:%>%{i%}п%{y%}т  V-SUF-GROUP-6 ;
+V-SUF-GROUP-7 ;
+
+LEXICON V-TV-SUF-AOR-AR
+
+%<desd%>:%>%{i%}кс%{A%}%>%{A%}р V-SUF-AOR ;
+%<desd%>%<cess%>:%>%{i%}кс%{A%}%>%{B%}%{A%}ст%{A%}%>%{A%}р V-SUF-AOR ;
+%<cess%>:%>%{B%}%{A%}ст%{A%}%>%{A%}р V-SUF-AOR ;
+%<iter%>:%>%{G%}%{I%}л%{A%}%>%{A%}р V-SUF-AOR ;
+%<iter%>%<perf%>:%>%{G%}%{I%}л%{A%}%>%{i%}пт%{A%}р V-SUF-AOR ;
+%<perf%>:%>%{i%}пт%{A%}р V-SUF-AOR ;
+:%>%{A%}р V-SUF-AOR ;
+
+%<evid%>%<past%>:%>%{G%}%{A%}н%-д%{I%}р V-PERS-S1 ;
+%<evid%>%<aor%>:%>%{A%}р%-д%{I%}р V-PERS-S1 ;
+
+LEXICON V-TV-AR 
+
+%<v%>%<tv%>: V-TV-SUF-COMMON ;
+%<v%>%<tv%>: V-TV-SUF-AOR-AR ;
+
+LEXICON Verbs 
+
+иш:иш V-TV-AR ;
