@@ -7,7 +7,7 @@
 "<ол кижиниң>"
 	"ол кижи" prn pers p3 sg gen @nmod:poss #4->5
 "<чуртталгазын>"
-	"чуртталга" n px3sp acc @obj #5->6
+	"чуртталга" n px3sp acc @obj #5->7
 "<шуптузун>"
 	"шупту" prn qnt px3sp acc @appos #6->5
 "<билип>"
