@@ -224,7 +224,7 @@ LEXICON V-SUF-GALAK
 
 %<unac%>:%>%{g%}%{A%}л%{A%}к V-PERS-S2 ;    ! 
 %<gpr_unac%>:%>%{g%}%{A%}л%{A%}к # ;        ! Ажылын дооскалак улус маңаа демделедип алыңар!
-%<prc_unac%>:%>%{g%}%{A%}л%{A%}к # ;        ! Бажыңга четкелек чорумда чаъс чап келди.
+!%<prc_unac%>:%>%{g%}%{A%}л%{A%}к # ;       ! Бажыңга четкелек чорумда чаъс чап келди.
 
 LEXICON V-SUF-NEG
 
@@ -347,7 +347,8 @@ LEXICON V-TV-SUF-COMMON
 %<perf%>:%>%{i%}п%{y%}т  V-SUF-GROUP-6 ;
 V-SUF-GROUP-7 ;
 
-LEXICON V-TV-SUF-AOR-AR
+
+LEXICON V-TV-SUFF-COMMON 
 
 %<desd%>:%>%{i%}кс%{A%}%>%{A%}р V-SUF-AOR ;
 %<desd%>%<cess%>:%>%{i%}кс%{A%}%>%{B%}%{A%}ст%{A%}%>%{A%}р V-SUF-AOR ;
@@ -355,18 +356,34 @@ LEXICON V-TV-SUF-AOR-AR
 %<iter%>:%>%{G%}%{I%}л%{A%}%>%{A%}р V-SUF-AOR ;
 %<iter%>%<perf%>:%>%{G%}%{I%}л%{A%}%>%{i%}пт%{A%}р V-SUF-AOR ;
 %<perf%>:%>%{i%}пт%{A%}р V-SUF-AOR ;
-:%>%{A%}р V-SUF-AOR ;
-
 %<evid%>%<past%>:%>%{G%}%{A%}н%-д%{I%}р V-PERS-S1 ;
+
+LEXICON V-TV-SUF-AOR-AR
+
+:%>%{A%}р V-SUF-AOR ;
 %<evid%>%<aor%>:%>%{A%}р%-д%{I%}р V-PERS-S1 ;
+V-TV-SUFF-COMMON ; 
+
+LEXICON V-TV-SUF-AOR-IR
+
+:%>%{I%}р V-SUF-AOR ;
+%<evid%>%<aor%>:%>%{I%}р%-д%{I%}р V-PERS-S1 ;
+V-TV-SUFF-COMMON ; 
 
 LEXICON V-TV-AR 
 
 %<v%>%<tv%>: V-TV-SUF-COMMON ;
 %<v%>%<tv%>: V-TV-SUF-AOR-AR ;
 
+LEXICON V-TV
+
+%<v%>%<tv%>: V-TV-SUF-COMMON ;
+%<v%>%<tv%>: V-TV-SUF-AOR-IR ;
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Verbs 
 
 иш:иш V-TV-AR ;
+бил:бил V-TV ;
