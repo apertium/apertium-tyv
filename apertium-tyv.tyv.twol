@@ -371,7 +371,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
              [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;  ! always и
              [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;      ! always и
-             [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
+             ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
 !             л ь: %>: [ :Cns | :0 ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
                Vy in ( ү и и и ү ы у ы у ы у у )
@@ -385,7 +385,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 !%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
 %{I%}:и <=> [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
-            [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
+            ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
         except
             [ %{n%}: %{N%}: ]/[ :0 - [ %{n%}: | %{N%}: ] ]* _ .#. ;
 
@@ -403,7 +403,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ :Vx с:0 ]/[ :0 - с: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
              [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;   ! always и
-             [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
+             ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
                Vy in ( ү и э э ө а о ы у а о у )
          matched ;
@@ -414,7 +414,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              ! л ь: %>: [ :Cns | :0 ]* _ ;
              [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
              [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
-             [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
+             ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
          where AbstractVow in ( %{э%} )
                         Vy in (   и   )
          matched ;
