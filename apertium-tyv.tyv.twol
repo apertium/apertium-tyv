@@ -240,7 +240,7 @@ Cx:Cy <=> [ :Vow (:р) ]/:0* _ %>: :Vow/:0* ;
 !@ д а г >:0 {L}:л {A}:а р
 
 "N Desonorisation"
-%{N%}:д <=> :Liquid/[ ь | [ :0 - %{n%}: ] ]* _ ;
+%{N%}:д <=> :Liquid/[ :ь | [ :0 - %{n%}: ] ]* _ ;
         except
                %{с%}: (%-:) %>: _ ;
 
@@ -329,8 +329,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 "Normal front vowel harmony for {A}"
 %{A%}:е <=> [ :FrontVow :Cns* :RealCns ]/[ :0 | ь ]* _ ;
             [ %{э%}: :Cns* ]/[ :%- | [ :0 - %{э%}: ] ]* _ ;
-            [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
-            [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
+            [ :BackVow :Cns* :Cns :л ь: :Cns* :RealCns ]/:0* _ ;
+            [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;
             [ :BackVow :Cns* ь: ]/[ :0 - ь: ]* _ ;
 !            Vow: [ %>: %{G%}:0 ]/:0* _ ; ! for dative case where {G} deletes
             [ FrontVow: й: ]/:0* _ ;  !@ ө й:0 >:0 {A}:е р
@@ -369,8 +369,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ :Vx %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
              [ :Vx й:0 ]/[ :0 - й: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-             [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;  ! always и
-             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;      ! always и
+             [ :BackVow :Cns* :Cns :л ь: :Cns* :RealCns ]/:0* _ ;  ! always и
+             [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;      ! always и
              ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
 !             л ь: %>: [ :Cns | :0 ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю )
@@ -383,8 +383,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 
 "{I} always front when intervening Cль"
 !%{I%}:и <=> л ь: %>: [ :Cns | :0 ]*  _ ;
-%{I%}:и <=> [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
-            [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
+%{I%}:и <=> [ :BackVow :Cns* :Cns :л ь: :Cns* :RealCns ]/:0* _ ;
+            [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;
             ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
         except
             [ %{n%}: %{N%}: ]/[ :0 - [ %{n%}: | %{N%}: ] ]* _ .#. ;
@@ -402,7 +402,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ :Vx п:0 ]/[ :0 - п: ]* _ ;
              [ :Vx с:0 ]/[ :0 - с: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;   ! always и
+             [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;   ! always и
              ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
                Vy in ( ү и э э ө а о ы у а о у )
@@ -412,8 +412,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 %{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ]* ]* _ ;
          except
              ! л ь: %>: [ :Cns | :0 ]* _ ;
-             [ :BackVow :Cns* :Cns л: ь: :Cns* :RealCns ]/:0* _ ;
-             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
+             [ :BackVow :Cns* :Cns :л ь: :Cns* :RealCns ]/:0* _ ;
+             [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;
              ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
          where AbstractVow in ( %{э%} )
                         Vy in (   и   )
@@ -472,7 +472,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
             [ :Vow %{л%}:0 ]/[ :0 - %{л%}: ]* _ ;
             [ [ [ ?: :Vow ] - [ ч: о: ] ] %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
             [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-            [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
+            [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;
             [ :BackVow :Cns* ь: ]/[ :0 - ь: ]* _ ;
 
 !@ Т ы в а   А С С Р {э}:0 >:0 {N}:н {I}:и ң
@@ -491,7 +491,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ Vx: %{р%}:0 ]/[ :0 - %{р%}: ]* _ ;
          except
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
-             [ :BackVow :Cns* :Cns л: ь:0 ]/:[ :0 - ь: ]* _ ;
+             [ :BackVow :Cns* :Cns :л ь:0 ]/:[ :0 - ь: ]* _ ;
              [ :BackVow :Cns* ь: ]/[ :0 - ь: ]* _ ;
              .#. ч: о: %{р%}:0 %>: _ р: ;
          where Vx in ( и ү е э ө а о ы у я )
@@ -694,7 +694,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
         _ с: (%{☭%}:) %>: :Vow/:0* ;        ! delete с in сс
 
 "ст cluster reduction when following morpheme"
-т:0 <=> с: _ (ь:) %>: ;
+т:0 <=> с: _ (ь:) %{☭%}: %>: ;
+
+!@ о б л а с:з т:0 ь:0 {☭}:0 >:0 {z}:0 {I}:ы {n}:0
+!@ ү с т >:0 {z}:0 {I}:ү {n}:0
 
 
 !@ ч е ч е к >:0 {L}:т {A}:е р >:0 {D}:д {A}:е н
