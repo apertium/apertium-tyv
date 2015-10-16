@@ -11931,6 +11931,7 @@ LEXICON Verbs
 
 ! FIXME: Check all of these
 аппар:аппар VAUX-AR ; ! "" !=алып бар
+аппар:апар VAUX-AR ; ! "" !=алып бар ! Dir/LR ! апарган
 
 !апар:апар VAUX-AR ; ! ""  
 !апар:апар V-IV-AR ; ! "становиться"

@@ -29,6 +29,9 @@ Tests:
     секретарь<n><px3sp><loc> : секретарында
     календарь<n><px3sp><loc> : календарында
 
+ "[twol] ending in -ирь": 
+    Сибирь<np><top><gen> : Сибирьниң
+
  "[twol] front vowel harmony when intervening Cль":
     рубль<n><nom> : рубль
     рубль<n><attr> : рубль
