@@ -42,6 +42,8 @@ Tests:
     класс<n><pl><px3sp><gen> : класстарының 
     класс<n><pl><px3sp><nom> : класстары 
 
+ "[twol] ст : no simplication at the end of the word": 
+    үст<n><px3sp><loc> : үстүнде
 
  "[twol] кс : epenthesis and voicing when syllable-initial":
     комплекс<n><px3sp><nom> : комплекизи
