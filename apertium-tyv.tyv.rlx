@@ -205,6 +205,9 @@ REMOVE Subst IF (0 Bar) (1 EOS) ;
 
 SELECT CC IF (0 CC OR Gna) (NOT 1 Cm OR V) ;
 
+REMOVE Prc IF (0 CC OR Prc) (1 Nominal) ;
+# биле
+
 SELECT Post IF (0C Beer) (-1 Abl) ;
 
 SELECT Abl IF (1 ABL-POST) ;
@@ -217,124 +220,125 @@ REMOVE Coop IF (0C Coop OR V - Coop) ;
 
 ###############################################################################
 
-SECTION 
+#SECTION 
 
-LIST @csubj = @csubj ;
-LIST @cmpnd = @cmpnd ;
-LIST @amod = @amod ;
-LIST @advmod = @advmod ;
-LIST @det = @det ; 
-LIST @acl = @acl ;
-LIST @acl:relcl = @acl:relcl ;
-LIST @obj = @obj ;
-LIST @case = @case ;
-LIST @punct = @punct ;
-LIST @conj = @conj ;
-LIST @cc = @cc ;
-LIST @root = @root ;
-LIST @aux = @aux ;
-LIST @cop = @cop ;
-LIST @disc = @disc ;
-LIST @nmod = @nmod ;
-LIST @nmod:poss = @nmod:poss ;
-LIST @nummod = @nummmod ;
-LIST @name = @name ;
-LIST @ccomp = @ccomp ;
-LIST @advcl = @advcl ;
-LIST @nsubj = @nsubj ;
+#LIST @csubj = @csubj ;
+#LIST @cmpnd = @cmpnd ;
+#LIST @amod = @amod ;
+#LIST @advmod = @advmod ;
+#LIST @det = @det ; 
+#LIST @acl = @acl ;
+#LIST @acl:relcl = @acl:relcl ;
+#LIST @obj = @obj ;
+#LIST @case = @case ;
+#LIST @punct = @punct ;
+#LIST @conj = @conj ;
+#LIST @cc = @cc ;
+#LIST @root = @root ;
+#LIST @aux = @aux ;
+#LIST @cop = @cop ;
+#LIST @disc = @disc ;
+#LIST @nmod = @nmod ;
+#LIST @nmod:poss = @nmod:poss ;
+#LIST @nummod = @nummmod ;
+#LIST @name = @name ;
+#LIST @ccomp = @ccomp ;
+#LIST @advcl = @advcl ;
+#LIST @nsubj = @nsubj ;
 
-MAP @cc TARGET CC ; 
+#MAP @cc TARGET CC ; 
 
-MAP @cmpnd TARGET Attr - Name ;
+#MAP @cmpnd TARGET Attr - Name ;
 
-MAP @amod TARGET A - Subst (NOT 0/* Cop) ;
+#MAP @amod TARGET A - Subst (NOT 0/* Cop) ;
 
-MAP @det TARGET Det ; 
+#MAP @det TARGET Det ; 
 
-MAP (@obj @nsubj) TARGET Acc ;
+#MAP (@obj @nsubj) TARGET Acc ;
 
-MAP @nmod:poss TARGET Nominal + Gen - Subst ;
+#MAP @nmod:poss TARGET Nominal + Gen - Subst ;
 
-MAP @nmod TARGET Nominal + Local - Subst ;
+#MAP @nmod TARGET Nominal + Local - Subst ;
 
-MAP @case TARGET Post ; 
+#MAP @case TARGET Post ; 
 
-MAP @punct TARGET Punct ;
+#MAP @punct TARGET Punct ;
 
-MAP @root TARGET Fin IF (NOT 0 Aux OR Copula) ; 
+#MAP @root TARGET Fin IF (NOT 0 Aux OR Copula) ; 
 
-MAP @root TARGET Bar IF (1 EOS) (0/* Cop) ;
+#MAP @root TARGET Bar IF (1 EOS) (0/* Cop) ;
 
-MAP @advmod TARGET Adv ; 
+#MAP @advmod TARGET Adv ; 
 
-MAP @aux TARGET Aux + Fin;
+#MAP @aux TARGET Aux + Fin;
 
-MAP @root TARGET Prc IF (1C Fin + @aux) (NOT 0 Aux) ;
+#MAP @root TARGET Prc IF (1C Fin + @aux) (NOT 0 Aux) ;
 
-MAP @cop TARGET Copula ; 
+#MAP @cop TARGET Copula ; 
 
-MAP SUB:* @cop TARGET Cop ; 
+#MAP SUB:* @cop TARGET Cop ; 
 
-MAP @disc TARGET Mod OR Qst ; 
+#MAP @disc TARGET Mod OR Qst ; 
 
-MAP SUB:* @disc TARGET Mod OR Qst ; 
+#MAP SUB:* @disc TARGET Mod OR Qst ; 
 
-MAP @nummod TARGET Num - Subst (NOT 1 Year) ;
+#MAP @nummod TARGET Num - Subst (NOT 1 Year) ;
 
-MAP @amod TARGET Num - Subst (1 Year) ;
+#MAP @amod TARGET Num - Subst (1 Year) ;
 
-MAP @name TARGET Name + Attr ;
+#MAP @name TARGET Name + Attr ;
 
-MAP (@nsubj @obj @nmod:poss @nmod) TARGET Nominal + Nom ;
+#MAP (@nsubj @obj @nmod:poss @nmod) TARGET Nominal + Nom ;
 
-MAP @acl:relcl TARGET Gpr - Aux ; 
+#MAP @acl:relcl TARGET Gpr - Aux ; 
 
-MAP @aux TARGET Aux ; 
+#MAP @aux TARGET Aux ; 
 
-MAP (@advcl @ccomp) TARGET Ger + Dat ;
+#MAP (@advcl @ccomp) TARGET Ger + Dat ;
 
-MAP @name TARGET Abbr (1C* Cog BARRIER (*) - Abbr) ;
+#MAP @name TARGET Abbr (1C* Cog BARRIER (*) - Abbr) ;
 
-MAP @advcl TARGET Ger + Local - Cop ; 
+#MAP @advcl TARGET Ger + Local - Cop ; 
 
-MAP @ccomp TARGET Ger + Acc - Cop ;
+#MAP @ccomp TARGET Ger + Acc - Cop ;
 
-MAP @acl TARGET Ger + Gen - Cop ;
+#MAP @acl TARGET Ger + Gen - Cop ;
 
-MAP (@csubj @acl) TARGET Ger + Nom - Cop ;
+#MAP (@csubj @acl) TARGET Ger + Nom - Cop ;
 
 
 
-###############################################################################
+################################################################################
 
-SECTION
+#SECTION
 
-SELECT @root IF (0 @root) (1 EOS) ;
+#SELECT @root IF (0 @root) (1 EOS) ;
 
-REMOVE @nummod IF (1C Fin) ;
+#REMOVE @nummod IF (1C Fin) ;
 
-SELECT @amod IF (0 A - Subst) (1 A OR N) ;
+#SELECT @amod IF (0 A - Subst) (1 A OR N) ;
 
-REMOVE @nsubj IF (1C @case) ;
+#REMOVE @nsubj IF (1C @case) ;
 
-REMOVE @obj IF (1C @case) ;
+#REMOVE @obj IF (1C @case) ;
 
-SELECT @amod IF (0C Num) (1 Year + Local) ;
+#SELECT @amod IF (0C Num) (1 Year + Local) ;
 
-SELECT @nummod IF (0C Num) (1 Measure) ;
+#SELECT @nummod IF (0C Num) (1 Measure) ;
 
-REMOVE @cmpnd IF (1 Cm) ;
+#REMOVE @cmpnd IF (1 Cm) ;
 
-SELECT @nmod:poss IF (1C Poss) ;
+#SELECT @nmod:poss IF (1C Poss) ;
 
-REMOVE @nsubj IF (0C Acc) (NOT 1* V - @root) ;
+#REMOVE @nsubj IF (0C Acc) (NOT 1* V - @root) ;
 
-REMOVE @cmpnd IF (1 @root) ;
+#REMOVE @cmpnd IF (1 @root) ;
 
-REMOVE @nmod:poss IF (1 @case) ;
+#REMOVE @nmod:poss IF (1 @case) ;
 
-REMOVE @nmod:poss IF (NOT 1* Poss) ;
+#REMOVE @nmod:poss IF (NOT 1* Poss) ;
 
-REMOVE @name IF (1C N) ;
+#REMOVE @name IF (1C N) ;
 
-REMOVE @obj IF (NOT 1* TV) ;
+#REMOVE @obj IF (NOT 1* TV) ;
+
