@@ -410,6 +410,8 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
                Vy in ( ү и э э ө а о ы у а о у )
          matched ;
 
+!@ С и б и р ь {☭}:0 >:0 {N}:н {I}:и ң
+
 "Abstract harmony for {I}"
 %{I%}:Vy <=> [ AbstractVow:0 :Cns* ]/[ :%- | [ :0 - [ %{N%}: | %{n%}: | AbstractVow: ] ]* ]* _ ;
          except
@@ -554,10 +556,10 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 !@ р у б л ь:0 >:0 {z}:0 {I}:и {n}:0 >:0 {N}:н {I}:0
 
-"{N} is н after {n}"
+"{N} is н after {n} (and default)"
 %{N%}:н <=> %{n%}:/[ :0 - %{n%}: ]* _ ;
             :Nasals/[ :0 - %{n%}: ]* _ ;
-            [ :Vow | :HighSonCns ]/[ :0 - %{n%}: ]* _ ;
+            [ :Vow | :HighSonCns ]/[ :ь | [ :0 - %{n%}: ] ]* _ ;
         except
             AbstractCns:/[ :0 - AbstractCns: ]* _ ;
             :VoicelessCnsRus %{☭%}: %>: _ ;
