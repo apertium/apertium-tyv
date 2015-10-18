@@ -160,8 +160,8 @@ Cx:Cy <=> [ :Vow (:р) ]/:0* _ %>: :Vow/:0* ;
 
 
 "Intervocalic т voicing at a morpheme boundary"
-т:д <=> :Vow/:0* _ %>: :Vow/:0* ;
-        :Vow/:0* _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
+т:д <=> :Vow/:0* (:ъ) _ %>: :Vow/:0* ;
+        :Vow/:0* (:ъ) _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
         [ :Vow [ р: | л: ] %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
     except
         с: _ (ь:) %>: ;            ! always 0
@@ -617,8 +617,11 @@ Vx:Vy <=> _ %>: %{g%}:0 %{A%}: ;
 
 !@ ө г л е н {y}:0 ш:ч >:0 {i}:и п
 
-"ъ deletion syllable finally"
-ъ:0 <=> :Vow _ [ :Cns :Vow ]/:0* ;
+"ъ deletion syllable finally before с:з"
+ъ:0 <=> :Vow _ [ с: :Vow ]/:0* ;
+
+!@ ч а ъ:0 с:з >:0 {z}:0 {I}:ы {n}:0
+!@ э ъ т:д >:0 {z}:0 {I}:и {n}:0
 
 "ь deletion at the end of a morpheme before a vowel, and in clusters"
 ь:0 <=> _ %>: :Vow/:0* ;
