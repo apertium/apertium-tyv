@@ -160,8 +160,9 @@ REMOVE Attr IF (1 Prc OR Cop) ;
 
 REMOVE Attr IF (1 Cm) ;
 
-REMOVE Poss IF (-1 Cm) ;
-   ## Оон аңгыда, кижини ооң хамааржып турары күрүнениң азы девискээрниң политиктиг, хоойлу-дүрүм ...
+##REMOVE Poss IF (-1 Cm) ;
+##   ## Оон аңгыда, кижини ооң хамааржып турары күрүнениң азы девискээрниң политиктиг, хоойлу-дүрүм ...
+## This is a terrible rule -JNW
 
 REMOVE Poss IF (-1 Local) ;
 
