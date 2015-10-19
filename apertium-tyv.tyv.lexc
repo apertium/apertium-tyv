@@ -60,6 +60,7 @@ Multichar_Symbols
 
 %<ord%>                   ! Ordinal
 %<dem%>                   ! Demonstrative
+%<coll%>                  ! Collective
 %<ref%>                   ! Reflexive
 %<itg%>                   ! Interrogative 
 %<def%>                   ! Definite
@@ -630,7 +631,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 
 %<ger_past%>:%>%{g%}%{A%}ш SUBST ; ! FIXME: overgenerate
 %<ger_past%>:%>%{g%}%{A%}н SUBST ; ! FIXME: overgenerate
-%<ger_perf%>:%>%{i%}п%>%{g%}%{A%}н SUBST ; ! FIXME: check
+%<perf%>%<ger_perf%>:%>%{i%}п%>%{g%}%{A%}н SUBST ; ! FIXME: check  
 
 ! Participles
 %<prc_impf%>:%>%{E%} # ;
@@ -643,7 +644,7 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<gna_still%>:%>%{B%}%{I%}шаан # ; 
 %<gna_unac%>:%>%{g%}%{A%}л%{A%}кт%{A%} # ;
 
-%<gna_perf%>:%>%{i%}п%>%{g%}%{A%}ш # ;  ! FIXME: check
+%<perf%>%<gna_perf%>:%>%{i%}п%>%{g%}%{A%}ш # ;  ! FIXME: check
 %<gna_lim%>:%>%{G%}%{I%}же V-PERS-LIM ; 
 
 ! Imperative
@@ -1014,6 +1015,7 @@ LEXICON A1
 LEXICON A4 
 
 %<adj%>: CLIT-COP ;
+%<adj%>%<advl%>: CLIT-COP ; ! Dir/LR ! Make only generate for now
 
 LEXICON ADV-ITG 
 
@@ -1415,7 +1417,7 @@ LEXICON Nouns
 
 хараа:хараа N1 ; ! ""
 
-оюн:оюн N1 ; ! ""
+!оюн:оюн N1 ; ! ""
 оюн:ой%{y%}н N1 ; ! ""
 моюн:моюн N1 ; ! "шея"
 моюн:мой%{y%}н N1 ; ! ""
@@ -11920,7 +11922,7 @@ LEXICON Adverbs
 LEXICON Verbs
 
 ал:ал VAUX-IR ; ! ""             ! аар
-ал:а%{л%} VAUX-IR ; ! ""         ! аар ! FIXME: make LR if having this secondary is right
+ал:а%{л%} VAUX-IR ; ! ""         ! аар ! Dir/LR ! FIXME: make LR if having this secondary is right
 бар:ба%{р%} VAUX-IR ; ! ""       ! баар
 бер:бе%{р%} VAUX-IR ; ! ""       ! бээр
 чыт:чыт VAUX-AR ; ! ""           ! чыдар
@@ -11932,8 +11934,8 @@ LEXICON Verbs
 олур:олур VAUX-AR ; ! ""         ! оор ! FIXME: CHECK
 тур:тур VAUX-AR ; ! ""           ! турар
 
-тур%<vaux%>%<aor%>:тур V-PERS-S1 ; ! FIXME
-бер%<vaux%>%<aor%>:бээр V-PERS-S2 ; ! FIXME: This should be done in phonology.
+тур%<vaux%>%<aor%>:тур V-PERS-S1 ; ! Dir/LR ! FIXME
+бер%<vaux%>%<aor%>:бээр V-PERS-S2 ; ! ! Dir/LR ! FIXME: This should be done in phonology.
 
 шыда:шыда VAUX-AR ; ! "мочь" ! FIXME: check stem
 как:как VAUX-AR ; ! "бить" ! FIXME: check stem
@@ -11958,11 +11960,11 @@ LEXICON Verbs
 
 !FIXME: Decide which gets generated
 бол:бол V-IV ; ! "be"
-бол:бо%{л%} V-IV ; ! "be" ! FIXME: make LR if having this secondary is right
+бол:бо%{л%} V-IV ; ! "be" ! Dir/LR ! FIXME: make LR if having this secondary is right
 кел:кел V-IV ; ! "come"
-кел:ке%{л%} V-IV ; ! "come" ! FIXME: make LR if having this secondary is right
+кел:ке%{л%} V-IV ; ! "come" ! Dir/LR ! FIXME: make LR if having this secondary is right
 ал:ал V-TV ; ! "take"
-ал:а%{л%} V-TV ; ! "take" ! FIXME: make LR if having this secondary is right
+ал:а%{л%} V-TV ; ! "take" ! Dir/LR ! FIXME: make LR if having this secondary is right
 
 уш:уш V-IV-AR ; ! "летать"
 бил:бил V-TV ; ! "know"
@@ -12038,7 +12040,7 @@ LEXICON Verbs
 үн:үн V-IV-AR ; ! "уходить, выходить"
 ажыгла:ажыгла V-TV-AR ; ! "использовать"
 !чугаала:чугаала V-TV-AR ; ! "сказать, говорить"
-чугаала:чугаала V-IV ; ! "сказать, говорить"
+чугаала:чугаала V-TV ; ! "сказать, говорить"
 чугаалаш:чугаалаш V-TV ; ! "разговаривать друг с другом"
 камгала:камгала V-TV-AR ; ! "защищать, оборонять"
 чайга:чайга V-TV-AR ; ! "качать"
