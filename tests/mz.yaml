@@ -17,9 +17,6 @@ Tests:
     медаль<n><acc> : медальды
     медаль<n><abl> : медальдан
     медаль<n><pl><nom> : медальдар
-    кремль<n><dat> : кремльге
-    кремль<n><all> : кремльче
-    кремль<n><loc> : кремльде
 
  "[twol] ending in -арь":
     секретарь<n><px3sp><nom> : секретары
@@ -41,6 +38,11 @@ Tests:
     рубль<n><abl> : рубльден
     рубль<n><pl><nom> : рубльдер
     ансамбль<n><pl><nom> : ансамбльдер
+
+ "[twol] front harmony, but for which reason(s)?":
+    кремль<n><dat> : кремльге
+    кремль<n><all> : кремльче
+    кремль<n><loc> : кремльде
 
  "[twol] regular vowel harmony when any other CCь intervenes (also: cluster simplification)":
     область<n><nom> : область
