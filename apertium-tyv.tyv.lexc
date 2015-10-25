@@ -34,6 +34,7 @@ Multichar_Symbols
 
 %<attr%>                  ! Attributive 
 %<subst%>                 ! Substantive
+%<advl%>                  ! Adverbial
 
 %<top%>                   ! Toponym
 %<al%>                    ! Other
@@ -99,6 +100,7 @@ Multichar_Symbols
 %<ger_past%>              ! -GAн
           
 %<gpr_aor%>               ! -Iр/-Aр
+%<gpr_past%>
 
 %<gna_perf%>              ! -Iп
 %<gna_cond%>              ! -зA
@@ -4043,6 +4045,7 @@ LEXICON Nouns
 кикбоксинг:кикбоксинг N1 ; ! ""
 килограмм:килограмм N1 ; ! ""
 клуб:клуб N5 ; ! ""
+клуб:клуб N1 ; ! "" ! Dir/LR
 колбаса:колбаса N1 ; ! ""
 комбайн:комбайн N1 ; ! ""
 комиссар:комиссар N1 ; ! ""
