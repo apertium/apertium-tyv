@@ -1,7 +1,5 @@
 prefix=@prefix@
 exec_prefix=${prefix}
-libdir=@libdir@
-dir=@libdir@/apertium/apertium-tyv
 srcdir=@datarootdir@/apertium/apertium-tyv
 
 Name: apertium-tyv
