@@ -752,3 +752,26 @@
 3	,	,	_	cm	_	2	punct	_	_
 4	дыштанзыннар	дыштан	_	v	iv|imp|p3|pl	0	root	_	_
 5	.	.	_	sent	_	4	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	2	nsubj	_	_
+2	артыр-дыр мен	арт	_	v	iv|aor|evid|p1|sg	0	root	_	_
+3	.	.	_	sent	_	2	punct	_	_
+
+1	Мен	мен	_	prn	pers|p1|sg|nom	0	nsubj	_	_
+2	-дир мен	э	_	cop	aor|evid|p1|sg	1	cop	_	_
+3	.	.	_	sent	_	1	punct	_	_
+
+1	Олуруп	олур	_	v	iv|prc_perf	0	root	_	_
+2	ап	ал	_	vaux	prc_perf	1	aux	_	_
+3	болур мен	бол	_	v	iv|aor|p1|sg	1	aux	_	_
+4	бе	бе	_	qst	_	1	disc	_	_
+5	?	?	_	sent	_	1	punct	_	_
+
+1	Кызылдың	Кызыл	_	np	top|gen	2	nmod:poss	_	_
+2	автобузу	автобус	_	n	px3sp|nom	5	nsubj	_	_
+3	беш	беш	_	num	_	4	nummod	_	_
+4	шакта	шак	_	n	loc	5	nmod	_	_
+5	келир	кел	_	v	iv|aor|p3|sg	0	root	_	_
+6	ышкажыл	ышкажыл	_	emph	_	5	disc	_	_
+7	але	але	_	qst	_	5	disc	_	_
+8	?	?	_	sent	_	5	punct	_	_
