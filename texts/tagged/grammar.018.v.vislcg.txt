@@ -3,7 +3,7 @@
 "<оон>"
 	"ол" prn pers p3 sg abl @nmod #2->4
 "<чагаа>"
-	"чагаа" n nom @obj #3->4
+	"чагаа" n nom @dobj #3->4
 "<алдым>"
 	"ал" v tv ifi p1 sg @root #4->0
 "<.>"

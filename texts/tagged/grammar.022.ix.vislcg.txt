@@ -1,7 +1,7 @@
 "<Ол>"
 	"ол" prn pers p3 sg nom @nsubj #1->4
 "<бажың>"
-	"бажың" n nom @obj #2->3
+	"бажың" n nom @dobj #2->3
 "<кылырынга>"
 	"кыл" v tv ger_aor px3sp dat @advcl #3->4
 "<салымныг>"
