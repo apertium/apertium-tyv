@@ -70,5 +70,13 @@
     </pipeline>
   </mode>
 
+  <mode name="tyv-spell" install="yes">
+    <pipeline>
+      <program name="hfst-ospell -S -n 10">
+        <file name="tyv.zhfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
 </modes>
 
