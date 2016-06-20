@@ -78,5 +78,14 @@
     </pipeline>
   </mode>
 
+	<mode name="tyv-tokenise">
+		<pipeline>
+			<program name="hfst-proc">
+				<file name=".deps/acceptor.default.hfst"/>
+			</program>
+		</pipeline>
+	</mode>
+
+
 </modes>
 
