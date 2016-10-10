@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="tyv-twol">
+  <mode name="tyv-twol" install="yes">
     <pipeline>
       <program name="hfst-strings2fst -S"/>
       <program name="hfst-compose-intersect">
@@ -11,7 +11,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-morph">
+  <mode name="tyv-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tyv.automorf.bin"/>
@@ -19,7 +19,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-lexc">
+  <mode name="tyv-lexc" install="yes">
     <pipeline>
       <program name="hfst-lookup">
         <file name=".deps/tyv.LR.lexc.hfst"/>
@@ -27,7 +27,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-gener">
+  <mode name="tyv-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="tyv.autogen.bin"/>
@@ -35,7 +35,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-tagger">
+  <mode name="tyv-tagger" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tyv.automorf.bin"/>
@@ -58,7 +58,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-disam">
+  <mode name="tyv-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tyv.automorf.bin"/>
@@ -78,7 +78,7 @@
     </pipeline>
   </mode>
 
-	<mode name="tyv-tokenise">
+	<mode name="tyv-tokenise" install="yes">
 		<pipeline>
 			<program name="hfst-proc">
 				<file name=".deps/acceptor.default.hfst"/>
