@@ -1,777 +1,1037 @@
+# sent_id = grammar.014.ii.vislcg.txt:1:0
+# text = Мен хөй кижилерни көрдүм.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	хөй	хөй	DET	det	PronType=Qnt	3	det	_	_
+3	кижилерни	кижи	NOUN	n	Case=Acc|Number=Plur	4	dobj	_	_
+4	көрдүм	көр	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	хөй	хөй	_	det	qnt	3	det	_	_
-3	кижилерни	кижи	_	n	pl|acc	4	dobj	_	_
-4	көрдүм	көр	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.014.i.vislcg.txt:1:0
+# text = Башкым эңмежок номнар номчаан.
+1	Башкым	башкы	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
+2	эңмежок	эңмежок	DET	det	PronType=Qnt	3	det	_	_
+3	номнар	ном	NOUN	n	Case=Nom|Number=Plur	4	dobj	_	_
+4	номчаан	номчу	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Башкым	башкы	_	n	px1sg|nom	4	nsubj	_	_
-2	эңмежок	эңмежок	_	det	qnt	3	det	_	_
-3	номнар	ном	_	n	pl|nom	4	dobj	_	_
-4	номчаан	номчу	_	v	tv|past|p3|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.015.ii.vislcg.txt:1:0
+# text = Номну эккелдим.
+1	Номну	ном	NOUN	n	Case=Acc	2	dobj	_	_
+2	эккелдим	эккел	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Номну	ном	_	n	acc	2	dobj	_	_
-2	эккелдим	эккел	_	v	tv|ifi|p1|sg	0	root	_	_
-3	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.015.i.vislcg.txt:1:0
+# text = Ном эккелдим.
+1	Ном	ном	NOUN	n	Case=Nom	2	dobj	_	_
+2	эккелдим	эккел	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+3	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Ном	ном	_	n	nom	2	dobj	_	_
-2	эккелдим	эккел	_	v	tv|ifi|p1|sg	0	root	_	_
-3	.	.	_	sent	_	2	punct	_	_
-
-1	Бо	бо	_	det	dem	2	det	_	_
-2	институттуң	институт	_	n	gen	3	nmod:poss	_	_
-3	директору	директор	_	n	px3sp|nom	4	nsubj	_	_
+# sent_id = grammar.018.ii.vislcg.txt:1:0
+# text = Бо институттуң директору Мергендир.
+1	Бо	бо	DET	det	PronType=Dem	2	det	_	_
+2	институттуң	институт	NOUN	n	Case=Gen	3	nmod:poss	_	_
+3	директору	директор	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
 4-5	Мергендир	_	_	_	_	_	_	_	_
-4	_	Мерген	_	np	ant|m|nom	0	root	_	_
-5	_	э	_	cop	aor|evid|p3|sg	4	cop	_	_
-6	.	.	_	sent	_	4	punct	_	_
+4	ерген	Мерген	PROPN	np	Case=Nom|Gender=Masc	0	root	_	_
+5	_	э	AUX	cop	Evident=Fh|Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	3	nsubj	_	_
-2	Кызылга	Кызыл	_	np	top|dat	3	nmod	_	_
-3	чурттап	чуртта	_	v	iv|prc_perf	0	root	_	_
-4	турган мен	тур	_	vaux	past|p1|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.018.i.vislcg.txt:1:0
+# text = Мен Кызылга чурттап турган мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	Кызылга	Кызыл	PROPN	np	Case=Dat	3	nmod	_	_
+3	чурттап	чуртта	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	турган мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Past	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Ол кижи	ол кижи	_	prn	pers|p3|sg|nom	3	nsubj	_	_
-2	кино	кино	_	n	nom	3	nmod	_	_
-3	барыксап	бар	_	v	iv|des|prc_perf	0	root	_	_
-4	турар	тур	_	vaux	aor|p3|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.018.vi.vislcg.txt:1:0
+# text = Ол кижи кино барыксап турар.
+1	Ол	ол	X	x	_	2	dep	_	_
+2	кижи	кижи	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	кино	кино	NOUN	n	Case=Nom	4	nmod	_	_
+4	барыксап	бар	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+5	турар	тур	AUX	vaux	Number=Sing|Person=3|Tense=Aor	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	оон	ол	_	prn	pers|p3|sg|abl	4	nmod	_	_
-3	чагаа	чагаа	_	n	nom	4	dobj	_	_
-4	алдым	ал	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.018.v.vislcg.txt:1:0
+# text = Мен оон чагаа алдым.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	оон	ол	PRON	prn	Case=Abl|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+3	чагаа	чагаа	NOUN	n	Case=Nom	4	dobj	_	_
+4	алдым	ал	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Дамдыдан	дамды	_	n	abl	3	nmod	_	_
-2	далай	далай	_	n	nom	3	nsubj	_	_
-3	бүдер	бүт	_	v	iv|aor|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.019.iii.vislcg.txt:1:0
+# text = Дамдыдан далай бүдер.
+1	Дамдыдан	дамды	NOUN	n	Case=Abl	3	nmod	_	_
+2	далай	далай	NOUN	n	Case=Nom	3	nsubj	_	_
+3	бүдер	бүт	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Мартан-оол	Мартан-оол	_	np	ant|m|nom	8	nsubj	_	_
-2	март	март	_	n	attr	3	cmpnd	_	_
-3	айдан	ай	_	n	abl	8	nmod	_	_
-4	сентябрь	сентябрь	_	n	attr	5	cmpnd	_	_
-5	айга	ай	_	n	dat	8	nmod	_	_
-6	чедир	чедир	_	post	_	5	case	_	_
-7	Кызылга	Кызыл	_	np	top|dat	8	nmod	_	_
-8	чурттап	чуртта	_	v	iv|prc_perf	0	root	_	_
-9	турган	тур	_	vaux	past|p3|sg	8	aux	_	_
-10	.	.	_	sent	_	8	punct	_	_
+# sent_id = grammar.019.ii.vislcg.txt:1:0
+# text = Мартан-оол март айдан сентябрь айга чедир Кызылга чурттап турган.
+1	Мартан-оол	Мартан-оол	PROPN	np	Case=Nom|Gender=Masc	8	nsubj	_	_
+2	март	март	NOUN	n	Case=Nom	3	cmpnd	_	_
+3	айдан	ай	NOUN	n	Case=Abl	8	nmod	_	_
+4	сентябрь	сентябрь	NOUN	n	Case=Nom	5	cmpnd	_	_
+5	айга	ай	NOUN	n	Case=Dat	8	nmod	_	_
+6	чедир	чедир	ADP	post	_	5	case	_	_
+7	Кызылга	Кызыл	PROPN	np	Case=Dat	8	nmod	_	_
+8	чурттап	чуртта	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+9	турган	тур	AUX	vaux	Number=Sing|Person=3|Tense=Past	8	aux	_	_
+10	.	.	PUNCT	sent	_	8	punct	_	_
 
-1	Идиимни	идик	_	n	px1sg|acc	3	dobj	_	_
-2	хөмден	хөм	_	n	abl	3	nmod	_	_
-3	кылган	кыл	_	v	tv|past|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.019.i.vislcg.txt:1:0
+# text = Идиимни хөмден кылган.
+1	Идиимни	идик	NOUN	n	Case=Acc|Number[psor]=Sing|Person[psor]=1	3	dobj	_	_
+2	хөмден	хөм	NOUN	n	Case=Abl	3	nmod	_	_
+3	кылган	кыл	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Ол кижи	ол кижи	_	prn	pers|p3|sg|nom	3	nsubj	_	_
-2	менден	мен	_	prn	pers|p1|sg|abl	3	nmod	_	_
-3-4	улуг	_	_	_	_	_	_	_	_
-3	_	улуг	_	adj	_	0	root	_	_
-4	_	э	_	cop	aor|p3|sg	3	cop	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.019.iv.vislcg.txt:1:0
+# text = Ол кижи менден улуг.
+1	Ол	ол	X	x	_	2	dep	_	_
+2	кижи	кижи	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	менден	мен	PRON	prn	Case=Abl|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+4-5	улуг	_	_	_	_	_	_	_	_
+4	улуг	улуг	ADJ	adj	_	0	root	_	_
+5	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Орус	орус	_	adj	_	2	amod	_	_
-2	дылдан	дыл	_	n	abl	6	nmod	_	_
-3	өске	өске	_	adj	_	5	amod	_	_
-4	кандыг	кандыг	_	det	itg	5	det	_	_
-5	дылдар	дыл	_	n	pl|nom	6	dobj	_	_
-6	билир сен	бил	_	v	tv|aor|p2|sg	0	root	_	_
-7	?	?	_	sent	_	6	punct	_	_
+# sent_id = grammar.019.vii.vislcg.txt:1:0
+# text = Орус дылдан өске кандыг дылдар билир сен?
+1	Орус	орус	ADJ	adj	_	2	amod	_	_
+2	дылдан	дыл	NOUN	n	Case=Abl	6	nmod	_	_
+3	өске	өске	ADJ	adj	_	5	amod	_	_
+4	кандыг	кандыг	DET	det	PronType=Int	5	det	_	_
+5	дылдар	дыл	NOUN	n	Case=Nom|Number=Plur	6	dobj	_	_
+6	билир сен	бил	VERB	v	Number=Sing|Person=2|Tense=Aor	0	root	_	_
+7	?	?	PUNCT	sent	_	6	punct	_	_
 
-1	Ашкадан	ашка	_	n	abl	2	dobj	_	_
+# sent_id = grammar.019.vi.vislcg.txt:1:0
+# text = Ашкадан берем.
+1	Ашкадан	ашка	NOUN	n	Case=Abl	2	dobj	_	_
 2-3	берем	_	_	_	_	_	_	_	_
-2	_	бер	_	v	tv|imp|p2|sg	0	root	_	_
-3	_	ам	_	pol	_	2	disc	_	_
-4	.	.	_	sent	_	2	punct	_	_
+2	бер	бер	VERB	v	Mood=Imp|Number=Sing|Person=2	0	root	_	_
+3	м	ам	_	pol	_	2	disc	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Эжимден	эш	_	n	px1sg|abl	4	nmod	_	_
-2	меңээ	мен	_	prn	pers|p1|sg|dat	4	nmod	_	_
-3	байыр	байыр	_	n	nom	4	dobj	_	_
-4	чедирткен	чедирт	_	v	tv|prc_past	0	root	_	_
-5	болду	бол	_	v	iv|ifi|p3|sg	4	aux	_	_
-6	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.019.v.vislcg.txt:1:0
+# text = Эжимден меңээ байыр чедирткен болду.
+1	Эжимден	эш	NOUN	n	Case=Abl|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
+2	меңээ	мен	PRON	prn	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+3	байыр	байыр	NOUN	n	Case=Nom	4	dobj	_	_
+4	чедирткен	чедирт	VERB	v	_	0	root	_	_
+5	болду	бол	VERB	v	Number=Sing|Person=3|Tense=Past	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Бо	бо	_	det	dem	2	det	_	_
-2	улус	улус	_	n	nom	4	nsubj	_	_
-3	мени	мен	_	prn	pers|p1|sg|acc	4	dobj	_	_
-4	билир	бил	_	v	tv|aor|p3|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.020.iii.vislcg.txt:1:0
+# text = Бо улус мени билир.
+1	Бо	бо	DET	det	PronType=Dem	2	det	_	_
+2	улус	улус	NOUN	n	Case=Nom	4	nsubj	_	_
+3	мени	мен	PRON	prn	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	dobj	_	_
+4	билир	бил	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	бо	бо	_	det	dem	3	det	_	_
-3	номну	ном	_	n	acc	4	dobj	_	_
-4	номчудум	номчу	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.020.ii.vislcg.txt:1:0
+# text = Мен бо номну номчудум.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	бо	бо	DET	det	PronType=Dem	3	det	_	_
+3	номну	ном	NOUN	n	Case=Acc	4	dobj	_	_
+4	номчудум	номчу	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	3	nsubj	_	_
-2	номну	ном	_	n	acc	3	dobj	_	_
-3	номчудум	номчу	_	v	tv|ifi|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.020.i.vislcg.txt:1:0
+# text = Мен номну номчудум.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	номну	ном	NOUN	n	Case=Acc	3	dobj	_	_
+3	номчудум	номчу	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Дагны	даг	_	n	acc	2	dobj	_	_
-2	тунелдеп	тунелде	_	v	iv|gna_perf	3	advcl	_	_
-3	эртер бис	эрт	_	v	iv|aor|p1|pl	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.020.iv.vislcg.txt:1:0
+# text = Дагны тунелдеп эртер бис.
+1	Дагны	даг	NOUN	n	Case=Acc	2	dobj	_	_
+2	тунелдеп	тунелде	VERB	v	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
+3	эртер бис	эрт	VERB	v	Number=Plur|Person=1|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Башкы	башкы	_	n	nom	3	nsubj	_	_
-2	өөренчилерни	өөренчи	_	n	pl|acc	3	nmod:caus	_	_
-3	номчудуп	номчут	_	v	tv|prc_perf	0	root	_	_
-4	каапкан	каг	_	vaux	past|p3|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.020.vii.vislcg.txt:1:0
+# text = Башкы өөренчилерни номчудуп каапкан.
+1	Башкы	башкы	NOUN	n	Case=Nom	3	nsubj	_	_
+2	өөренчилерни	өөренчи	NOUN	n	Case=Acc|Number=Plur	3	nmod:caus	_	_
+3	номчудуп	номчут	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	каапкан	каг	AUX	vaux	Number=Sing|Person=3|Tense=Past	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Ол кижи	ол кижи	_	prn	pers|p3|sg|nom	4	nsubj	_	_
-2	картинаже	картина	_	n	all	4	dobj	_	_
-3	ам-даа	ам-даа	_	adv	_	4	advmod	_	_
-4	көрбүшаан	көр	_	v	tv|dur|p3|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.021.iii.vislcg.txt:1:0
+# text = Ол кижи картинаже ам-даа көрбүшаан.
+1	Ол	ол	X	x	_	2	dep	_	_
+2	кижи	кижи	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	картинаже	картина	NOUN	n	_	5	dobj	_	_
+4	ам-даа	ам-даа	ADV	adv	_	5	advmod	_	_
+5	көрбүшаан	көр	VERB	v	Number=Sing|Person=3	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Даарта	даарта	_	adv	_	6	advmod	_	_
-2	мен	мен	_	prn	pers|p1|sg|nom	6	nsubj	_	_
-3	Кызылже	Кызыл	_	np	top|all	5	conj	_	_
-4	азы	азы	_	cnjcoo	_	5	cc	_	_
-5	Абаканче	Абакан	_	np	top|all	6	conj	_	_
-6	чоруур мен	чору	_	v	iv|aor|p1|sg	0	root	_	_
-7	.	.	_	sent	_	6	punct	_	_
+# sent_id = grammar.021.ii.vislcg.txt:1:0
+# text = Даарта мен Кызылже азы Абаканче чоруур мен.
+1	Даарта	даарта	ADV	adv	_	6	advmod	_	_
+2	мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	Кызылже	Кызыл	PROPN	np	_	5	conj	_	_
+4	азы	азы	CCONJ	cnjcoo	_	5	cc	_	_
+5	Абаканче	Абакан	PROPN	np	_	6	conj	_	_
+6	чоруур мен	чору	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
 
-1	Акымга	акы	_	n	px1sg|dat	2	nmod:caus	_	_
-2	эттедип	эттет	_	v	tv|prc_perf	0	root	_	_
-3	алдым	ал	_	vaux	ifi|p1|sg	2	aux	_	_
-4	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.021.iv.vislcg.txt:1:0
+# text = Өөреникчи чорукче көргеш харыылаан.
+1	Өөреникчи	өөреникчи	NOUN	n	Case=Nom	4	nsubj	_	_
+2	чорукче	чорук	NOUN	n	_	3	nmod	_	_
+3	көргеш	көр	VERB	v	_	4	advcl	_	_
+4	харыылаан	харыыла	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	атка	аът	_	n	dat	4	arg	_	_
-3	сиген	сиген	_	n	nom	4	dobj	_	_
-4	бердим	бер	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.022.iii.vislcg.txt:1:0
+# text = Акымга эттедип алдым.
+1	Акымга	акы	NOUN	n	Case=Dat|Number[psor]=Sing|Person[psor]=1	2	nmod:caus	_	_
+2	эттедип	эттет	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+3	алдым	ал	AUX	vaux	Number=Sing|Person=1|Tense=Past	2	aux	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Авам	ава	_	n	px1sg|nom	3	nsubj	_	_
-2	бажыңга	бажың	_	n	dat	3	nmod	_	_
-3	турар	тур	_	v	iv|aor|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.022.i.vislcg.txt:1:0
+# text = Мен атка сиген бердим.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	атка	аът	NOUN	n	Case=Dat	4	arg	_	_
+3	сиген	сиген	NOUN	n	Case=Nom	4	dobj	_	_
+4	бердим	бер	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Ол	ол	_	prn	pers|p3|sg|nom	4	nsubj	_	_
-2	бажың	бажың	_	n	nom	3	dobj	_	_
-3	кылырынга	кыл	_	v	tv|ger_aor|px3sp|dat	4	advcl	_	_
+# sent_id = grammar.022.iv.vislcg.txt:1:0
+# text = Авам бажыңга турар.
+1	Авам	ава	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+2	бажыңга	бажың	NOUN	n	Case=Dat	3	nmod	_	_
+3	турар	тур	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.022.ix.vislcg.txt:1:0
+# text = Ол бажың кылырынга салымныг.
+1	Ол	ол	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	бажың	бажың	NOUN	n	Case=Nom	3	dobj	_	_
+3	кылырынга	кыл	VERB	v	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	4	advcl	_	_
 4-5	салымныг	_	_	_	_	_	_	_	_
-4	_	салымныг	_	adj	_	0	root	_	_
-5	_	э	_	cop	aor|p3|sg	4	cop	_	_
-6	.	.	_	sent	_	4	punct	_	_
+4	салымныг	салымныг	ADJ	adj	_	0	root	_	_
+5	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Бистиң	бис	_	prn	pers|p1|pl|gen	2	nmod:poss	_	_
-2	суурувус	суур	_	n	px1pl|nom	4	dobj	_	_
-3	силерге	силер	_	prn	pers|p2|pl|dat	4	nsubj	_	_
-4	таарзынарга	таарзын	_	v	iv|ger_aor|dat	7	advcl	_	_
-5	,	,	_	cm	_	4	punct	_	_
-6	меңээ	мен	_	prn	pers|p1|sg|dat	7	nsubj	_	_
-7	өөрүнчүг	өөрүнчүг	_	adj	_	0	root	_	_
-8	болду	бол	_	v	iv|ifi|p3|sg	7	cop	_	_
-9	.	.	_	sent	_	7	punct	_	_
+# sent_id = grammar.022.viii.vislcg.txt:1:0
+# text = Бистиң суурувус силерге таарзынарга, меңээ өөрүнчүг болду.
+1	Бистиң	бис	PRON	prn	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	суурувус	суур	NOUN	n	Case=Nom|Number[psor]=Plur|Person[psor]=1	4	dobj	_	_
+3	силерге	силер	PRON	prn	Case=Dat|Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
+4	таарзынарга	таарзын	VERB	v	Case=Dat	7	advcl	_	_
+5	,	,	PUNCT	cm	_	4	punct	_	_
+6	меңээ	мен	PRON	prn	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	өөрүнчүг	өөрүнчүг	ADJ	adj	_	0	root	_	_
+8	болду	бол	VERB	v	Number=Sing|Person=3|Tense=Past	7	cop	_	_
+9	.	.	PUNCT	sent	_	7	punct	_	_
 
-1	Меңээ	мен	_	prn	pers|p1|sg|dat	3	nmod	_	_
-2	ном	ном	_	n	nom	3	nsubj	_	_
+# sent_id = grammar.022.vii.vislcg.txt:1:0
+# text = Меңээ ном херек.
+1	Меңээ	мен	PRON	prn	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+2	ном	ном	NOUN	n	Case=Nom	3	nsubj	_	_
 3-4	херек	_	_	_	_	_	_	_	_
-3	_	херек	_	adj	_	0	root	_	_
-4	_	э	_	cop	aor|p3|sg	3	cop	_	_
-5	.	.	_	sent	_	3	punct	_	_
+3	херек	херек	ADJ	adj	_	0	root	_	_
+4	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Биске	бис	_	prn	pers|p1|pl|dat	2	nmod	_	_
-2	билдингир	билдингир	_	adj	_	0	root	_	_
-3	эвес	э	_	cop	neg|aor|p3|sg	2	cop	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.022.vi.vislcg.txt:1:0
+# text = Биске билдингир эвес.
+1	Биске	бис	PRON	prn	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+2	билдингир	билдингир	ADJ	adj	_	0	root	_	_
+3	эвес	э	AUX	cop	Number=Sing|Person=3|Polarity=Neg|Tense=Aor	2	cop	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Бажыңга	бажың	_	n	dat	2	nmod	_	_
-2	четкелек	чет	_	v	tv|prc_unac	5	advcl	_	_
-3	чорумда	чор	_	vaux	ger_aor|px1sg|loc	2	aux	_	_
-4	чаъс	чаъс	_	n	nom	5	nsubj	_	_
-5	чаап	чаг	_	v	iv|prc_perf	0	root	_	_
-6	келди	кел	_	vaux	ifi|p3|sg	5	aux	_	_
-7	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.022.v.vislcg.txt:1:0
+# text = Бажыңга четкелек чорумда чаъс чаап келди.
+1	Бажыңга	бажың	NOUN	n	Case=Dat	2	nmod	_	_
+2	четкелек	чет	VERB	v	_	5	advcl	_	_
+3	чорумда	чор	AUX	vaux	Case=Loc|Number[psor]=Sing|Person[psor]=1	2	aux	_	_
+4	чаъс	чаъс	NOUN	n	Case=Nom	5	nsubj	_	_
+5	чаап	чаг	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+6	келди	кел	AUX	vaux	Number=Sing|Person=3|Tense=Past	5	aux	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Биске	бис	_	prn	pers|p1|pl|dat	4	nmod	_	_
-2	тарылга	тарылга	_	n	nom	3	nmod:poss	_	_
-3	шөлү	шөл	_	n	px3sp|nom	4	nsubj	_	_
-4	чок	чок	_	adj	_	0	root	_	_
-5	турган	тур	_	v	iv|past|p3|sg	4	cop	_	_
-6	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.022.xiii.vislcg.txt:1:0
+# text = Биске тарылга шөлү чок турган.
+1	Биске	бис	PRON	prn	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	nmod	_	_
+2	тарылга	тарылга	NOUN	n	Case=Nom	3	nmod:poss	_	_
+3	шөлү	шөл	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	4	nsubj	_	_
+4	чок	чок	ADJ	adj	_	0	root	_	_
+5	турган	тур	VERB	v	Number=Sing|Person=3|Tense=Past	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Ийиге	ийи	_	num	subst|dat	3	nmod	_	_
-2	үш	үш	_	num	subst|nom	3	nsubj	_	_
-3	дең	дең	_	adj	_	0	cop	_	_
-4	эвес	э	_	cop	neg|aor|p3|sg	3	cop	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.022.xi.vislcg.txt:1:0
+# text = Ийиге үш дең эвес.
+1	Ийиге	ийи	NUM	num	Case=Dat	3	nmod	_	_
+2	үш	үш	NUM	num	Case=Nom	3	nsubj	_	_
+3	дең	дең	ADJ	adj	_	0	cop	_	_
+4	эвес	э	AUX	cop	Number=Sing|Person=3|Polarity=Neg|Tense=Aor	3	cop	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	3	nsubj	_	_
-2	кышка	кыш	_	n	dat	3	nmod	_	_
-3	ынак	ынак	_	adj	_	0	root	_	_
-4	эвес мен	э	_	cop	neg|aor|p1|sg	3	cop	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.022.x.vislcg.txt:1:0
+# text = Мен кышка ынак эвес мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	кышка	кыш	NOUN	n	Case=Dat	3	nmod	_	_
+3	ынак	ынак	ADJ	adj	_	0	root	_	_
+4	эвес мен	э	AUX	cop	Number=Sing|Person=1|Polarity=Neg|Tense=Aor	3	cop	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Дайынның	дайын	_	n	gen	3	nsubj	_	_
-2	чүге	чү	_	prn	itg|dat	3	nmod	_	_
-3	эгелээнин	эгеле	_	v	tv|ger_past|px3sp|acc	4	ccomp	_	_
-4	билбес мен	бил	_	v	tv|neg|aor|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.023.iv.vislcg.txt:1:0
+# text = Дайынның чүге эгелээнин билбес мен.
+1	Дайынның	дайын	NOUN	n	Case=Gen	3	nsubj	_	_
+2	чүге	чү	PRON	prn	Case=Dat|PronType=Int	3	nmod	_	_
+3	эгелээнин	эгеле	VERB	v	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|Tense=Past|VerbForm=Ger	4	ccomp	_	_
+4	билбес мен	бил	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Aor	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Силерниң	силер	_	prn	pers|p2|pl|gen	3	nmod	_	_
-2	-биле	биле	_	post	_	1	case	_	_
-3	сүмележирдир мен	сүмележи	_	v	tv|evid|aor|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.023.vi.vislcg.txt:1:0
+# text = Силерниң -биле сүмележирдир мен.
+1	Силерниң	силер	PRON	prn	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	nmod	_	_
+2	-биле	биле	ADP	post	_	1	case	_	_
+3	сүмележирдир мен	сүмележи	VERB	v	Evident=Fh|Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Бистиң	бис	_	prn	pers|p1|pl|gen	4	nmod:poss	_	_
-2	дүүн	дүүн	_	adv	_	3	advmod	_	_
-3	чораан	чору	_	v	iv|gpr_past	4	acl	_	_
-4	черивис	чер	_	n	px1pl|nom	5	nsubj	_	_
-5	чараш	чараш	_	adj	_	0	root	_	_
-6	болду	бол	_	v	iv|ifi|p3|sg	5	cop	_	_
-7	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.023.v.vislcg.txt:1:0
+# text = Бистиң дүүн чораан черивис чараш болду.
+1	Бистиң	бис	PRON	prn	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
+2	дүүн	дүүн	ADV	adv	_	3	advmod	_	_
+3	чораан	чору	VERB	v	Tense=Past|VerbForm=Part	4	acl	_	_
+4	черивис	чер	NOUN	n	Case=Nom|Number[psor]=Plur|Person[psor]=1	5	nsubj	_	_
+5	чараш	чараш	ADJ	adj	_	0	root	_	_
+6	болду	бол	VERB	v	Number=Sing|Person=3|Tense=Past	5	cop	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Мергенде	Мерген	_	np	ant|m|loc	4	nmod	_	_
-2	солун	солун	_	adj	_	3	amod	_	_
-3	номнар	ном	_	n	pl|nom	4	nsubj	_	_
+# sent_id = grammar.025.iii.vislcg.txt:1:0
+# text = Мергенде солун номнар бар.
+1	Мергенде	Мерген	PROPN	np	Case=Loc|Gender=Masc	4	nmod	_	_
+2	солун	солун	ADJ	adj	_	3	amod	_	_
+3	номнар	ном	NOUN	n	Case=Nom|Number=Plur	4	nsubj	_	_
 4-5	бар	_	_	_	_	_	_	_	_
-4	_	бар	_	adj	_	0	root	_	_
-5	_	э	_	cop	aor|p3|sg	4	cop	_	_
-6	.	.	_	sent	_	4	punct	_	_
+4	бар	бар	ADJ	adj	_	0	root	_	_
+5	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	12	nsubj	_	_
-2	бир	бир	_	num	_	3	cmpnd	_	_
-3	муң	муң	_	n	attr	4	cmpnd	_	_
-4	тос	тос	_	num	_	5	cmpnd	_	_
-5	чүс	чүс	_	num	_	6	cmpnd	_	_
-6	дөртен	дөртен	_	num	_	7	amod	_	_
-7	чылда	чыл	_	n	loc	12	nmod	_	_
-8	февральдың	февраль	_	n	gen	9	nmod:poss	_	_
-9	чээрбиде	чээрби	_	num	subst|loc	12	nmod	_	_
-10	Кызыл	Кызыл	_	np	top|attr	11	cmpnd	_	_
-11	хоорайга	хоорай	_	n	dat	12	nmod	_	_
-12	төрүттүнген мен	төрүттүн	_	v	iv|past|p1|sg	0	root	_	_
-13	.	.	_	sent	_	12	punct	_	_
+# sent_id = grammar.025.ii.vislcg.txt:1:0
+# text = Мен бир муң тос чүс дөртен чылда февральдың чээрбиде Кызыл хоорайга төрүттүнген мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	бир	бир	NUM	num	_	3	cmpnd	_	_
+3	муң	муң	NOUN	n	Case=Nom	4	cmpnd	_	_
+4	тос	тос	NUM	num	_	5	cmpnd	_	_
+5	чүс	чүс	NUM	num	_	6	cmpnd	_	_
+6	дөртен	дөртен	NUM	num	_	7	amod	_	_
+7	чылда	чыл	NOUN	n	Case=Loc	12	nmod	_	_
+8	февральдың	февраль	NOUN	n	Case=Gen	9	nmod:poss	_	_
+9	чээрбиде	чээрби	NUM	num	Case=Loc	12	nmod	_	_
+10	Кызыл	Кызыл	PROPN	np	Case=Nom	11	cmpnd	_	_
+11	хоорайга	хоорай	NOUN	n	Case=Dat	12	nmod	_	_
+12	төрүттүнген мен	төрүттүн	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+13	.	.	PUNCT	sent	_	12	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	3	nsubj	_	_
-2	Кызылда	Кызыл	_	np	top|loc	3	nmod	_	_
-3	чурттап	чуртта	_	v	iv|prc_perf	0	root	_	_
-4	тур мен	тур	_	vaux	aor|p1|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.025.i.vislcg.txt:1:0
+# text = Мен Кызылда чурттап тур мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	Кызылда	Кызыл	PROPN	np	Case=Loc	3	nmod	_	_
+3	чурттап	чуртта	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	тур мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Менде	мен	_	prn	pers|p1|sg|loc	4	nmod	_	_
-2	үш	үш	_	num	_	3	nummod	_	_
-3	ном	ном	_	n	nom	4	nsubj	_	_
+# sent_id = grammar.025.iv.vislcg.txt:1:0
+# text = Менде үш ном бар.
+1	Менде	мен	PRON	prn	Case=Loc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+2	үш	үш	NUM	num	_	3	nummod	_	_
+3	ном	ном	NOUN	n	Case=Nom	4	nsubj	_	_
 4-5	бар	_	_	_	_	_	_	_	_
-4	_	бар	_	adj	_	0	root	_	_
-5	_	э	_	cop	aor|p3|sg	4	cop	_	_
-6	.	.	_	sent	_	4	punct	_	_
+4	бар	бар	ADJ	adj	_	0	root	_	_
+5	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Гоша	Гоша	_	np	ant|f|nom	3	nmod	_	_
-2	-биле	биле	_	post	_	1	case	_	_
-3	Генаны	Гена	_	np	ant|m|acc	5	dobj	_	_
-4	ийилдирзин	иелдирзи	_	prn	px3sp|acc	3	appos	_	_
-5	кыйгырып	кыйгыр	_	v	tv|prc_perf	0	root	_	_
-6	эккел	эккел	_	vaux	imp|p2|sg	5	aux	_	_
-7	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.026.iii.vislcg.txt:1:0
+# text = Гоша -биле Генаны ийилдирзин кыйгырып эккел.
+1	Гоша	Гоша	PROPN	np	Case=Nom|Gender=Fem	3	nmod	_	_
+2	-биле	биле	ADP	post	_	1	case	_	_
+3	Генаны	Гена	PROPN	np	Case=Acc|Gender=Masc	5	dobj	_	_
+4	ийилдирзин	иелдирзи	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	3	appos	_	_
+5	кыйгырып	кыйгыр	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+6	эккел	эккел	AUX	vaux	Mood=Imp|Number=Sing|Person=2	5	aux	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Ийи	ийи	_	num	subst|nom	2	nmod	_	_
-2	хонганда	хон	_	v	iv|ger_past|loc	5	advcl	_	_
-3	Бадый	Бадый	_	np	ant|m|nom	4	appos	_	_
-4	акымдан	акы	_	n	px1sg|abl	5	dobj	_	_
-5	айтырдым	айтыр	_	v	tv|ifi|p1|sg	0	root	_	_
-6	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.026.i.vislcg.txt:1:0
+# text = Ийи хонганда Бадый акымдан айтырдым.
+1	Ийи	ийи	NUM	num	Case=Nom	2	nmod	_	_
+2	хонганда	хон	VERB	v	Case=Loc|Tense=Past|VerbForm=Ger	5	advcl	_	_
+3	Бадый	Бадый	PROPN	np	Case=Nom|Gender=Masc	4	appos	_	_
+4	акымдан	акы	NOUN	n	Case=Abl|Number[psor]=Sing|Person[psor]=1	5	dobj	_	_
+5	айтырдым	айтыр	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Чоннуң	чон	_	n	gen	4	nsubj	_	_
-2	ылаңгыя	ылаңгыя	_	adv	_	3	advmod	_	_
-3	улузумнуң	улус	_	n	px1sg|gen	1	appos	_	_
-4	чурттап	чуртта	_	v	iv|prc_perf	7	ccomp	_	_
-5	турарын	тур	_	vaux	ger_aor|px3sp|acc	4	aux	_	_
-6	-даа	даа	_	mod	_	4	x	_	_
-7	билдим	бил	_	v	tv|ifi|p1|sg	0	root	_	_
-8	.	.	_	sent	_	7	punct	_	_
+# sent_id = grammar.027.i.vislcg.txt:1:0
+# text = Чоннуң ылаңгыя улузумнуң чурттап турарын -даа билдим.
+1	Чоннуң	чон	NOUN	n	Case=Gen	4	nsubj	_	_
+2	ылаңгыя	ылаңгыя	ADV	adv	_	3	advmod	_	_
+3	улузумнуң	улус	NOUN	n	Case=Gen|Number[psor]=Sing|Person[psor]=1	1	appos	_	_
+4	чурттап	чуртта	VERB	v	Aspect=Perf|VerbForm=Cov	7	ccomp	_	_
+5	турарын	тур	AUX	vaux	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	aux	_	_
+6	-даа	даа	PART	mod	_	4	x	_	_
+7	билдим	бил	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
 
-1	Номну	ном	_	n	acc	2	dobj	_	_
-2	номчааш	номчу	_	v	tv|gna_past	7	advcl	_	_
-3	,	,	_	cm	_	2	punct	_	_
-4	ол кижиниң	ол кижи	_	prn	pers|p3|sg|gen	5	nmod:poss	_	_
-5	чуртталгазын	чуртталга	_	n	px3sp|acc	7	dobj	_	_
-6	шуптузун	шупту	_	prn	qnt|px3sp|acc	5	appos	_	_
-7	билип	бил	_	v	tv|prc_perf	0	root	_	_
-8	алдым	ал	_	vaux	ifi|p1|sg	7	aux	_	_
-9	.	.	_	sent	_	7	punct	_	_
+# sent_id = grammar.028.i.vislcg.txt:1:0
+# text = Номну номчааш, ол кижиниң чуртталгазын шуптузун билип алдым.
+1	Номну	ном	NOUN	n	Case=Acc	2	dobj	_	_
+2	номчааш	номчу	VERB	v	_	8	advcl	_	_
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	ол	ол	X	x	_	5	dep	_	_
+5	кижиниң	кижи	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+6	чуртталгазын	чуртталга	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	8	dobj	_	_
+7	шуптузун	шупту	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Qnt	6	appos	_	_
+8	билип	бил	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+9	алдым	ал	AUX	vaux	Number=Sing|Person=1|Tense=Past	8	aux	_	_
+10	.	.	PUNCT	sent	_	8	punct	_	_
 
-1	Мерген	Мерген	_	np	ant|m|nom	3	nsubj	_	_
-2	Чечекмааныын	Чечекмаа	_	np	ant|f|gen|subst|acc	3	dobj	_	_
-3	көрген	көр	_	v	tv|past|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.034.i.vislcg.txt:1:0
+# text = Мерген Чечекмааныын көрген.
+1	Мерген	Мерген	PROPN	np	Case=Nom|Gender=Masc	3	nsubj	_	_
+2	Чечекмааныын	Чечекмаа	PROPN	np	Case=Acc|Case=Gen|Gender=Fem	3	dobj	_	_
+3	көрген	көр	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	оон	ол	_	prn	pers|p3|sg|abl	4	nmod	_	_
-3	чагаа	чагаа	_	n	nom	4	dobj	_	_
-4	алдым	ал	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.041.iii.vislcg.txt:1:0
+# text = Мен оон чагаа алдым.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	оон	ол	PRON	prn	Case=Abl|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+3	чагаа	чагаа	NOUN	n	Case=Nom	4	dobj	_	_
+4	алдым	ал	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Ол	ол	_	det	dem	2	det	_	_
-2	улус	улус	_	n	nom	3	nsubj	_	_
-3	чедип	чет	_	v	iv|prc_perf	0	root	_	_
-4	кээр	кел	_	vaux	aor|p3|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.041.ii.vislcg.txt:1:0
+# text = Ол улус чедип кээр.
+1	Ол	ол	DET	det	PronType=Dem	2	det	_	_
+2	улус	улус	NOUN	n	Case=Nom	3	nsubj	_	_
+3	чедип	чет	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	кээр	кел	AUX	vaux	Number=Sing|Person=3|Tense=Aor	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Олар	олар	_	prn	pers|p3|pl|nom	3	nsubj	_	_
-2	ол кижини	ол кижи	_	prn	pers|p3|sg|acc	3	dobj	_	_
-3	көрдү	көр	_	v	tv|ifi|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.041.i.vislcg.txt:1:0
+# text = Олар ол кижини көрдү.
+1	Олар	олар	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	ол	ол	X	x	_	3	dep	_	_
+3	кижини	кижи	PRON	prn	Case=Acc|Number=Sing|Person=3|PronType=Prs	4	dobj	_	_
+4	көрдү	көр	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Оомга	ол	_	prn	dem|px1sg|dat	2	nmod	_	_
-2	барып	бар	_	v	iv|gna_perf	3	advcl	_	_
-3	хонуп	хон	_	v	iv|prc_perf	0	root	_	_
-4	алыр мен	ал	_	vaux	aor|p1|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.042.i.vislcg.txt:1:0
+# text = Оомга барып хонуп алыр мен.
+1	Оомга	ол	PRON	prn	Case=Dat|Number[psor]=Sing|Person[psor]=1|PronType=Dem	2	nmod	_	_
+2	барып	бар	VERB	v	Aspect=Perf|VerbForm=Conv	3	advcl	_	_
+3	хонуп	хон	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	алыр мен	ал	AUX	vaux	Number=Sing|Person=1|Tense=Aor	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	бо	бо	_	det	dem	3	det	_	_
-3	мында	бо	_	prn	dem|loc	4	nmod	_	_
-4	ажылдап	ажылда	_	v	tv|prc_perf	0	root	_	_
-5	турар мен	тур	_	vaux	aor|p1|sg	4	aux	_	_
-6	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.043.i.vislcg.txt:1:0
+# text = Мен бо мында ажылдап турар мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	бо	бо	DET	det	PronType=Dem	3	det	_	_
+3	мында	бо	PRON	prn	Case=Loc|PronType=Dem	4	nmod	_	_
+4	ажылдап	ажылда	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+5	турар мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Бодуң	бот	_	prn	ref|px2sg|nom	2	det	_	_
-2	кадыың	кадык	_	n	px2sg|nom	4	nsubj	_	_
-3	бодуң	бот	_	prn	ref|px2sg|nom	4	det	_	_
+# sent_id = grammar.045.iii.vislcg.txt:1:0
+# text = Бодуң кадыың бодуң холуңда.
+1	Бодуң	бот	PRON	prn	Case=Nom|Number[psor]=Sing|Person[psor]=2|PronType=Ref	2	det	_	_
+2	кадыың	кадык	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	_
+3	бодуң	бот	PRON	prn	Case=Nom|Number[psor]=Sing|Person[psor]=2|PronType=Ref	4	det	_	_
 4-5	холуңда	_	_	_	_	_	_	_	_
-4	_	хол	_	n	px2sg|loc	0	root	_	_
-5	_	э	_	cop	aor|p3|sg	4	cop	_	_
-6	.	.	_	sent	_	4	punct	_	_
+4	хол	хол	NOUN	n	Case=Loc|Number[psor]=Sing|Person[psor]=2	0	root	_	_
+5	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Боду	бот	_	prn	ref|px3sp|nom	2	det	_	_
-2	амыдырал	амыдырал	_	n	nom	3	nmod:poss	_	_
-3	дугайында	дугай	_	n	px3sp|loc	4	nmod	_	_
-4	чугаалаан	чугаала	_	v	tv|past|p3|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.045.ii.vislcg.txt:1:0
+# text = Боду амыдырал дугайында чугаалаан.
+1	Боду	бот	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	2	det	_	_
+2	амыдырал	амыдырал	NOUN	n	Case=Nom	3	nmod:poss	_	_
+3	дугайында	дугай	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	4	nmod	_	_
+4	чугаалаан	чугаала	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Бодум	бот	_	prn	ref|px1sg|nom	3	nsubj	_	_
-2	Кызылга	Кызыл	_	np	top|dat	3	nmod	_	_
-3	чурттап	чуртта	_	v	iv|prc_perf	0	root	_	_
-4	турар мен	тур	_	vaux	aor|p1|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.045.i.vislcg.txt:1:0
+# text = Бодум Кызылга чурттап турар мен.
+1	Бодум	бот	PRON	prn	Case=Nom|Number[psor]=Sing|Person[psor]=1|PronType=Ref	3	nsubj	_	_
+2	Кызылга	Кызыл	PROPN	np	Case=Dat	3	nmod	_	_
+3	чурттап	чуртта	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	турар мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Бодум	бот	_	prn	ref|px1sg|nom	2	nsubj	_	_
-2	билбес мен	бил	_	v	tv|neg|aor|p1|sg	0	root	_	_
-3	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.045.iv.vislcg.txt:1:0
+# text = Бодум билбес мен.
+1	Бодум	бот	PRON	prn	Case=Nom|Number[psor]=Sing|Person[psor]=1|PronType=Ref	2	nsubj	_	_
+2	билбес мен	бил	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Aor	0	root	_	_
+3	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Боду	бот	_	prn	ref|px3sp|nom	2	nsubj	_	_
-2	келир	кел	_	v	iv|ger_aor|nom	5	advcl	_	_
-3	ужун	ужун	_	post	_	2	case	_	_
-4	бижик	бижик	_	n	nom	5	dobj	_	_
-5	ытпады	ыт	_	v	tv|neg|ifi|p3|sg	0	root	_	_
-6	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.045.vii.vislcg.txt:1:0
+# text = Боду келир ужун бижик ытпады.
+1	Боду	бот	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	2	nsubj	_	_
+2	келир	кел	VERB	v	Case=Nom	5	advcl	_	_
+3	ужун	ужун	ADP	post	_	2	case	_	_
+4	бижик	бижик	NOUN	n	Case=Nom	5	dobj	_	_
+5	ытпады	ыт	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Келген	кел	_	v	iv|gpr_past	2	acl	_	_
-2	аалчыга	аалчы	_	n	dat	5	nmod:caus	_	_
-3	бодунуң	бот	_	prn	ref|px3sp|gen	4	det	_	_
-4	хелээшкинин	хелээшкин	_	n	px3sp|acc	5	dobj	_	_
-5	билдиртпес	билдирт	_	v	tv|neg|aor|p3|sg	6	ccomp	_	_
-6	дээш	де	_	v	tv|gna_past	7	ccomp	_	_
-7	хөлчок	хөлчок	_	adv	_	8	advmod	_	_
-8	кыскан	кыс	_	v	tv|past|p3|sg	0	root	_	_
-9	.	.	_	sent	_	8	punct	_	_
+# sent_id = grammar.045.vi.vislcg.txt:1:0
+# text = Келген аалчыга бодунуң хелээшкинин билдиртпес дээш хөлчок кыскан.
+1	Келген	кел	VERB	v	Tense=Past|VerbForm=Part	2	acl	_	_
+2	аалчыга	аалчы	NOUN	n	Case=Dat	5	nmod:caus	_	_
+3	бодунуң	бот	PRON	prn	Case=Gen|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Ref	4	det	_	_
+4	хелээшкинин	хелээшкин	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	5	dobj	_	_
+5	билдиртпес	билдирт	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Aor	6	ccomp	_	_
+6	дээш	де	VERB	v	_	7	ccomp	_	_
+7	хөлчок	хөлчок	ADV	adv	_	8	advmod	_	_
+8	кыскан	кыс	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+9	.	.	PUNCT	sent	_	8	punct	_	_
 
-1	Бажың	бажың	_	n	nom	3	nsubj	_	_
-2	кайы-хире	кайы-хире	_	det	itg	3	det	_	_
+# sent_id = grammar.047.iii.vislcg.txt:1:0
+# text = Бажың кайы-хире улуг?
+1	Бажың	бажың	NOUN	n	Case=Nom	3	nsubj	_	_
+2	кайы-хире	кайы-хире	DET	det	PronType=Int	3	det	_	_
 3-4	улуг	_	_	_	_	_	_	_	_
-3	_	улуг	_	adj	_	0	root	_	_
-4	_	э	_	cop	aor|p3|sg	3	cop	_	_
-5	?	?	_	sent	_	3	punct	_	_
+3	улуг	улуг	ADJ	adj	_	0	root	_	_
+4	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+5	?	?	PUNCT	sent	_	3	punct	_	_
 
-1	Сен	сен	_	prn	pers|p2|sg|nom	2	nsubj	_	_
+# sent_id = grammar.047.i.vislcg.txt:1:0
+# text = Сен кым-дыр сен деп диди.
+1	Сен	сен	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2-3	кым-дыр сен	_	_	_	_	_	_	_	_
-2	_	кым	_	prn	itg|nom	4	ccomp	_	_
-3	_	э	_	cop	aor|evid|p2|sg	2	cop	_	_
-4	деп	де	_	v	tv|prc_perf	5	ccomp	_	_
-5	диди	де	_	v	tv|ifi|p3|sg	0	root	_	_
-6	.	.	_	sent	_	5	punct	_	_
+2	кым-дыр	кым	PRON	prn	Case=Nom|PronType=Int	4	ccomp	_	_
+3	сен	э	AUX	cop	Evident=Fh|Number=Sing|Person=2|Tense=Aor	2	cop	_	_
+4	деп	де	VERB	v	Aspect=Perf|VerbForm=Cov	5	ccomp	_	_
+5	диди	де	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Бир	бир	_	num	_	3	nummod	_	_
-2	-ле	ла	_	mod	_	1	disc	_	_
-3	кижи	кижи	_	n	nom	4	nsubj	_	_
-4	келди	кел	_	v	iv|ifi|p3|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.049.iii.vislcg.txt:1:0
+# text = Бир -ле кижи келди.
+1	Бир	бир	NUM	num	_	3	nummod	_	_
+2	-ле	ла	PART	mod	_	1	disc	_	_
+3	кижи	кижи	NOUN	n	Case=Nom	4	nsubj	_	_
+4	келди	кел	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Төрелдерим	төрел	_	n	pl|px1sg|nom	2	nmod:poss	_	_
-2	чамдыызы	чамдык	_	prn	px3sp|nom	3	nsubj	_	_
-3	келди	кел	_	v	iv|ifi|p3|sg	0	root	_	_
-4	бе	бе	_	qst	_	3	disc	_	_
-5	?	?	_	sent	_	3	punct	_	_
+# sent_id = grammar.049.ii.vislcg.txt:1:0
+# text = Төрелдерим чамдыызы келди бе?
+1	Төрелдерим	төрел	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	nmod:poss	_	_
+2	чамдыызы	чамдык	PRON	prn	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	3	nsubj	_	_
+3	келди	кел	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	бе	бе	PART	qst	_	3	disc	_	_
+5	?	?	PUNCT	sent	_	3	punct	_	_
 
-1	Чок	чок	_	ij	_	6	disc	_	_
-2	,	,	_	cm	_	1	punct	_	_
-3	чүгле	чүгле	_	adv	_	6	advmod	_	_
-4	сүдүңнүң	сүт	_	n	px2sg|gen	5	nmod:poss	_	_
-5	чамдыызын	чамдык	_	prn	px3sp|acc	6	dobj	_	_
-6	ижейн	иш	_	v	tv|imp|p1|sg	0	root	_	_
-7	.	.	_	sent	_	6	punct	_	_
+# sent_id = grammar.049.i.vislcg.txt:1:0
+# text = Чок, чүгле сүдүңнүң чамдыызын ижейн.
+1	Чок	чок	INTJ	ij	_	6	disc	_	_
+2	,	,	PUNCT	cm	_	1	punct	_	_
+3	чүгле	чүгле	ADV	adv	_	6	advmod	_	_
+4	сүдүңнүң	сүт	NOUN	n	Case=Gen|Number[psor]=Sing|Person[psor]=2	5	nmod:poss	_	_
+5	чамдыызын	чамдык	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	6	dobj	_	_
+6	ижейн	иш	VERB	v	Mood=Imp|Number=Sing|Person=1	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
 
-1	Улус	улус	_	n	nom	2	nsubj	_	_
-2	келди	кел	_	v	iv|ifi|p3|sg	0	root	_	_
-3	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.049.iv.vislcg.txt:1:0
+# text = Улус келди.
+1	Улус	улус	NOUN	n	Case=Nom	2	nsubj	_	_
+2	келди	кел	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+3	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Бир	бир	_	num	_	3	nummod	_	_
-2	-ле	ла	_	mod	_	1	disc	_	_
-3	катап	катап	_	n	nom	6	nmod	_	_
-4	бир	бир	_	num	_	5	nummod	_	_
-5	кижи	кижи	_	n	nom	6	nsubj	_	_
-6	чугаалаан	чугаала	_	v	tv|past|p3|sg	0	root	_	_
-7	.	.	_	sent	_	6	punct	_	_
+# sent_id = grammar.049.v.vislcg.txt:1:0
+# text = Бир -ле катап бир кижи чугаалаан.
+1	Бир	бир	NUM	num	_	3	nummod	_	_
+2	-ле	ла	PART	mod	_	1	disc	_	_
+3	катап	катап	NOUN	n	Case=Nom	6	nmod	_	_
+4	бир	бир	NUM	num	_	5	nummod	_	_
+5	кижи	кижи	NOUN	n	Case=Nom	6	nsubj	_	_
+6	чугаалаан	чугаала	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+7	.	.	PUNCT	sent	_	6	punct	_	_
 
-1	Кайнаар	кайнаар	_	adv	itg	3	nmod	_	_
-2	-даа	даа	_	mod	_	1	disc	_	_
-3	барбас мен	бар	_	v	iv|neg|aor|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.050.ii.vislcg.txt:1:0
+# text = Кайнаар -даа барбас мен.
+1	Кайнаар	кайнаар	ADV	adv	PronType=Int	3	nmod	_	_
+2	-даа	даа	PART	mod	_	1	disc	_	_
+3	барбас мен	бар	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+
+# sent_id = grammar.050.i.vislcg.txt:1:0
+# text = Кым келбээн.
 1-2	Кым	_	_	_	_	_	_	_	_
+1	кым	кым	PRON	prn	Case=Nom|PronType=Int	3	nsubj	_	_
+2	_	даа	PART	mod	_	1	disc	_	_
+3	келбээн	кел	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	_	кым	_	prn	itg|nom	3	nsubj	_	_
-2	_	даа	_	mod	_	1	disc	_	_
-3	келбээн	кел	_	v	iv|neg|past|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.054.iii.vislcg.txt:1:0
+# text = Оларның шуптузундан харыы алдывыс.
+1	Оларның	олар	PRON	prn	Case=Gen|Number=Plur|Person=3|PronType=Prs	2	nmod:poss	_	_
+2	шуптузундан	шупту	PRON	prn	Case=Abl|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Qnt	4	nmod	_	_
+3	харыы	харыы	NOUN	n	Case=Nom	4	dobj	_	_
+4	алдывыс	ал	VERB	v	Number=Plur|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Оларның	олар	_	prn	pers|p3|pl|gen	2	nmod:poss	_	_
-2	шуптузундан	шупту	_	prn	qnt|px3sp|abl	4	nmod	_	_
-3	харыы	харыы	_	n	nom	4	dobj	_	_
-4	алдывыс	ал	_	v	tv|ifi|p1|pl	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.054.i.vislcg.txt:1:0
+# text = Сүдүм шуптузун ижер сен бе?
+1	Сүдүм	сүт	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	2	nmod:poss	_	_
+2	шуптузун	шупту	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Qnt	3	dobj	_	_
+3	ижер сен	иш	VERB	v	Number=Sing|Person=2|Tense=Aor	0	root	_	_
+4	бе	бе	PART	qst	_	3	disc	_	_
+5	?	?	PUNCT	sent	_	3	punct	_	_
 
-1	Сүдүм	сүт	_	n	px1sg|nom	2	nmod:poss	_	_
-2	шуптузун	шупту	_	prn	qnt|px3sp|acc	3	dobj	_	_
-3	ижер сен	иш	_	v	tv|aor|p2|sg	0	root	_	_
-4	бе	бе	_	qst	_	3	disc	_	_
-5	?	?	_	sent	_	3	punct	_	_
+# sent_id = grammar.056.ii.vislcg.txt:1:0
+# text = Оларны шуптузун таныыр мен.
+1	Оларны	олар	PRON	prn	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	dobj	_	_
+2	шуптузун	шупту	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Qnt	1	appos	_	_
+3	таныыр мен	таны	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Оларны	олар	_	prn	pers|p3|pl|acc	3	dobj	_	_
-2	шуптузун	шупту	_	prn	qnt|px3sp|acc	1	appos	_	_
-3	таныыр мен	таны	_	v	tv|aor|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.056.i.vislcg.txt:1:0
+# text = Номну номчааш, ол кижиниң чуртталгазын шуптузун билип алдым.
+1	Номну	ном	NOUN	n	Case=Acc	2	dobj	_	_
+2	номчааш	номчу	VERB	v	_	8	advcl	_	_
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	ол	ол	X	x	_	5	dep	_	_
+5	кижиниң	кижи	PRON	prn	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
+6	чуртталгазын	чуртталга	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	8	dobj	_	_
+7	шуптузун	шупту	PRON	prn	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3|PronType=Qnt	6	appos	_	_
+8	билип	бил	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+9	алдым	ал	AUX	vaux	Number=Sing|Person=1|Tense=Past	8	aux	_	_
+10	.	.	PUNCT	sent	_	9	punct	_	_
 
-1	Номну	ном	_	n	acc	2	dobj	_	_
-2	номчааш	номчу	_	v	tv|gna_past	7	advcl	_	_
-3	,	,	_	cm	_	2	punct	_	_
-4	ол кижиниң	ол кижи	_	prn	pers|p3|sg|gen	5	nmod:poss	_	_
-5	чуртталгазын	чуртталга	_	n	px3sp|acc	7	dobj	_	_
-6	шуптузун	шупту	_	prn	qnt|px3sp|acc	5	appos	_	_
-7	билип	бил	_	v	tv|prc_perf	0	root	_	_
-8	алдым	ал	_	vaux	ifi|p1|sg	7	aux	_	_
-9	.	.	_	sent	_	8	punct	_	_
+# sent_id = grammar.058.i.vislcg.txt:1:0
+# text = Бис иелээн баар бис.
+1	Бис	бис	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	иелээн	иелээн	NUM	num	Case=Nom|NumType=Coll	1	appos	_	_
+3	баар бис	бар	VERB	v	Number=Plur|Person=1|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Бис	бис	_	prn	pers|p1|pl|nom	3	nsubj	_	_
-2	иелээн	иелээн	_	num	coll|subst|nom	1	appos	_	_
-3	баар бис	бар	_	v	iv|aor|p1|pl	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.063.i.vislcg.txt:1:0
+# text = Мен Кызылдагыларын көрдүм.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	Кызылдагыларын	Кызыл	PROPN	np	Case=Acc|Case=Loc|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	3	dobj	_	_
+3	көрдүм	көр	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	3	nsubj	_	_
-2	Кызылдагыларын	Кызыл	_	np	top|loc|subst|pl|px3sp|acc	3	dobj	_	_
-3	көрдүм	көр	_	v	tv|ifi|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.067.i.vislcg.txt:1:0
+# text = Ол дораан келди.
+1	Ол	ол	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	дораан	дораан	ADV	adv	_	3	advmod	_	_
+3	келди	кел	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Ол	ол	_	prn	pers|p3|sg|nom	3	nsubj	_	_
-2	дораан	дораан	_	adv	_	3	advmod	_	_
-3	келди	кел	_	v	iv|ifi|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.073.i.vislcg.txt:1:0
+# text = Колхозуңар дугайын меңээ чугаалап бериңер.
+1	Колхозуңар	колхоз	NOUN	n	Case=Nom|Number[psor]=Plur|Person[psor]=2	2	nmod:poss	_	_
+2	дугайын	дугай	NOUN	n	Case=Acc|Number[psor]=Plur,Sing|Person[psor]=3	4	dobj	_	_
+3	меңээ	мен	PRON	prn	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+4	чугаалап	чугаала	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+5	бериңер	бер	AUX	vaux	Mood=Imp|Number=Plur|Person=2	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Колхозуңар	колхоз	_	n	px2pl|nom	2	nmod:poss	_	_
-2	дугайын	дугай	_	n	px3sp|acc	4	dobj	_	_
-3	меңээ	мен	_	prn	pers|p1|sg|dat	4	nmod	_	_
-4	чугаалап	чугаала	_	v	tv|prc_perf	0	root	_	_
-5	бериңер	бер	_	vaux	imp|p2|pl	4	aux	_	_
-6	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.074.i.vislcg.txt:1:0
+# text = Орус дылдан өске кандыг дылдар билир сен?
+1	Орус	орус	ADJ	adj	_	2	amod	_	_
+2	дылдан	дыл	NOUN	n	Case=Abl	6	nmod	_	_
+3	өске	өске	ADJ	adj	_	5	amod	_	_
+4	кандыг	кандыг	DET	det	PronType=Int	5	det	_	_
+5	дылдар	дыл	NOUN	n	Case=Nom|Number=Plur	6	dobj	_	_
+6	билир сен	бил	VERB	v	Number=Sing|Person=2|Tense=Aor	0	root	_	_
+7	?	?	PUNCT	sent	_	6	punct	_	_
 
-1	Орус	орус	_	adj	_	2	amod	_	_
-2	дылдан	дыл	_	n	abl	6	nmod	_	_
-3	өске	өске	_	adj	_	5	amod	_	_
-4	кандыг	кандыг	_	det	itg	5	det	_	_
-5	дылдар	дыл	_	n	pl|nom	6	dobj	_	_
-6	билир сен	бил	_	v	tv|aor|p2|sg	0	root	_	_
-7	?	?	_	sent	_	6	punct	_	_
+# sent_id = grammar.076.i.vislcg.txt:1:0
+# text = Хемни кежилдир көвүрүг тургускан.
+1	Хемни	хем	NOUN	n	Case=Acc	4	nmod	_	_
+2	кежилдир	кежилдир	ADP	post	_	1	case	_	_
+3	көвүрүг	көвүрүг	NOUN	n	Case=Nom	4	dobj	_	_
+4	тургускан	тургус	VERB	v	Number=Plur|Person=3|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Хемни	хем	_	n	acc	4	nmod	_	_
-2	кежилдир	кежилдир	_	post	_	1	case	_	_
-3	көвүрүг	көвүрүг	_	n	nom	4	dobj	_	_
-4	тургускан	тургус	_	v	tv|past|p3|pl	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.079.ii.vislcg.txt:1:0
+# text = Мен силерниң чугаалааныңар ёзугаар кылдым.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	силерниң	силер	PRON	prn	Case=Gen|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
+3	чугаалааныңар	чугаала	VERB	v	Case=Nom|Number[psor]=Plur|Person[psor]=2|Tense=Past|VerbForm=Ger	5	ccomp	_	_
+4	ёзугаар	ёзугаар	ADP	post	_	3	case	_	_
+5	кылдым	кыл	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+6	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	5	nsubj	_	_
-2	силерниң	силер	_	prn	pers|p2|pl|gen	3	nsubj	_	_
-3	чугаалааныңар	чугаала	_	v	tv|ger_past|px2pl|nom	5	ccomp	_	_
-4	ёзугаар	ёзугаар	_	post	_	3	case	_	_
-5	кылдым	кыл	_	v	tv|ifi|p1|sg	0	root	_	_
-6	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.085.ii.vislcg.txt:1:0
+# text = Сен сүт иштиң бе?
+1	Сен	сен	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	сүт	сүт	NOUN	n	Case=Nom	3	dobj	_	_
+3	иштиң	иш	VERB	v	Number=Sing|Person=2|Tense=Past	0	root	_	_
+4	бе	бе	PART	qst	_	3	disc	_	_
+5	?	?	PUNCT	sent	_	3	punct	_	_
 
-1	Сен	сен	_	prn	pers|p2|sg|nom	3	nsubj	_	_
-2	сүт	сүт	_	n	nom	3	dobj	_	_
-3	иштиң	иш	_	v	tv|ifi|p2|sg	0	root	_	_
-4	бе	бе	_	qst	_	3	disc	_	_
-5	?	?	_	sent	_	3	punct	_	_
+# sent_id = grammar.085.i.vislcg.txt:1:0
+# text = Бистер ам-даа келбедивис.
+1	Бистер	бис	PRON	prn	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	ам-даа	ам-даа	ADV	adv	_	3	advmod	_	_
+3	келбедивис	кел	VERB	v	Number=Plur|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Бистер	бис	_	prn	pers|p1|pl|nom	3	nsubj	_	_
-2	ам-даа	ам-даа	_	adv	_	3	advmod	_	_
-3	келбедивис	кел	_	v	iv|neg|ifi|p1|pl	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.086.i.vislcg.txt:1:0
+# text = Сен кажан төрүттүнген сен.
+1	Сен	сен	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	кажан	кажан	ADV	adv	PronType=Int	3	advmod	_	_
+3	төрүттүнген сен	төрүттүн	VERB	v	Number=Sing|Person=2|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Сен	сен	_	prn	pers|p2|sg|nom	3	nsubj	_	_
-2	кажан	кажан	_	adv	itg	3	advmod	_	_
-3	төрүттүнген сен	төрүттүн	_	v	iv|past|p2|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.089.iii.vislcg.txt:1:0
+# text = Дүүн эки удудум.
+1	Дүүн	дүүн	ADV	adv	_	3	advmod	_	_
+2	эки	эки	ADV	adv	_	3	advmod	_	_
+3	удудум	уду	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Дүүн	дүүн	_	adv	_	3	advmod	_	_
-2	эки	эки	_	adv	_	3	advmod	_	_
-3	удудум	уду	_	v	iv|ifi|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.089.ii.vislcg.txt:1:0
+# text = Мен аңаа ном бердим.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	аңаа	ол	PRON	prn	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	arg	_	_
+3	ном	ном	NOUN	n	Case=Nom	4	dobj	_	_
+4	бердим	бер	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	аңаа	ол	_	prn	pers|p3|sg|dat	4	arg	_	_
-3	ном	ном	_	n	nom	4	dobj	_	_
-4	бердим	бер	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.089.i.vislcg.txt:1:0
+# text = Мен аңаа ном бердим.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	аңаа	ол	PRON	prn	Case=Dat|Number=Sing|Person=3|PronType=Prs	4	arg	_	_
+3	ном	ном	NOUN	n	Case=Nom	4	dobj	_	_
+4	бердим	бер	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	аңаа	ол	_	prn	pers|p3|sg|dat	4	arg	_	_
-3	ном	ном	_	n	nom	4	dobj	_	_
-4	бердим	бер	_	v	tv|ifi|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.089.iv.vislcg.txt:1:0
+# text = Аныяк тургаш эки удаан мен.
+1	Аныяк	аныяк	ADJ	adj	_	4	advcl	_	_
+2	тургаш	тур	VERB	v	_	1	cop	_	_
+3	эки	эки	ADV	adv	_	4	advmod	_	_
+4	удаан мен	уду	VERB	v	Number=Sing|Person=1|Tense=Past	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Аныяк	аныяк	_	adj	_	4	advcl	_	_
-2	тургаш	тур	_	v	iv|gna_past	1	cop	_	_
-3	эки	эки	_	adv	_	4	advmod	_	_
-4	удаан мен	уду	_	v	iv|past|p1|sg	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.090.ii.vislcg.txt:1:0
+# text = Ажылдаар мен.
+1	Ажылдаар мен	ажылда	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+2	.	.	PUNCT	sent	_	1	punct	_	_
 
-1	Ажылдаар мен	ажылда	_	v	tv|aor|p1|sg	0	root	_	_
-2	.	.	_	sent	_	1	punct	_	_
+# sent_id = grammar.090.i.vislcg.txt:1:0
+# text = Он уруг келир.
+1	Он	он	NUM	num	_	2	nummod	_	_
+2	уруг	уруг	NOUN	n	Case=Nom	3	nsubj	_	_
+3	келир	кел	VERB	v	Number=Plur|Person=3|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Он	он	_	num	_	2	nummod	_	_
-2	уруг	уруг	_	n	nom	3	nsubj	_	_
-3	келир	кел	_	v	iv|aor|p3|pl	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.091.ii.vislcg.txt:1:0
+# text = Ам техникумда башкылап тур мен.
+1	Ам	ам	ADV	adv	_	3	advmod	_	_
+2	техникумда	техникум	NOUN	n	Case=Loc	3	nmod	_	_
+3	башкылап	башкыла	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+4	тур мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Ам	ам	_	adv	_	3	advmod	_	_
-2	техникумда	техникум	_	n	loc	3	nmod	_	_
-3	башкылап	башкыла	_	v	tv|prc_perf	0	root	_	_
-4	тур мен	тур	_	vaux	aor|p1|sg	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.091.i.vislcg.txt:1:0
+# text = Сүт ижип турар мен.
+1	Сүт	сүт	NOUN	n	Case=Nom	2	dobj	_	_
+2	ижип	иш	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+3	турар мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	2	aux	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Сүт	сүт	_	n	nom	2	dobj	_	_
-2	ижип	иш	_	v	tv|prc_perf	0	root	_	_
-3	турар мен	тур	_	vaux	aor|p1|sg	2	aux	_	_
-4	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.096.ii.vislcg.txt:1:0
+# text = Мен ырлаптарым.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ырлаптарым	ырла	VERB	v	Number=Sing|Person=1	0	root	_	_
+3	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	2	nsubj	_	_
-2	ырлаптарым	ырла	_	v	tv|perf|p1|sg	0	root	_	_
-3	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.096.i.vislcg.txt:1:0
+# text = Ол ырны ырлаар мен.
+1	Ол	ол	DET	det	PronType=Dem	2	det	_	_
+2	ырны	ыр	NOUN	n	Case=Acc	3	dobj	_	_
+3	ырлаар мен	ырла	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Ол	ол	_	det	dem	2	det	_	_
-2	ырны	ыр	_	n	acc	3	dobj	_	_
-3	ырлаар мен	ырла	_	v	tv|aor|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.096.iv.vislcg.txt:1:0
+# text = Хар болза эскериптер мен.
+1	Хар	хар	NOUN	n	Case=Nom	3	advcl	_	_
+2	болза	бол	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	1	cop	_	_
+3	эскериптер мен	эскер	VERB	v	Number=Sing|Person=1	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Хар	хар	_	n	nom	3	advcl	_	_
-2	болза	бол	_	v	iv|gna_cond|p3|sg	1	cop	_	_
-3	эскериптер мен	эскер	_	v	tv|perf|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.097.ii.vislcg.txt:1:0
+# text = Ийе, өөренип баар чорааш сени көржүк мен.
+1	Ийе	ийе	INTJ	ij	_	7	disc	_	_
+2	,	,	PUNCT	cm	_	1	punct	_	_
+3	өөренип	өөрен	VERB	v	Aspect=Perf|VerbForm=Cov	7	advcl	_	_
+4	баар	бар	AUX	vaux	_	3	aux	_	_
+5	чорааш	чору	AUX	vaux	_	4	aux	_	_
+6	сени	сен	PRON	prn	Case=Acc|Number=Sing|Person=2|PronType=Prs	7	dobj	_	_
+7	көржүк мен	көр	VERB	v	Number=Sing|Person=1	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
 
-1	Ийе	ийе	_	ij	_	7	disc	_	_
-2	,	,	_	cm	_	1	punct	_	_
-3	өөренип	өөрен	_	v	tv|prc_perf	7	advcl	_	_
-4	баар	бар	_	vaux	prc_aor	3	aux	_	_
-5	чорааш	чору	_	vaux	gna_past	4	aux	_	_
-6	сени	сен	_	prn	pers|p2|sg|acc	7	dobj	_	_
-7	көржүк мен	көр	_	v	tv|resu|p1|sg	0	root	_	_
-8	.	.	_	sent	_	7	punct	_	_
+# sent_id = grammar.097.i.vislcg.txt:1:0
+# text = Сен мени дүүн көржүк сен бе?
+1	Сен	сен	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+2	мени	мен	PRON	prn	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	dobj	_	_
+3	дүүн	дүүн	ADV	adv	_	4	advmod	_	_
+4	көржүк сен	көр	VERB	v	Number=Sing|Person=2	0	root	_	_
+5	бе	бе	PART	qst	_	4	disc	_	_
+6	?	?	PUNCT	sent	_	4	punct	_	_
 
-1	Сен	сен	_	prn	pers|p2|sg|nom	4	nsubj	_	_
-2	мени	мен	_	prn	pers|p1|sg|acc	4	dobj	_	_
-3	дүүн	дүүн	_	adv	_	4	advmod	_	_
-4	көржүк сен	көр	_	v	tv|resu|p2|sg	0	root	_	_
-5	бе	бе	_	qst	_	4	disc	_	_
-6	?	?	_	sent	_	4	punct	_	_
+# sent_id = grammar.098.iv.vislcg.txt:1:0
+# text = Бажынга четкелек чорумда чаъс чаап келди.
+1	Бажынга	баш	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	2	nmod	_	_
+2	четкелек	чет	VERB	v	_	5	advcl	_	_
+3	чорумда	чор	AUX	vaux	Case=Loc|Number[psor]=Sing|Person[psor]=1	2	aux	_	_
+4	чаъс	чаъс	NOUN	n	Case=Nom	5	nsubj	_	_
+5	чаап	чаг	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+6	келди	кел	AUX	vaux	Number=Sing|Person=3|Tense=Past	5	aux	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Бажынга	баш	_	n	px3sp|dat	2	nmod	_	_
-2	четкелек	чет	_	v	tv|prc_unac	5	advcl	_	_
-3	чорумда	чор	_	vaux	ger_aor|px1sg|loc	2	aux	_	_
-4	чаъс	чаъс	_	n	nom	5	nsubj	_	_
-5	чаап	чаг	_	v	iv|prc_perf	0	root	_	_
-6	келди	кел	_	vaux	iv|ifi|p3|sg	5	aux	_	_
-7	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.099.i.vislcg.txt:1:0
+# text = Номум чедирип алыр частым.
+1	Номум	ном	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	2	dobj	_	_
+2	чедирип	чедир	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+3	алыр	ал	AUX	vaux	_	2	aux	_	_
+4	частым	час	AUX	vaux	Number=Sing|Person=1|Tense=Past	3	aux	_	_
+5	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Номум	ном	_	n	px1sg|nom	2	dobj	_	_
-2	чедирип	чедир	_	v	tv|prc_perf	0	root	_	_
-3	алыр	ал	_	vaux	prc_aor	2	aux	_	_
-4	частым	час	_	vaux	ifi|p1|sg	3	aux	_	_
-5	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.101.i.vislcg.txt:1:0
+# text = Школа соонда орус номнар номчувастап калган мен.
+1	Школа	школа	NOUN	n	Case=Nom	2	nmod:poss	_	_
+2	соонда	соң	NOUN	n	Case=Loc|Number[psor]=Plur,Sing|Person[psor]=3	5	nmod	_	_
+3	орус	орус	ADJ	adj	_	4	amod	_	_
+4	номнар	ном	NOUN	n	Case=Nom|Number=Plur	5	dobj	_	_
+5	номчувастап	номчу	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+6	калган мен	кал	AUX	vaux	Number=Sing|Person=1|Tense=Past	5	aux	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Школа	школа	_	n	nom	2	nmod:poss	_	_
-2	соонда	соң	_	n	px3sp|loc	5	nmod	_	_
-3	орус	орус	_	adj	_	4	amod	_	_
-4	номнар	ном	_	n	pl|nom	5	dobj	_	_
-5	номчувастап	номчу	_	v	tv|cess|prc_perf	0	root	_	_
-6	калган мен	кал	_	vaux	past|p1|sg	5	aux	_	_
-7	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.102.iii.vislcg.txt:1:0
+# text = Мен тыва хүреш -биле сургуул кылбастай бээримге ачам хомудаан.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	тыва	тыва	NOUN	n	Case=Nom	3	cmpnd	_	_
+3	хүреш	хүреш	NOUN	n	Case=Nom	5	nmod	_	_
+4	-биле	биле	ADP	post	_	3	case	_	_
+5	сургуул	сургуул	NOUN	n	Case=Nom	6	dobj	_	_
+6	кылбастай	кыл	VERB	v	Aspect=Imp|VerbForm=Cov	9	advcl	_	_
+7	бээримге	бер	AUX	vaux	Case=Dat|Number[psor]=Sing|Person[psor]=1	6	aux	_	_
+8	ачам	ача	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	9	nsubj	_	_
+9	хомудаан	хомуда	VERB	v	Number=Sing|Person=3|Tense=Past	0	root	_	_
+10	.	.	PUNCT	sent	_	9	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	6	nsubj	_	_
-2	тыва	тыва	_	n	attr	3	cmpnd	_	_
-3	хүреш	хүреш	_	n	nom	5	nmod	_	_
-4	-биле	биле	_	post	_	3	case	_	_
-5	сургуул	сургуул	_	n	nom	6	dobj	_	_
-6	кылбастай	кыл	_	v	tv|cess|prc_impf	9	advcl	_	_
-7	бээримге	бер	_	vaux	ger_aor|px1sg|dat	6	aux	_	_
-8	ачам	ача	_	n	px1sg|nom	9	nsubj	_	_
-9	хомудаан	хомуда	_	v	iv|past|p3|sg	0	root	_	_
-10	.	.	_	sent	_	9	punct	_	_
+# sent_id = grammar.102.ii.vislcg.txt:1:0
+# text = Мен ол номну номчувастай бердим.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	ол	ол	DET	det	PronType=Dem	3	det	_	_
+3	номну	ном	NOUN	n	Case=Acc	4	dobj	_	_
+4	номчувастай	номчу	VERB	v	Aspect=Imp|VerbForm=Cov	0	root	_	_
+5	бердим	бер	AUX	vaux	Number=Sing|Person=1|Tense=Past	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	4	nsubj	_	_
-2	ол	ол	_	det	dem	3	det	_	_
-3	номну	ном	_	n	acc	4	dobj	_	_
-4	номчувастай	номчу	_	v	tv|cess|prc_impf	0	root	_	_
-5	бердим	бер	_	vaux	ifi|p1|sg	4	aux	_	_
-6	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.102.i.vislcg.txt:1:0
+# text = Олар ону биживестей бергеннер.
+1	Олар	олар	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	ону	ол	PRON	prn	Case=Acc|PronType=Dem	3	dobj	_	_
+3	биживестей	бижи	VERB	v	Aspect=Imp|VerbForm=Cov	0	root	_	_
+4	бергеннер	бер	AUX	vaux	Number=Plur|Person=3|Tense=Past	3	aux	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Олар	олар	_	prn	pers|p3|pl|nom	3	nsubj	_	_
-2	ону	ол	_	prn	dem|acc	3	dobj	_	_
-3	биживестей	бижи	_	v	tv|cess|prc_impf	0	root	_	_
-4	бергеннер	бер	_	vaux	past|p3|pl	3	aux	_	_
-5	.	.	_	sent	_	3	punct	_	_
-
-1	Чааскаан	чааскаан	_	adv	_	2	advmod	_	_
-2	болзумза	бол	_	v	iv|gna_cond|p1|sg	4	advcl	_	_
-3	аас-кежиим	аас-кежик	_	n	px1sg|nom	4	nsubj	_	_
+# sent_id = grammar.104.iii.vislcg.txt:1:0
+# text = Чааскаан болзумза аас-кежиим кайдал?
+1	Чааскаан	чааскаан	ADV	adv	_	2	advmod	_	_
+2	болзумза	бол	VERB	v	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	4	advcl	_	_
+3	аас-кежиим	аас-кежик	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 4-6	кайдал	_	_	_	_	_	_	_	_
-4	_	кайда	_	adv	itg	0	root	_	_
-5	_	ыл	_	qst	_	4	disc	_	_
-6	_	э	_	cop	aor|p3|sg	4	cop	_	_
-7	?	?	_	sent	_	4	punct	_	_
+4	кайда	кайда	ADV	adv	PronType=Int	0	root	_	_
+5	л	ыл	PART	qst	_	4	disc	_	_
+6	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	4	cop	_	_
+7	?	?	PUNCT	sent	_	4	punct	_	_
 
-1	Ашкаң	ашка	_	n	px2sg|nom	2	nsubj	_	_
-2	четсе	чет	_	v	tv|gna_cond|p3|sg	5	advcl	_	_
-3	,	,	_	cm	_	2	punct	_	_
-4	чемден	чем	_	n	abl	5	dobj	_	_
-5	садып	сат	_	v	tv|prc_perf	0	root	_	_
-6	ал	ал	_	vaux	imp|p2|sg	5	aux	_	_
-7	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.104.i.vislcg.txt:1:0
+# text = Ашкаң четсе, чемден садып ал.
+1	Ашкаң	ашка	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=2	2	nsubj	_	_
+2	четсе	чет	VERB	v	Mood=Cnd|Number=Sing|Person=3|VerbForm=Conv	5	advcl	_	_
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	чемден	чем	NOUN	n	Case=Abl	5	dobj	_	_
+5	садып	сат	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+6	ал	ал	AUX	vaux	Mood=Imp|Number=Sing|Person=2	5	aux	_	_
+7	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	2	nsubj	_	_
-2	аныяк	аныяк	_	adj	_	6	advcl	_	_
-3	-таа	даа	_	mod	_	2	disc	_	_
-4	болзумза	бол	_	v	iv|gna_cond|p1|sg	2	cop	_	_
-5	ол кижини	ол кижи	_	prn	pers|p3|sg|acc	6	dobj	_	_
-6	таныыр мен	таны	_	v	tv|aor|p1|sg	0	root	_	_
-7	.	.	_	sent	_	6	punct	_	_
+# sent_id = grammar.108.i.vislcg.txt:1:0
+# text = Мен аныяк -таа болзумза ол кижини таныыр мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	аныяк	аныяк	ADJ	adj	_	7	advcl	_	_
+3	-таа	даа	PART	mod	_	2	disc	_	_
+4	болзумза	бол	VERB	v	Mood=Cnd|Number=Sing|Person=1|VerbForm=Conv	2	cop	_	_
+5	ол	ол	X	x	_	6	dep	_	_
+6	кижини	кижи	PRON	prn	Case=Acc|Number=Sing|Person=3|PronType=Prs	7	dobj	_	_
+7	таныыр мен	таны	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+8	.	.	PUNCT	sent	_	7	punct	_	_
 
-1	Мөнгүн-Тайгага	Мөнгүн-Тайга	_	np	top|dat	3	nmod	_	_
-2	сарлык	сарлык	_	n	nom	3	dobj	_	_
-3	көргендир мен	көр	_	v	tv|past|evid|p1|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.112.viii.vislcg.txt:1:0
+# text = Мөнгүн-Тайгага сарлык көргендир мен.
+1	Мөнгүн-Тайгага	Мөнгүн-Тайга	PROPN	np	Case=Dat	3	nmod	_	_
+2	сарлык	сарлык	NOUN	n	Case=Nom	3	dobj	_	_
+3	көргендир мен	көр	VERB	v	Evident=Fh|Number=Sing|Person=1|Tense=Past	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Сен	сен	_	prn	pers|p2|sg|nom	3	nsubj	_	_
-2	клубче	клуб	_	n	all	3	nmod	_	_
-3	барбааныңда	бар	_	v	iv|neg|ger_past|px2sg|loc	8	advcl	_	_
-4	,	,	_	cm	_	3	punct	_	_
-5	мен	мен	_	prn	pers|p1|sg|nom	8	nsubj	_	_
-6	база	база	_	adv	_	8	advmod	_	_
-7	бажыңга	бажың	_	n	dat	8	nmod	_	_
-8	олурайн	олур	_	v	iv|imp|p1|sg	0	root	_	_
-9	.	.	_	sent	_	8	punct	_	_
+# sent_id = grammar.116.ii.vislcg.txt:1:0
+# text = Сен клубче барбааныңда, мен база бажыңга олурайн.
+1	Сен	сен	PRON	prn	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	клубче	клуб	NOUN	n	_	3	nmod	_	_
+3	барбааныңда	бар	VERB	v	Case=Loc|Number[psor]=Sing|Person[psor]=2|Polarity=Neg|Tense=Past|VerbForm=Ger	8	advcl	_	_
+4	,	,	PUNCT	cm	_	3	punct	_	_
+5	мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	база	база	ADV	adv	_	8	advmod	_	_
+7	бажыңга	бажың	NOUN	n	Case=Dat	8	nmod	_	_
+8	олурайн	олур	VERB	v	Mood=Imp|Number=Sing|Person=1	0	root	_	_
+9	.	.	PUNCT	sent	_	8	punct	_	_
 
-1	Ажылдап	ажылда	_	v	tv|prc_perf	3	acl	_	_
-2	турар	тур	_	vaux	gpr_aor	1	aux	_	_
-3	машинага	машина	_	n	dat	4	dobj	_	_
-4	дегбе	дег	_	v	tv|neg|imp|p2|sg	0	root	_	_
-5	!	!	_	sent	_	4	punct	_	_
+# sent_id = grammar.122.iii.vislcg.txt:1:0
+# text = Ажылдап турар машинага дегбе!
+1	Ажылдап	ажылда	VERB	v	Aspect=Perf|VerbForm=Cov	3	acl	_	_
+2	турар	тур	AUX	vaux	_	1	aux	_	_
+3	машинага	машина	NOUN	n	Case=Dat	4	dobj	_	_
+4	дегбе	дег	VERB	v	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	0	root	_	_
+5	!	!	PUNCT	sent	_	4	punct	_	_
 
-1	Номчуваан мен	номчу	_	v	tv|neg|past|p1|sg	0	root	_	_
-2	.	.	_	sent	_	1	punct	_	_
+# sent_id = grammar.122.i.vislcg.txt:1:0
+# text = Номчуваан мен.
+1	Номчуваан мен	номчу	VERB	v	Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	_
+2	.	.	PUNCT	sent	_	1	punct	_	_
 
-1	Кижи	кижи	_	n	nom	2	nsubj	_	_
-2	келгеш	кел	_	v	iv|gna_past	5	advcl	_	_
-3	,	,	_	cm	_	2	punct	_	_
-4	мен	мен	_	prn	pers|p1|sg|nom	5	nsubj	_	_
-5	ынаар	ына	_	v	iv|prc_aor	0	root	_	_
-6	барып	бар	_	vaux	prc_perf	5	aux	_	_
-7	албадым	ал	_	vaux	neg|ifi|p1|sg	6	aux	_	_
-8	.	.	_	sent	_	5	punct	_	_
+# sent_id = grammar.122.iv.vislcg.txt:1:0
+# text = Кижи келгеш, мен ынаар барып албадым.
+1	Кижи	кижи	NOUN	n	Case=Nom	2	nsubj	_	_
+2	келгеш	кел	VERB	v	_	5	advcl	_	_
+3	,	,	PUNCT	cm	_	2	punct	_	_
+4	мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	ынаар	ына	VERB	v	_	0	root	_	_
+6	барып	бар	AUX	vaux	Aspect=Perf|VerbForm=Cov	5	aux	_	_
+7	албадым	ал	AUX	vaux	Number=Sing|Person=1|Polarity=Neg|Tense=Past	6	aux	_	_
+8	.	.	PUNCT	sent	_	5	punct	_	_
 
-1	Мал	мал	_	n	nom	2	dobj	_	_
-2	кадарып	кадар	_	v	tv|prc_perf	4	x	_	_
-3	чорааш	чору	_	vaux	gna_past	2	aux	_	_
-4	удуп	уду	_	v	iv|prc_perf	0	root	_	_
-5	болбас	бол	_	vaux	neg|aor|p3|sg	4	aux	_	_
-6	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.123.ii.vislcg.txt:1:0
+# text = Мал кадарып чорааш удуп болбас.
+1	Мал	мал	NOUN	n	Case=Nom	2	dobj	_	_
+2	кадарып	кадар	VERB	v	Aspect=Perf|VerbForm=Cov	4	x	_	_
+3	чорааш	чору	AUX	vaux	_	2	aux	_	_
+4	удуп	уду	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+5	болбас	бол	AUX	vaux	Number=Sing|Person=3|Polarity=Neg|Tense=Aor	4	aux	_	_
+6	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Авам	ава	_	n	px1sg|nom	3	nsubj	_	_
-2	бажыңга	бажың	_	n	dat	3	nmod	_	_
-3	турбас	тур	_	v	iv|neg|aor|p3|sg	0	root	_	_
-4	.	.	_	sent	_	3	punct	_	_
+# sent_id = grammar.123.iv.vislcg.txt:1:0
+# text = Авам бажыңга турбас.
+1	Авам	ава	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+2	бажыңга	бажың	NOUN	n	Case=Dat	3	nmod	_	_
+3	турбас	тур	VERB	v	Number=Sing|Person=3|Polarity=Neg|Tense=Aor	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Олар	олар	_	prn	pers|p3|pl|nom	5	nsubj	_	_
-2	чоруй	чору	_	v	iv|prc_impf	5	advcl	_	_
-3	барган	бар	_	vaux	past|p3|sg	2	aux	_	_
-4	төлээде	төлээде	_	cnjadv	_	2	mark	_	_
-5	далашпайн	далаш	_	v	iv|neg|prc_past	0	root	_	_
-6	барып	бар	_	v	iv|prc_perf	5	root	_	_
-7	болур	бол	_	vaux	iv|prc_aor	6	aux	_	_
-8	турган	тур	_	vaux	past|p3|sg	7	aux	_	_
-9	.	.	_	sent	_	6	punct	_	_
+# sent_id = grammar.124.ii.vislcg.txt:1:0
+# text = Олар чоруй барган төлээде далашпайн барып болур турган.
+1	Олар	олар	PRON	prn	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	чоруй	чору	VERB	v	Aspect=Imp|VerbForm=Cov	5	advcl	_	_
+3	барган	бар	AUX	vaux	Number=Sing|Person=3|Tense=Past	2	aux	_	_
+4	төлээде	төлээде	SCONJ	cnjadv	_	2	mark	_	_
+5	далашпайн	далаш	VERB	v	Polarity=Neg	0	root	_	_
+6	барып	бар	VERB	v	Aspect=Perf|VerbForm=Cov	5	root	_	_
+7	болур	бол	AUX	vaux	_	6	aux	_	_
+8	турган	тур	AUX	vaux	Number=Sing|Person=3|Tense=Past	7	aux	_	_
+9	.	.	PUNCT	sent	_	6	punct	_	_
 
-1	Уранмаа	Уранмаа	_	np	ant|f|nom	6	nsubj	_	_
-2	класс	класс	_	n	nom	3	nmod:poss	_	_
-3	эжинге	эш	_	n	px3sp|dat	6	nmod	_	_
-4	дидим	дидим	_	adj	_	6	advcl	_	_
-5	эвес	э	_	cop	neg|gna_aor	4	cop	_	_
-6	кылаштап	кылашта	_	v	iv|prc_perf	0	root	_	_
-7	чеде	чет	_	vaux	prc_impf	6	aux	_	_
-8	берген	бер	_	vaux	past|p3|sg	7	aux	_	_
-9	.	.	_	sent	_	6	punct	_	_
+# sent_id = grammar.125.i.vislcg.txt:1:0
+# text = Уранмаа класс эжинге дидим эвес кылаштап чеде берген.
+1	Уранмаа	Уранмаа	PROPN	np	Case=Nom|Gender=Fem	6	nsubj	_	_
+2	класс	класс	NOUN	n	Case=Nom	3	nmod:poss	_	_
+3	эжинге	эш	NOUN	n	Case=Dat|Number[psor]=Plur,Sing|Person[psor]=3	6	nmod	_	_
+4	дидим	дидим	ADJ	adj	_	6	advcl	_	_
+5	эвес	э	AUX	cop	Polarity=Neg	4	cop	_	_
+6	кылаштап	кылашта	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+7	чеде	чет	AUX	vaux	Aspect=Imp|VerbForm=Cov	6	aux	_	_
+8	берген	бер	AUX	vaux	Number=Sing|Person=3|Tense=Past	7	aux	_	_
+9	.	.	PUNCT	sent	_	6	punct	_	_
 
-1	Авам	ава	_	n	px1sg|nom	3	nsubj	_	_
-2	бажыңда	бажың	_	n	loc	3	nmod	_	_
+# sent_id = grammar.126.iii.vislcg.txt:1:0
+# text = Авам бажыңда чок.
+1	Авам	ава	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
+2	бажыңда	бажың	NOUN	n	Case=Loc	3	nmod	_	_
 3-4	чок	_	_	_	_	_	_	_	_
-3	_	чок	_	adj	_	0	root	_	_
-4	_	э	_	cop	aor|p3|sg	3	cop	_	_
-5	.	.	_	sent	_	3	punct	_	_
+3	чок	чок	ADJ	adj	_	0	root	_	_
+4	_	э	AUX	cop	Number=Sing|Person=3|Tense=Aor	3	cop	_	_
+5	.	.	PUNCT	sent	_	3	punct	_	_
 
-1	Сигеннеп	сигенне	_	v	tv|prc_perf	0	root	_	_
-2	кааптывыс	каг	_	vaux	ppi|p1|pl	1	aux	_	_
-3	.	.	_	sent	_	1	punct	_	_
+# sent_id = grammar.129.iii.vislcg.txt:1:0
+# text = Сигеннеп кааптывыс.
+1	Сигеннеп	сигенне	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+2	кааптывыс	каг	AUX	vaux	Number=Plur|Person=1	1	aux	_	_
+3	.	.	PUNCT	sent	_	1	punct	_	_
 
-1	Инек	инек	_	n	nom	2	dobj	_	_
-2	саап	саг	_	v	tv|prc_perf	0	root	_	_
-3	тур мен	тур	_	vaux	aor|p1|sg	2	aux	_	_
-4	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.129.ii.vislcg.txt:1:0
+# text = Инек саап тур мен.
+1	Инек	инек	NOUN	n	Case=Nom	2	dobj	_	_
+2	саап	саг	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+3	тур мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	2	aux	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Дүрген	дүрген	_	adv	_	2	advmod	_	_
-2	халып	халы	_	v	iv|prc_perf	0	root	_	_
-3	тур мен	тур	_	vaux	aor|p1|sg	2	aux	_	_
-4	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.129.i.vislcg.txt:1:0
+# text = Дүрген халып тур мен.
+1	Дүрген	дүрген	ADV	adv	_	2	advmod	_	_
+2	халып	халы	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+3	тур мен	тур	AUX	vaux	Number=Sing|Person=1|Tense=Aor	2	aux	_	_
+4	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Чаштар	чаш	_	n	pl|nom	2	nsubj	_	_
-2	удуп	уду	_	v	iv|gna_perf	4	advcl	_	_
-3	,	,	_	cm	_	2	punct	_	_
-4	дыштанзыннар	дыштан	_	v	iv|imp|p3|pl	0	root	_	_
-5	.	.	_	sent	_	4	punct	_	_
+# sent_id = grammar.130.i.vislcg.txt:1:0
+# text = Чаштар, дыштанзыннар.
+1	Чаштар	чаш	NOUN	n	Case=Nom|Number=Plur	2	nsubj	_	_
+2	,	,	PUNCT	cm	_	2	punct	_	_
+3	дыштанзыннар	дыштан	VERB	v	Mood=Imp|Number=Plur|Person=3	0	root	_	_
+4	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	2	nsubj	_	_
-2	артыр-дыр мен	арт	_	v	iv|aor|evid|p1|sg	0	root	_	_
-3	.	.	_	sent	_	2	punct	_	_
+# sent_id = grammar.200.ii.vislcg.txt:1:0
+# text = Өөредилгем дооскужемче маңаа чурттаар мен.
+1	Өөредилгем	өөредилге	NOUN	n	Case=Nom|Number[psor]=Sing|Person[psor]=1	2	dobj	_	_
+2	дооскужемче	доос	VERB	v	Number=Sing|Person=1	3	advcl	_	_
+3	маңаа	бо	PRON	prn	Case=Dat|PronType=Dem	4	nmod	_	_
+4	чурттаар мен	чуртта	VERB	v	Number=Sing|Person=1|Tense=Aor	0	root	_	_
+5	.	.	PUNCT	sent	_	4	punct	_	_
 
-1	Мен	мен	_	prn	pers|p1|sg|nom	0	nsubj	_	_
-2	-дир мен	э	_	cop	aor|evid|p1|sg	1	cop	_	_
-3	.	.	_	sent	_	1	punct	_	_
+# sent_id = grammar.246.ii.vislcg.txt:1:0
+# text = Мен артыр-дыр мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	артыр-дыр мен	арт	VERB	v	Evident=Fh|Number=Sing|Person=1|Tense=Aor	0	root	_	_
+3	.	.	PUNCT	sent	_	2	punct	_	_
 
-1	Олуруп	олур	_	v	iv|prc_perf	0	root	_	_
-2	ап	ал	_	vaux	prc_perf	1	aux	_	_
-3	болур мен	бол	_	v	iv|aor|p1|sg	1	aux	_	_
-4	бе	бе	_	qst	_	1	disc	_	_
-5	?	?	_	sent	_	1	punct	_	_
+# sent_id = grammar.246.i.vislcg.txt:1:0
+# text = Мен -дир мен.
+1	Мен	мен	PRON	prn	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	nsubj	_	_
+2	-дир мен	э	AUX	cop	Evident=Fh|Number=Sing|Person=1|Tense=Aor	1	cop	_	_
+3	.	.	PUNCT	sent	_	1	punct	_	_
 
-1	Кызылдың	Кызыл	_	np	top|gen	2	nmod:poss	_	_
-2	автобузу	автобус	_	n	px3sp|nom	5	nsubj	_	_
-3	беш	беш	_	num	_	4	nummod	_	_
-4	шакта	шак	_	n	loc	5	nmod	_	_
-5	келир	кел	_	v	iv|aor|p3|sg	0	root	_	_
-6	ышкажыл	ышкажыл	_	emph	_	5	disc	_	_
-7	але	але	_	qst	_	5	disc	_	_
-8	?	?	_	sent	_	5	punct	_	_
+# sent_id = grammar.247.i.vislcg.txt:1:0
+# text = Олуруп ап болур мен бе?
+1	Олуруп	олур	VERB	v	Aspect=Perf|VerbForm=Cov	0	root	_	_
+2	ап	ал	AUX	vaux	Aspect=Perf|VerbForm=Cov	1	aux	_	_
+3	болур мен	бол	VERB	v	Number=Sing|Person=1|Tense=Aor	1	aux	_	_
+4	бе	бе	PART	qst	_	1	disc	_	_
+5	?	?	PUNCT	sent	_	1	punct	_	_
+
+# sent_id = grammar.248.i.vislcg.txt:1:0
+# text = Кызылдың автобузу беш шакта келир ышкажыл але?
+1	Кызылдың	Кызыл	PROPN	np	Case=Gen	2	nmod:poss	_	_
+2	автобузу	автобус	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	5	nsubj	_	_
+3	беш	беш	NUM	num	_	4	nummod	_	_
+4	шакта	шак	NOUN	n	Case=Loc	5	nmod	_	_
+5	келир	кел	VERB	v	Number=Sing|Person=3|Tense=Aor	0	root	_	_
+6	ышкажыл	ышкажыл	PART	emph	_	5	disc	_	_
+7	але	але	PART	qst	_	5	disc	_	_
+8	?	?	PUNCT	sent	_	5	punct	_	_
+

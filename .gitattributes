@@ -42,9 +42,12 @@ tests/run-twol-pairtests.sh -text
 tests/st.yaml -text
 tests/verbs.yaml -text
 texts/aj.tyv.txt -text svneol=unset#application/octet-stream
+texts/akustika.tyv.txt -text svneol=unset#application/octet-stream
 texts/grammar.tyv.txt -text
 texts/kartofel.tyv.txt -text svneol=unset#application/octet-stream
+texts/kyzyl.tyv.txt -text svneol=unset#application/octet-stream
 texts/makroekonomika.tyv.txt -text svneol=unset#application/octet-stream
+texts/meteorit.tyv.txt -text svneol=unset#application/octet-stream
 texts/puupankki/puupankki.tyv.conllu -text
 texts/puupankki/puupankki.tyv.conllx -text
 texts/tagged/grammar.014.i.vislcg.txt -text
@@ -71,5 +74,7 @@ texts/tagged/grammar.144.i.vislcg.txt -text
 texts/tagged/grammar.200.i.vislcg.txt -text
 texts/tagged/grammar.204.i.vislcg.txt -text
 texts/tagged/grammar.xxx.i.vislcg.txt -text
+texts/tyv-feats.tsv -text
 texts/udhr.tyv.txt -text svneol=unset#application/octet-stream
+texts/venera.tyv.txt -text svneol=unset#application/octet-stream
 /tyv.prob -text svneol=unset#unset
