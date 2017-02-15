@@ -6,7 +6,7 @@
 	"бүгү" det qnt @det #2->3
 ;	"бүгү" prn qnt nom
 "<чүвени>"
-	"чүве" n acc @dobj #3->7
+	"чүве" n acc @obj #3->7
 "<сээң>"
 	"сен" prn pers p2 sg gen @nmod #4->5
 "<чугаалааның>"

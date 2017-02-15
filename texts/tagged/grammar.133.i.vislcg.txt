@@ -16,7 +16,7 @@
 "<орукка>"
 	"орук" n dat @nmod #4->6
 "<хойну>"
-	"хой" n acc @dobj→ #5->6
+	"хой" n acc @obj→ #5->6
 "<көрдүм>"
 	"көр" v tv ifi p1 sg @fmv #6->0
 ;	"көр" vaux ifi p1 sg

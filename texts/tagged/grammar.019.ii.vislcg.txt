@@ -1,11 +1,11 @@
 "<Мартан-оол>"
 	"Мартан-оол" np ant m nom @nsubj #1->8
 "<март>"
-	"март" n attr @cmpnd #2->3
+	"март" n attr @compound #2->3
 "<айдан>"
 	"ай" n abl @nmod #3->8
 "<сентябрь>"
-	"сентябрь" n attr @cmpnd #4->5
+	"сентябрь" n attr @compound #4->5
 "<айга>"
 	"ай" n dat @nmod #5->8
 "<чедир>"
