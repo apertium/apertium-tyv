@@ -1031,9 +1031,9 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
-LEXICON CS
-
-%<cnjsub%>: # ;
+!LEXICON CS
+!
+!%<cnjsub%>: # ;
 
 
 LEXICON CA
@@ -1062,14 +1062,14 @@ LEXICON ABBR-KG
 %<abbr%>%<abl%>:%>%-ден # ; ! Dir/LR
 %<abbr%>%<abl%>:%>%-дан # ; 
 
-LEXICON ABBR-KM
-
-%<abbr%>: CLIT-COP ;
-%<abbr%>%<dat%>:%>%-ге # ; 
-%<abbr%>%<dat%>:%>%-га # ; ! Dir/LR
-%<abbr%>%<abl%>:%>%-ден # ; 
-%<abbr%>%<abl%>:%>%-дан # ; ! Dir/LR
-
+!LEXICON ABBR-KM
+!
+!%<abbr%>: CLIT-COP ;
+!%<abbr%>%<dat%>:%>%-ге # ; 
+!%<abbr%>%<dat%>:%>%-га # ; ! Dir/LR
+!%<abbr%>%<abl%>:%>%-ден # ; 
+!%<abbr%>%<abl%>:%>%-дан # ; ! Dir/LR
+!
 
 LEXICON ABBR
 
