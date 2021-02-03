@@ -156,11 +156,30 @@ Tests:
    ал<v><tv><imp><p1><du> : алыылы
    кел<v><tv><imp><p1><du> : келийн
 
- "Imperative -Aйн":
-   кел<v><iv><imp><p1><sg>: келийн
+ "Imperative -Iйн":
+   кел<v><iv><imp><p1><sg> : келийн
+   номчу<v><tv><imp><p1><sg> : номчууйн
+   ал<v><tv><imp><p1><sg> : алыйн
+   кыл<v><tv><imp><p1><sg> : кылыйн
+
+ "Negative imperatives -BA-Iйн":
+   ал<v><tv><neg><imp><p1><sg> : албайн
+   исте<v><tv><neg><imp><p1><sg> : истевейн
+
+ "Imperative -Айн":
+   көр<vaux><imp><p1><sg> : көрейн
+   көр<v><tv><imp><p1><sg> : көрейн
+   бер<vaux><imp><p1><sg> : берейн
+   бер<v><tv><imp><p1><sg> : берейн
+   бар<v><iv><imp><p1><sg> : барайн
+   тур<v><iv><imp><p1><sg> : турайн
+   чет<v><tv><imp><p1><sg> : чедейн
+   көргүс<v><tv><imp><p1><sg> : көргүзейн
+   четтир<v><tv><imp><p1><sg> : четтирейн
+   чорут<v><tv><imp><p1><sg> : чорудайн
 
  "Imperative -AAлIңAр":
-   кел<v><tv><imp><p1><pl> : келиилиңер
+   кел<v><iv><imp><p1><pl> : келиилиңер
 
  "Imperative -IңAр":
    бер<v><tv><imp><p2><pl> : бериңер
