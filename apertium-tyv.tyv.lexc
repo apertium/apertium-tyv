@@ -568,7 +568,7 @@ LEXICON V-PERS-S1
 %<p1%>%<pl%>:%>% бис # ; 
 %<p2%>%<pl%>:%>% силер # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}р # ; 
-%<p3%>%<pl%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR
+!%<p3%>%<pl%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR  FIXME: where is this even from?
 
 LEXICON V-PERS-S2
 
@@ -578,7 +578,7 @@ LEXICON V-PERS-S2
 %<p1%>%<pl%>:%>%{i%}в%{I%}с # ; 
 %<p2%>%<pl%>:%>%{i%}ң%{A%}р # ; 
 %<p3%>%<pl%>:%>%{L%}%{A%}р # ; 
-%<p3%>%<pl%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR
+!%<p3%>%<pl%>:%>%{L%}%{A%}рл%{A%}р # ; ! Dir/LR  FIXME: where is this even from?
 
 LEXICON V-PERS-COND
 
