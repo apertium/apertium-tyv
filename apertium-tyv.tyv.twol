@@ -164,7 +164,7 @@ Cx:Cy <=> [ :Vow (:р) ]/:0* _ %>: :Vow/:0* ;
         :Vow/:0* (:ъ) _ %{y%}:Vow/:0* ; ! also do before realised epenthetic vowel stem internally
         [ :Vow [ р: | л: ] %{y%}:0 ]/[ :0 - %{y%}:0 ]* _ %>: :Vow/:0* ; ! also do after р, but NOT й
     except
-        с: _ (ь:) %>: ;            ! always 0
+        с:/:0 _ (ь:) %>: ;            ! always 0
         _ %{❗%}: ;
 
 !@ б е т {❗}:0 >:0 {z}:0 {I}:и {n}:0
@@ -405,6 +405,7 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
              [ :Vx с:0 ]/[ :0 - с: ]* _ ;
              [ AbstractVow:0 :Cns* ]/[ :%- | :0 - AbstractVow: ]* _ ;
              [ :BackVow :Cns* :Cns :л ь:0 ]/[ :0 - [ ь: | т: ] ]* _ ;   ! always и
+             %{B%}: %{A%}: %>: _ ;
              ! [ :BackVow :Cns* :Cns ь: ]/[ :0 - ь: ]* _ ;
          where Vx in ( ү и е э ө а о ы у я ё ю ) ! FIXME: CHECK о ө ё
                Vy in ( ү и э э ө а о ы у а о у )
@@ -467,9 +468,10 @@ Cx:Cy <=> ! :VoicelessCns/[ %>: | %  | %{☭%}:0 | %{ъ%}:0 ]* _ ;   ! why defin
 "{i} deletion after {л}:0 in алып only"
 %{i%}:0 <=> .#. :а %{л%}:0 %>: _ :п .#. ;
 
-"{I} deletion after long vowels"
+"{I} deletion after long vowels and {B}{A}?"
 %{I%}:0 <=> [ :Vow :RealVow ]/:0* _ ;
             .#. ч: о: %{р%}:0 %>: _ р: ;
+            %{B%}: %{A%}: %>: _ ;
             ! %{р%}:0/:0 _ р: ;
         except
             [ :Vow Velars:0 ]/[ :0 - Velars: ]* _ ;

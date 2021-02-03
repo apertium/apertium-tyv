@@ -626,7 +626,17 @@ LEXICON V-FINITE-REGULAR_NEGATIVE
 
 %<ppi%>:%>%{i%}пт%{I%} V-PERS-S2 ; ! 
 
+LEXICON V-NONFINITE-REGULAR_NEGATIVE-AR
+
+V-NONFINITE-REGULAR_NEGATIVE-COMMON;
+IMPERATIVE-AR;
+
 LEXICON V-NONFINITE-REGULAR_NEGATIVE
+
+V-NONFINITE-REGULAR_NEGATIVE-COMMON;
+IMPERATIVE;
+
+LEXICON V-NONFINITE-REGULAR_NEGATIVE-COMMON
 
 %<gpr_past%>:%>%{g%}%{A%}н # ; 
 %<gpr_like%>:%>%{g%}%{A%}нз%{I%}г # ; 
@@ -649,7 +659,10 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<perf%>%<gna_perf%>:%>%{i%}п%>%{g%}%{A%}ш # ;  ! FIXME: check
 %<gna_lim%>:%>%{G%}%{I%}же V-PERS-LIM ; 
 
-! Imperative
+! p. 48: 2.2.1.2.3.3
+%<opt%>:%>%{G%}%{A%}й V-PERS-S1 ; 
+
+LEXICON IMPERATIVE-AR
 
 %<imp%>%<p2%>%<sg%>: CLIT-IMPER ;
 %<imp%>%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;
@@ -661,8 +674,18 @@ LEXICON V-NONFINITE-REGULAR_NEGATIVE
 %<imp%>%<p3%>%<sg%>:%>%{Z%}%{I%}н # ; 
 %<imp%>%<p3%>%<pl%>:%>%{Z%}%{I%}нн%{A%}р # ; 
 
-! p. 48: 2.2.1.2.3.3
-%<opt%>:%>%{G%}%{A%}й V-PERS-S1 ; 
+LEXICON IMPERATIVE
+
+%<imp%>%<p2%>%<sg%>: CLIT-IMPER ;
+%<imp%>%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;
+
+! FIXME: Check these, <opt> in kaz.
+! In tyv we can't call them opt, because that's taken by GAй forms
+%<imp%>%<p1%>%<sg%>:%>%{I%}йн # ;                  ! алыйн
+%<imp%>%<p1%>%<du%>:%>%{i%}%{I%}л%{I%} # ;         ! алыылы
+%<imp%>%<p1%>%<pl%>:%>%{i%}%{I%}л%{I%}ң%{A%}р # ;
+%<imp%>%<p3%>%<sg%>:%>%{Z%}%{I%}н # ; 
+%<imp%>%<p3%>%<pl%>:%>%{Z%}%{I%}нн%{A%}р # ; 
 
 LEXICON V-NONFINITE-IRREGULAR_NEGATIVE-AR
 
@@ -704,8 +727,8 @@ V-FINITE-IRREGULAR_NEGATIVE-AR ;
 V-FINITE-REGULAR_NEGATIVE ;
 %<neg%>:%>%{B%}%{A%} V-FINITE-REGULAR_NEGATIVE ;
 
-V-NONFINITE-REGULAR_NEGATIVE ;
-%<neg%>:%>%{B%}%{A%} V-NONFINITE-REGULAR_NEGATIVE ;
+V-NONFINITE-REGULAR_NEGATIVE-AR ;
+%<neg%>:%>%{B%}%{A%} V-NONFINITE-REGULAR_NEGATIVE ;  ! Yes, this should probably stay like this, without -AR; negative forms are not specified either way
 
 V-NONFINITE-IRREGULAR_NEGATIVE-AR ;
 
@@ -11925,14 +11948,14 @@ LEXICON Verbs
 
 ал:ал VAUX-IR ; ! ""             ! аар
 ал:а%{л%} VAUX-IR ; ! ""         ! аар ! Dir/LR ! FIXME: make LR if having this secondary is right
-бар:ба%{р%} VAUX-IR ; ! ""       ! баар
-бер:бе%{р%} VAUX-IR ; ! ""       ! бээр
+бар:ба%{р%} VAUX-AR ; ! ""       ! баар
+бер:бе%{р%} VAUX-AR ; ! ""       ! бээр
 чыт:чыт VAUX-AR ; ! ""           ! чыдар
 чор:чо%{р%} VAUX-IR ; ! ""       ! чор ! FIXME: CHECK
 чору:чору VAUX-IR ; ! ""         ! чоруур
 эгеле:эгеле VAUX-IR ; ! ""
 каг:каг VAUX-AR ; ! ""           ! каар
-көр:кө%{р%} VAUX-IR ; ! ""       ! көөр
+көр:кө%{р%} VAUX-AR ; ! ""       ! көөр
 олур:олур VAUX-AR ; ! ""         ! оор ! FIXME: CHECK
 тур:тур VAUX-AR ; ! ""           ! турар
 
@@ -11978,9 +12001,10 @@ LEXICON Verbs
 
 болу% бер:болу% бер V-IV ; ! "произходить"
 
-көр:кө%{р%} V-TV ; ! "see"
-бер:бе%{р%} V-TV ; ! "give"
-бар:ба%{р%} V-IV ; ! "go"
+! FIXME: CHECK whether AR or IR (cf. көрейн, берейн, барайн)
+көр:кө%{р%} V-TV-AR ; ! "see"
+бер:бе%{р%} V-TV-AR ; ! "give"
+бар:ба%{р%} V-IV-AR ; ! "go"
 ! FIXME: Both stems valid (?)
 чор:чо%{р%} V-IV ; ! "идти, ехать"
 чору:чору V-IV ; ! "идти, ехать" 
