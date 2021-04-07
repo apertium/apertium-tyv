@@ -13587,7 +13587,7 @@ LEXICON NP-UNK
 
 LEXICON GUESS-QUEUE
 
-<(a | b | c | d | e | f | g | h | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | ä | ö | ü | ï | š | č | ı | î | á | ŋ | ç | ş | ğ | é | í | ó | ú | ð | â | ā | ã | ǔ | ū | ō )+> NP-UNK ;
+<[ a | b | c | d | e | f | g | h | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z | ä | ö | ü | ï | š | č | ı | î | á | ŋ | ç | ş | ğ | é | í | ó | ú | ð | â | ā | ã | ǔ | ū | ō ]+> NP-UNK ;
 
 LEXICON Guesser
 
