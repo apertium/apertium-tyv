@@ -1,0 +1,178 @@
+[-JvaqRV--HF2#0] ^6-дан/6<num><subst><abl>$
+[/-JvaqRV--HF2]
+[-V46Y6VqIGdv#0] ^8-ти/8<num><subst><acc>$
+[/-V46Y6VqIGdv]
+[-kgOb527JCJv#0] ^7-де/7<num><subst><loc>/7<num><subst><loc>+э<cop><aor><p3><sg>$
+[/-kgOb527JCJv]
+[0-AnOP9gsI3J#0] ^30/30<num>/30<num><subst><nom>$^-/-<guio>$^ин/*ин$
+[/0-AnOP9gsI3J]
+[1MMNML7kNzgC#0] ^200-тен/200<num><subst><abl>$
+[/1MMNML7kNzgC]
+[27jsGG6XdWWr#0] ^7-ден/7<num><subst><abl>$
+[/27jsGG6XdWWr]
+[2YoUhXw1soZl#0] ^17-ден/17<num><subst><abl>$
+[/2YoUhXw1soZl]
+[3dUmHruEfgPS#0] ^1/1<num>/1<num><subst><nom>$^-/-<guio>$^ниң/*ниң$
+[/3dUmHruEfgPS]
+[3hxHjCKGyeql#0] ^25-те/25<num><subst><loc>/25<num><subst><loc>+э<cop><aor><p3><sg>$
+[/3hxHjCKGyeql]
+[44bhMUtSzJAb#0] ^20-де/20<num><subst><loc>/20<num><subst><loc>+э<cop><aor><p3><sg>$
+[/44bhMUtSzJAb]
+[4klS8FkDu0ft#0] ^1-ден/1<num><subst><abl>$
+[/4klS8FkDu0ft]
+[5-P_0K_01bas#0] ^26/26<num>/26<num><subst><nom>$^-/-<guio>$^зы/*зы$
+[/5-P_0K_01bas]
+[569uSXGjOiy6#0] ^23-те/23<num><subst><loc>/23<num><subst><loc>+э<cop><aor><p3><sg>$
+[/569uSXGjOiy6]
+[5wj11Y6iyBfu#0] ^6-да/6<num><subst><loc>/6<num><subst><loc>+э<cop><aor><p3><sg>$
+[/5wj11Y6iyBfu]
+[65TCZJ4wDiQA#0] ^12/12<num>/12<num><subst><nom>$^-/-<guio>$^ни/*ни$
+[/65TCZJ4wDiQA]
+[6PNg2Zt8fb8f#0] ^21/21<num>/21<num><subst><nom>$^-/-<guio>$^ин/*ин$
+[/6PNg2Zt8fb8f]
+[6SZJwSUW-9ol#0] ^52-ге/52<num><subst><dat>$
+[/6SZJwSUW-9ol]
+[76arkkDZB0ZO#0] ^4-тен/4<num><subst><abl>$
+[/76arkkDZB0ZO]
+[7xhT8s5GLceb#0] ^14-те/14<num><subst><loc>/14<num><subst><loc>+э<cop><aor><p3><sg>$
+[/7xhT8s5GLceb]
+[8252_DBwcT2v#0] ^100-ке/100<num><subst><dat>$
+[/8252_DBwcT2v]
+[9Eebxhvuqxzm#0] ^11/11<num>/11<num><subst><nom>$^-/-<guio>$^ниң/*ниң$
+[/9Eebxhvuqxzm]
+[Ate-pUyf0alc#0] ^31-де/31<num><subst><loc>/31<num><subst><loc>+э<cop><aor><p3><sg>$
+[/Ate-pUyf0alc]
+[DPPN2muT-QxR#0] ^2/2<num>/2<num><subst><nom>$^-/-<guio>$^е/*е$
+[/DPPN2muT-QxR]
+[E7CcXph1dmkb#0] ^8-те/8<num><subst><loc>/8<num><subst><loc>+э<cop><aor><p3><sg>$
+[/E7CcXph1dmkb]
+[EMgOJ0rQAEwE#0] ^15-те/15<num><subst><loc>/15<num><subst><loc>+э<cop><aor><p3><sg>$
+[/EMgOJ0rQAEwE]
+[FUiEV2HSBU33#0] ^21-же/21<num><subst><all>$
+[/FUiEV2HSBU33]
+[G2u17B2hgfjB#0] ^9-та/9<num><subst><loc>/9<num><subst><loc>+э<cop><aor><p3><sg>$
+[/G2u17B2hgfjB]
+[GVg0a8SzCg_v#0] ^11-же/11<num><subst><all>$
+[/GVg0a8SzCg_v]
+[HuiWATNPgU7T#0] ^17-де/17<num><subst><loc>/17<num><subst><loc>+э<cop><aor><p3><sg>$
+[/HuiWATNPgU7T]
+[J6sWvoOU7l5-#0] ^5-те/5<num><subst><loc>/5<num><subst><loc>+э<cop><aor><p3><sg>$
+[/J6sWvoOU7l5-]
+[J8DSEO5qTAe5#0] ^19-та/19<num><subst><loc>/19<num><subst><loc>+э<cop><aor><p3><sg>$
+[/J8DSEO5qTAe5]
+[K2yOaa8Qr8KD#0] ^3-те/3<num><subst><loc>/3<num><subst><loc>+э<cop><aor><p3><sg>$
+[/K2yOaa8Qr8KD]
+[KI-kGvUPFzVm#0] ^14-ке/14<num><subst><dat>$
+[/KI-kGvUPFzVm]
+[KdgKPRZhAfhH#0] ^3-ке/3<num><subst><dat>$
+[/KdgKPRZhAfhH]
+[KeO7Nqu_3EvP#0] ^24-те/24<num><subst><loc>/24<num><subst><loc>+э<cop><aor><p3><sg>$
+[/KeO7Nqu_3EvP]
+[LKfBZuDu3fbv#0] ^16-да/16<num><subst><loc>/16<num><subst><loc>+э<cop><aor><p3><sg>$
+[/LKfBZuDu3fbv]
+[MJcpEm4hsKLu#0] ^3-тен/3<num><subst><abl>$
+[/MJcpEm4hsKLu]
+[MNyVnfnj5grB#0] ^50-ден/50<num><subst><abl>$
+[/MNyVnfnj5grB]
+[MskdJf5jFUDM#0] ^2014/2014<num>/2014<num><subst><nom>$^-/-<guio>$^түң/түң<n><nom>/түң<n><attr>/түң<n><nom>+э<cop><aor><p3><sg>$
+[/MskdJf5jFUDM]
+[NTSPr38HzwJe#0] ^100-тен/100<num><subst><abl>$
+[/NTSPr38HzwJe]
+[O7nA1FTPMWQH#0] ^14-тен/14<num><subst><abl>$
+[/O7nA1FTPMWQH]
+[OMDPVN8sAmn3#0] ^20-ден/20<num><subst><abl>$
+[/OMDPVN8sAmn3]
+[OTo5lZlw4oTt#0] ^17/17<num>/17<num><subst><nom>$^-/-<guio>$^ниң/*ниң$
+[/OTo5lZlw4oTt]
+[OdQzBIUSst90#0] ^13-те/13<num><subst><loc>/13<num><subst><loc>+э<cop><aor><p3><sg>$
+[/OdQzBIUSst90]
+[QlBXdFctPBsl#0] ^18-тиң/18<num><subst><gen>$
+[/QlBXdFctPBsl]
+[QxQAf1kDtcKO#0] ^22-де/22<num><subst><loc>/22<num><subst><loc>+э<cop><aor><p3><sg>$
+[/QxQAf1kDtcKO]
+[R4ZaDC2fB7h7#0] ^18-ке/18<num><subst><dat>$
+[/R4ZaDC2fB7h7]
+[SYbyJfCyj9ok#0] ^2-де/2<num><subst><loc>/2<num><subst><loc>+э<cop><aor><p3><sg>$
+[/SYbyJfCyj9ok]
+[SlDmqRQChgcu#0] ^29-та/29<num><subst><loc>/29<num><subst><loc>+э<cop><aor><p3><sg>$
+[/SlDmqRQChgcu]
+[SvIn-dk42QDj#0] ^12-де/12<num><subst><loc>/12<num><subst><loc>+э<cop><aor><p3><sg>$
+[/SvIn-dk42QDj]
+[TQC6CuiEcoIG#0] ^21-ге/21<num><subst><dat>$
+[/TQC6CuiEcoIG]
+[UX_uvsdrVzSk#0] ^10-га/10<num><subst><dat>$
+[/UX_uvsdrVzSk]
+[Ug3ncoKpRjSB#0] ^27-де/27<num><subst><loc>/27<num><subst><loc>+э<cop><aor><p3><sg>$
+[/Ug3ncoKpRjSB]
+[WBT_vFsL31vE#0] ^10-да/10<num><subst><loc>/10<num><subst><loc>+э<cop><aor><p3><sg>$
+[/WBT_vFsL31vE]
+[WlznSF75C5xo#0] ^28-те/28<num><subst><loc>/28<num><subst><loc>+э<cop><aor><p3><sg>$
+[/WlznSF75C5xo]
+[ZGVr1ZLau6mP#0] ^23-ке/23<num><subst><dat>$
+[/ZGVr1ZLau6mP]
+[ZV4eSCjihphh#0] ^1-ге/1<num><subst><dat>$
+[/ZV4eSCjihphh]
+[_CCF1F4pPz0M#0] ^8-тиң/8<num><subst><gen>$
+[/_CCF1F4pPz0M]
+[_qVMHB5DozI5#0] ^2-ден/2<num><subst><abl>$
+[/_qVMHB5DozI5]
+[aIOVEpsZgY0T#0] ^26-да/26<num><subst><loc>/26<num><subst><loc>+э<cop><aor><p3><sg>$
+[/aIOVEpsZgY0T]
+[bU2CHGDq8d4f#0] ^18-те/18<num><subst><loc>/18<num><subst><loc>+э<cop><aor><p3><sg>$
+[/bU2CHGDq8d4f]
+[bUPe2ogeas30#0] ^21-ден/21<num><subst><abl>$
+[/bUPe2ogeas30]
+[d9lsM_FfyYUQ#0] ^5-ки/5<num><ord>/5<num><ord><subst><nom>$
+[/d9lsM_FfyYUQ]
+[eTWjTqHgCPPw#0] ^4-ке/4<num><subst><dat>$
+[/eTWjTqHgCPPw]
+[fGUGyYjnCvji#0] ^30-де/30<num><subst><loc>/30<num><subst><loc>+э<cop><aor><p3><sg>$
+[/fGUGyYjnCvji]
+[fgO7CTIjH7no#0] ^1/1<num>/1<num><subst><nom>$^-/-<guio>$^ни/*ни$
+[/fgO7CTIjH7no]
+[g5903mNUbbXh#0] ^5-тен/5<num><subst><abl>$
+[/g5903mNUbbXh]
+[gGUvl-jGFZn0#0] ^62-ге/62<num><subst><dat>$
+[/gGUvl-jGFZn0]
+[gzabfuCcP0I-#0] ^11-де/11<num><subst><loc>/11<num><subst><loc>+э<cop><aor><p3><sg>$
+[/gzabfuCcP0I-]
+[hTyz7f0X0fL7#0] ^23-тен/23<num><subst><abl>$
+[/hTyz7f0X0fL7]
+[ivYZ7XSKAA9s#0] ^1-де/1<num><subst><loc>/1<num><subst><loc>+э<cop><aor><p3><sg>$
+[/ivYZ7XSKAA9s]
+[jmVwgjiWaZTT#0] ^19-ка/19<num><subst><dat>$
+[/jmVwgjiWaZTT]
+[mURnEhdCBdOd#0] ^21-де/21<num><subst><loc>/21<num><subst><loc>+э<cop><aor><p3><sg>$
+[/mURnEhdCBdOd]
+[nkyol7dh1goI#0] ^3/3<num>/3<num><subst><nom>$^-/-<guio>$^кү/*кү$
+[/nkyol7dh1goI]
+[o_7LfftJtsE8#0] ^9-тан/9<num><subst><abl>$
+[/o_7LfftJtsE8]
+[sg11nc2lK72n#0] ^24-тен/24<num><subst><abl>$
+[/sg11nc2lK72n]
+[t2QPw1rFc6c3#0] ^4-те/4<num><subst><loc>/4<num><subst><loc>+э<cop><aor><p3><sg>$
+[/t2QPw1rFc6c3]
+[tEhF2ZpLjFgp#0] ^31/31<num>/31<num><subst><nom>$^-/-<guio>$^ниң/*ниң$
+[/tEhF2ZpLjFgp]
+[tW5yEsP51MBZ#0] ^80/80<num>/80<num><subst><nom>$^-/-<guio>$^ниң/*ниң$
+[/tW5yEsP51MBZ]
+[ujX_iwy_4bZs#0] ^2014-ке/2014<num><subst><dat>$
+[/ujX_iwy_4bZs]
+[vovPa8yAxSyu#0] ^4/4<num>/4<num><subst><nom>$^-/-<guio>$^түң/түң<n><nom>/түң<n><attr>/түң<n><nom>+э<cop><aor><p3><sg>$
+[/vovPa8yAxSyu]
+[w_-wxeGrrqZc#0] ^30-ден/30<num><subst><abl>$
+[/w_-wxeGrrqZc]
+[x6Lfixl1Qajc#0] ^28-тен/28<num><subst><abl>$
+[/x6Lfixl1Qajc]
+[xmEvGBtt4dSp#0] ^15-ки/15<num><ord>/15<num><ord><subst><nom>$
+[/xmEvGBtt4dSp]
+[yiY5QUNaFfhu#0] ^6/6<num>/6<num><subst><nom>$^-/-<guio>$^ның/*ның$
+[/yiY5QUNaFfhu]
+[zPxPsLjZI_wX#0] ^12-ден/12<num><subst><abl>$
+[/zPxPsLjZI_wX]
+[zQj0YrkhzhnX#0] ^26/26<num>/26<num><subst><nom>$^-/-<guio>$^ның/*ның$
+[/zQj0YrkhzhnX]
+[zt_yOH3rPpla#0] ^16-дан/16<num><subst><abl>$
+[/zt_yOH3rPpla]
+[zvzGIc2bAF7a#0] ^3/3<num>/3<num><subst><nom>$^-/-<guio>$^ң/*ң$
+[/zvzGIc2bAF7a]

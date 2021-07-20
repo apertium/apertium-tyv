@@ -1,0 +1,925 @@
+[47DEQpj8HBSa#0] с о {ң}:0 >:0 {z}:0 {I}:о {n}:н >:0 {D}:д {A}:а PASSED
+
+ к а с:з >:0 {z}:0 {I}:ы PASSED
+
+ к и р {y}:0 ш:ж >:0 {i}:и п  PASSED
+
+ к и р {y}:0 ш:ж >:0 {I}:и р  PASSED
+
+ ө с к е р т >:0 {I}:и п PASSED
+
+ у ш:ж {y}:у л PASSED
+
+ к о н к у р с:з >:0 {z}:0 {I}:у {n}:н >:0 {G}:г {A}:а PASSED
+
+ ч у р т >:0 {z}:0 {I}:у {n}:0        PASSED
+
+ б е т {❗}:0 >:0 {z}:0 {I}:и {n}:0 PASSED
+
+ с о о к:г >:0 {z}:0 {I}:у {n}:0 PASSED
+
+ р ы н о к:г {☭}:0 >:0 {z}:0 {I}:у {n}:0 PASSED
+
+ я з ы - с ө ө к:г >:0 {z}:0 {I}:ү {n}:0 PASSED
+
+ с ө ө к:г >:0 {z}:0 {I}:ү {n}:0 PASSED
+
+ к:к ы:ы п:п {y}:0 с:с >:0 {i}:ы п:п PASSED
+
+Rule "Intervocalic voiced velar deletion" fails:
+#:0 э HERE ---> г:0 {I}:э р #:0 
+
+FAIL:  э г:0 {I}:э р REJECTED
+
+ ө к:г >:0 {i}:ү м PASSED
+
+ ө г:0 >:0 {i}:ө м PASSED
+
+ б е л е:э к:0 >:0 {i}:э м PASSED
+
+ б и л и:и к:0 >:0 {i}:и м PASSED
+
+ д у ж а а >:0 {g}:г {A}:а н PASSED
+
+ м е д а л ь >:0 {L}:д {A}:а р PASSED
+
+ д а г >:0 {L}:л {A}:а р PASSED
+
+Rule "(verb)stem vowel-final assimliation before {g} deletion  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "/к/ voicing intervocalically" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "/рк/ cluster to [рт]" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Abstract harmony for {I}  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Always realise {и} as и after ск" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Delete {и} at end of word and between с and most morphemes" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Deletion of {n} word finally" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Exceptional deletion of ң" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Fix е to э when it becomes first part of long vowel, e.g. in velar deletion" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Forward voicing assimilation  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Harmony of epenthesised vowel in some stems  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Harmony of extra {и} in some stems  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Harmony of yotted {y}" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic coronal fricative voicing at a morpheme boundary  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic voiced velar deletion" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic voiceless velar deletion" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic voicing of к at morpheme boundary in monosyllabic stems" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic voicing of п at a morpheme boundary" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic {G} deletion" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Intervocalic т voicing at a morpheme boundary" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "N Desonorisation" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Normal front vowel harmony for {A}" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Normal front vowel harmony for {E}" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Turn {E} into й after a vowel" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "Vowel harmony for {A} after and before deleted {g}" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "delete с in some clusters" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "stem-final п deletes in {i}п forms" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "yotted {A} harmony" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "yotted {E} harmony" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{B} after vowel " fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{B} nasal assimilation" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{I} always front when intervening Cль" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{I} deletion after long vowels and {B}{A}?" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{I} deletion in px3.acc" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{I} harmony  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{I} harmony after deleted velar (or р or л)  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{I} harmony immediately after short vowels  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{J} devoices after liquids and nasals too" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{L} desonorisation" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{L} nasal assimilation" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{N} is н after {n} (and default)" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{g} voicing assimilation" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{i} deletion after vowel" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{i} deletion after {л}:0 in алып only" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{i} harmony  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{i} harmony after deleted velar  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{z} surfaces after a vowel" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{г} devoicing when syllable-final" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{г} surfaces as г syllable finally before some(?) consonants" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{г} turns into preceding vowel when in closed syllable  fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{л} deletion in certain forms" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "{н} surfaces as н when syllable-finally" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "й deletion before yot vowels" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "л desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "л to н assimilation before Nasals when no epenthetic vowel" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "н desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "р deletion in aorist" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "ст cluster reduction when following morpheme" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "ш to ч after certain things" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "ъ deletion syllable finally before с:з" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+Rule "ь deletion at the end of a morpheme before a vowel, and in clusters" fails:
+#:0 о HERE ---> д:т {у}:0 н:т >:0 {i}:у п #:0 
+
+FAIL:  о д:т {у}:0 н:т >:0 {i}:у п REJECTED
+
+ с а д {☭}:0 >:0 {D}:т {A}:а PASSED
+
+Rule "Forward voicing assimilation  fails:
+#:0 5 {э}:0 {с}:0 - HERE ---> {G}:к {I}:и #:0 
+
+FAIL:  5 {э}:0 {с}:0 - {G}:к {I}:и REJECTED
+
+ о к р у г {☭}:0 >:0 {G}:к {A}:а PASSED
+
+ ө й:0 >:0 {A}:е р PASSED
+
+ Т ы в а   А С С Р {э}:0 >:0 {G}:г {A}:е PASSED
+
+ р у б л ь >:0 {D}:д {A}:е н PASSED
+
+ а н с а м б л ь >:0 {D}:д {A}:е н PASSED
+
+ о б л а с т:0 ь:0 {☭}:0 >:0 {D}:т {A}:а н PASSED
+
+ о б л а с т:0 ь:0 {☭}:0 >:0 {N}:т {I}:ы ң PASSED
+
+Rule "{I} harmony  fails:
+#:0 К Т Р К {а}:0 - >:0 {N}:н HERE ---> {I}:ы ң #:0 
+
+Rule "{N} is н after {n} (and default)" fails:
+#:0 К Т Р К {а}:0 - >:0 HERE ---> {N}:н {I}:ы ң #:0 
+
+FAIL:  К Т Р К {а}:0 - >:0 {N}:н {I}:ы ң REJECTED
+
+ а н с а м б л ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е PASSED
+
+ С и б и р ь {☭}:0 >:0 {N}:н {I}:и ң PASSED
+
+ ф о н д {и}:у {☭}:0 >:0 {z}:з {I}:у {n}:0 PASSED
+
+ к о м п л е к с:0 {и}:и >:0 {z}:з {I}:и {n}:0 PASSED
+
+ Б е л о ц а р с к {и}:и >:0 {D}:д {A}:е н PASSED
+
+ п р е з и д е н т {и}:и >:0 {z}:з {I}:и {n}:0 PASSED
+
+ т а й:0 >:0 {E}:я PASSED
+
+ Т ы в а   А С С Р {э}:0 >:0 {N}:н {I}:и ң PASSED
+
+Rule "(verb)stem vowel-final assimliation before {g} deletion  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "/к/ voicing intervocalically" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "/рк/ cluster to [рт]" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Abstract harmony for {I}  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Always realise {и} as и after ск" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Delete {и} at end of word and between с and most morphemes" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Deletion of {n} word finally" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Exceptional deletion of ң" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Fix е to э when it becomes first part of long vowel, e.g. in velar deletion" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Forward voicing assimilation  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Harmony of epenthesised vowel in some stems  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Harmony of extra {и} in some stems  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Harmony of yotted {y}" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Intervocalic coronal fricative voicing at a morpheme boundary  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Intervocalic voiced velar deletion" fails:
+#:0 ч у HERE ---> г:0 >:0 %{I}:у р #:0 
+
+Rule "Intervocalic voiceless velar deletion" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Intervocalic voicing of к at morpheme boundary in monosyllabic stems" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Intervocalic voicing of п at a morpheme boundary" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Intervocalic {G} deletion" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Intervocalic т voicing at a morpheme boundary" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "N Desonorisation" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Normal front vowel harmony for {A}" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Normal front vowel harmony for {E}" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Turn {E} into й after a vowel" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "Vowel harmony for {A} after and before deleted {g}" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "delete с in some clusters" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "stem-final п deletes in {i}п forms" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "yotted {A} harmony" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "yotted {E} harmony" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{B} after vowel " fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{B} nasal assimilation" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{I} always front when intervening Cль" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{I} deletion after long vowels and {B}{A}?" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{I} deletion in px3.acc" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{I} harmony  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{I} harmony after deleted velar (or р or л)  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{I} harmony immediately after short vowels  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{J} devoices after liquids and nasals too" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{L} desonorisation" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{L} nasal assimilation" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{N} is н after {n} (and default)" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{g} voicing assimilation" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{i} deletion after vowel" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{i} deletion after {л}:0 in алып only" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{i} harmony  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{i} harmony after deleted velar  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{z} surfaces after a vowel" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{г} devoicing when syllable-final" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{г} surfaces as г syllable finally before some(?) consonants" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{г} turns into preceding vowel when in closed syllable  fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{л} deletion in certain forms" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "{н} surfaces as н when syllable-finally" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "й deletion before yot vowels" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "л desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "л to н assimilation before Nasals when no epenthetic vowel" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "н desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "р deletion in aorist" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "ст cluster reduction when following morpheme" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "ш to ч after certain things" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "ъ deletion syllable finally before с:з" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+Rule "ь deletion at the end of a morpheme before a vowel, and in clusters" fails:
+#:0 ч у г:0 >:0 HERE ---> %{I}:у р #:0 
+
+FAIL:  ч у г:0 >:0 %{I}:у р REJECTED
+
+ х ү н >:0 {z}:0 {I}:ү {n}:0 PASSED
+
+Rule "(verb)stem vowel-final assimliation before {g} deletion  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "/к/ voicing intervocalically" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "/рк/ cluster to [рт]" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Abstract harmony for {I}  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Always realise {и} as и after ск" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Delete {и} at end of word and between с and most morphemes" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Deletion of {n} word finally" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Exceptional deletion of ң" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Fix е to э when it becomes first part of long vowel, e.g. in velar deletion" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Forward voicing assimilation  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Harmony of epenthesised vowel in some stems  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Harmony of extra {и} in some stems  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Harmony of yotted {y}" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic coronal fricative voicing at a morpheme boundary  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic voiced velar deletion" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic voiceless velar deletion" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic voicing of к at morpheme boundary in monosyllabic stems" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic voicing of п at a morpheme boundary" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic {G} deletion" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Intervocalic т voicing at a morpheme boundary" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "N Desonorisation" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Normal front vowel harmony for {A}" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Normal front vowel harmony for {E}" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Turn {E} into й after a vowel" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "Vowel harmony for {A} after and before deleted {g}" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "delete с in some clusters" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "stem-final п deletes in {i}п forms" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "yotted {A} harmony" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "yotted {E} harmony" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{B} after vowel " fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{B} nasal assimilation" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{I} always front when intervening Cль" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{I} deletion after long vowels and {B}{A}?" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{I} deletion in px3.acc" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{I} harmony  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{I} harmony after deleted velar (or р or л)  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{I} harmony immediately after short vowels  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{J} devoices after liquids and nasals too" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{L} desonorisation" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{L} nasal assimilation" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{N} is н after {n} (and default)" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{g} voicing assimilation" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{i} deletion after vowel" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{i} deletion after {л}:0 in алып only" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{i} harmony  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{i} harmony after deleted velar  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{z} surfaces after a vowel" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{г} devoicing when syllable-final" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{г} surfaces as г syllable finally before some(?) consonants" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{г} turns into preceding vowel when in closed syllable  fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{л} deletion in certain forms" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "{н} surfaces as н when syllable-finally" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "й deletion before yot vowels" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "л desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "л to н assimilation before Nasals when no epenthetic vowel" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "н desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "р deletion in aorist" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "ст cluster reduction when following morpheme" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "ш to ч after certain things" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "ъ deletion syllable finally before с:з" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+Rule "ь deletion at the end of a morpheme before a vowel, and in clusters" fails:
+#:0 а HERE ---> л:0 >:0 {i}:0 п #:0 
+
+FAIL:  а л:0 >:0 {i}:0 п REJECTED
+
+ н е г е:э >:0 {g}:0 {A}:э н PASSED
+
+ б и ж и:э >:0 {g}:0 {A}:э н PASSED
+
+ к ө р >:0 {B}:б {A}:э >:0 {g}:0 {A}:э н  PASSED
+
+ р у б л ь:0 >:0 {z}:0 {I}:и {n}:0 >:0 {N}:н {I}:0 PASSED
+
+ б ү р ү >:0 {z}:з {I}:ү {n}:0 PASSED
+
+ о {г}:г л >:0 {i}:у м PASSED
+
+ д ү {г}:г {y}:0 ж >:0 {I}:ү р PASSED
+
+ т у л {y}:0 ш:ч >:0 {i}:у р PASSED
+
+ ө г л е н {y}:0 ш:ч >:0 {i}:и п PASSED
+
+ ч а ъ:0 с:з >:0 {z}:0 {I}:ы {n}:0 PASSED
+
+ э ъ т:д >:0 {z}:0 {I}:и {n}:0 PASSED
+
+Rule "ст cluster reduction when following morpheme" fails:
+#:0 о б л а с HERE ---> т:0 ь:0 >:0 {G}:к {A}:а #:0 
+
+FAIL:  о б л а с т:0 ь:0 >:0 {G}:к {A}:а REJECTED
+
+ л а г е р ь:0 >:0 {z}:0 {I}:и {n}:н >:0 {G}:г {A}:е  PASSED
+
+ б а {р}:0 >:0 {I}:а р PASSED
+
+Rule "(verb)stem vowel-final assimliation before {g} deletion  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "/к/ voicing intervocalically" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "/рк/ cluster to [рт]" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Abstract harmony for {I}  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Always realise {и} as и after ск" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Delete {и} at end of word and between с and most morphemes" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Deletion of {n} word finally" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Exceptional deletion of ң" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Fix е to э when it becomes first part of long vowel, e.g. in velar deletion" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Forward voicing assimilation  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Harmony of epenthesised vowel in some stems  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Harmony of extra {и} in some stems  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Harmony of yotted {y}" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic coronal fricative voicing at a morpheme boundary  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic voiced velar deletion" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic voiceless velar deletion" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic voicing of к at morpheme boundary in monosyllabic stems" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic voicing of п at a morpheme boundary" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic {G} deletion" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Intervocalic т voicing at a morpheme boundary" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "N Desonorisation" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Normal front vowel harmony for {A}" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Normal front vowel harmony for {E}" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Turn {E} into й after a vowel" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "Vowel harmony for {A} after and before deleted {g}" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "delete с in some clusters" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "stem-final п deletes in {i}п forms" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "yotted {A} harmony" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "yotted {E} harmony" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{B} after vowel " fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{B} nasal assimilation" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{I} always front when intervening Cль" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{I} deletion after long vowels and {B}{A}?" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{I} deletion in px3.acc" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{I} harmony  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{I} harmony after deleted velar (or р or л)  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{I} harmony immediately after short vowels  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{J} devoices after liquids and nasals too" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{L} desonorisation" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{L} nasal assimilation" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{N} is н after {n} (and default)" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{g} voicing assimilation" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{i} deletion after vowel" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{i} deletion after {л}:0 in алып only" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{i} harmony  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{i} harmony after deleted velar  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{z} surfaces after a vowel" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{г} devoicing when syllable-final" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{г} surfaces as г syllable finally before some(?) consonants" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{г} turns into preceding vowel when in closed syllable  fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{л} deletion in certain forms" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "{н} surfaces as н when syllable-finally" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "й deletion before yot vowels" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "л desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "л to н assimilation before Nasals when no epenthetic vowel" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "н desonorisation/devoicing after voiceless consonant and epenthesis" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "р deletion in aorist" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "ст cluster reduction when following morpheme" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "ш to ч after certain things" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "ъ deletion syllable finally before с:з" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+Rule "ь deletion at the end of a morpheme before a vowel, and in clusters" fails:
+#:0 б е HERE ---> {р} >:0 {I}:и ң {A}:е р #:0 
+
+FAIL:  б е {р} >:0 {I}:и ң {A}:е р REJECTED
+
+ ч а й:0 >:0 {A}:я р PASSED
+
+ к у й:0 {y}:ю c PASSED
+
+ э к к е:э {л}:0 {i}:э п PASSED
+
+ ш а п:0 >:0 {i}:а п  PASSED
+
+ к л а с:0 с:з >:0 {z}:0 {I}:ы {n}:0 PASSED
+
+ б о к с >:0 {z}:0 {I}:у {n}:0 PASSED
+
+Rule "delete с in some clusters" fails:
+#:0 к о н к у р HERE ---> с:0 {☭}:0 >:0 {z}:0 {I}:у {n}:0 #:0 
+
+FAIL:  к о н к у р с:0 {☭}:0 >:0 {z}:0 {I}:у {n}:0 REJECTED
+
+Rule "ст cluster reduction when following morpheme" fails:
+#:0 а р т и с HERE ---> т:0 >:0 {L}:т {A}:е р #:0 
+
+FAIL:  а р т и с т:0 >:0 {L}:т {A}:е р REJECTED
+
+ ч а ъ:0 с:з >:0 {i}:ы м PASSED
+
+ ч а ъ:0 с:з >:0 {i}:ы м >:0 {G}:г {A}:а PASSED
+
+Rule "Intervocalic coronal fricative voicing at a morpheme boundary  fails:
+#:0 о б л а HERE ---> с:з т:0 ь:0 {☭}:0 >:0 {z}:0 {I}:ы {n}:0 #:0 
+
+FAIL:  о б л а с:з т:0 ь:0 {☭}:0 >:0 {z}:0 {I}:ы {n}:0 REJECTED
+
+ ү с т >:0 {z}:0 {I}:ү {n}:0 PASSED
+
+ ч е ч е к >:0 {L}:т {A}:е р >:0 {D}:д {A}:е н PASSED
+
+ ө ө к:г >:0 {z}:0 {I}:ү {n}:0  PASSED
+
+ ш а к:г >:0 {z}:0 {I}:ы {n}:0  PASSED
+
+ о т >:0 {D}:т {A}:а н PASSED
+
+ к и ж и >:0 {D}:д {A}:е н PASSED
+
+ х ө й л е ң >:0 {D}:д {A}:е н PASSED
+
+ х ө й л е ң >:0 {N}:н {I}:и ң PASSED
+
+ а й т ы р ы г:0 >:0 {z}:0 {I}:ы {n}:0 PASSED
+
+ б а р >:0 -:- {D}:д {I}:ы р PASSED
+
+ у г:0 >:0 {i}:у п PASSED
+
+ э г:0 >:0 {i}:э п PASSED
+
+Test failed.
+
+
+71/82 passed.
+[/47DEQpj8HBSa]

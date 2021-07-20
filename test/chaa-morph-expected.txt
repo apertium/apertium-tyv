@@ -1,0 +1,18 @@
+[2C5xU0EnCTa9#0] ^чаңга/ча<n><px2sg><dat>/чаң<n><dat>$
+[/2C5xU0EnCTa9]
+[791-SFeXCKL6#0] ^чайыңга/чай<n><px2sg><dat>$
+[/791-SFeXCKL6]
+[7fgrqpBQzj0r#0] ^чаңы/чаң<n><px3sp><nom>/чаң<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/7fgrqpBQzj0r]
+[PXoLEzXL13oJ#0] ^оон/оон<adv>/ол<prn><dem><abl>/ол<prn><pers><p3><sg><abl>$
+[/PXoLEzXL13oJ]
+[TKQrLE8cSe3G#0] ^округка/округ<n><dat>$
+[/TKQrLE8cSe3G]
+[YiYIXvwdteX1#0] ^чага/ча<n><dat>$
+[/YiYIXvwdteX1]
+[gVZIaR5a8d5g#0] ^чаа/чаг<n><px3sp><nom>/чаа<n><nom>/чаа<n><attr>/чаг<n><px3sp><nom>+э<cop><aor><p3><sg>/чаа<n><nom>+э<cop><aor><p3><sg>$
+[/gVZIaR5a8d5g]
+[oTD3s1fA1j8e#0] ^чайга/чай<n><dat>/чайга<v><tv><imp><p2><sg>$
+[/oTD3s1fA1j8e]
+[xDNDZzHCjMoS#0] ^чагга/чаг<n><dat>$
+[/xDNDZzHCjMoS]

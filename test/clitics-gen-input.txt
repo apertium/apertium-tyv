@@ -1,0 +1,9 @@
+# Interrogative / deictic -{i}л
+^чүве<n><nom>+ыл<qst>$
+^каш<adv><itg>+ыл<qst>$
+^тур<v><iv><ger_aor><nom>+ыл<qst>$
+^чуртта<v><iv><ger_aor><nom>+ыл<qst>$
+^соок<n><nom>+ыл<qst>$
+^кандыг<prn><itg><nom>+ыл<qst>$
+# Copula clitic -{D}{I}р
+^ээлдек<adj>+э<cop><aor><evid><p3><sg>$

@@ -1,0 +1,56 @@
+# [twol] regular vowel harmony when no cluster
+роль
+роль
+рольду
+медаль
+медаль
+медальдың
+медальга
+медальды
+медальдан
+медальдар
+# [twol] ending in -арь
+секретары
+календары
+секретарьда
+календарьда
+секретарында
+календарында
+# [twol] ending in -ирь
+Сибирьниң
+# [twol] front vowel harmony when intervening Cль
+рубль
+рубль
+рубльдиң
+рубльге
+рубльди
+рубльден
+рубльдер
+ансамбльдер
+# [twol] front harmony, but for which reason(s)?
+кремльге
+кремльче
+кремльде
+# [twol] regular vowel harmony when any other CCь intervenes (also: cluster simplification)
+область
+область
+областың
+обласка
+областан
+обласче
+областа
+областы
+областар
+областардан
+облазының
+облазында
+облазынга
+облазынче
+облазындан
+# [twol] ь deletes before surface vowel
+рубли
+рублин
+ансамблиниң
+кремли
+# [twol] ь should not delete before when there's no morpheme boundary
+Афанасьеваның

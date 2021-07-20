@@ -1,0 +1,274 @@
+[-Va_6-1W0eh6#0] ^артистери/артист<n><pl><px3sp><nom>/артист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/-Va_6-1W0eh6]
+[-hxAeil4xvh-#0] ^тележурналистерниң/тележурналист<n><pl><gen>$
+[/-hxAeil4xvh-]
+[-oP5KhH0Vi31#0] ^журнализиңер/*журнализиңер$
+[/-oP5KhH0Vi31]
+[-zcGu0uutVw5#0] ^футболистерни/футболист<n><pl><acc>$
+[/-zcGu0uutVw5]
+[05KzIuIofAcB#0] ^специалистериниң/специалист<n><pl><px3sp><gen>$
+[/05KzIuIofAcB]
+[0rhHgpKPu75W#0] ^баянистиң/баянист<n><gen>$
+[/0rhHgpKPu75W]
+[0wN_tE05Vn08#0] ^артистерниң/артист<n><pl><gen>$
+[/0wN_tE05Vn08]
+[2akkLc3vXyiv#0] ^машинистери/машинист<n><pl><px3sp><nom>/машинист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/2akkLc3vXyiv]
+[34IJn-cGTOQg#0] ^автомобилистерниң/автомобилист<n><pl><gen>$
+[/34IJn-cGTOQg]
+[3Mw-w3bF5PWF#0] ^специализин/*специализин$
+[/3Mw-w3bF5PWF]
+[3jSE_hWdU_Bi#0] ^туристерни/турист<n><pl><acc>$
+[/3jSE_hWdU_Bi]
+[401zQH8db9_0#0] ^коммунистериниң/коммунист<n><pl><px3sp><gen>$
+[/401zQH8db9_0]
+[4QSqepuQG0PM#0] ^специалистерни/специалист<n><pl><acc>$
+[/4QSqepuQG0PM]
+[4WVWjAn8fEuR#0] ^специалистиң/специалист<n><gen>$
+[/4WVWjAn8fEuR]
+[4bzWKEwweE0j#0] ^артизивис/*артизивис$
+[/4bzWKEwweE0j]
+[58p-yWe104-H#0] ^специалистеривис/специалист<n><pl><px1pl><nom>/специалист<n><pl><px1pl><nom>+э<cop><aor><p3><sg>$
+[/58p-yWe104-H]
+[5KUWpjPxeBn-#0] ^коммунистиң/коммунист<n><gen>$
+[/5KUWpjPxeBn-]
+[5QR5QvP2clBo#0] ^туристерниң/турист<n><pl><gen>$
+[/5QR5QvP2clBo]
+[6-6RmfBp8wyI#0] ^артизинге/*артизинге$
+[/6-6RmfBp8wyI]
+[7QA6BRYsoTX9#0] ^артизивисти/*артизивисти$
+[/7QA6BRYsoTX9]
+[7Z5OxGxrGg-Y#0] ^журналистиң/журналист<n><gen>$
+[/7Z5OxGxrGg-Y]
+[8lteUtihXwxB#0] ^коммунистерин/коммунист<n><pl><px3sp><acc>$
+[/8lteUtihXwxB]
+[947Yt3mXnWC3#0] ^специалиске/специалист<n><dat>$
+[/947Yt3mXnWC3]
+[9jVPnwEUmGQv#0] ^артистеривиске/артист<n><pl><px1pl><dat>$
+[/9jVPnwEUmGQv]
+[ATZ0665PlZ1a#0] ^танкистеривис/танкист<n><pl><px1pl><nom>/танкист<n><pl><px1pl><nom>+э<cop><aor><p3><sg>$
+[/ATZ0665PlZ1a]
+[ATrUOs9c15it#0] ^танкистери/танкист<n><pl><px3sp><nom>/танкист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/ATrUOs9c15it]
+[AvV7g_Q0rqUH#0] ^коммунистери/коммунист<n><pl><px3sp><nom>/коммунист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/AvV7g_Q0rqUH]
+[BW65IMDaD_lP#0] ^буддистерге/буддист<n><pl><dat>$
+[/BW65IMDaD_lP]
+[Bb4KNbpIwCpP#0] ^юристерге/юрист<n><pl><dat>$
+[/Bb4KNbpIwCpP]
+[BryyVz9b3YaB#0] ^артистеримге/артист<n><pl><px1sg><dat>$
+[/BryyVz9b3YaB]
+[Cf3Z2XNVFdLL#0] ^журналистеринде/журналист<n><pl><px3sp><loc>/журналист<n><pl><px3sp><loc>+э<cop><aor><p3><sg>$
+[/Cf3Z2XNVFdLL]
+[CzSMUKJKTviX#0] ^этносту/этность<n><acc>$
+[/CzSMUKJKTviX]
+[ElliOKvWZemV#0] ^автомобилистериниң/автомобилист<n><pl><px3sp><gen>$
+[/ElliOKvWZemV]
+[EsXKcMOAA7JR#0] ^журналистерниң/журналист<n><pl><gen>$
+[/EsXKcMOAA7JR]
+[FOq5G4Xl59qC#0] ^артистериниң/артист<n><pl><px3sp><gen>$
+[/FOq5G4Xl59qC]
+[FuHrtRkQw7Ia#0] ^артистерим/артист<n><pl><px1sg><nom>/артист<n><pl><px1sg><nom>+э<cop><aor><p3><sg>$
+[/FuHrtRkQw7Ia]
+[GkqH9vWCabKK#0] ^радиожурналистиң/радиожурналист<n><gen>$
+[/GkqH9vWCabKK]
+[GqkntLW5IOft#0] ^коммунистеринде/коммунист<n><pl><px3sp><loc>/коммунист<n><pl><px3sp><loc>+э<cop><aor><p3><sg>$
+[/GqkntLW5IOft]
+[H6abw1L84Zpc#0] ^үзү/үс<n><px3sp><nom>/үс<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/H6abw1L84Zpc]
+[HKzadmLuLY0T#0] ^артистеривистиң/артист<n><pl><px1pl><gen>$
+[/HKzadmLuLY0T]
+[HRwGIkuoTBkR#0] ^парашютистерни/парашютист<n><pl><acc>$
+[/HRwGIkuoTBkR]
+[H_Hjk8vKXbCZ#0] ^юристери/юрист<n><pl><px3sp><nom>/юрист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/H_Hjk8vKXbCZ]
+[HnEOTTn6sFJR#0] ^специализинге/*специализинге$
+[/HnEOTTn6sFJR]
+[I3eez18c3oAf#0] ^трактористерниң/тракторист<n><pl><gen>$
+[/I3eez18c3oAf]
+[IIkGZbOABNH8#0] ^танкистеривистиң/танкист<n><pl><px1pl><gen>$
+[/IIkGZbOABNH8]
+[JGvrUdgXeLkq#0] ^специализи/*специализи$
+[/JGvrUdgXeLkq]
+[JQ5iRlhdyh43#0] ^туристериниң/турист<n><pl><px3sp><gen>$
+[/JQ5iRlhdyh43]
+[Jje6wxYrldff#0] ^фашистерден/фашист<n><pl><abl>$
+[/Jje6wxYrldff]
+[Jstpw1rtfeSb#0] ^журналистеринге/журналист<n><pl><px3sp><dat>$
+[/Jstpw1rtfeSb]
+[LSDeKFn29PbE#0] ^үстү/үс<n><acc>/үст<n><px3sp><nom>/үс<v><tv><ifi><p3><sg>/үст<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/LSDeKFn29PbE]
+[M3-avYlDIBTi#0] ^үстүү/үстүү<adj>/үс<n><gen><subst><nom>/үстүү<adj><advl>/үстүү<adj>+э<cop><aor><p3><sg>/үс<n><gen><subst><nom>+э<cop><aor><p3><sg>/үстүү<adj><advl>+э<cop><aor><p3><sg>$
+[/M3-avYlDIBTi]
+[M6MnDu1yOCvv#0] ^альпинистери/альпинист<n><pl><px3sp><nom>/альпинист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/M6MnDu1yOCvv]
+[MAz1TqiiBEId#0] ^артизивистиң/*артизивистиң$
+[/MAz1TqiiBEId]
+[MUjATQEH_CgG#0] ^журнализи/*журнализи$
+[/MUjATQEH_CgG]
+[N0Ef8OlxIoPJ#0] ^артистерге/артист<n><pl><dat>$
+[/N0Ef8OlxIoPJ]
+[NvRkXXzOQzVw#0] ^журналисти/журналист<n><acc>$
+[/NvRkXXzOQzVw]
+[NyjDp0hI_B-6#0] ^журналистеривиске/журналист<n><pl><px1pl><dat>$
+[/NyjDp0hI_B-6]
+[O7YVDhv2wliV#0] ^юристеривис/юрист<n><pl><px1pl><nom>/юрист<n><pl><px1pl><nom>+э<cop><aor><p3><sg>$
+[/O7YVDhv2wliV]
+[OWkAKvOQWYXo#0] ^журналистерде/журналист<n><pl><loc>/журналист<n><pl><loc>+э<cop><aor><p3><sg>$
+[/OWkAKvOQWYXo]
+[OZ57vTs0CZaR#0] ^журналистериңер/журналист<n><pl><px2pl><nom>/журналист<n><pl><px2pl><nom>+э<cop><aor><p3><sg>$
+[/OZ57vTs0CZaR]
+[PCoaB4gi02bI#0] ^журналистери/журналист<n><pl><px3sp><nom>/журналист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/PCoaB4gi02bI]
+[PY-PbnGAdzIu#0] ^коммуниске/коммунист<n><dat>$
+[/PY-PbnGAdzIu]
+[PZoOPZe8a1Bj#0] ^үзүн/үс<n><px3sp><acc>$
+[/PZoOPZe8a1Bj]
+[Pnms4fC46Mla#0] ^артистериңерни/артист<n><pl><px2pl><acc>$
+[/Pnms4fC46Mla]
+[QFOdZjj5DvVF#0] ^журналиске/журналист<n><dat>$
+[/QFOdZjj5DvVF]
+[RmFhahbQ8IrA#0] ^журналистеривистиң/журналист<n><pl><px1pl><gen>$
+[/RmFhahbQ8IrA]
+[RvGR0QI-eKK_#0] ^фашисти/фашист<n><acc>$
+[/RvGR0QI-eKK_]
+[SZrsLC7RucV3#0] ^буддистериниң/буддист<n><pl><px3sp><gen>$
+[/SZrsLC7RucV3]
+[Spr9a17yFMoP#0] ^солизи/*солизи$
+[/Spr9a17yFMoP]
+[SuadncdS3Bb6#0] ^августа/август<n><loc>/август<n><loc>+э<cop><aor><p3><sg>$
+[/SuadncdS3Bb6]
+[T-TywW99OPLn#0] ^специалистерге/специалист<n><pl><dat>$
+[/T-TywW99OPLn]
+[TY5lrGxsnoVh#0] ^үзүнге/үс<n><px3sp><dat>$
+[/TY5lrGxsnoVh]
+[Tv9EyzWbxtUP#0] ^экономистиң/экономист<n><gen>$
+[/Tv9EyzWbxtUP]
+[UH5r8TB4cudf#0] ^журналистерге/журналист<n><pl><dat>$
+[/UH5r8TB4cudf]
+[Ut0cEuW8S26n#0] ^журналистериниң/журналист<n><pl><px3sp><gen>$
+[/Ut0cEuW8S26n]
+[VMLF0KDXzEE1#0] ^фашистерге/фашист<n><pl><dat>$
+[/VMLF0KDXzEE1]
+[VoCs8B1v72u3#0] ^фашистерже/фашист<n><pl><all>$
+[/VoCs8B1v72u3]
+[W7qagQwsjX92#0] ^тракторизи/*тракторизи$
+[/W7qagQwsjX92]
+[X8tStD91Ujuq#0] ^туристиң/турист<n><gen>$
+[/X8tStD91Ujuq]
+[XJRXgbtko7L1#0] ^специалистерин/специалист<n><pl><px3sp><acc>$
+[/XJRXgbtko7L1]
+[YoJpch9ct5Wg#0] ^августуң/август<n><gen>$
+[/YoJpch9ct5Wg]
+[ZMl8NDej4YTF#0] ^юристерниң/юрист<n><pl><gen>$
+[/ZMl8NDej4YTF]
+[Zn8qe0dnxzo3#0] ^солистериниң/солист<n><pl><px3sp><gen>$
+[/Zn8qe0dnxzo3]
+[ZriV3z4jsm8_#0] ^специалистеринден/специалист<n><pl><px3sp><abl>$
+[/ZriV3z4jsm8_]
+[Zxb0s8Ggcy7y#0] ^артисти/артист<n><acc>$
+[/Zxb0s8Ggcy7y]
+[_9DO9Z5aTXa_#0] ^буддистери/буддист<n><pl><px3sp><nom>/буддист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/_9DO9Z5aTXa_]
+[_VSZIrjd8F8_#0] ^танкисти/танкист<n><acc>$
+[/_VSZIrjd8F8_]
+[aR2vb2jmX0YV#0] ^телефонистерни/телефонист<n><pl><acc>$
+[/aR2vb2jmX0YV]
+[bjmZr5uJBMY4#0] ^буддистеринге/буддист<n><pl><px3sp><dat>$
+[/bjmZr5uJBMY4]
+[c3_y6-0iI_5h#0] ^журналистерин/журналист<n><pl><px3sp><acc>$
+[/c3_y6-0iI_5h]
+[c6rvM6bLMcfn#0] ^үстен/үс<n><abl>$
+[/c6rvM6bLMcfn]
+[dx79rlKGhx64#0] ^туристери/турист<n><pl><px3sp><nom>/турист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/dx79rlKGhx64]
+[dz2otrOiyCA9#0] ^этностуң/этность<n><gen>$
+[/dz2otrOiyCA9]
+[dzwLocfO8mX-#0] ^специалистеринге/специалист<n><pl><px3sp><dat>$
+[/dzwLocfO8mX-]
+[eIr--SjaQ-ba#0] ^артистеривис/артист<n><pl><px1pl><nom>/артист<n><pl><px1pl><nom>+э<cop><aor><p3><sg>$
+[/eIr--SjaQ-ba]
+[eQ1dFJU239gJ#0] ^фашистерни/фашист<n><pl><acc>$
+[/eQ1dFJU239gJ]
+[fkMt18C2c9oi#0] ^специалистерже/специалист<n><pl><all>$
+[/fkMt18C2c9oi]
+[gNpYW0mH8pcS#0] ^үзүм/үс<n><px1sg><nom>/үс<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/gNpYW0mH8pcS]
+[gUIoNTR7AA3-#0] ^журналистерден/журналист<n><pl><abl>$
+[/gUIoNTR7AA3-]
+[gVsTGLjcWkPf#0] ^артистеривисти/артист<n><pl><px1pl><acc>$
+[/gVsTGLjcWkPf]
+[g_o8yoma8h_w#0] ^специалистерден/специалист<n><pl><abl>$
+[/g_o8yoma8h_w]
+[hEJ1dlKdZ1c7#0] ^артизи/*артизи$
+[/hEJ1dlKdZ1c7]
+[i1qUygnoFsqi#0] ^артистерин/артист<n><pl><px3sp><acc>$
+[/i1qUygnoFsqi]
+[iPcyaTrn6aZp#0] ^альпинистериниң/альпинист<n><pl><px3sp><gen>$
+[/iPcyaTrn6aZp]
+[jOncOzlrfFcQ#0] ^фашистери/фашист<n><pl><px3sp><nom>/фашист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/jOncOzlrfFcQ]
+[jULpIpRvRIH8#0] ^специализиниң/*специализиниң$
+[/jULpIpRvRIH8]
+[jbXOfWiijTeR#0] ^тракторизинден/*тракторизинден$
+[/jbXOfWiijTeR]
+[jejGEoNcl9G6#0] ^үске/үс<n><dat>$
+[/jejGEoNcl9G6]
+[jmPP72UbL0YF#0] ^трактористерге/тракторист<n><pl><dat>$
+[/jmPP72UbL0YF]
+[kzy_3DIPv6uA#0] ^фашистерниң/фашист<n><pl><gen>$
+[/kzy_3DIPv6uA]
+[lp1TTKZ_ZLhx#0] ^юристиң/юрист<n><gen>$
+[/lp1TTKZ_ZLhx]
+[m9c6Y7J3RBjz#0] ^үзүнүң/үс<n><px3sp><gen>$
+[/m9c6Y7J3RBjz]
+[mq0LJbDedvwh#0] ^артистеринден/артист<n><pl><px3sp><abl>$
+[/mq0LJbDedvwh]
+[mvUnDV_HlAqF#0] ^августан/август<n><abl>$
+[/mvUnDV_HlAqF]
+[n5o2cu3mVUAV#0] ^машинизи/*машинизи$
+[/n5o2cu3mVUAV]
+[nMPmuq7gkpcD#0] ^футболистериниң/футболист<n><pl><px3sp><gen>$
+[/nMPmuq7gkpcD]
+[nwT55MeEd5mi#0] ^специалисти/специалист<n><acc>$
+[/nwT55MeEd5mi]
+[oI-5pE6TZ4sX#0] ^туристерге/турист<n><pl><dat>$
+[/oI-5pE6TZ4sX]
+[oM4pOkd44PJ7#0] ^солистерни/солист<n><pl><acc>$
+[/oM4pOkd44PJ7]
+[oXiMXbfc8DJH#0] ^альпинистерниң/альпинист<n><pl><gen>$
+[/oXiMXbfc8DJH]
+[ocmPSg5I9A43#0] ^журналистерни/журналист<n><pl><acc>$
+[/ocmPSg5I9A43]
+[p-rMYJzZYY-N#0] ^артистиң/артист<n><gen>$
+[/p-rMYJzZYY-N]
+[q4f8tC1kpUqX#0] ^солистери/солист<n><pl><px3sp><nom>/солист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/q4f8tC1kpUqX]
+[qcn7P3Yox9bT#0] ^юристерин/юрист<n><pl><px3sp><acc>$
+[/qcn7P3Yox9bT]
+[rnLsUwudurQ0#0] ^юризи/*юризи$
+[/rnLsUwudurQ0]
+[sBkogTZPtKpY#0] ^экономизи/*экономизи$
+[/sBkogTZPtKpY]
+[t1cjQGXYMHkc#0] ^методизи/*методизи$
+[/t1cjQGXYMHkc]
+[tGdKvt1bZnND#0] ^специалистерниң/специалист<n><pl><gen>$
+[/tGdKvt1bZnND]
+[t_bzx_eANNlj#0] ^специалистери/специалист<n><pl><px3sp><nom>/специалист<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/t_bzx_eANNlj]
+[uSqNbjvPs45s#0] ^артистерни/артист<n><pl><acc>$
+[/uSqNbjvPs45s]
+[ujqNUYYeS0zM#0] ^коммунистерниң/коммунист<n><pl><gen>$
+[/ujqNUYYeS0zM]
+[v0oiXqYGVoD7#0] ^сценаризи/*сценаризи$
+[/v0oiXqYGVoD7]
+[vK3F3q25Wlbh#0] ^артистерден/артист<n><pl><abl>$
+[/vK3F3q25Wlbh]
+[vaPupzG56poj#0] ^артистеринге/артист<n><pl><px3sp><dat>$
+[/vaPupzG56poj]
+[vx58Lwm32-jY#0] ^артиске/артист<n><dat>$
+[/vx58Lwm32-jY]
+[xOprrj_gzsLJ#0] ^специализивис/*специализивис$
+[/xOprrj_gzsLJ]
+[xfw8DLcsOTCQ#0] ^журнализиниң/*журнализиниң$
+[/xfw8DLcsOTCQ]

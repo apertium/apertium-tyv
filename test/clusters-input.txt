@@ -1,0 +1,71 @@
+# [twol] мл/бл : no simplification ever(?)
+рубль
+рубль
+рубльдиң
+рубльге
+рубльди
+рубльден
+рубльдер
+рубли
+рублин
+ансамбльдер
+ансамблиниң
+кремльге
+кремльче
+кремльде
+кремли
+# [twol] кс : no simplification when syllable-final
+комплекс
+комплекс
+комплекстиң
+комплексти
+комплекстер
+# [twol] ст : no simplification at end of word
+область
+область
+# [twol] сс : no simplification when syllable-final
+класстарын
+класстарынче
+класстарынга
+класстарының
+класстары
+# [twol] ст : no simplication at the end of the word
+үстүнде
+# [twol] кс : epenthesis and voicing when syllable-initial
+комплекизи
+комплекизинге
+комплекизинче
+# [twol] рс : epenthesis and voicing when syllable-initial
+конкурузу
+конкурузунче
+конкурузунга
+конкурузунуң
+# [twol] ст : simplification before consonant
+областың
+обласка
+областан
+обласче
+областа
+областы
+областар
+областардан
+# [twol] ст : simplification and voicing before vowel
+облазының
+облазында
+облазынга
+облазынче
+облазындан
+артизи
+# [twol] сс : simplification and voicing before vowel
+клазымның
+клазым
+клазындан
+клазын
+клазынче
+клазынга
+клазының
+клазында
+клазы
+клазывыска
+клазывыс
+клазыңар

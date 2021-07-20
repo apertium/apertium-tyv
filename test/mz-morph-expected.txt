@@ -1,0 +1,88 @@
+[-jDmMGrnpvOe#0] ^кремльге/кремль<n><dat>$
+[/-jDmMGrnpvOe]
+[1U3GwcEdLO23#0] ^облазының/*облазының$
+[/1U3GwcEdLO23]
+[2qi5-SidutJy#0] ^областар/область<n><nom>+э<cop><aor><p3><pl>/область<n><pl><nom>/область<n><pl><nom>+э<cop><aor><p3><sg>$
+[/2qi5-SidutJy]
+[37gYX5G1BC1j#0] ^Сибирьниң/Сибирь<np><top><gen>$
+[/37gYX5G1BC1j]
+[4JcBu1fvjusU#0] ^календарьда/календарь<n><loc>/календарь<n><loc>+э<cop><aor><p3><sg>$
+[/4JcBu1fvjusU]
+[4UkP1YvvGs1K#0] ^рубльдер/рубль<n><nom>+э<cop><aor><p3><pl>/рубль<n><pl><nom>/рубль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/4UkP1YvvGs1K]
+[6E1BPTgMi7Fh#0] ^областы/область<n><acc>$
+[/6E1BPTgMi7Fh]
+[7xzO1PT7JXRH#0] ^рубльден/рубль<n><abl>$
+[/7xzO1PT7JXRH]
+[82ACOFQqR-N0#0] ^облазынга/*облазынга$
+[/82ACOFQqR-N0]
+[9WyxkykD7V1S#0] ^ансамблиниң/ансамбль<n><px3sp><gen>$
+[/9WyxkykD7V1S]
+[AWYtqgzby_2s#0] ^облазында/*облазында$
+[/AWYtqgzby_2s]
+[Ao86pl7k0IYq#0] ^Афанасьеваның/Афанасьев<np><cog><f><gen>$
+[/Ao86pl7k0IYq]
+[AuT3mf3o6NVx#0] ^рубльди/рубль<n><acc>$
+[/AuT3mf3o6NVx]
+[F39nbmQ_-C-7#0] ^область/область<n><nom>/область<n><attr>/область<n><nom>+э<cop><aor><p3><sg>$
+[/F39nbmQ_-C-7]
+[GlEMDT5VmnIw#0] ^рублин/*рублин$
+[/GlEMDT5VmnIw]
+[H8-dbz23YHpX#0] ^секретары/секретарь<n><px3sp><nom>/секретарь<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/H8-dbz23YHpX]
+[HxR-E00f1kJj#0] ^календары/календарь<n><px3sp><nom>/календарь<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/HxR-E00f1kJj]
+[JfNSPScV8d_h#0] ^кремльде/кремль<n><loc>/кремль<n><loc>+э<cop><aor><p3><sg>$
+[/JfNSPScV8d_h]
+[NSdrmOyMzaUW#0] ^ансамбльдер/ансамбль<n><nom>+э<cop><aor><p3><pl>/ансамбль<n><pl><nom>/ансамбль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/NSdrmOyMzaUW]
+[QRSJMncDL1of#0] ^обласка/область<n><dat>$
+[/QRSJMncDL1of]
+[RDrqBbo6p2TA#0] ^секретарьда/секретарь<n><loc>/секретарь<n><loc>+э<cop><aor><p3><sg>$
+[/RDrqBbo6p2TA]
+[RHMTH3Ev46j6#0] ^медальды/медаль<n><acc>$
+[/RHMTH3Ev46j6]
+[SA_RP3JOQnc5#0] ^областа/область<n><loc>/область<n><loc>+э<cop><aor><p3><sg>$
+[/SA_RP3JOQnc5]
+[SD5byra3FVvN#0] ^областан/область<n><abl>$
+[/SD5byra3FVvN]
+[SRBpieNYhMQF#0] ^рубли/*рубли$
+[/SRBpieNYhMQF]
+[SWvxodP7Z_BA#0] ^областың/область<n><gen>$
+[/SWvxodP7Z_BA]
+[YX7j_SCpbfcR#0] ^обласче/область<n><all>$
+[/YX7j_SCpbfcR]
+[YXjXB8fRJjZn#0] ^рубльдиң/рубль<n><gen>$
+[/YXjXB8fRJjZn]
+[_Kid2QanlHh_#0] ^медальдан/медаль<n><abl>$
+[/_Kid2QanlHh_]
+[aIUYJKcwusO2#0] ^кремльче/кремль<n><all>$
+[/aIUYJKcwusO2]
+[aSqoUurCd8Mj#0] ^рубльге/рубль<n><dat>$
+[/aSqoUurCd8Mj]
+[fGKJenTqNTFh#0] ^облазынче/*облазынче$
+[/fGKJenTqNTFh]
+[g21hU4tVkwFm#0] ^календарында/календарь<n><px3sp><loc>/календарь<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/g21hU4tVkwFm]
+[gZnW-HWDSgN7#0] ^медальдар/медаль<n><nom>+э<cop><aor><p3><pl>/медаль<n><pl><nom>/медаль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/gZnW-HWDSgN7]
+[h5ThicBm6QXr#0] ^рольду/роль<n><acc>$
+[/h5ThicBm6QXr]
+[is5SpTcPs3hT#0] ^областардан/область<n><pl><abl>$
+[/is5SpTcPs3hT]
+[k-Zgc6tESoV9#0] ^медаль/медаль<n><nom>/медаль<n><attr>/медаль<n><nom>+э<cop><aor><p3><sg>$
+[/k-Zgc6tESoV9]
+[lEW224Xy1rhK#0] ^кремли/кремль<n><px3sp><nom>/кремль<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/lEW224Xy1rhK]
+[mu-eM1im7Sv3#0] ^рубль/рубль<n><nom>/рубль<n><attr>/рубль<n><nom>+э<cop><aor><p3><sg>$
+[/mu-eM1im7Sv3]
+[ndr_-ADDTcIR#0] ^секретарында/секретарь<n><px3sp><loc>/секретарь<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/ndr_-ADDTcIR]
+[pSN0klc9g28f#0] ^медальдың/медаль<n><gen>$
+[/pSN0klc9g28f]
+[pX8zQF_Cr-Yt#0] ^роль/роль<n><nom>/роль<n><attr>/роль<n><nom>+э<cop><aor><p3><sg>$
+[/pX8zQF_Cr-Yt]
+[vWCBSxuw9h5h#0] ^облазындан/*облазындан$
+[/vWCBSxuw9h5h]
+[wey7WyMvmrBy#0] ^медальга/медаль<n><dat>$
+[/wey7WyMvmrBy]

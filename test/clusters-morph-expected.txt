@@ -1,0 +1,116 @@
+[-jDmMGrnpvOe#0] ^кремльге/кремль<n><dat>$
+[/-jDmMGrnpvOe]
+[0Dmk_OroBh_T#0] ^класстарынга/класс<n><pl><px3sp><dat>$
+[/0Dmk_OroBh_T]
+[1U3GwcEdLO23#0] ^облазының/*облазының$
+[/1U3GwcEdLO23]
+[2nf2c-nOj-Lf#0] ^клазы/класс<n><px3sp><nom>/класс<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/2nf2c-nOj-Lf]
+[2qi5-SidutJy#0] ^областар/область<n><nom>+э<cop><aor><p3><pl>/область<n><pl><nom>/область<n><pl><nom>+э<cop><aor><p3><sg>$
+[/2qi5-SidutJy]
+[2wQ0Iv4dRhjq#0] ^комплекстер/комплекс<n><nom>+э<cop><aor><p3><pl>/комплекс<n><pl><nom>/комплекс<n><pl><nom>+э<cop><aor><p3><sg>$
+[/2wQ0Iv4dRhjq]
+[3PePJtfbkPrh#0] ^класстары/класс<n><pl><px3sp><nom>/класс<n><pl><px3sp><nom>+э<cop><aor><p3><sg>$
+[/3PePJtfbkPrh]
+[3StMq6yBwB8p#0] ^комплекизи/комплекс<n><px3sp><nom>/комплекс<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/3StMq6yBwB8p]
+[4UkP1YvvGs1K#0] ^рубльдер/рубль<n><nom>+э<cop><aor><p3><pl>/рубль<n><pl><nom>/рубль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/4UkP1YvvGs1K]
+[6E1BPTgMi7Fh#0] ^областы/область<n><acc>$
+[/6E1BPTgMi7Fh]
+[7mAl-cXSyaif#0] ^клазын/класс<n><px3sp><acc>$
+[/7mAl-cXSyaif]
+[7xzO1PT7JXRH#0] ^рубльден/рубль<n><abl>$
+[/7xzO1PT7JXRH]
+[82ACOFQqR-N0#0] ^облазынга/*облазынга$
+[/82ACOFQqR-N0]
+[8WHZCrQTdYQP#0] ^конкурузунга/конкурс<n><px3sp><dat>$
+[/8WHZCrQTdYQP]
+[8Z_Mtxm0RMHx#0] ^класстарынче/класс<n><pl><px3sp><all>$
+[/8Z_Mtxm0RMHx]
+[9WyxkykD7V1S#0] ^ансамблиниң/ансамбль<n><px3sp><gen>$
+[/9WyxkykD7V1S]
+[AWYtqgzby_2s#0] ^облазында/*облазында$
+[/AWYtqgzby_2s]
+[AuT3mf3o6NVx#0] ^рубльди/рубль<n><acc>$
+[/AuT3mf3o6NVx]
+[EBrnD8Ku4y1M#0] ^клазындан/класс<n><px3sp><abl>$
+[/EBrnD8Ku4y1M]
+[F39nbmQ_-C-7#0] ^область/область<n><nom>/область<n><attr>/область<n><nom>+э<cop><aor><p3><sg>$
+[/F39nbmQ_-C-7]
+[FCS3YhabtqQm#0] ^комплекстиң/комплекс<n><gen>$
+[/FCS3YhabtqQm]
+[GlEMDT5VmnIw#0] ^рублин/*рублин$
+[/GlEMDT5VmnIw]
+[HS4j6uhu_-mB#0] ^комплекизинче/комплекс<n><px3sp><all>$
+[/HS4j6uhu_-mB]
+[JfNSPScV8d_h#0] ^кремльде/кремль<n><loc>/кремль<n><loc>+э<cop><aor><p3><sg>$
+[/JfNSPScV8d_h]
+[K-4hYjCfw7Eo#0] ^клазымның/класс<n><px1sg><gen>$
+[/K-4hYjCfw7Eo]
+[LNq9Sg7qZA1K#0] ^клазынга/класс<n><px3sp><dat>$
+[/LNq9Sg7qZA1K]
+[NSdrmOyMzaUW#0] ^ансамбльдер/ансамбль<n><nom>+э<cop><aor><p3><pl>/ансамбль<n><pl><nom>/ансамбль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/NSdrmOyMzaUW]
+[QRSJMncDL1of#0] ^обласка/область<n><dat>$
+[/QRSJMncDL1of]
+[QvrMnSNHnbZO#0] ^клазывыска/класс<n><px1pl><dat>$
+[/QvrMnSNHnbZO]
+[RPyCvrEFrAa-#0] ^клазыңар/класс<n><px2pl><nom>/класс<n><px2pl><nom>+э<cop><aor><p3><sg>$
+[/RPyCvrEFrAa-]
+[SA_RP3JOQnc5#0] ^областа/область<n><loc>/область<n><loc>+э<cop><aor><p3><sg>$
+[/SA_RP3JOQnc5]
+[SD5byra3FVvN#0] ^областан/область<n><abl>$
+[/SD5byra3FVvN]
+[SRBpieNYhMQF#0] ^рубли/*рубли$
+[/SRBpieNYhMQF]
+[SWvxodP7Z_BA#0] ^областың/область<n><gen>$
+[/SWvxodP7Z_BA]
+[TUtaRHozZdC3#0] ^конкурузунуң/конкурс<n><px3sp><gen>$
+[/TUtaRHozZdC3]
+[V8i-L4NyDnYz#0] ^комплекс/комплекс<n><nom>/комплекс<n><attr>/комплекс<n><nom>+э<cop><aor><p3><sg>$
+[/V8i-L4NyDnYz]
+[Vhlu9-jqFZq3#0] ^класстарының/класс<n><pl><px3sp><gen>$
+[/Vhlu9-jqFZq3]
+[XGHolaWj69jV#0] ^клазым/класс<n><px1sg><nom>/класс<n><px1sg><nom>+э<cop><aor><p3><sg>$
+[/XGHolaWj69jV]
+[YX7j_SCpbfcR#0] ^обласче/область<n><all>$
+[/YX7j_SCpbfcR]
+[YXjXB8fRJjZn#0] ^рубльдиң/рубль<n><gen>$
+[/YXjXB8fRJjZn]
+[ZSgxG_HMrN78#0] ^комплексти/комплекс<n><acc>$
+[/ZSgxG_HMrN78]
+[aIUYJKcwusO2#0] ^кремльче/кремль<n><all>$
+[/aIUYJKcwusO2]
+[aSqoUurCd8Mj#0] ^рубльге/рубль<n><dat>$
+[/aSqoUurCd8Mj]
+[bXv2Nin9uLgO#0] ^комплекизинге/комплекс<n><px3sp><dat>$
+[/bXv2Nin9uLgO]
+[fGKJenTqNTFh#0] ^облазынче/*облазынче$
+[/fGKJenTqNTFh]
+[hEJ1dlKdZ1c7#0] ^артизи/*артизи$
+[/hEJ1dlKdZ1c7]
+[is5SpTcPs3hT#0] ^областардан/область<n><pl><abl>$
+[/is5SpTcPs3hT]
+[j_q9S6wdW0hd#0] ^клазында/класс<n><px3sp><loc>/класс<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/j_q9S6wdW0hd]
+[lEW224Xy1rhK#0] ^кремли/кремль<n><px3sp><nom>/кремль<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/lEW224Xy1rhK]
+[lKAcDhevRt2L#0] ^үстүнде/үст<n><px3sp><loc>/үст<n><px3sp><loc>+э<cop><aor><p3><sg>$
+[/lKAcDhevRt2L]
+[lj7WlpLxeu8I#0] ^клазының/класс<n><px3sp><gen>$
+[/lj7WlpLxeu8I]
+[mu-eM1im7Sv3#0] ^рубль/рубль<n><nom>/рубль<n><attr>/рубль<n><nom>+э<cop><aor><p3><sg>$
+[/mu-eM1im7Sv3]
+[nJyYaMCvTRJp#0] ^клазывыс/класс<n><px1pl><nom>/класс<n><px1pl><nom>+э<cop><aor><p3><sg>$
+[/nJyYaMCvTRJp]
+[naSKPLfQ3z5h#0] ^клазынче/класс<n><px3sp><all>$
+[/naSKPLfQ3z5h]
+[oicG8TKlu1xe#0] ^конкурузунче/конкурс<n><px3sp><all>$
+[/oicG8TKlu1xe]
+[rnXvv6jH9ldH#0] ^класстарын/класс<n><pl><px3sp><acc>$
+[/rnXvv6jH9ldH]
+[vWCBSxuw9h5h#0] ^облазындан/*облазындан$
+[/vWCBSxuw9h5h]
+[vhGJpF5d0_S2#0] ^конкурузу/конкурс<n><px3sp><nom>/конкурс<n><px3sp><nom>+э<cop><aor><p3><sg>$
+[/vhGJpF5d0_S2]

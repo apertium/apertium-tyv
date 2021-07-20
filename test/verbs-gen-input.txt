@@ -1,0 +1,157 @@
+# Past -GAн
+^кел<v><iv><past><p3><sg>$
+^бер<v><tv><past><p3><sg>$
+^көр<v><tv><past><p3><sg>$
+^уш<v><iv><past><p3><sg>$
+# Negative past -BA-GAn
+^көр<v><tv><neg><past><p3><sg>$
+^бар<v><iv><neg><past><p3><sg>$
+^ал<v><tv><neg><past><p3><sg>$
+# [twol] Past in -GAн after vowels
+^бижи<v><tv><past><p3><sg>$
+^уду<v><iv><past><p3><sg>$
+^хады<v><iv><past><p3><sg>$
+^неге<v><tv><past><p3><sg>$
+^төрү<v><iv><past><p3><sg>$
+# Past -DI
+^бер<v><tv><ifi><p1><sg>$
+^көр<v><tv><ifi><p1><sg>$
+^уду<v><iv><ifi><p1><sg>$
+^уш<v><iv><ifi><p1><sg>$
+^чор<v><iv><ifi><p3><sg>$
+# Aorist -Aр [consonant stems]
+^эрт<v><iv><aor><p3><sg>$
+^корт<v><tv><aor><p3><sg>$
+^шап<v><tv><aor><p3><sg>$
+# Aorist -Iр [stems in -р, р deletion]
+^бар<vaux><aor><p3><sg>$
+^бер<v><tv><aor><p3><sg>$
+^көр<v><tv><aor><p3><sg>$
+^чор<v><iv><aor><p3><sg>$
+# Aorist -Aр [stems in -р, no р deletion]
+^кир<v><iv><aor><p3><sg>$
+^чору<v><iv><aor><p3><sg>$
+# Aorist -Iр/-Aр [stems in -л, л variable deletion]
+^кел<v><iv><aor><p3><sg>$
+^кел<v><iv><aor><p3><sg>$
+^бол<v><iv><aor><p3><sg>$
+^бол<v><iv><aor><p3><sg>$
+^ал<v><tv><aor><p3><sg>$
+^ал<v><tv><aor><p3><sg>$
+# Aorist -Iр/-Aр [stems in -л, л deletion]
+^эккел<v><tv><aor><p3><sg>$
+# Aorist -Iр/-Aр [stems in -л, no л deletion]
+^бил<v><tv><aor><p3><sg>$
+^кыл<v><tv><aor><p3><sg>$
+^чел<v><iv><aor><p3><sg>$
+# Aorist -Aр/-Iр [stems in -й]
+^чай<v><tv><aor><p3><sg>$
+^өй<v><TD><aor><p3><sg>$
+^мөгей<v><iv><aor><p3><sg>$
+# Aorist -Aр/-Iр [stems in -г]
+^уг<v><tv><aor><p3><sg>$
+^дег<v><tv><aor><p3><sg>$
+^чаг<v><iv><aor><p3><sg>$
+^шүг<v><tv><aor><p3><sg>$
+^чуг<v><tv><aor><p3><sg>$
+^каг<v><iv><aor><p3><sg>$
+^даг<v><tv><aor><p3><sg>$
+^эг<v><iv><aor><p3><sg>$
+# Aorist -Aр/-Iр [stems with epenthetic vowel]
+^ужул<v><tv><aor><p3><sg>$
+^чедиш<v><tv><aor><p3><sg>$
+^кириш<v><tv><aor><p3><sg>$
+^куюс<v><tv><aor><p3><sg>$
+^чалын<v><iv><aor><p3><sg>$
+^хайын<v><TD><aor><p3><sg>$
+^ажын<v><tv><aor><p3><sg>$
+^сөгүл<v><iv><aor><p3><sg>$
+^айыт<v><tv><aor><p3><sg>$
+^тулуш<v><iv><aor><p3><sg>$
+^болуш<v><iv><aor><p3><sg>$
+^сезин<v><iv><aor><p3><sg>$
+# Imperative [stems with epenthetic vowel]
+^ужул<v><tv><imp><p2><sg>$
+^чедиш<v><tv><imp><p2><sg>$
+^кириш<v><tv><imp><p2><sg>$
+^куюс<v><tv><imp><p2><sg>$
+^чалын<v><iv><imp><p2><sg>$
+^хайын<v><TD><imp><p2><sg>$
+^ажын<v><tv><imp><p2><sg>$
+^сөгүл<v><iv><imp><p2><sg>$
+^айыт<v><tv><imp><p2><sg>$
+^тулуш<v><iv><imp><p2><sg>$
+^болуш<v><iv><imp><p2><sg>$
+^сезин<v><iv><imp><p2><sg>$
+^одун<v><iv><imp><p2><sg>$
+# Aorist -Aр/-Iр [stems with epenthetic consonant]
+^соол<v><tv><aor><p3><sg>$
+^шаш<v><tv><aor><p3><sg>$
+^сагын<v><tv><aor><p3><sg>$
+^чыыл<v><iv><aor><p3><sg>$
+# Aorist -Aр/-Iр [vowel stems]
+^ажылда<v><tv><aor><p3><sg>$
+^ойна<v><iv><aor><p3><sg>$
+^чору<vaux><aor><p3><sg>$
+^бүзүре<v><tv><aor><p3><sg>$
+^иште<v><tv><aor><p3><sg>$
+^ынакшы<v><tv><aor><p3><sg>$
+^ижээ<v><tv><aor><p3><sg>$
+^хою<v><iv><aor><p3><sg>$
+^уду<v><iv><aor><p3><sg>$
+^чи<v><tv><aor><p3><sg>$
+# Participle -Iп
+^ал<v><tv><prc_perf>$
+^бол<v><iv><prc_perf>$
+^кел<v><iv><prc_perf>$
+^ойна<v><iv><prc_perf>$
+^бер<v><tv><prc_perf>$
+^бил<v><tv><prc_perf>$
+^шап<v><tv><prc_perf>$
+^өскерт<v><tv><prc_perf>$
+^арт<v><tv><prc_perf>$
+^чи<v><tv><prc_perf>$
+^айыт<v><tv><prc_perf>$
+^эккел<v><tv><prc_perf>$
+^эг<v><iv><prc_perf>$
+^одун<v><iv><prc_perf>$
+^кывыс<v><tv><prc_perf>$
+^сок<v><tv><prc_perf>$
+# Participle -Е
+^кир<v><iv><prc_impf>$
+^бижи<v><tv><prc_impf>$
+^ойна<v><tv><prc_impf>$
+^олур<vaux><prc_impf>$
+^тай<v><iv><prc_impf>$
+# Form in -IптAр
+^четтик<v><iv><perf><p3><sg>$
+# Imperative -AAлI
+^саг<v><tv><imp><p1><du>$
+^ал<v><tv><imp><p1><du>$
+^кел<v><iv><imp><p1><du>$
+# Imperative -Iйн
+^кел<v><iv><imp><p1><sg>$
+^номчу<v><tv><imp><p1><sg>$
+^ал<v><tv><imp><p1><sg>$
+^кыл<v><tv><imp><p1><sg>$
+# Negative imperatives -BA-Iйн
+^ал<v><tv><neg><imp><p1><sg>$
+^исте<v><tv><neg><imp><p1><sg>$
+# Imperative -Айн
+^көр<vaux><imp><p1><sg>$
+^көр<v><tv><imp><p1><sg>$
+^бер<vaux><imp><p1><sg>$
+^бер<v><tv><imp><p1><sg>$
+^бар<v><iv><imp><p1><sg>$
+^тур<v><iv><imp><p1><sg>$
+^чет<v><tv><imp><p1><sg>$
+^көргүс<v><tv><imp><p1><sg>$
+^четтир<v><tv><imp><p1><sg>$
+^чорут<v><tv><imp><p1><sg>$
+# Imperative -AAлIңAр
+^кел<v><iv><imp><p1><pl>$
+# Imperative -IңAр
+^бер<v><tv><imp><p2><pl>$
+# Unaccomplished -gAлAк
+^доос<v><tv><unac><p1><sg>$
+^доос<v><tv><unac><p3><sg>$

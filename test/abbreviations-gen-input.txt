@@ -1,0 +1,9 @@
+# Noun ТР
+^ТР<np><top><nom>$
+^ТР<np><top><attr>$
+^ТР<np><top><gen>$
+^ТР<np><top><dat>$
+^ТР<np><top><loc>$
+^ТР<np><top><abl>$
+# Noun КТПК
+^КТРК<np><top><gen>$

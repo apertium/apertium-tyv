@@ -1,0 +1,564 @@
+[-3sMGkyY5PZ6#0] ^оолдуң/оол<n><gen>$
+[/-3sMGkyY5PZ6]
+[-H9qYj0mzRFT#0] ^чаъстың/чаъс<n><gen>$
+[/-H9qYj0mzRFT]
+[-NgTSx8gErF8#0] ^хөл/хөл<n><nom>/хөл<n><attr>/хөл<n><nom>+э<cop><aor><p3><sg>$
+[/-NgTSx8gErF8]
+[-bc0fSpvMESy#0] ^чаъстарны/чаъс<n><pl><acc>$
+[/-bc0fSpvMESy]
+[0Lw_sXDduXqk#0] ^аътче/аът<n><all>$
+[/0Lw_sXDduXqk]
+[0_q3Ssp76IfJ#0] ^хадының/хат<n><px3sp><gen>/хады<n><gen>$
+[/0_q3Ssp76IfJ]
+[0oZCH0vY1IL6#0] ^бөрттерже/бөрт<n><pl><all>$
+[/0oZCH0vY1IL6]
+[122YXU6rcI2s#0] ^ховуларже/хову<n><pl><all>$
+[/122YXU6rcI2s]
+[1ttoA_Kpt7U5#0] ^эътче/эът<n><all>$
+[/1ttoA_Kpt7U5]
+[2C6qmxZPnH5v#0] ^бөртче/бөрт<n><all>$
+[/2C6qmxZPnH5v]
+[2qi5-SidutJy#0] ^областар/область<n><nom>+э<cop><aor><p3><pl>/область<n><pl><nom>/область<n><pl><nom>+э<cop><aor><p3><sg>$
+[/2qi5-SidutJy]
+[2qtfYwsOvHMr#0] ^ивиниң/иви<n><gen>$
+[/2qtfYwsOvHMr]
+[2wQ0Iv4dRhjq#0] ^комплекстер/комплекс<n><nom>+э<cop><aor><p3><pl>/комплекс<n><pl><nom>/комплекс<n><pl><nom>+э<cop><aor><p3><sg>$
+[/2wQ0Iv4dRhjq]
+[3UGXIiDbRmMl#0] ^малга/мал<n><dat>$
+[/3UGXIiDbRmMl]
+[3YwzfGXIM4x4#0] ^аъттардан/аът<n><pl><abl>$
+[/3YwzfGXIM4x4]
+[48KRZQebQfOF#0] ^теве/теп<v><tv><prc_impf>/теве<n><nom>/теве<n><attr>/теве<n><nom>+э<cop><aor><p3><sg>$
+[/48KRZQebQfOF]
+[4Pd6uaFVWBjs#0] ^малче/мал<n><all>$
+[/4Pd6uaFVWBjs]
+[4UkP1YvvGs1K#0] ^рубльдер/рубль<n><nom>+э<cop><aor><p3><pl>/рубль<n><pl><nom>/рубль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/4UkP1YvvGs1K]
+[4u97_HWUK3nx#0] ^инектерде/инек<n><pl><loc>/инек<n><pl><loc>+э<cop><aor><p3><sg>$
+[/4u97_HWUK3nx]
+[4x3xMKnqamNH#0] ^оолдардан/оол<n><pl><abl>$
+[/4x3xMKnqamNH]
+[5EJgH-smi5hj#0] ^ховулардан/хову<n><pl><abl>$
+[/5EJgH-smi5hj]
+[5FpZw7cQNG_b#0] ^инек/инек<n><nom>/инек<n><attr>/инек<n><nom>+э<cop><aor><p3><sg>$
+[/5FpZw7cQNG_b]
+[5LFu5L6ejN6r#0] ^сад/сад<n><nom>/сад<n><attr>/сад<v><tv><imp><p2><sg>/сад<n><nom>+э<cop><aor><p3><sg>$
+[/5LFu5L6ejN6r]
+[5hZanwDNgFRI#0] ^эъттен/эът<n><abl>$
+[/5hZanwDNgFRI]
+[5uR6785kaann#0] ^бөрүлерниң/бөрү<n><pl><gen>$
+[/5uR6785kaann]
+[5xvpHFBZbVG5#0] ^хадыга/хады<n><dat>$
+[/5xvpHFBZbVG5]
+[6E1BPTgMi7Fh#0] ^областы/область<n><acc>$
+[/6E1BPTgMi7Fh]
+[6OzDxz3wzUy4#0] ^эъттерни/эът<n><pl><acc>$
+[/6OzDxz3wzUy4]
+[6ScI9hiFaz4g#0] ^номга/ном<n><dat>$
+[/6ScI9hiFaz4g]
+[6TkEXidFLNgq#0] ^ховунуң/хоп<n><px3sp><gen>/хову<n><gen>$
+[/6TkEXidFLNgq]
+[6lu8u0Y5Ib_N#0] ^чаъстан/чаъс<n><abl>$
+[/6lu8u0Y5Ib_N]
+[6xLnyL6kmmTQ#0] ^хадыларже/хады<n><pl><all>$
+[/6xLnyL6kmmTQ]
+[6y_gMZktSuMT#0] ^хадылардан/хады<n><pl><abl>$
+[/6y_gMZktSuMT]
+[74eKPsrHV4mu#0] ^аас/аас<n><nom>/аас<n><attr>/аас<n><nom>+э<cop><aor><p3><sg>$
+[/74eKPsrHV4mu]
+[7D0V9E-0E54F#0] ^ивилерге/иви<n><pl><dat>$
+[/7D0V9E-0E54F]
+[7xzO1PT7JXRH#0] ^рубльден/рубль<n><abl>$
+[/7xzO1PT7JXRH]
+[8093iEL2QXnT#0] ^инектерни/инек<n><pl><acc>$
+[/8093iEL2QXnT]
+[87soLiRzdMfC#0] ^тевелерниң/теве<n><pl><gen>$
+[/87soLiRzdMfC]
+[8PwsuJlpGmI9#0] ^ховудан/хову<n><abl>$
+[/8PwsuJlpGmI9]
+[8WhUn0Ny0Ep7#0] ^садтарда/сад<n><pl><loc>/сад<n><pl><loc>+э<cop><aor><p3><sg>$
+[/8WhUn0Ny0Ep7]
+[8jEokI5A0-zb#0] ^малдың/мал<n><gen>$
+[/8jEokI5A0-zb]
+[8uKf7VexYbce#0] ^ивиде/иви<n><loc>/иви<n><loc>+э<cop><aor><p3><sg>$
+[/8uKf7VexYbce]
+[9NSEAR3eM1d7#0] ^инектерниң/инек<n><pl><gen>$
+[/9NSEAR3eM1d7]
+[9WyxkykD7V1S#0] ^ансамблиниң/ансамбль<n><px3sp><gen>$
+[/9WyxkykD7V1S]
+[9aC9uPFHB5mi#0] ^аасче/аас<n><all>$
+[/9aC9uPFHB5mi]
+[9aCpedaBEJbY#0] ^дагларда/даг<n><pl><loc>/даг<n><pl><loc>+э<cop><aor><p3><sg>$
+[/9aCpedaBEJbY]
+[9vza7Yhijlub#0] ^эътте/эът<n><loc>/эът<n><loc>+э<cop><aor><p3><sg>$
+[/9vza7Yhijlub]
+[ALyjsWylj0e1#0] ^аастар/аас<n><nom>+э<cop><aor><p3><pl>/аас<n><pl><nom>/аас<n><pl><nom>+э<cop><aor><p3><sg>$
+[/ALyjsWylj0e1]
+[AR1UHv8esMPt#0] ^теведен/теве<n><abl>$
+[/AR1UHv8esMPt]
+[AS9qNWAMpsiQ#0] ^бөрүнү/бөрү<n><acc>$
+[/AS9qNWAMpsiQ]
+[AXg6ZZYVo2aj#0] ^фестивальче/фестиваль<n><all>$
+[/AXg6ZZYVo2aj]
+[Aon9J9GVCzhh#0] ^аастың/аас<n><gen>$
+[/Aon9J9GVCzhh]
+[AuT3mf3o6NVx#0] ^рубльди/рубль<n><acc>$
+[/AuT3mf3o6NVx]
+[B9K8COzmyxHw#0] ^ховуларны/хову<n><pl><acc>$
+[/B9K8COzmyxHw]
+[BLCbZOiHNdQf#0] ^ивиге/иви<n><dat>$
+[/BLCbZOiHNdQf]
+[BY0NgoaXaaU5#0] ^ивилерде/иви<n><pl><loc>/иви<n><pl><loc>+э<cop><aor><p3><sg>$
+[/BY0NgoaXaaU5]
+[C2dNUUVO5Fuj#0] ^номнарның/ном<n><pl><gen>$
+[/C2dNUUVO5Fuj]
+[C7c5hsTsmIas#0] ^инектерге/инек<n><pl><dat>$
+[/C7c5hsTsmIas]
+[CHbkNxt3lqB4#0] ^ивилерже/иви<n><pl><all>$
+[/CHbkNxt3lqB4]
+[CklO6e_3gwr-#0] ^хаялардан/хая<n><pl><abl>$
+[/CklO6e_3gwr-]
+[D2-eD90G_al8#0] ^иви/иви<n><nom>/иви<n><attr>/иви<n><nom>+э<cop><aor><p3><sg>$
+[/D2-eD90G_al8]
+[D2Q9lo4A0bbP#0] ^ивилерни/иви<n><pl><acc>$
+[/D2Q9lo4A0bbP]
+[DCQNhvS_jUpD#0] ^дагларже/даг<n><pl><all>$
+[/DCQNhvS_jUpD]
+[DLpfSCqx9rmt#0] ^хөлдерже/хөл<n><pl><all>$
+[/DLpfSCqx9rmt]
+[DPQjAAGuOjoV#0] ^ховуну/хову<n><acc>$
+[/DPQjAAGuOjoV]
+[DzUPCq3rPCpd#0] ^бөрттерниң/бөрт<n><pl><gen>$
+[/DzUPCq3rPCpd]
+[EVqj3V74lPny#0] ^садтар/сад<n><nom>+э<cop><aor><p3><pl>/сад<n><pl><nom>/сад<n><pl><nom>+э<cop><aor><p3><sg>$
+[/EVqj3V74lPny]
+[EuyfMUOH_dJE#0] ^хаяларга/хая<n><pl><dat>$
+[/EuyfMUOH_dJE]
+[F39nbmQ_-C-7#0] ^область/область<n><nom>/область<n><attr>/область<n><nom>+э<cop><aor><p3><sg>$
+[/F39nbmQ_-C-7]
+[F3iLC7xchSSO#0] ^оолдарга/оол<n><pl><dat>$
+[/F3iLC7xchSSO]
+[FCS3YhabtqQm#0] ^комплекстиң/комплекс<n><gen>$
+[/FCS3YhabtqQm]
+[FGhooc2J9HWp#0] ^номнарга/ном<n><pl><dat>$
+[/FGhooc2J9HWp]
+[FHeCNwz_Un9g#0] ^малдан/мал<n><abl>$
+[/FHeCNwz_Un9g]
+[FQU5IC6y-Gye#0] ^дагны/даг<n><acc>$
+[/FQU5IC6y-Gye]
+[FRKoL6z0TE2y#0] ^аъттарда/аът<n><pl><loc>/аът<n><pl><loc>+э<cop><aor><p3><sg>$
+[/FRKoL6z0TE2y]
+[FZ86Aq4L643c#0] ^садтан/сад<n><abl>$
+[/FZ86Aq4L643c]
+[G2Q_j_ALD4ZP#0] ^даг/даг<n><nom>/даг<n><attr>/даг<v><tv><imp><p2><sg>/даг<n><nom>+э<cop><aor><p3><sg>$
+[/G2Q_j_ALD4ZP]
+[GVhSgNBAwcpp#0] ^эъттерден/эът<n><pl><abl>$
+[/GVhSgNBAwcpp]
+[G_p38Bhp56Kh#0] ^эъттиң/эът<n><gen>$
+[/G_p38Bhp56Kh]
+[GuLJ7ybZIDXw#0] ^номнарда/ном<n><pl><loc>/ном<n><pl><loc>+э<cop><aor><p3><sg>$
+[/GuLJ7ybZIDXw]
+[H7qQq69mUEqZ#0] ^эът/эът<n><nom>/эът<n><attr>/эът<n><nom>+э<cop><aor><p3><sg>$
+[/H7qQq69mUEqZ]
+[HBpE9L-HlI5U#0] ^аастардан/аас<n><pl><abl>$
+[/HBpE9L-HlI5U]
+[HJOYKb4kjd3x#0] ^хову/хоп<n><px3sp><nom>/хову<n><nom>/хову<n><attr>/хоп<n><px3sp><nom>+э<cop><aor><p3><sg>/хову<n><nom>+э<cop><aor><p3><sg>$
+[/HJOYKb4kjd3x]
+[HMKLYX3e610w#0] ^хаяга/хая<n><dat>$
+[/HMKLYX3e610w]
+[HbnKTsrT750b#0] ^оолче/оол<n><all>$
+[/HbnKTsrT750b]
+[HdbxfqzoR3ET#0] ^инектер/инек<n><nom>+э<cop><aor><p3><pl>/инек<n><pl><nom>/инек<n><pl><nom>+э<cop><aor><p3><sg>$
+[/HdbxfqzoR3ET]
+[Iq9OdwBNfusr#0] ^бөрүже/бөрү<n><all>$
+[/Iq9OdwBNfusr]
+[IxxtxyGvMXXv#0] ^теведе/теве<n><loc>/теве<n><loc>+э<cop><aor><p3><sg>$
+[/IxxtxyGvMXXv]
+[JFt_e4TFLN04#0] ^хөлдү/хөл<n><acc>$
+[/JFt_e4TFLN04]
+[JYXvXzLhrEeR#0] ^хөлче/хөл<n><all>$
+[/JYXvXzLhrEeR]
+[JamOK1aB_iaX#0] ^инектерже/инек<n><pl><all>$
+[/JamOK1aB_iaX]
+[JgbKezotWhad#0] ^бөртте/бөрт<n><loc>/бөрт<n><loc>+э<cop><aor><p3><sg>$
+[/JgbKezotWhad]
+[JmddlQfYYVxB#0] ^хөлдерден/хөл<n><pl><abl>$
+[/JmddlQfYYVxB]
+[JnFk_bYNMnpP#0] ^номнуң/ном<n><gen>$
+[/JnFk_bYNMnpP]
+[K6ZWNrpP1Msw#0] ^эъттер/эът<n><nom>+э<cop><aor><p3><pl>/эът<n><pl><nom>/эът<n><pl><nom>+э<cop><aor><p3><sg>$
+[/K6ZWNrpP1Msw]
+[Kr1Prsj8RmAy#0] ^номда/ном<n><loc>/ном<n><loc>+э<cop><aor><p3><sg>$
+[/Kr1Prsj8RmAy]
+[L1OOzoKZoa6b#0] ^аътта/аът<n><loc>/аът<n><loc>+э<cop><aor><p3><sg>$
+[/L1OOzoKZoa6b]
+[LQOxvhcJ4wF8#0] ^хөлге/хөл<n><dat>$
+[/LQOxvhcJ4wF8]
+[LyMvqjAJjUni#0] ^хөлдерни/хөл<n><pl><acc>$
+[/LyMvqjAJjUni]
+[MLIzR22C_0Nb#0] ^малда/мал<n><loc>/мал<n><loc>+э<cop><aor><p3><sg>$
+[/MLIzR22C_0Nb]
+[MQxFCC_jxMA_#0] ^дагдан/даг<n><abl>$
+[/MQxFCC_jxMA_]
+[Mmh3C-EOrt4y#0] ^чаъсче/чаъс<n><all>$
+[/Mmh3C-EOrt4y]
+[MzH0clz8yFZr#0] ^эъттерде/эът<n><pl><loc>/эът<n><pl><loc>+э<cop><aor><p3><sg>$
+[/MzH0clz8yFZr]
+[N-vOrsY3tzTN#0] ^номнарже/ном<n><pl><all>$
+[/N-vOrsY3tzTN]
+[NAR-BbGUlk5j#0] ^бөрүлерни/бөрү<n><pl><acc>$
+[/NAR-BbGUlk5j]
+[NCZmzHxR2aEQ#0] ^бөрүлерде/бөрү<n><pl><loc>/бөрү<n><pl><loc>+э<cop><aor><p3><sg>$
+[/NCZmzHxR2aEQ]
+[NeyAGbg9zjCc#0] ^ивиден/иви<n><abl>$
+[/NeyAGbg9zjCc]
+[NiT0XsbglAkN#0] ^тевелерге/теве<n><pl><dat>$
+[/NiT0XsbglAkN]
+[O9U98zuuJQen#0] ^ивилерниң/иви<n><pl><gen>$
+[/O9U98zuuJQen]
+[OnuvBptb-JzO#0] ^эъттерниң/эът<n><pl><gen>$
+[/OnuvBptb-JzO]
+[Ot69RXZrWLVX#0] ^малды/мал<n><acc>$
+[/Ot69RXZrWLVX]
+[OtRObj52jisS#0] ^аастарны/аас<n><pl><acc>$
+[/OtRObj52jisS]
+[OujXiqOkIA9_#0] ^тевеже/теве<n><all>$
+[/OujXiqOkIA9_]
+[OwfTzuQyd2i2#0] ^хөлдерде/хөл<n><pl><loc>/хөл<n><pl><loc>+э<cop><aor><p3><sg>$
+[/OwfTzuQyd2i2]
+[PmVPO5_IquTr#0] ^бөрүлерден/бөрү<n><pl><abl>$
+[/PmVPO5_IquTr]
+[Pt0Lp88ZXPp8#0] ^хаяларны/хая<n><pl><acc>$
+[/Pt0Lp88ZXPp8]
+[PvIPUGxqz03p#0] ^аастан/аас<n><abl>$
+[/PvIPUGxqz03p]
+[Q5vUdDmgNSnD#0] ^тевелерде/теве<n><pl><loc>/теве<n><pl><loc>+э<cop><aor><p3><sg>$
+[/Q5vUdDmgNSnD]
+[QRSJMncDL1of#0] ^обласка/область<n><dat>$
+[/QRSJMncDL1of]
+[QZ88-PZJws30#0] ^тевеге/теве<n><dat>$
+[/QZ88-PZJws30]
+[R8cLl6dOsLL2#0] ^оолду/оол<n><acc>$
+[/R8cLl6dOsLL2]
+[RHMTH3Ev46j6#0] ^медальды/медаль<n><acc>$
+[/RHMTH3Ev46j6]
+[RQb4MqV6L-pH#0] ^бөртке/бөрт<n><dat>$
+[/RQb4MqV6L-pH]
+[RWWuMa94PL1N#0] ^малдарның/мал<n><pl><gen>$
+[/RWWuMa94PL1N]
+[RhkVNNTK1Kly#0] ^оолдарның/оол<n><pl><gen>$
+[/RhkVNNTK1Kly]
+[RtMBdJ-NI0D-#0] ^аастарда/аас<n><pl><loc>/аас<n><pl><loc>+э<cop><aor><p3><sg>$
+[/RtMBdJ-NI0D-]
+[RzMMyy9jDG_o#0] ^совхозка/совхоз<n><dat>$
+[/RzMMyy9jDG_o]
+[SA_RP3JOQnc5#0] ^областа/область<n><loc>/область<n><loc>+э<cop><aor><p3><sg>$
+[/SA_RP3JOQnc5]
+[SD5byra3FVvN#0] ^областан/область<n><abl>$
+[/SD5byra3FVvN]
+[SWvxodP7Z_BA#0] ^областың/область<n><gen>$
+[/SWvxodP7Z_BA]
+[S_kODgviOa5q#0] ^ховуларда/хову<n><pl><loc>/хову<n><pl><loc>+э<cop><aor><p3><sg>$
+[/S_kODgviOa5q]
+[TDJqmngH18NF#0] ^ховуга/хову<n><dat>$
+[/TDJqmngH18NF]
+[THxtJKPCVwOA#0] ^чаъстарда/чаъс<n><pl><loc>/чаъс<n><pl><loc>+э<cop><aor><p3><sg>$
+[/THxtJKPCVwOA]
+[TaXtQsJAgkkA#0] ^бөрттерден/бөрт<n><pl><abl>$
+[/TaXtQsJAgkkA]
+[TrDOYrunB_6y#0] ^ховуже/хову<n><all>$
+[/TrDOYrunB_6y]
+[UZ7KpFkqgJgr#0] ^ивиже/иви<n><all>$
+[/UZ7KpFkqgJgr]
+[UwAKuIbHfL5E#0] ^дагның/даг<n><gen>$
+[/UwAKuIbHfL5E]
+[V3dU73JYcApL#0] ^хаяларже/хая<n><pl><all>$
+[/V3dU73JYcApL]
+[V8i-L4NyDnYz#0] ^комплекс/комплекс<n><nom>/комплекс<n><attr>/комплекс<n><nom>+э<cop><aor><p3><sg>$
+[/V8i-L4NyDnYz]
+[VjQ9pfJjRMNJ#0] ^хаяларда/хая<n><pl><loc>/хая<n><pl><loc>+э<cop><aor><p3><sg>$
+[/VjQ9pfJjRMNJ]
+[VuE8__1kresg#0] ^дагже/даг<n><all>$
+[/VuE8__1kresg]
+[W2lOB_vXviFk#0] ^бөрүлер/бөрү<n><nom>+э<cop><aor><p3><pl>/бөрү<n><pl><nom>/бөрү<n><pl><nom>+э<cop><aor><p3><sg>$
+[/W2lOB_vXviFk]
+[W3aocbdQOEMl#0] ^оолда/оол<n><loc>/оол<n><loc>+э<cop><aor><p3><sg>$
+[/W3aocbdQOEMl]
+[W9Ug_lbx0dGi#0] ^хадыларга/хады<n><pl><dat>$
+[/W9Ug_lbx0dGi]
+[WBmmCZsuGnsY#0] ^чаъстардан/чаъс<n><pl><abl>$
+[/WBmmCZsuGnsY]
+[X0PDKZF2SDnj#0] ^бөрүнүң/бөрү<n><gen>$
+[/X0PDKZF2SDnj]
+[XVrk4PCEcHBz#0] ^номнардан/ном<n><pl><abl>$
+[/XVrk4PCEcHBz]
+[XZ4IX-fZxADp#0] ^ховулар/хову<n><nom>+э<cop><aor><p3><pl>/хову<n><pl><nom>/хову<n><pl><nom>+э<cop><aor><p3><sg>$
+[/XZ4IX-fZxADp]
+[XamREhxuNZn2#0] ^ховуларга/хову<n><pl><dat>$
+[/XamREhxuNZn2]
+[Y890_FZBF2oV#0] ^чаъстарның/чаъс<n><pl><gen>$
+[/Y890_FZBF2oV]
+[YX7j_SCpbfcR#0] ^обласче/область<n><all>$
+[/YX7j_SCpbfcR]
+[YXjXB8fRJjZn#0] ^рубльдиң/рубль<n><gen>$
+[/YXjXB8fRJjZn]
+[YleiMOLzf7nq#0] ^бөрттерни/бөрт<n><pl><acc>$
+[/YleiMOLzf7nq]
+[Z49hG0-0ZWrP#0] ^инекке/инек<n><dat>$
+[/Z49hG0-0ZWrP]
+[ZBgsyFnsScSK#0] ^бөрүде/бөрү<n><loc>/бөрү<n><loc>+э<cop><aor><p3><sg>$
+[/ZBgsyFnsScSK]
+[ZHWWV3Woimo4#0] ^хадылар/хады<n><nom>+э<cop><aor><p3><pl>/хады<n><pl><nom>/хады<n><pl><nom>+э<cop><aor><p3><sg>$
+[/ZHWWV3Woimo4]
+[ZJRHwjyTimeX#0] ^аъттан/аът<n><abl>/аъттан<v><iv><imp><p2><sg>$
+[/ZJRHwjyTimeX]
+[ZSgxG_HMrN78#0] ^комплексти/комплекс<n><acc>$
+[/ZSgxG_HMrN78]
+[Zf-wmvBDnBNJ#0] ^бөрүден/бөрү<n><abl>$
+[/Zf-wmvBDnBNJ]
+[Zr-t60v6z9lw#0] ^даглар/даг<n><nom>+э<cop><aor><p3><pl>/даг<n><pl><nom>/даг<n><pl><nom>+э<cop><aor><p3><sg>$
+[/Zr-t60v6z9lw]
+[Zr7fk1JI6JIt#0] ^хады/хат<n><px3sp><nom>/хады<n><nom>/хады<n><attr>/хады<v><iv><imp><p2><sg>/хат<n><px3sp><nom>+э<cop><aor><p3><sg>/хады<n><nom>+э<cop><aor><p3><sg>$
+[/Zr7fk1JI6JIt]
+[_Kid2QanlHh_#0] ^медальдан/медаль<n><abl>$
+[/_Kid2QanlHh_]
+[_MJF5dOC6OCk#0] ^бөрт/бөрт<n><nom>/бөрт<n><attr>/бөрт<n><nom>+э<cop><aor><p3><sg>$
+[/_MJF5dOC6OCk]
+[_d_uw4aCuboX#0] ^ховуда/хову<n><loc>/хову<n><loc>+э<cop><aor><p3><sg>$
+[/_d_uw4aCuboX]
+[aSqoUurCd8Mj#0] ^рубльге/рубль<n><dat>$
+[/aSqoUurCd8Mj]
+[afy6pKeuFZ3y#0] ^бөрттү/бөрт<n><acc>$
+[/afy6pKeuFZ3y]
+[anecRhciyDZ2#0] ^инектен/инек<n><abl>$
+[/anecRhciyDZ2]
+[bVgCcEElEAIk#0] ^аътка/аът<n><dat>$
+[/bVgCcEElEAIk]
+[bvQJwMo-iV86#0] ^аъттарның/аът<n><pl><gen>$
+[/bvQJwMo-iV86]
+[c3VBB9n4viNA#0] ^дагларга/даг<n><pl><dat>$
+[/c3VBB9n4viNA]
+[c5mMdVxJd-R-#0] ^малдарда/мал<n><pl><loc>/мал<n><pl><loc>+э<cop><aor><p3><sg>$
+[/c5mMdVxJd-R-]
+[cRl0ejaE_3Nn#0] ^садтардан/сад<n><pl><abl>$
+[/cRl0ejaE_3Nn]
+[cT7nskze8rMO#0] ^номче/ном<n><all>$
+[/cT7nskze8rMO]
+[cX4LWPXxWeQT#0] ^чаъска/чаъс<n><dat>$
+[/cX4LWPXxWeQT]
+[ckRshfO3412c#0] ^малдарже/мал<n><pl><all>$
+[/ckRshfO3412c]
+[d0GhGaeQiDie#0] ^оолдарда/оол<n><pl><loc>/оол<n><pl><loc>+э<cop><aor><p3><sg>$
+[/d0GhGaeQiDie]
+[d9FufL59UZR6#0] ^аът/аът<n><nom>/аът<n><attr>/аът<n><nom>+э<cop><aor><p3><sg>$
+[/d9FufL59UZR6]
+[dBnHHY5VDd0u#0] ^аастарга/аас<n><pl><dat>$
+[/dBnHHY5VDd0u]
+[dLanOvWncAaE#0] ^номнар/ном<n><nom>+э<cop><aor><p3><pl>/ном<n><pl><nom>/ном<n><pl><nom>+э<cop><aor><p3><sg>$
+[/dLanOvWncAaE]
+[dznqtWmF8HeB#0] ^бөрүлерже/бөрү<n><pl><all>$
+[/dznqtWmF8HeB]
+[e4lK0D_3UaHp#0] ^хөлден/хөл<n><abl>$
+[/e4lK0D_3UaHp]
+[eTzoAQfHWTTW#0] ^чаъста/чаъс<n><loc>/чаъс<n><loc>+э<cop><aor><p3><sg>$
+[/eTzoAQfHWTTW]
+[ecHlTtM7Zau6#0] ^хадыны/хады<n><acc>$
+[/ecHlTtM7Zau6]
+[egoarigOepeU#0] ^инекти/инек<n><acc>$
+[/egoarigOepeU]
+[eq9Dyd3YMIX3#0] ^хаяже/хая<n><all>$
+[/eq9Dyd3YMIX3]
+[fEeTjeXYIfsm#0] ^совхозтуң/совхоз<n><gen>$
+[/fEeTjeXYIfsm]
+[fRmpZC1LXWj6#0] ^чаъс/чаъс<n><nom>/чаъс<n><attr>/чаъс<n><nom>+э<cop><aor><p3><sg>$
+[/fRmpZC1LXWj6]
+[fU8m1GBjv5dB#0] ^бөрү/бөрү<n><nom>/бөрү<n><attr>/бөрү<n><nom>+э<cop><aor><p3><sg>$
+[/fU8m1GBjv5dB]
+[fh-AcP40INSH#0] ^хаяның/хая<n><gen>/хай<v><TD><ger_past><px2sg><nom>/хай<v><TD><ger_past><px2sg><nom>+э<cop><aor><p3><sg>$
+[/fh-AcP40INSH]
+[fu5iPNlGFP16#0] ^ивини/иви<n><acc>$
+[/fu5iPNlGFP16]
+[g99EZAWT0S4M#0] ^чаъстарга/чаъс<n><pl><dat>$
+[/g99EZAWT0S4M]
+[gPll-DpOj7hU#0] ^аъттарже/аът<n><pl><all>$
+[/gPll-DpOj7hU]
+[gZnW-HWDSgN7#0] ^медальдар/медаль<n><nom>+э<cop><aor><p3><pl>/медаль<n><pl><nom>/медаль<n><pl><nom>+э<cop><aor><p3><sg>$
+[/gZnW-HWDSgN7]
+[h5ThicBm6QXr#0] ^рольду/роль<n><acc>$
+[/h5ThicBm6QXr]
+[hcDL_bmU66LP#0] ^ааска/аас<n><dat>$
+[/hcDL_bmU66LP]
+[hiuyZTHH_Yw5#0] ^садта/сад<n><loc>/сад<n><loc>+э<cop><aor><p3><sg>$
+[/hiuyZTHH_Yw5]
+[hlCSN28B4uau#0] ^оолдарже/оол<n><pl><all>$
+[/hlCSN28B4uau]
+[ho6BCZsIgPGL#0] ^даглардан/даг<n><pl><abl>$
+[/ho6BCZsIgPGL]
+[hqi7BBiC1CFc#0] ^хадыларда/хады<n><pl><loc>/хады<n><pl><loc>+э<cop><aor><p3><sg>$
+[/hqi7BBiC1CFc]
+[i8Jx_VBmylMc#0] ^дагларның/даг<n><pl><gen>$
+[/i8Jx_VBmylMc]
+[iLMVa6IyvPJs#0] ^тевелерден/теве<n><pl><abl>$
+[/iLMVa6IyvPJs]
+[is5SpTcPs3hT#0] ^областардан/область<n><pl><abl>$
+[/is5SpTcPs3hT]
+[j3AOuaXjN08X#0] ^эътти/эът<n><acc>$
+[/j3AOuaXjN08X]
+[jBMg6WDayi7n#0] ^хадыже/хады<n><all>$
+[/jBMg6WDayi7n]
+[j_ib4jpKAV1A#0] ^хөлдер/хөл<n><nom>+э<cop><aor><p3><pl>/хөл<n><pl><nom>/хөл<n><pl><nom>+э<cop><aor><p3><sg>$
+[/j_ib4jpKAV1A]
+[jjJGep2fH8Gw#0] ^хадыларның/хады<n><pl><gen>$
+[/jjJGep2fH8Gw]
+[jpTNXWwvO5xo#0] ^ивилер/иви<n><nom>+э<cop><aor><p3><pl>/иви<n><pl><nom>/иви<n><pl><nom>+э<cop><aor><p3><sg>$
+[/jpTNXWwvO5xo]
+[jqO88Kf7r1WD#0] ^аасты/аас<n><acc>$
+[/jqO88Kf7r1WD]
+[k-Zgc6tESoV9#0] ^медаль/медаль<n><nom>/медаль<n><attr>/медаль<n><nom>+э<cop><aor><p3><sg>$
+[/k-Zgc6tESoV9]
+[koNXshEBu801#0] ^аъттарга/аът<n><pl><dat>$
+[/koNXshEBu801]
+[kqxVqAn11qan#0] ^аастарже/аас<n><pl><all>$
+[/kqxVqAn11qan]
+[lMi63EUOgzX4#0] ^оолдарны/оол<n><pl><acc>$
+[/lMi63EUOgzX4]
+[lOEiDqqUBlSC#0] ^хаядан/хая<n><abl>$
+[/lOEiDqqUBlSC]
+[lxATFIMcsEa_#0] ^хая/хай<v><TD><prc_impf>/хая<n><nom>/хая<n><attr>/хая<n><nom>+э<cop><aor><p3><sg>$
+[/lxATFIMcsEa_]
+[m-vZ0esDCvdu#0] ^ном/ном<n><nom>/ном<n><attr>/ном<n><nom>+э<cop><aor><p3><sg>$
+[/m-vZ0esDCvdu]
+[mKOsLp7fdj_q#0] ^садтарже/сад<n><pl><all>$
+[/mKOsLp7fdj_q]
+[mRam2Af5nbCc#0] ^бөрттерге/бөрт<n><pl><dat>$
+[/mRam2Af5nbCc]
+[mu-eM1im7Sv3#0] ^рубль/рубль<n><nom>/рубль<n><attr>/рубль<n><nom>+э<cop><aor><p3><sg>$
+[/mu-eM1im7Sv3]
+[n2ThMsK4Xlfy#0] ^хаяда/хая<n><loc>/хая<n><loc>+э<cop><aor><p3><sg>$
+[/n2ThMsK4Xlfy]
+[nC2RjKiRB8o8#0] ^совхозтар/совхоз<n><nom>+э<cop><aor><p3><pl>/совхоз<n><pl><nom>/совхоз<n><pl><nom>+э<cop><aor><p3><sg>$
+[/nC2RjKiRB8o8]
+[nJD5utiOs4rB#0] ^хөлдерниң/хөл<n><pl><gen>$
+[/nJD5utiOs4rB]
+[nVlrUvJ0PHjD#0] ^бөрттер/бөрт<n><nom>+э<cop><aor><p3><pl>/бөрт<n><pl><nom>/бөрт<n><pl><nom>+э<cop><aor><p3><sg>$
+[/nVlrUvJ0PHjD]
+[nv2Opvo23erE#0] ^малдардан/мал<n><pl><abl>$
+[/nv2Opvo23erE]
+[o5w3HD-_HwiY#0] ^аъттарны/аът<n><pl><acc>$
+[/o5w3HD-_HwiY]
+[oHR3FYf5a-cM#0] ^тевени/теве<n><acc>$
+[/oHR3FYf5a-cM]
+[oMzgQRi8TJ9e#0] ^дагга/даг<n><dat>$
+[/oMzgQRi8TJ9e]
+[oOURNr-utTX0#0] ^дагда/даг<n><loc>/даг<n><loc>+э<cop><aor><p3><sg>$
+[/oOURNr-utTX0]
+[oS2IKf9g0BMP#0] ^чаъстар/чаъс<n><nom>+э<cop><aor><p3><pl>/чаъс<n><pl><nom>/чаъс<n><pl><nom>+э<cop><aor><p3><sg>$
+[/oS2IKf9g0BMP]
+[oT1CwY19tqMQ#0] ^эъттерже/эът<n><pl><all>$
+[/oT1CwY19tqMQ]
+[oZYqd1BbyAKh#0] ^бөрүге/бөрү<n><dat>$
+[/oZYqd1BbyAKh]
+[o_r89Ddq1cQe#0] ^садтарның/сад<n><pl><gen>$
+[/o_r89Ddq1cQe]
+[ovw7xn6TlaBu#0] ^хаяларның/хая<n><pl><gen>$
+[/ovw7xn6TlaBu]
+[p2QDoOhakuhT#0] ^оолдан/оол<n><abl>$
+[/p2QDoOhakuhT]
+[pAb7ysUTwH8B#0] ^тевелерже/теве<n><pl><all>$
+[/pAb7ysUTwH8B]
+[pSN0klc9g28f#0] ^медальдың/медаль<n><gen>$
+[/pSN0klc9g28f]
+[pX8zQF_Cr-Yt#0] ^роль/роль<n><nom>/роль<n><attr>/роль<n><nom>+э<cop><aor><p3><sg>$
+[/pX8zQF_Cr-Yt]
+[pYqzY5VCPPp8#0] ^бөрттен/бөрт<n><abl>$
+[/pYqzY5VCPPp8]
+[pxsVB7eilrJ5#0] ^хадыда/хады<n><loc>/хады<n><loc>+э<cop><aor><p3><sg>$
+[/pxsVB7eilrJ5]
+[qBTmmywf5FfG#0] ^бөрттерде/бөрт<n><pl><loc>/бөрт<n><pl><loc>+э<cop><aor><p3><sg>$
+[/qBTmmywf5FfG]
+[qId9vLKKr7G0#0] ^аъттың/аът<n><gen>$
+[/qId9vLKKr7G0]
+[q__xoE7XAK7X#0] ^хаялар/хая<n><nom>+э<cop><aor><p3><pl>/хая<n><pl><nom>/хая<n><pl><nom>+э<cop><aor><p3><sg>$
+[/q__xoE7XAK7X]
+[qkEg7ZBaTosJ#0] ^хөлдүң/хөл<n><gen>$
+[/qkEg7ZBaTosJ]
+[rA5Yn0AoKtwV#0] ^оол/оо<n><nom>+ыл<qst>/оол<n><nom>/оол<n><attr>/оол<n><nom>+э<cop><aor><p3><sg>$
+[/rA5Yn0AoKtwV]
+[rlYwCvtmtdqM#0] ^садтарны/сад<n><pl><acc>$
+[/rlYwCvtmtdqM]
+[rxgDHBWQ_4ig#0] ^хадыларны/хады<n><pl><acc>$
+[/rxgDHBWQ_4ig]
+[s4hdXJBlHleo#0] ^хөлдерге/хөл<n><pl><dat>$
+[/s4hdXJBlHleo]
+[s8na8XFmKTn5#0] ^малдарга/мал<n><pl><dat>$
+[/s8na8XFmKTn5]
+[sJdEY5WZyitA#0] ^хаяны/хая<n><acc>/хай<v><TD><ger_past><px3sp><nom>/хай<v><TD><ger_past><px3sp><nom>+э<cop><aor><p3><sg>$
+[/sJdEY5WZyitA]
+[sOFWQAEnyI3_#0] ^малдарны/мал<n><pl><acc>$
+[/sOFWQAEnyI3_]
+[sVV3X5t76-eR#0] ^номнарны/ном<n><pl><acc>$
+[/sVV3X5t76-eR]
+[shWQteI4tBgL#0] ^ааста/аас<n><loc>/аас<n><loc>+э<cop><aor><p3><sg>$
+[/shWQteI4tBgL]
+[tYhLWfISDjsr#0] ^тевениң/теве<n><gen>$
+[/tYhLWfISDjsr]
+[uHXyVxd57PvL#0] ^тевелерни/теве<n><pl><acc>$
+[/uHXyVxd57PvL]
+[uJOze7QHO7kW#0] ^инекче/инек<n><all>$
+[/uJOze7QHO7kW]
+[uRWB-k2i8aBR#0] ^ивилерден/иви<n><pl><abl>$
+[/uRWB-k2i8aBR]
+[v1UKya3yHBir#0] ^чаъсты/чаъс<n><acc>$
+[/v1UKya3yHBir]
+[v3hnMyKVWqLr#0] ^аъттар/аът<n><nom>+э<cop><aor><p3><pl>/аът<n><pl><nom>/аът<n><pl><nom>+э<cop><aor><p3><sg>$
+[/v3hnMyKVWqLr]
+[vDXqTVkFFi-W#0] ^оолдар/оол<n><nom>+э<cop><aor><p3><pl>/оол<n><pl><nom>/оол<n><pl><nom>+э<cop><aor><p3><sg>$
+[/vDXqTVkFFi-W]
+[vOnYggAyn-jo#0] ^аътты/аът<n><acc>$
+[/vOnYggAyn-jo]
+[vQS6L1zFCxij#0] ^инектиң/инек<n><gen>$
+[/vQS6L1zFCxij]
+[vXfu3GDqCY6a#0] ^эъттерге/эът<n><pl><dat>$
+[/vXfu3GDqCY6a]
+[vZqmDk4GOj5S#0] ^номдан/ном<n><abl>$
+[/vZqmDk4GOj5S]
+[vli7fAGZI08Q#0] ^хөлде/хөл<n><loc>/хөл<n><loc>+э<cop><aor><p3><sg>$
+[/vli7fAGZI08Q]
+[vtwatpV4BmCz#0] ^хадыдан/хады<n><abl>$
+[/vtwatpV4BmCz]
+[w0FKWRxwr-fD#0] ^совхоз/совхоз<n><nom>/совхоз<n><attr>/совхоз<n><nom>+э<cop><aor><p3><sg>$
+[/w0FKWRxwr-fD]
+[w5KqIhuiucH1#0] ^инектерден/инек<n><pl><abl>$
+[/w5KqIhuiucH1]
+[wEHQUod9XKt0#0] ^эътке/эът<n><dat>$
+[/wEHQUod9XKt0]
+[wWvnyIXO8crq#0] ^аастарның/аас<n><pl><gen>$
+[/wWvnyIXO8crq]
+[wey7WyMvmrBy#0] ^медальга/медаль<n><dat>$
+[/wey7WyMvmrBy]
+[wfTul-7esOQY#0] ^инекте/инек<n><loc>/инек<n><loc>+э<cop><aor><p3><sg>$
+[/wfTul-7esOQY]
+[xIvFx5s_bSu9#0] ^оолга/оол<n><dat>$
+[/xIvFx5s_bSu9]
+[xLQWuCIlthnN#0] ^совхозта/совхоз<n><loc>/совхоз<n><loc>+э<cop><aor><p3><sg>$
+[/xLQWuCIlthnN]
+[xfs5CD3JK9as#0] ^малдар/мал<n><nom>+э<cop><aor><p3><pl>/мал<n><pl><nom>/мал<n><pl><nom>+э<cop><aor><p3><sg>$
+[/xfs5CD3JK9as]
+[yD68ztjPoHu-#0] ^мал/мал<n><nom>/мал<n><attr>/мал<n><nom>+э<cop><aor><p3><sg>$
+[/yD68ztjPoHu-]
+[yEvF31wBIwm1#0] ^бөрүлерге/бөрү<n><pl><dat>$
+[/yEvF31wBIwm1]
+[yo17FfGikHXN#0] ^ховуларның/хову<n><pl><gen>$
+[/yo17FfGikHXN]
+[ywhwl8tNDXJ4#0] ^номну/ном<n><acc>$
+[/ywhwl8tNDXJ4]
+[z5dEQRsC70Yq#0] ^тевелер/теве<n><nom>+э<cop><aor><p3><pl>/теве<n><pl><nom>/теве<n><pl><nom>+э<cop><aor><p3><sg>$
+[/z5dEQRsC70Yq]
+[z5th2fkeHJKr#0] ^дагларны/даг<n><pl><acc>$
+[/z5th2fkeHJKr]
+[zdRh4nb3do65#0] ^садтарга/сад<n><pl><dat>$
+[/zdRh4nb3do65]
+[zfoh2h_qXaFk#0] ^чаъстарже/чаъс<n><pl><all>$
+[/zfoh2h_qXaFk]
+[zxUJVg6mmdEy#0] ^бөрттүң/бөрт<n><gen>$
+[/zxUJVg6mmdEy]

@@ -1,0 +1,56 @@
+# [twol] regular vowel harmony when no cluster
+^роль<n><nom>$
+^роль<n><attr>$
+^роль<n><acc>$
+^медаль<n><nom>$
+^медаль<n><attr>$
+^медаль<n><gen>$
+^медаль<n><dat>$
+^медаль<n><acc>$
+^медаль<n><abl>$
+^медаль<n><pl><nom>$
+# [twol] ending in -арь
+^секретарь<n><px3sp><nom>$
+^календарь<n><px3sp><nom>$
+^секретарь<n><loc>$
+^календарь<n><loc>$
+^секретарь<n><px3sp><loc>$
+^календарь<n><px3sp><loc>$
+# [twol] ending in -ирь
+^Сибирь<np><top><gen>$
+# [twol] front vowel harmony when intervening Cль
+^рубль<n><nom>$
+^рубль<n><attr>$
+^рубль<n><gen>$
+^рубль<n><dat>$
+^рубль<n><acc>$
+^рубль<n><abl>$
+^рубль<n><pl><nom>$
+^ансамбль<n><pl><nom>$
+# [twol] front harmony, but for which reason(s)?
+^кремль<n><dat>$
+^кремль<n><all>$
+^кремль<n><loc>$
+# [twol] regular vowel harmony when any other CCь intervenes (also: cluster simplification)
+^область<n><nom>$
+^область<n><attr>$
+^область<n><gen>$
+^область<n><dat>$
+^область<n><abl>$
+^область<n><all>$
+^область<n><loc>$
+^область<n><acc>$
+^область<n><pl><nom>$
+^область<n><pl><abl>$
+^область<n><px3sp><gen>$
+^область<n><px3sp><loc>$
+^область<n><px3sp><dat>$
+^область<n><px3sp><all>$
+^область<n><px3sp><abl>$
+# [twol] ь deletes before surface vowel
+^рубль<n><px3sp><nom>$
+^рубль<n><px3sp><acc>$
+^ансамбль<n><px3sp><gen>$
+^кремль<n><px3sp><nom>$
+# [twol] ь should not delete before when there's no morpheme boundary
+^Афанасьев<np><cog><f><gen>$

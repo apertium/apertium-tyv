@@ -1,0 +1,86 @@
+{
+  "abbreviations": {
+    "input": "abbreviations-input.txt",
+    "mode": "tyv-morph"
+  },
+  "abbreviations-gen": {
+    "input": "abbreviations-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "cases": {
+    "input": "cases-input.txt",
+    "mode": "tyv-morph"
+  },
+  "cases-gen": {
+    "input": "cases-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "chaa": {
+    "input": "chaa-input.txt",
+    "mode": "tyv-morph"
+  },
+  "chaa-gen": {
+    "input": "chaa-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "clitics": {
+    "input": "clitics-input.txt",
+    "mode": "tyv-morph"
+  },
+  "clitics-gen": {
+    "input": "clitics-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "clusters": {
+    "input": "clusters-input.txt",
+    "mode": "tyv-morph"
+  },
+  "clusters-gen": {
+    "input": "clusters-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "mz": {
+    "input": "mz-input.txt",
+    "mode": "tyv-morph"
+  },
+  "mz-gen": {
+    "input": "mz-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "numerals": {
+    "input": "numerals-input.txt",
+    "mode": "tyv-morph"
+  },
+  "numerals-gen": {
+    "input": "numerals-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "possessives": {
+    "input": "possessives-input.txt",
+    "mode": "tyv-morph"
+  },
+  "possessives-gen": {
+    "input": "possessives-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "st": {
+    "input": "st-input.txt",
+    "mode": "tyv-morph"
+  },
+  "st-gen": {
+    "input": "st-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+  "verbs": {
+    "input": "verbs-input.txt",
+    "mode": "tyv-morph"
+  },
+  "verbs-gen": {
+    "input": "verbs-gen-input.txt",
+    "mode": "tyv-gener"
+  },
+    "twol": {
+        "input": null,
+        "command": "test/run-twol-pairtests.sh"
+    }
+}

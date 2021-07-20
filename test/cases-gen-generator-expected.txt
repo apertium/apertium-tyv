@@ -1,0 +1,612 @@
+[-aqsAej7pVj6#0] совхозка
+[/-aqsAej7pVj6]
+[-nbkze_A9BfS#0] тевени
+[/-nbkze_A9BfS]
+[0CxgWA8SSQN4#0] номнар
+[/0CxgWA8SSQN4]
+[0JW_4Cd1kx-7#0] областан
+[/0JW_4Cd1kx-7]
+[0WEXzQgpjF_1#0] хадыдан
+[/0WEXzQgpjF_1]
+[0kYLQsJ_2daF#0] садтар
+[/0kYLQsJ_2daF]
+[0mDhLBJYE0Xs#0] рубль
+[/0mDhLBJYE0Xs]
+[0zuzPHvuZr53#0] оолдан
+[/0zuzPHvuZr53]
+[19Byk7EqV72c#0] аътче
+[/19Byk7EqV72c]
+[1BFTSzbznSEP#0] ивилерни
+[/1BFTSzbznSEP]
+[1Rp3xXTy2b51#0] медаль
+[/1Rp3xXTy2b51]
+[1xE4AlBBKHDi#0] тевелерге
+[/1xE4AlBBKHDi]
+[20p8QvkHXOnw#0] чаъстардан
+[/20p8QvkHXOnw]
+[22BLUDiCw56G#0] хөлче
+[/22BLUDiCw56G]
+[2bXGoLsM8WDI#0] рубльге
+[/2bXGoLsM8WDI]
+[2fD-oOfoL-U4#0] хөлдерниң
+[/2fD-oOfoL-U4]
+[3GiAqGRnSTPH#0] рубльдер
+[/3GiAqGRnSTPH]
+[3J-f8V7kX9OK#0] ном
+[/3J-f8V7kX9OK]
+[3OabZwagW6-w#0] бөрүде
+[/3OabZwagW6-w]
+[3WR0x6HfCKt-#0] ааска
+[/3WR0x6HfCKt-]
+[3tPVqJEjTL6G#0] обласче
+[/3tPVqJEjTL6G]
+[3w-Bt6Rsnix_#0] оолдарның
+[/3w-Bt6Rsnix_]
+[45B2v_Y-wf0f#0] ховуже
+[/45B2v_Y-wf0f]
+[4gcXZno5H-yK#0] хадылар
+[/4gcXZno5H-yK]
+[4hXmSPCa4iJj#0] ааста
+[/4hXmSPCa4iJj]
+[4i9aZdxyFqkY#0] совхоз
+[/4i9aZdxyFqkY]
+[4pQVEzFr5fgl#0] тевеже
+[/4pQVEzFr5fgl]
+[4yQy9U7pKDAG#0] ивиге
+[/4yQy9U7pKDAG]
+[4zbZEpD8Y59j#0] тевелерниң
+[/4zbZEpD8Y59j]
+[5_d-QQfxXEUY#0] аастарже
+[/5_d-QQfxXEUY]
+[5_lptOfFOPSy#0] ховуну
+[/5_lptOfFOPSy]
+[5eK4wm88r1-G#0] хадылардан
+[/5eK4wm88r1-G]
+[5uXIW-1ESnDj#0] фестивальче
+[/5uXIW-1ESnDj]
+[6cwPIzoVGAMx#0] номдан
+[/6cwPIzoVGAMx]
+[6hb7R5LLA7zF#0] бөрттерге
+[/6hb7R5LLA7zF]
+[7FO-_AjpeaaY#0] оол
+[/7FO-_AjpeaaY]
+[7ZNq3-oFwh5f#0] хөлде
+[/7ZNq3-oFwh5f]
+[7z9IrIlJHK9E#0] хая
+[/7z9IrIlJHK9E]
+[80jRj5ET91io#0] малды
+[/80jRj5ET91io]
+[868PBHMAH2G0#0] садтарны
+[/868PBHMAH2G0]
+[89z78Rcl1Jd8#0] оолдуң
+[/89z78Rcl1Jd8]
+[8rYPGtwaT2xM#0] эътти
+[/8rYPGtwaT2xM]
+[92ZCyiXcnXsW#0] аъттарда
+[/92ZCyiXcnXsW]
+[93M0GYrSDumm#0] чаъс
+[/93M0GYrSDumm]
+[95Y0a6MLOzJ1#0] бөрүлер
+[/95Y0a6MLOzJ1]
+[9TIk2D5ae_2V#0] инек
+[/9TIk2D5ae_2V]
+[9X7SBghrTvkw#0] хадының
+[/9X7SBghrTvkw]
+[9lMgwLNuROoE#0] мал
+[/9lMgwLNuROoE]
+[9q2IITj-QVVi#0] бөрт
+[/9q2IITj-QVVi]
+[AChIPT7wT3m0#0] аъттарже
+[/AChIPT7wT3m0]
+[ACrtFtP4qYX1#0] аъттың
+[/ACrtFtP4qYX1]
+[An76_aP7kw5x#0] инектер
+[/An76_aP7kw5x]
+[ApeqK3HBB24j#0] даг
+[/ApeqK3HBB24j]
+[Au11EoLF9EfM#0] ховуларны
+[/Au11EoLF9EfM]
+[BQyztDRboh0I#0] бөрттерде
+[/BQyztDRboh0I]
+[BdsKtTnD1LQ_#0] хадыны
+[/BdsKtTnD1LQ_]
+[BeKfiHULBmLB#0] ивилерде
+[/BeKfiHULBmLB]
+[Bm9vsXH_r-24#0] рубльди
+[/Bm9vsXH_r-24]
+[BtlO_q979WrK#0] аастан
+[/BtlO_q979WrK]
+[CCl9zwdBoZ3L#0] бөртке
+[/CCl9zwdBoZ3L]
+[COunKkEL-BH0#0] чаъска
+[/COunKkEL-BH0]
+[CTIaMUK_4PSU#0] номда
+[/CTIaMUK_4PSU]
+[CnIk8lFktQoo#0] эътче
+[/CnIk8lFktQoo]
+[D0f5AYTenlXc#0] теве
+[/D0f5AYTenlXc]
+[DYY2jQ9QjDOu#0] роль
+[/DYY2jQ9QjDOu]
+[DapPumKqvs8G#0] ховуда
+[/DapPumKqvs8G]
+[DbSEKiXUlrcc#0] совхозтуң
+[/DbSEKiXUlrcc]
+[Di18LJ_YUAnt#0] оолда
+[/Di18LJ_YUAnt]
+[DqTBnR0YXj3U#0] эъттер
+[/DqTBnR0YXj3U]
+[E4whAMwRK3Ke#0] малдар
+[/E4whAMwRK3Ke]
+[EH89Ayw0bBJ9#0] дагларга
+[/EH89Ayw0bBJ9]
+[F0V-iKm1VQ94#0] бөрттерни
+[/F0V-iKm1VQ94]
+[FRZ5Nr2d5l_M#0] инектен
+[/FRZ5Nr2d5l_M]
+[FaGc5ahQdHp5#0] бөрүлерден
+[/FaGc5ahQdHp5]
+[FaRLs7CwGbhv#0] аът
+[/FaRLs7CwGbhv]
+[FwXzqnHG1guH#0] хаяларже
+[/FwXzqnHG1guH]
+[G0JDTcwXeKCR#0] дагже
+[/G0JDTcwXeKCR]
+[G4UIeduZs-OC#0] хову
+[/G4UIeduZs-OC]
+[GU166HXhsHQ3#0] чаъстарда
+[/GU166HXhsHQ3]
+[HByL60g3QrxY#0] хөлдүң
+[/HByL60g3QrxY]
+[HDkIwKA8PhFZ#0] бөрүлерже
+[/HDkIwKA8PhFZ]
+[HILB8gVHKApR#0] садтардан
+[/HILB8gVHKApR]
+[HWErSX7Khf-R#0] комплекстиң
+[/HWErSX7Khf-R]
+[HjGnx5_aEvM_#0] медальдан
+[/HjGnx5_aEvM_]
+[HqeexCM8qCDy#0] хөл
+[/HqeexCM8qCDy]
+[I96yFFQBo3SD#0] аъттарның
+[/I96yFFQBo3SD]
+[IFAvYFHadtcY#0] ховуларга
+[/IFAvYFHadtcY]
+[ILo2HB6Pp1Er#0] комплексти
+[/ILo2HB6Pp1Er]
+[IaUSYyhMQvGB#0] хаяны
+[/IaUSYyhMQvGB]
+[IoGHvYBgX1cy#0] хадыга
+[/IoGHvYBgX1cy]
+[JC-hPc_ksg2O#0] хаяларның
+[/JC-hPc_ksg2O]
+[JCC-Qf3vq23N#0] номнарны
+[/JCC-Qf3vq23N]
+[JU-gBMUZ1kBB#0] оолдарда
+[/JU-gBMUZ1kBB]
+[JeV-LukOU56O#0] аас
+[/JeV-LukOU56O]
+[JhjGNdTuRDeO#0] инектерден
+[/JhjGNdTuRDeO]
+[JqadKWM177bK#0] совхоз
+[/JqadKWM177bK]
+[JxyAc4m6bneT#0] тевелер
+[/JxyAc4m6bneT]
+[JzJv7_5k2sIM#0] садта
+[/JzJv7_5k2sIM]
+[KUMOpusW9rMk#0] хадыларда
+[/KUMOpusW9rMk]
+[KkYqx5yp_mG8#0] оолдарга
+[/KkYqx5yp_mG8]
+[LEyxUwKt8_0e#0] дагдан
+[/LEyxUwKt8_0e]
+[Lm8GvELG3LwQ#0] хады
+[/Lm8GvELG3LwQ]
+[LvCcHu18KUPJ#0] роль
+[/LvCcHu18KUPJ]
+[M4ZCixeYyUjS#0] малдарга
+[/M4ZCixeYyUjS]
+[MDhd8kQBKYv3#0] чаъстарга
+[/MDhd8kQBKYv3]
+[MHlzz4V5GHqs#0] ховуларда
+[/MHlzz4V5GHqs]
+[MIZ1T1rN0jBb#0] область
+[/MIZ1T1rN0jBb]
+[MXW6Ao4L5_AR#0] ивиниң
+[/MXW6Ao4L5_AR]
+[Mslpt9i7NA_V#0] чаъста
+[/Mslpt9i7NA_V]
+[N-U2Pn8C7Lyv#0] оолче
+[/N-U2Pn8C7Lyv]
+[N36s8Bov-Epo#0] эът
+[/N36s8Bov-Epo]
+[N7jOzKxmyLrt#0] тевелерде
+[/N7jOzKxmyLrt]
+[NNp1XUS5soaB#0] хаяларга
+[/NNp1XUS5soaB]
+[NVJTmHzrRCOa#0] бөрүлерни
+[/NVJTmHzrRCOa]
+[Nv6DOP2ixz9a#0] хады
+[/Nv6DOP2ixz9a]
+[O73qVpZflCOi#0] аъттарга
+[/O73qVpZflCOi]
+[O8vMY_HEzXon#0] медальдар
+[/O8vMY_HEzXon]
+[OIFujhgTtiqI#0] обласка
+[/OIFujhgTtiqI]
+[OIiFIgUTmbPJ#0] ховулардан
+[/OIiFIgUTmbPJ]
+[O_70jk4c45zH#0] ном
+[/O_70jk4c45zH]
+[Oeo7WnOaEf37#0] аастың
+[/Oeo7WnOaEf37]
+[OqR5Td9ARXgE#0] садтарга
+[/OqR5Td9ARXgE]
+[Owvoef5tn9OM#0] бөрттерниң
+[/Owvoef5tn9OM]
+[PDVpTjv3a9S2#0] область
+[/PDVpTjv3a9S2]
+[PgueK0YO2KgW#0] хөлге
+[/PgueK0YO2KgW]
+[Pm2F8X_WVuuQ#0] иви
+[/Pm2F8X_WVuuQ]
+[Q1amNApKT_nD#0] номнарга
+[/Q1amNApKT_nD]
+[QX2JhCZYbucg#0] аътты
+[/QX2JhCZYbucg]
+[Qckjtw0QUloT#0] хаяларны
+[/Qckjtw0QUloT]
+[Qcm4ykJG2pOl#0] чаъстан
+[/Qcm4ykJG2pOl]
+[QwhiufFks1bc#0] аътка
+[/QwhiufFks1bc]
+[RPw0ZqMbokqY#0] малдарже
+[/RPw0ZqMbokqY]
+[RZhqlGUO9pt1#0] эът
+[/RZhqlGUO9pt1]
+[SRgwzx_hh6Yh#0] ивиже
+[/SRgwzx_hh6Yh]
+[SWcUtPLzgPWn#0] хөлдерден
+[/SWcUtPLzgPWn]
+[SXTiaVwDL0ga#0] областы
+[/SXTiaVwDL0ga]
+[S_LJ0KHF9gTm#0] ивини
+[/S_LJ0KHF9gTm]
+[Shisjw2rwXc5#0] чаъстың
+[/Shisjw2rwXc5]
+[SrM3gQikFf4q#0] хаялар
+[/SrM3gQikFf4q]
+[TYu5NHSV8_yH#0] чаъстарже
+[/TYu5NHSV8_yH]
+[TbUOmfbhyxwi#0] оолга
+[/TbUOmfbhyxwi]
+[ThyujiwJihsC#0] инектерге
+[/ThyujiwJihsC]
+[Tm-Ms76i-jBN#0] дагның
+[/Tm-Ms76i-jBN]
+[UQJ_m6VdwNtj#0] инек
+[/UQJ_m6VdwNtj]
+[UQN1qL_qPM8k#0] бөрттү
+[/UQN1qL_qPM8k]
+[UTOWZRWwgE55#0] чаъс
+[/UTOWZRWwgE55]
+[Ui164Mj__OHN#0] ховулар
+[/Ui164Mj__OHN]
+[UusW3X9TUsJl#0] хаяның
+[/UusW3X9TUsJl]
+[V9FOkdU_QKtw#0] хөлдер
+[/V9FOkdU_QKtw]
+[VHneWaSIiNcD#0] ивиден
+[/VHneWaSIiNcD]
+[VeHvT80a0IBK#0] оолдарны
+[/VeHvT80a0IBK]
+[VjQL0XcG0U5t#0] дагларны
+[/VjQL0XcG0U5t]
+[VkOltKKHVENQ#0] дагда
+[/VkOltKKHVENQ]
+[Vs7M1ubYROGa#0] областардан
+[/Vs7M1ubYROGa]
+[VtK534kIhQxo#0] рольду
+[/VtK534kIhQxo]
+[Vvf6olkYzUk-#0] иви
+[/Vvf6olkYzUk-]
+[VyPHmxINxmFW#0] ивилер
+[/VyPHmxINxmFW]
+[W340JJyakMO5#0] бөрттүң
+[/W340JJyakMO5]
+[WYKYwFbViQ6C#0] чаъсче
+[/WYKYwFbViQ6C]
+[WccfTGz27LME#0] хаяже
+[/WccfTGz27LME]
+[X5qo8nF6KS2p#0] малче
+[/X5qo8nF6KS2p]
+[Y9EU6CAhrCPs#0] аъттардан
+[/Y9EU6CAhrCPs]
+[ZGm0SVT1PpHS#0] чаъсты
+[/ZGm0SVT1PpHS]
+[ZTJQDs1yAG5Z#0] даглардан
+[/ZTJQDs1yAG5Z]
+[Z_pISmQWvQwn#0] оол
+[/Z_pISmQWvQwn]
+[ZzgR82eq4hbM#0] хөл
+[/ZzgR82eq4hbM]
+[_01gOAvAugm6#0] хаядан
+[/_01gOAvAugm6]
+[_2r2-Ajnui__#0] дагга
+[/_2r2-Ajnui__]
+[_w2TWB3ydRdO#0] областа
+[/_w2TWB3ydRdO]
+[aHNqGi3NSZ-1#0] аътта
+[/aHNqGi3NSZ-1]
+[aJlRjCudcuii#0] бөрүнү
+[/aJlRjCudcuii]
+[aQjT-N-cWCza#0] даг
+[/aQjT-N-cWCza]
+[alnLEozU21OG#0] номнарда
+[/alnLEozU21OG]
+[at6NhervW1fZ#0] теведен
+[/at6NhervW1fZ]
+[atUR-XgI1pQ-#0] бөрүге
+[/atUR-XgI1pQ-]
+[b7fYnOYDCwdM#0] хадыларны
+[/b7fYnOYDCwdM]
+[bGotL5s0X7qF#0] садтарже
+[/bGotL5s0X7qF]
+[bbewd1hRSYky#0] бөрүже
+[/bbewd1hRSYky]
+[bykD5boWL5TP#0] оолдарже
+[/bykD5boWL5TP]
+[cCdHic9ppFbi#0] инектерде
+[/cCdHic9ppFbi]
+[cKnayJ-W8Zj_#0] малга
+[/cKnayJ-W8Zj_]
+[ci9zA8voh_UJ#0] дагларда
+[/ci9zA8voh_UJ]
+[cyq2LEwMryY6#0] хадыларның
+[/cyq2LEwMryY6]
+[d0ZDPN7768gS#0] рубльден
+[/d0ZDPN7768gS]
+[d59fQidI3bZY#0] хөлдү
+[/d59fQidI3bZY]
+[d85uJCPF6_ti#0] комплекс
+[/d85uJCPF6_ti]
+[dQOtN7S4SsIR#0] чаъстарны
+[/dQOtN7S4SsIR]
+[dSVPfDtA2DNn#0] номнарның
+[/dSVPfDtA2DNn]
+[dr1II22gM6dC#0] хөлдерни
+[/dr1II22gM6dC]
+[dwFm4naE0yLt#0] бөрүлерде
+[/dwFm4naE0yLt]
+[e-nJ9nifi_ni#0] бөртче
+[/e-nJ9nifi_ni]
+[e85AsB32Jsy6#0] хөлдерде
+[/e85AsB32Jsy6]
+[eE877PJjvVLt#0] ансамблиниң
+[/eE877PJjvVLt]
+[efbK4tHnAXHO#0] аастардан
+[/efbK4tHnAXHO]
+[eoGPcYUlqr2P#0] инектерниң
+[/eoGPcYUlqr2P]
+[f1Hn5ZZ1mkpl#0] ивилерниң
+[/f1Hn5ZZ1mkpl]
+[f8ji9YcKIHB9#0] инекте
+[/f8ji9YcKIHB9]
+[f9WNQ3fv56iD#0] аастарга
+[/f9WNQ3fv56iD]
+[fBEmMNG-aASj#0] комплекс
+[/fBEmMNG-aASj]
+[fQU0W5Z8b-_l#0] аастарны
+[/fQU0W5Z8b-_l]
+[feeUASYQckIu#0] сад
+[/feeUASYQckIu]
+[fiLpR0QlvTM7#0] теве
+[/fiLpR0QlvTM7]
+[fp-S6w94OZdV#0] бөрү
+[/fp-S6w94OZdV]
+[fwqlNVy2Kc_y#0] садтан
+[/fwqlNVy2Kc_y]
+[g1vRlkGIBHKM#0] эъттен
+[/g1vRlkGIBHKM]
+[g43MTErtAccK#0] аастарның
+[/g43MTErtAccK]
+[gbjRkBOfBvS0#0] малда
+[/gbjRkBOfBvS0]
+[gelUVY6_ZMGu#0] аъттарны
+[/gelUVY6_ZMGu]
+[hEpLrSUAKgDw#0] инектиң
+[/hEpLrSUAKgDw]
+[hQ5p8B2SnQ76#0] малдан
+[/hQ5p8B2SnQ76]
+[hWKZfL5RbKSe#0] оолду
+[/hWKZfL5RbKSe]
+[h_tXIg3v5ohZ#0] аът
+[/h_tXIg3v5ohZ]
+[hmkzbi9KDTaH#0] ивиде
+[/hmkzbi9KDTaH]
+[icfdQVUNOisd#0] бөрттерден
+[/icfdQVUNOisd]
+[ir39PileIsDD#0] аъттар
+[/ir39PileIsDD]
+[ir5-4Wb5oH4l#0] чаъстарның
+[/ir5-4Wb5oH4l]
+[j1y-f6brLvX6#0] бөрт
+[/j1y-f6brLvX6]
+[j7ps6AYaJ0QU#0] хөлден
+[/j7ps6AYaJ0QU]
+[j9iTG2Gbb6-J#0] дагларже
+[/j9iTG2Gbb6-J]
+[j_Pri_jIqtTv#0] ивилерден
+[/j_Pri_jIqtTv]
+[jnP1_0Nhob50#0] эътте
+[/jnP1_0Nhob50]
+[k06k8xgJIU26#0] номнардан
+[/k06k8xgJIU26]
+[kBx4dkd-UvJ1#0] аасты
+[/kBx4dkd-UvJ1]
+[khOKmheyy-Kp#0] тевелерни
+[/khOKmheyy-Kp]
+[kloYW2NwQGbO#0] номга
+[/kloYW2NwQGbO]
+[lSmJjusza9HJ#0] ивилерже
+[/lSmJjusza9HJ]
+[lrn3GK3dJvVq#0] эъттерде
+[/lrn3GK3dJvVq]
+[lsFNrWeu-tSz#0] медаль
+[/lsFNrWeu-tSz]
+[lx22MV1MoioI#0] аъттан
+[/lx22MV1MoioI]
+[m-Oop9djqjDd#0] бөрү
+[/m-Oop9djqjDd]
+[mJOmlDqYm3PJ#0] рубль
+[/mJOmlDqYm3PJ]
+[mWeF-FX0_clV#0] аасче
+[/mWeF-FX0_clV]
+[mxV09sa3VoXj#0] малдарда
+[/mxV09sa3VoXj]
+[nHIT2yM2cVJk#0] малдың
+[/nHIT2yM2cVJk]
+[np42sIghTojX#0] хаяга
+[/np42sIghTojX]
+[npj4QRZLETFL#0] хову
+[/npj4QRZLETFL]
+[nyZ3uPqs2pQl#0] дагларның
+[/nyZ3uPqs2pQl]
+[oQRSV3r6Ge6i#0] садтарның
+[/oQRSV3r6Ge6i]
+[oT8TwlNY1g1o#0] теведе
+[/oT8TwlNY1g1o]
+[ofeNtNxQgfjK#0] эътке
+[/ofeNtNxQgfjK]
+[oopRUvtIfC3W#0] комплекстер
+[/oopRUvtIfC3W]
+[ovrsPkkOrOqH#0] медальды
+[/ovrsPkkOrOqH]
+[p1iLEtM7yqE9#0] тевеге
+[/p1iLEtM7yqE9]
+[p9J5gblFf_Hq#0] малдарның
+[/p9J5gblFf_Hq]
+[pI24N9P_Vf0E#0] эъттерден
+[/pI24N9P_Vf0E]
+[pJCWpjfp4z_c#0] бөрттер
+[/pJCWpjfp4z_c]
+[pWSSe7iB0Fm_#0] мал
+[/pWSSe7iB0Fm_]
+[pqJOYZXLmCzy#0] эъттерге
+[/pqJOYZXLmCzy]
+[qHp9GIoSAneW#0] ховуга
+[/qHp9GIoSAneW]
+[qKyt_ZJlTMeY#0] бөрүден
+[/qKyt_ZJlTMeY]
+[qNBN0Hlp7IHP#0] тевелерже
+[/qNBN0Hlp7IHP]
+[qofbgdyz7K2m#0] хая
+[/qofbgdyz7K2m]
+[qpCVwLsAGSc-#0] совхозта
+[/qpCVwLsAGSc-]
+[rCTF1sNU4wun#0] эъттерже
+[/rCTF1sNU4wun]
+[rE4KTs1Lu387#0] бөрүлерниң
+[/rE4KTs1Lu387]
+[rR1LEERqSE0G#0] сад
+[/rR1LEERqSE0G]
+[rqDM_5pamEsv#0] хадыларже
+[/rqDM_5pamEsv]
+[s3-SHlzULA_9#0] хөлдерге
+[/s3-SHlzULA_9]
+[s8M6sD7co1VI#0] тевелерден
+[/s8M6sD7co1VI]
+[sMUGB6Q6M32M#0] эъттиң
+[/sMUGB6Q6M32M]
+[sbt7XkrttUTk#0] аастарда
+[/sbt7XkrttUTk]
+[sxVC1ochi6hI#0] оолдар
+[/sxVC1ochi6hI]
+[szQd-Ob7Sv9f#0] хөлдерже
+[/szQd-Ob7Sv9f]
+[t-hJNfWAFSTj#0] инекти
+[/t-hJNfWAFSTj]
+[t4dZBpU07AJp#0] малдарны
+[/t4dZBpU07AJp]
+[tLI7Ojk6_epF#0] номнарже
+[/tLI7Ojk6_epF]
+[tTgBGYzSRlTL#0] номну
+[/tTgBGYzSRlTL]
+[tTiraAA7ec-g#0] инекке
+[/tTiraAA7ec-g]
+[tayz97EayZC5#0] хаялардан
+[/tayz97EayZC5]
+[tyldPYWVjs7c#0] инекче
+[/tyldPYWVjs7c]
+[u3tl4zCznet4#0] ховунуң
+[/u3tl4zCznet4]
+[uG47iAaFq8Ac#0] инектерни
+[/uG47iAaFq8Ac]
+[uPB5i8gguOrN#0] областың
+[/uPB5i8gguOrN]
+[uq3lsbvWoYRg#0] областар
+[/uq3lsbvWoYRg]
+[vD1WpRtxjGnH#0] бөрттен
+[/vD1WpRtxjGnH]
+[vJJE0RZtb2Gb#0] эъттерниң
+[/vJJE0RZtb2Gb]
+[vMgFuNUICaDO#0] садтарда
+[/vMgFuNUICaDO]
+[vYJt3169kdlY#0] дагны
+[/vYJt3169kdlY]
+[v_5a5aJqTfzr#0] номче
+[/v_5a5aJqTfzr]
+[v_M0UEzjwZfQ#0] номнуң
+[/v_M0UEzjwZfQ]
+[vc3yY9HumDHe#0] медальга
+[/vc3yY9HumDHe]
+[vhSqt5OxLcUn#0] хаяда
+[/vhSqt5OxLcUn]
+[viQ6klzxV8-5#0] чаъстар
+[/viQ6klzxV8-5]
+[vkBDU7VhyZhv#0] медальдың
+[/vkBDU7VhyZhv]
+[vuAWoqic92RY#0] хадыларга
+[/vuAWoqic92RY]
+[w2WxUHwKRKbO#0] эъттерни
+[/w2WxUHwKRKbO]
+[w9HD03Vn-Iow#0] тевениң
+[/w9HD03Vn-Iow]
+[wGb-1f45PzYC#0] малдардан
+[/wGb-1f45PzYC]
+[waH8wdnvXhfR#0] инектерже
+[/waH8wdnvXhfR]
+[whwdVchytZQN#0] бөрүнүң
+[/whwdVchytZQN]
+[xLtwR6W0gFZ6#0] даглар
+[/xLtwR6W0gFZ6]
+[xYLvdO2Q7eAh#0] аас
+[/xYLvdO2Q7eAh]
+[xc14tJ9f5rcH#0] бөртте
+[/xc14tJ9f5rcH]
+[y-cxTKrm9gkS#0] ховудан
+[/y-cxTKrm9gkS]
+[yITYSoFf_epY#0] рубльдиң
+[/yITYSoFf_epY]
+[yQEXEfjExnNe#0] ховуларның
+[/yQEXEfjExnNe]
+[yVGb_V1lyxVj#0] аастар
+[/yVGb_V1lyxVj]
+[yahusM2JPSDL#0] хаяларда
+[/yahusM2JPSDL]
+[ybDJzDtGYfeG#0] совхозтар
+[/ybDJzDtGYfeG]
+[z1PxqGd7nzAH#0] ивилерге
+[/z1PxqGd7nzAH]
+[zJSi45hTsT3R#0] оолдардан
+[/zJSi45hTsT3R]
+[zVuaqk5KfUVO#0] хадыда
+[/zVuaqk5KfUVO]
+[ziRhQ8k4wxJs#0] хадыже
+[/ziRhQ8k4wxJs]
+[znPYuNoqktCj#0] бөрттерже
+[/znPYuNoqktCj]
+[zvLDqsCYLjZA#0] ховуларже
+[/zvLDqsCYLjZA]
+[zyYiYh97LzXE#0] бөрүлерге
+[/zyYiYh97LzXE]

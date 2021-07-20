@@ -1,0 +1,14 @@
+[1-YhXFjYFFB1#0] ^соогул/соок<adj>+ыл<qst>/соок<n><nom>+ыл<qst>/соок<adj><subst><nom>+ыл<qst>$
+[/1-YhXFjYFFB1]
+[7CoMk8IWQFpT#0] ^кандыгыл/*кандыгыл$
+[/7CoMk8IWQFpT]
+[LUJnzXLM9g_V#0] ^турарыл/тур<vaux><ger_aor><nom>+ыл<qst>/тур<v><iv><ger_aor><nom>+ыл<qst>$
+[/LUJnzXLM9g_V]
+[bDzRZyN21HSR#0] ^чүвел/чүве<n><nom>+ыл<qst>$
+[/bDzRZyN21HSR]
+[drLetixdbmvZ#0] ^чурттаарыл/чуртта<v><iv><ger_aor><nom>+ыл<qst>$
+[/drLetixdbmvZ]
+[r1FzK96VtBQg#0] ^кажыл/каш<adv><itg>+ыл<qst>$
+[/r1FzK96VtBQg]
+[yvPbnKIHliCj#0] ^ээлдек/ээлдек<adj>/ээлдек<adj><advl>/ээлдек<adj>+э<cop><aor><p3><sg>/ээлдек<adj><advl>+э<cop><aor><p3><sg>$^-тир/э<cop><aor><evid><p3><sg>$
+[/yvPbnKIHliCj]

@@ -1,0 +1,97 @@
+# Dative -GA
+^10<num><subst><dat>$
+^19<num><subst><dat>$
+^2<num><subst><dat>$
+^3<num><subst><dat>$
+^4<num><subst><dat>$
+^1<num><subst><dat>$
+^21<num><subst><dat>$
+^52<num><subst><dat>$
+^62<num><subst><dat>$
+^100<num><subst><dat>$
+^23<num><subst><dat>$
+^14<num><subst><dat>$
+^2014<num><subst><dat>$
+^18<num><subst><dat>$
+# Locative -DA
+^10<num><subst><loc>$
+^6<num><subst><loc>$
+^16<num><subst><loc>$
+^26<num><subst><loc>$
+^27<num><subst><loc>$
+^9<num><subst><loc>$
+^19<num><subst><loc>$
+^29<num><subst><loc>$
+^20<num><subst><loc>$
+^30<num><subst><loc>$
+^1<num><subst><loc>$
+^11<num><subst><loc>$
+^21<num><subst><loc>$
+^31<num><subst><loc>$
+^2<num><subst><loc>$
+^12<num><subst><loc>$
+^22<num><subst><loc>$
+^4<num><subst><loc>$
+^5<num><subst><loc>$
+^25<num><subst><loc>$
+^7<num><subst><loc>$
+^17<num><subst><loc>$
+^3<num><subst><loc>$
+^13<num><subst><loc>$
+^23<num><subst><loc>$
+^14<num><subst><loc>$
+^24<num><subst><loc>$
+^15<num><subst><loc>$
+^8<num><subst><loc>$
+^18<num><subst><loc>$
+^28<num><subst><loc>$
+# Allative -Je
+^11<num><subst><all>$
+^21<num><subst><all>$
+# Accusative -NI
+^1<num><subst><acc>$
+^12<num><subst><acc>$
+^8<num><subst><acc>$
+# Ablative -DAн
+^6<num><subst><abl>$
+^16<num><subst><abl>$
+^9<num><subst><abl>$
+^20<num><subst><abl>$
+^30<num><subst><abl>$
+^50<num><subst><abl>$
+^1<num><subst><abl>$
+^21<num><subst><abl>$
+^2<num><subst><abl>$
+^12<num><subst><abl>$
+^4<num><subst><abl>$
+^7<num><subst><abl>$
+^17<num><subst><abl>$
+^100<num><subst><abl>$
+^200<num><subst><abl>$
+^3<num><subst><abl>$
+^23<num><subst><abl>$
+^14<num><subst><abl>$
+^24<num><subst><abl>$
+^5<num><subst><abl>$
+^28<num><subst><abl>$
+# Genitive -NIң
+^80<num><subst><gen>$
+^1<num><subst><gen>$
+^11<num><subst><gen>$
+^31<num><subst><gen>$
+^17<num><subst><gen>$
+^8<num><subst><gen>$
+^18<num><subst><gen>$
+^4<num><subst><gen>$
+^2014<num><subst><gen>$
+^6<num><subst><gen>$
+^26<num><subst><gen>$
+# Miscellaneous
+^3<num><subst><nom>$
+^30<num><subst><nom>$
+^21<num><subst><nom>$
+^26<num><subst><px3sp><nom>$
+# Ordinals -GI
+^5<num><ord>$
+^3<num><ord>$
+^15<num><ord>$

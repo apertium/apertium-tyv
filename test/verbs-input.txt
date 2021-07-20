@@ -1,0 +1,157 @@
+# Past -GAн
+келген
+берген
+көрген
+ушкан
+# Negative past -BA-GAn
+көрбээн
+барбаан
+албаан
+# [twol] Past in -GAн after vowels
+бижээн
+удаан
+хадаан
+негээн
+төрээн
+# Past -DI
+бердим
+көрдүм
+удудум
+уштум
+чорду
+# Aorist -Aр [consonant stems]
+эртер
+коргар
+шавар
+# Aorist -Iр [stems in -р, р deletion]
+баар
+бээр
+көөр
+чор
+# Aorist -Aр [stems in -р, no р deletion]
+кирер
+чоруур
+# Aorist -Iр/-Aр [stems in -л, л variable deletion]
+кээр
+келир
+боор
+болур
+аар
+алыр
+# Aorist -Iр/-Aр [stems in -л, л deletion]
+эккээр
+# Aorist -Iр/-Aр [stems in -л, no л deletion]
+билир
+кылыр
+челер
+# Aorist -Aр/-Iр [stems in -й]
+чаяр
+өер
+мөгеер
+# Aorist -Aр/-Iр [stems in -г]
+уур
+дээр
+чаар
+шүүр
+чуур
+каар
+даар
+ээр
+# Aorist -Aр/-Iр [stems with epenthetic vowel]
+уштур
+четчир
+киржир
+куйзур
+чанныр
+хайныр
+аштыр
+сөктүр
+айтыр
+тулчур
+болчур
+сестир
+# Imperative [stems with epenthetic vowel]
+ужул
+чедиш
+кириш
+куюс
+чалын
+хайын
+ажын
+сөгүл
+айыт
+тулуш
+болуш
+сезин
+одун
+# Aorist -Aр/-Iр [stems with epenthetic consonant]
+соглур
+шанчар
+сактыр
+чыглыр
+# Aorist -Aр/-Iр [vowel stems]
+ажылдаар
+ойнаар
+чоруур
+бүзүрээр
+иштээр
+ынакшыыр
+ижээр
+хоюур
+удуур
+чиир
+# Participle -Iп
+ап
+бооп
+кээп
+ойнап
+берип
+билип
+шаап
+өскертип
+артып
+чип
+айтып
+эккеп
+ээп
+оттуп
+кыпсып
+соп
+# Participle -Е
+кире
+бижий
+ойнай
+олура
+тая
+# Form in -IптAр
+четтигиптер
+# Imperative -AAлI
+саалы
+алыылы
+келиили
+# Imperative -Iйн
+келийн
+номчууйн
+алыйн
+кылыйн
+# Negative imperatives -BA-Iйн
+албайн
+истевейн
+# Imperative -Айн
+көрейн
+көрейн
+берейн
+берейн
+барайн
+турайн
+чедейн
+көргүзейн
+четтирейн
+чорудайн
+# Imperative -AAлIңAр
+келиилиңер
+# Imperative -IңAр
+бериңер
+# Unaccomplished -gAлAк
+дооскалаам
+дооскалак

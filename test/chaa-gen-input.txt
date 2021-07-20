@@ -1,0 +1,17 @@
+# [twol] stuff with чаа
+^ча<n><dat>$
+^чай<n><dat>$
+^чаң<n><dat>$
+^чаг<n><dat>$
+^ча<n><px2sg><dat>$
+^чай<n><px2sg><dat>$
+^чаң<n><px3sp><nom>$
+^чаг<n><px3sp><nom>$
+^чаа<n><nom>$
+^чаа<n><attr>$
+# [twol] stuff with -г
+^округ<n><dat>$
+# [twol] stuff with -ң (we don't want an оң reading here)
+^оон<adv>$
+^ол<prn><dem><abl>$
+^ол<prn><pers><p3><sg><abl>$
