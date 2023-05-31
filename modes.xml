@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="tyv-twol" install="yes">
+  <mode name="tyv-twol" install="no">
     <pipeline>
       <program name="hfst-strings2fst -S"/>
       <program name="hfst-compose-intersect">
@@ -19,7 +19,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-lexc" install="yes">
+  <mode name="tyv-lexc" install="no">
     <pipeline>
       <program name="hfst-lookup">
         <file name=".deps/tyv.LR.lexc.hfst"/>
@@ -70,7 +70,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tyv-spell" install="yes">
+  <mode name="tyv-spell" install="no">
     <pipeline>
       <program name="hfst-ospell -S -n 10">
         <file name="tyv.zhfst"/>
@@ -78,7 +78,7 @@
     </pipeline>
   </mode>
 
-	<mode name="tyv-tokenise" install="yes">
+	<mode name="tyv-tokenise" install="no">
 		<pipeline>
 			<program name="hfst-proc">
 				<file name=".deps/acceptor.default.hfst"/>
