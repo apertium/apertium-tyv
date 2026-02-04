@@ -51,11 +51,11 @@ Testing
 If you are in the source directory after running make, the following
 commands should work:
 
-$  echo "TODO: test sentence" | apertium -d . tyv-morph
-TODO: test analysis result
+$  echo "Ажылдан дескен түрегге дүжер, билигден дескен чазыгга дүжер." | apertium -d . tyv-morph
+^Ажылдан/ажыл<n><abl>$ ^дескен/дес<v><iv><gpr_past>/дес<v><iv><ger_past><nom>/дес<v><iv><past><p3><sg>/дес<v><iv><ger_past><nom>+э<cop><aor><p3><sg>$ ^түрегге/түрег<n><dat>$ ^дүжер/дүш<v><iv><gpr_aor>/дүш<v><iv><ger_aor><nom>/дүш<v><iv><aor><p3><sg>/дүш<v><iv><prc_aor>/дүш<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$^,/,<cm>$ ^билигден/билиг<n><abl>$ ^дескен/дес<v><iv><gpr_past>/дес<v><iv><ger_past><nom>/дес<v><iv><past><p3><sg>/дес<v><iv><ger_past><nom>+э<cop><aor><p3><sg>$ ^чазыгга/чазыг<n><dat>$ ^дүжер/дүш<v><iv><gpr_aor>/дүш<v><iv><ger_aor><nom>/дүш<v><iv><aor><p3><sg>/дүш<v><iv><prc_aor>/дүш<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$^../..<sent>$
 
-$ echo "TODO: test sentence" | apertium -d . tyv-tagger
-TODO: test tagger result
+$ echo "Ажылдан дескен түрегге дүжер, билигден дескен чазыгга дүжер." | apertium -d . tyv-tagger
+^Ажылдан/Ажыл<n><abl>$ ^дескен/дес<v><iv><gpr_past>/дес<v><iv><ger_past><nom>/дес<v><iv><past><p3><sg>$ ^түрегге/түрег<n><dat>$ ^дүжер/дүш<v><iv><gpr_aor>/дүш<v><iv><ger_aor><nom>/дүш<v><iv><aor><p3><sg>/дүш<prc_aor><v><iv>$^,/,<cm>$ ^билигден/билиг<n><abl>$ ^дескен/дес<v><iv><gpr_past>/дес<v><iv><ger_past><nom>/дес<v><iv><past><p3><sg>$ ^чазыгга/чазыг<n><dat>$ ^дүжер/дүш<v><iv><ger_aor><nom>/дүш<v><iv><aor><p3><sg>/дүш<prc_aor><v><iv>/дүш<v><iv><ger_aor><nom>+э<cop><aor><p3><sg>$^../..<sent>$
 
 Files and data
 ===============================================================================
